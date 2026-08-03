@@ -7,9 +7,11 @@ from src.chinese_digest import (
     event_signature,
     match_topics,
     rank_candidates,
+    render_chinese_report,
     select_candidates,
     validate_chinese_page,
 )
+from src.model_editor import EditorialResult
 
 
 def make_candidate(candidate_id, title, category_id, relevance=4, credibility=3):
@@ -98,6 +100,43 @@ class MatchingTests(unittest.TestCase):
             max_items=10,
         )
         self.assertEqual([item.id for item in selected], ["c1"])
+
+
+class ReportTests(unittest.TestCase):
+    def test_report_uses_only_verified_chinese_candidate_links(self):
+        candidate = make_candidate("c1", "英伟达发布中文推理平台", "infra")
+        editorial = EditorialResult(
+            storm_summary="今日重点关注大模型推理平台和智能体基础设施的新进展。",
+            selected_items=[
+                {
+                    "id": "c1",
+                    "title": "英伟达推理平台迎来更新",
+                    "summary": "中文报道梳理了新平台的推理吞吐和部署变化。",
+                    "why": "影响大模型服务成本。",
+                },
+                {
+                    "id": "radar-english",
+                    "title": "English radar must not leak",
+                    "summary": "Should be ignored.",
+                    "why": "",
+                },
+            ],
+            trends=["推理成本继续下降。"],
+            mode="GitHub Models: openai/gpt-4.1-mini",
+        )
+        report = render_chinese_report(
+            [candidate],
+            editorial,
+            datetime(2026, 8, 3, 23, 0, tzinfo=timezone.utc),
+            radar_count=12,
+            chinese_source_count=5,
+            valid_count=1,
+        )
+        self.assertIn("# 每日 AI 速报 · 2026-08-04", report)
+        self.assertIn("[英伟达推理平台迎来更新](https://example.cn/c1)", report)
+        self.assertIn("今日 AI 风暴", report)
+        self.assertNotIn("radar-english", report)
+        self.assertNotIn("English radar must not leak", report)
 
 
 if __name__ == "__main__":

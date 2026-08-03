@@ -1,8 +1,10 @@
 {
   "settings": {
-    "lookback_hours": 36,
-    "max_items": 18,
-    "per_category": 6,
+    "international_lookback_hours": 36,
+    "chinese_lookback_hours": 48,
+    "max_radar_topics": 40,
+    "max_chinese_pages": 60,
+    "max_editor_candidates": 25,
     "request_timeout_seconds": 20,
     "minimum_relevance_score": 2
   },
@@ -31,7 +33,13 @@
         "mistral": 3,
         "qwen": 4,
         "deepseek": 4,
-        "模型": 3
+        "模型": 3,
+        "大模型": 5,
+        "多模态": 4,
+        "推理模型": 4,
+        "开源模型": 4,
+        "预训练": 3,
+        "微调": 3
       }
     },
     {
@@ -63,7 +71,16 @@
         "throughput": 2,
         "latency": 2,
         "推理": 3,
-        "训练": 2
+        "训练": 2,
+        "算力": 4,
+        "芯片": 3,
+        "服务器": 3,
+        "数据中心": 3,
+        "集群": 3,
+        "吞吐": 3,
+        "延迟": 3,
+        "量化": 4,
+        "部署": 2
       }
     },
     {
@@ -89,12 +106,37 @@
         "crewai": 3,
         "workflow": 2,
         "memory": 2,
-        "智能体": 4
+        "智能体": 5,
+        "代理式": 4,
+        "工具调用": 4,
+        "电脑操作": 3,
+        "工作流": 2,
+        "多智能体": 4
+      }
+    },
+    {
+      "id": "dynamics",
+      "label": "AI 最新动态",
+      "keywords": {
+        "artificial intelligence": 3,
+        "ai safety": 4,
+        "ai policy": 4,
+        "funding": 4,
+        "acquisition": 4,
+        "regulation": 4,
+        "人工智能": 3,
+        "融资": 4,
+        "收购": 4,
+        "监管": 4,
+        "政策": 3,
+        "安全": 2,
+        "行业": 2,
+        "产业": 2
       }
     }
   ],
   "sources": [
-    {"type": "feed", "name": "OpenAI News", "url": "https://openai.com/news/rss.xml", "weight": 4},
+    {"type": "feed", "name": "OpenAI News", "url": "https://openai.com/news/rss.xml", "weight": 4, "pool": "international"},
     {"type": "sitemap", "name": "Anthropic News", "url": "https://www.anthropic.com/sitemap.xml", "include_path": "/news/", "weight": 4, "max_scan": 12},
     {"type": "feed", "name": "Google DeepMind", "url": "https://deepmind.google/blog/rss.xml", "weight": 4},
     {"type": "feed", "name": "Google AI", "url": "https://blog.google/technology/ai/rss/", "weight": 3},
@@ -117,6 +159,11 @@
     {"type": "feed", "name": "arXiv cs.AI", "url": "https://rss.arxiv.org/rss/cs.AI", "weight": 2},
     {"type": "feed", "name": "arXiv cs.CL", "url": "https://rss.arxiv.org/rss/cs.CL", "weight": 2},
     {"type": "feed", "name": "arXiv cs.LG", "url": "https://rss.arxiv.org/rss/cs.LG", "weight": 2},
-    {"type": "hackernews", "name": "Hacker News", "weight": 1, "minimum_points": 5, "queries": ["LLM", "AI agent", "AI inference", "language model"]}
+    {"type": "hackernews", "name": "Hacker News", "weight": 1, "minimum_points": 5, "queries": ["LLM", "AI agent", "AI inference", "language model"]},
+    {"type": "feed", "name": "量子位", "url": "https://www.qbitai.com/feed", "weight": 4, "pool": "chinese", "credibility": 4},
+    {"type": "feed", "name": "InfoQ 中文", "url": "https://www.infoq.cn/feed", "weight": 4, "pool": "chinese", "credibility": 4},
+    {"type": "feed", "name": "NVIDIA 中文博客", "url": "https://blogs.nvidia.cn/feed/", "weight": 5, "pool": "chinese", "credibility": 5},
+    {"type": "feed", "name": "NVIDIA 开发者中文博客", "url": "https://developer.nvidia.cn/blog/feed/", "weight": 5, "pool": "chinese", "credibility": 5},
+    {"type": "feed", "name": "AWS 中文博客", "url": "https://aws.amazon.com/cn/blogs/china/feed/", "weight": 5, "pool": "chinese", "credibility": 5}
   ]
 }

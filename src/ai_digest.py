@@ -25,8 +25,21 @@ from urllib.request import Request, urlopen
 import xml.etree.ElementTree as ET
 from zoneinfo import ZoneInfo
 
+from src.chinese_digest import (
+    ChineseCandidate,
+    match_topics,
+    rank_candidates,
+    render_chinese_report,
+    select_candidates,
+    validate_chinese_page,
+)
+from src.model_editor import DEFAULT_ENDPOINT, DEFAULT_MODEL, edit_candidates
 
-USER_AGENT = "ai-daily-digest/1.0 (+https://github.com/)"
+
+USER_AGENT = (
+    "Mozilla/5.0 (compatible; ai-daily-digest/2.0; "
+    "+https://github.com/wxdwu/ai-daily-digest)"
+)
 LOCAL_TZ = ZoneInfo(os.getenv("TZ", "Asia/Shanghai"))
 
 
@@ -47,6 +60,8 @@ class Item:
     published: datetime
     summary: str = ""
     source_weight: int = 0
+    pool: str = "international"
+    credibility: int = 0
     metadata: dict[str, Any] = field(default_factory=dict)
     category_id: str = ""
     category_label: str = ""
@@ -152,6 +167,8 @@ def parse_feed(source: dict[str, Any], timeout: int) -> list[Item]:
                     published=published,
                     summary=clean_text(summary, 700),
                     source_weight=int(source.get("weight", 0)),
+                    pool=str(source.get("pool", "international")),
+                    credibility=int(source.get("credibility", source.get("weight", 0))),
                 )
             )
     return items
@@ -177,6 +194,17 @@ def extract_page_metadata(raw: bytes, fallback_url: str) -> tuple[str, str]:
     title = re.sub(r"\s*[|–—-]\s*Anthropic\s*$", "", title, flags=re.I)
     summary = clean_text(description_match.group(1), 700) if description_match else ""
     return title, summary
+
+
+def extract_article_text(raw: bytes) -> str:
+    page = raw.decode("utf-8", errors="replace")[:1_000_000]
+    page = re.sub(
+        r"<(?:script|style|noscript|svg|nav|footer|form)[^>]*>.*?</(?:script|style|noscript|svg|nav|footer|form)>",
+        " ",
+        page,
+        flags=re.I | re.S,
+    )
+    return clean_text(page, 50_000)
 
 
 def parse_sitemap(source: dict[str, Any], timeout: int, cutoff: datetime) -> list[Item]:
@@ -205,6 +233,8 @@ def parse_sitemap(source: dict[str, Any], timeout: int, cutoff: datetime) -> lis
                 published=modified,
                 summary=summary,
                 source_weight=int(source.get("weight", 0)),
+                pool=str(source.get("pool", "international")),
+                credibility=int(source.get("credibility", source.get("weight", 0))),
             )
         )
     return items
@@ -258,6 +288,8 @@ def parse_hackernews(source: dict[str, Any], timeout: int, cutoff: datetime) -> 
                 source=source["name"],
                 published=published,
                 source_weight=int(source.get("weight", 0)),
+                pool=str(source.get("pool", "international")),
+                credibility=int(source.get("credibility", source.get("weight", 0))),
                 metadata={"points": points, "comments": comments, "hn_id": object_id},
             )
             old = by_id.get(object_id)
@@ -286,7 +318,7 @@ def canonical_url(url: str) -> str:
 
 
 def title_key(title: str) -> str:
-    words = re.findall(r"[a-z0-9]+", title.lower())
+    words = re.findall(r"[a-z0-9]+|[\u4e00-\u9fff]+", title.lower())
     ignored = {"a", "an", "and", "for", "in", "of", "on", "the", "to", "with", "new", "introducing"}
     return " ".join(word for word in words if word not in ignored)
 
@@ -304,6 +336,71 @@ def deduplicate(items: list[Item]) -> list[Item]:
         urls.add(url_key)
         kept.append(item)
     return kept
+
+
+def split_source_pools(items: list[Item]) -> tuple[list[Item], list[Item]]:
+    international = [item for item in items if item.pool != "chinese"]
+    chinese = [item for item in items if item.pool == "chinese"]
+    return international, chinese
+
+
+def validate_chinese_items(
+    items: list[Item], timeout: int
+) -> tuple[list[ChineseCandidate], dict[str, int]]:
+    candidates: list[ChineseCandidate] = []
+    rejection_counts: dict[str, int] = {}
+
+    def inspect(item: Item) -> tuple[ChineseCandidate | None, str]:
+        try:
+            body = extract_article_text(fetch(item.url, timeout))
+        except Exception:
+            return None, "fetch_error"
+        validation = validate_chinese_page(item.title, body, item.url)
+        if not validation.valid:
+            return None, validation.reason
+        return (
+            ChineseCandidate(
+                id=f"c-{item_fingerprint(item)}",
+                title=item.title,
+                url=item.url,
+                source=item.source,
+                published=item.published,
+                summary=item.summary,
+                body=body,
+                credibility=item.credibility,
+                category_id=item.category_id,
+                category_label=item.category_label,
+                relevance=item.relevance,
+            ),
+            "",
+        )
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=min(8, max(1, len(items)))) as executor:
+        for candidate, reason in executor.map(inspect, items):
+            if candidate is not None:
+                candidates.append(candidate)
+            elif reason:
+                rejection_counts[reason] = rejection_counts.get(reason, 0) + 1
+    return candidates, rejection_counts
+
+
+def resolve_editor_config() -> dict[str, str]:
+    external_token = os.getenv("LLM_API_KEY", "").strip()
+    external_endpoint = os.getenv("LLM_ENDPOINT", "").strip()
+    external_model = os.getenv("LLM_MODEL", "").strip()
+    if external_token and external_endpoint and external_model:
+        return {
+            "token": external_token,
+            "endpoint": external_endpoint,
+            "model": external_model,
+            "provider_name": "外部模型",
+        }
+    return {
+        "token": os.getenv("GITHUB_TOKEN", "").strip(),
+        "endpoint": DEFAULT_ENDPOINT,
+        "model": os.getenv("GITHUB_MODELS_MODEL", "").strip() or DEFAULT_MODEL,
+        "provider_name": "GitHub Models",
+    }
 
 
 def categorize_and_score(
@@ -562,7 +659,7 @@ def render_markdown(
     return "\n".join(lines)
 
 
-def write_outputs(output_dir: Path, markdown: str, items: list[Item], now: datetime) -> tuple[Path, Path]:
+def write_outputs(output_dir: Path, markdown: str, items: list[Any], now: datetime) -> tuple[Path, Path]:
     output_dir.mkdir(parents=True, exist_ok=True)
     run_date = now.astimezone(LOCAL_TZ).strftime("%Y-%m-%d")
     latest = output_dir / "latest.md"
@@ -581,15 +678,16 @@ def build_digest(args: argparse.Namespace) -> int:
     config = json.loads(Path(args.config).read_text(encoding="utf-8"))
     settings = config["settings"]
     now = datetime.now(timezone.utc)
-    lookback = int(args.lookback_hours or settings["lookback_hours"])
-    cutoff = now - timedelta(hours=lookback)
+    international_lookback = int(args.lookback_hours or settings.get("international_lookback_hours", 36))
+    chinese_lookback = int(settings.get("chinese_lookback_hours", 48))
+    fetch_cutoff = now - timedelta(hours=max(international_lookback, chinese_lookback))
     timeout = int(settings["request_timeout_seconds"])
     source_errors: list[str] = []
     raw_items: list[Item] = []
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=min(10, len(config["sources"]))) as executor:
         futures = {
-            executor.submit(fetch_source, source, timeout, cutoff): source for source in config["sources"]
+            executor.submit(fetch_source, source, timeout, fetch_cutoff): source for source in config["sources"]
         }
         for future in concurrent.futures.as_completed(futures):
             source = futures[future]
@@ -598,40 +696,95 @@ def build_digest(args: argparse.Namespace) -> int:
             except Exception as exc:
                 source_errors.append(f"{source['name']}: {type(exc).__name__}: {exc}")
 
-    candidates = [item for item in raw_items if cutoff <= item.published <= now + timedelta(hours=2)]
-    candidates = deduplicate(candidates)
-    candidates = [categorize_and_score(item, config["categories"], now) for item in candidates]
-    candidates = [item for item in candidates if item.relevance >= float(settings["minimum_relevance_score"])]
+    international_items, chinese_items = split_source_pools(raw_items)
+    international_cutoff = now - timedelta(hours=international_lookback)
+    chinese_cutoff = now - timedelta(hours=chinese_lookback)
+    international_items = [
+        item for item in international_items if international_cutoff <= item.published <= now + timedelta(hours=2)
+    ]
+    chinese_items = [
+        item for item in chinese_items if chinese_cutoff <= item.published <= now + timedelta(hours=2)
+    ]
+    international_items = [
+        categorize_and_score(item, config["categories"], now) for item in deduplicate(international_items)
+    ]
+    chinese_items = [
+        categorize_and_score(item, config["categories"], now) for item in deduplicate(chinese_items)
+    ]
+    minimum_relevance = float(settings["minimum_relevance_score"])
+    radar_items = sorted(
+        (item for item in international_items if item.relevance >= minimum_relevance),
+        key=lambda item: (item.score, item.published),
+        reverse=True,
+    )[: int(settings.get("max_radar_topics", 40))]
+    radar_topics = [
+        {"id": f"r-{item_fingerprint(item)}", "title": item.title}
+        for item in radar_items
+    ]
+    chinese_items = [item for item in chinese_items if item.relevance >= minimum_relevance]
 
     run_date = now.astimezone(LOCAL_TZ).strftime("%Y-%m-%d")
     state_path = Path(args.state)
     state = load_state(state_path)
-    candidates = filter_seen(candidates, state, run_date, args.ignore_seen)
-    selected = select_items(
+    chinese_items = filter_seen(chinese_items, state, run_date, args.ignore_seen)
+    chinese_items = sorted(
+        chinese_items,
+        key=lambda item: (item.score, item.published),
+        reverse=True,
+    )[: int(settings.get("max_chinese_pages", 60))]
+    validated, rejection_counts = validate_chinese_items(chinese_items, timeout)
+    match_topics(validated, radar_topics)
+    ranked = rank_candidates(validated, now)
+    candidates = select_candidates(
+        ranked,
+        max_items=int(settings.get("max_editor_candidates", 25)),
+    )
+    editor_input = [
+        {
+            "id": candidate.id,
+            "title": candidate.title,
+            "summary": candidate.summary or candidate.body[:500],
+            "source": candidate.source,
+            "category": candidate.category_label or "AI 最新动态",
+            "published": candidate.published.isoformat(),
+        }
+        for candidate in candidates
+    ]
+    editor_config = resolve_editor_config()
+    editorial = edit_candidates(
+        editor_input,
+        token=editor_config["token"],
+        endpoint=editor_config["endpoint"],
+        model=editor_config["model"],
+        provider_name=editor_config["provider_name"],
+        timeout=max(timeout, 60),
+    )
+    warnings = []
+    if rejection_counts:
+        rejection_text = "、".join(f"{reason} {count} 条" for reason, count in sorted(rejection_counts.items()))
+        warnings.append(f"中文页面校验未通过：{rejection_text}。")
+    report = render_chinese_report(
         candidates,
-        config["categories"],
-        int(settings["max_items"]),
-        int(settings["per_category"]),
-    )
-    overview, llm_error = enrich_with_llm(selected, timeout)
-    warnings = [llm_error] if llm_error else []
-    report = render_markdown(
-        selected,
-        config["categories"],
+        editorial,
         now,
-        cutoff,
-        overview,
-        source_errors,
-        len(config["sources"]),
-        warnings,
+        radar_count=len(radar_topics),
+        chinese_source_count=sum(source.get("pool") == "chinese" for source in config["sources"]),
+        valid_count=len(validated),
+        source_errors=source_errors,
+        warnings=warnings,
     )
+    final_ids = {str(item.get("id", "")) for item in editorial.selected_items}
+    selected = [candidate for candidate in candidates if candidate.id in final_ids]
     latest, archive = write_outputs(Path(args.output_dir), report, selected, now)
 
     state_path.parent.mkdir(parents=True, exist_ok=True)
     update_state(state, selected, now, run_date)
     state_path.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    print(f"Fetched {len(raw_items)} raw items; selected {len(selected)}; source errors {len(source_errors)}")
+    print(
+        f"Fetched {len(raw_items)} raw items; radar {len(radar_topics)}; "
+        f"validated Chinese {len(validated)}; selected {len(selected)}; source errors {len(source_errors)}"
+    )
     print(f"Wrote {latest} and {archive}")
     return 0
 
