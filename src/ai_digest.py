@@ -33,7 +33,7 @@ from src.chinese_digest import (
     select_candidates,
     validate_chinese_page,
 )
-from src.model_editor import DEFAULT_ENDPOINT, DEFAULT_MODEL, edit_candidates
+from src.model_editor import edit_candidates
 
 
 USER_AGENT = (
@@ -396,10 +396,10 @@ def resolve_editor_config() -> dict[str, str]:
             "provider_name": "外部模型",
         }
     return {
-        "token": os.getenv("GITHUB_TOKEN", "").strip(),
-        "endpoint": DEFAULT_ENDPOINT,
-        "model": os.getenv("GITHUB_MODELS_MODEL", "").strip() or DEFAULT_MODEL,
-        "provider_name": "GitHub Models",
+        "token": "",
+        "endpoint": "",
+        "model": "",
+        "provider_name": "未配置外部模型",
     }
 
 

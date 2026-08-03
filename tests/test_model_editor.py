@@ -47,9 +47,15 @@ class ModelEditorTests(unittest.TestCase):
             calls.append(json.loads(request.data))
             return FakeResponse(completion)
 
-        result = edit_candidates([candidate_dict("c1")], token="token", opener=opener)
+        result = edit_candidates(
+            [candidate_dict("c1")],
+            token="token",
+            endpoint="https://provider.example/v1/chat/completions",
+            model="example-model",
+            opener=opener,
+        )
         self.assertEqual([item["id"] for item in result.selected_items], ["c1"])
-        self.assertEqual(result.mode, "GitHub Models: openai/gpt-4.1-mini")
+        self.assertEqual(result.mode, "外部模型: example-model")
         self.assertEqual(len(calls), 1)
         self.assertNotIn("url", calls[0]["messages"][1]["content"])
 
@@ -57,6 +63,8 @@ class ModelEditorTests(unittest.TestCase):
         result = edit_candidates(
             [candidate_dict("c1")],
             token="token",
+            endpoint="https://provider.example/v1/chat/completions",
+            model="example-model",
             opener=lambda *a, **k: FakeResponse({"choices": [{"message": {"content": "not json"}}]}),
         )
         self.assertEqual(result.mode, "规则降级")

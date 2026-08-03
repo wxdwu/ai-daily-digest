@@ -28,17 +28,19 @@
 
 ## 大模型怎么调用
 
-默认使用 GitHub Actions 自动提供的 `GITHUB_TOKEN` 调用 GitHub Models，模型为 `openai/gpt-4.1-mini`。不需要手工创建 API Key，也不用在任何第三方网站登录。每份报告最多调用模型一次，用于从候选中选出 8–10 条精华、改写中文标题和摘要、总结三个趋势。
+不配置模型也能直接运行：系统会用确定性规则挑选并生成全中文报告。配置模型后，每份报告最多调用一次，用于从候选中选出 8–10 条精华、改写中文标题和摘要、总结三个趋势。
 
-如果 GitHub Models 暂时不可用或触及单独的模型限额，任务不会失败，而是自动生成规则版中文报告。Actions 的运行分钟数与 GitHub Models 的调用额度是两套独立额度。
+GitHub Actions 的免费运行分钟只提供服务器，不自带大模型额度。并且 [GitHub Models 已于 2026-07-30 全面下线](https://docs.github.com/en/github-models)，所以这里不再使用已经失效的 `GITHUB_TOKEN + models: read` 方案。
 
-想换 GitHub Models 中的模型，可在 **Settings → Secrets and variables → Actions → Variables** 添加：
+要启用大模型精编，需要登录你选择的模型服务商，创建一个兼容 OpenAI Chat Completions 的 API Key，然后在 **Settings → Secrets and variables → Actions → Secrets** 同时添加：
 
-| Variable | 值 |
+| Secret | 说明 |
 |---|---|
-| `GITHUB_MODELS_MODEL` | 例如 `openai/gpt-4.1-mini` |
+| `LLM_API_KEY` | 模型服务 API Key |
+| `LLM_ENDPOINT` | 完整的 Chat Completions 接口地址 |
+| `LLM_MODEL` | 该账号可用的模型名称 |
 
-也可以改用兼容 OpenAI Chat Completions 的外部服务。在 **Settings → Secrets and variables → Actions → Secrets** 同时添加 `LLM_API_KEY`、`LLM_ENDPOINT` 和 `LLM_MODEL`；只配置其中一部分不会覆盖默认 GitHub Models。
+三项必须同时填写；未配置完整时自动使用规则版，不会导致 Actions 失败。模型只会收到候选的中文标题、短摘要、来源、分类和时间，不会收到链接或任何 GitHub 密钥。
 
 ## 邮件怎么配置（可选）
 
@@ -63,7 +65,7 @@
 
 **Settings → Actions → General → Workflow permissions → Read and write permissions**
 
-保存后重新运行。工作流已声明 `contents: write`、`issues: write` 和 `models: read`。
+保存后重新运行。工作流已声明 `contents: write` 和 `issues: write`。
 
 ## 常用调整
 

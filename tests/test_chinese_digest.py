@@ -122,7 +122,7 @@ class ReportTests(unittest.TestCase):
                 },
             ],
             trends=["推理成本继续下降。"],
-            mode="GitHub Models: openai/gpt-4.1-mini",
+            mode="外部模型: example-model",
         )
         report = render_chinese_report(
             [candidate],

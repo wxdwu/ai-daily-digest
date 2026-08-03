@@ -19,7 +19,6 @@ on:
 permissions:
   contents: write
   issues: write
-  models: read
 
 concurrency:
   group: ai-daily-digest
@@ -31,8 +30,6 @@ jobs:
     timeout-minutes: 12
     env:
       TZ: Asia/Shanghai
-      GITHUB_TOKEN: ${{ github.token }}
-      GITHUB_MODELS_MODEL: ${{ vars.GITHUB_MODELS_MODEL }}
       LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
       LLM_ENDPOINT: ${{ secrets.LLM_ENDPOINT }}
       LLM_MODEL: ${{ secrets.LLM_MODEL }}

@@ -2,11 +2,13 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Generate a concise Chinese-only daily AI report whose links open Chinese articles, using international sources as a radar, Chinese sources as publishable candidates, and one GitHub Models editorial request per run.
+> **2026-08-03 correction:** GitHub's current documentation says GitHub Models was fully retired on 2026-07-30. All GitHub Models-specific steps below are superseded: the implemented workflow uses deterministic Chinese fallback by default and an optional external OpenAI-compatible API only when all three `LLM_*` secrets are configured.
 
-**Architecture:** Keep `src/ai_digest.py` as the fetch/orchestration entrypoint. Add a focused `src/chinese_digest.py` module for Chinese validation, event matching, scoring, selection, and Markdown rendering, plus `src/model_editor.py` for one-shot GitHub Models or external Chat Completions editing. Source configuration marks each feed as `international` or `chinese`; only validated Chinese candidates can reach the renderer.
+**Goal:** Generate a concise Chinese-only daily AI report whose links open Chinese articles, using international sources as a radar, Chinese sources as publishable candidates, and at most one optional external-model editorial request per run.
 
-**Tech Stack:** Python 3.12 standard library, `unittest`, GitHub Actions, GitHub Models Chat Completions REST API, JSON source configuration.
+**Architecture:** Keep `src/ai_digest.py` as the fetch/orchestration entrypoint. Add a focused `src/chinese_digest.py` module for Chinese validation, event matching, scoring, selection, and Markdown rendering, plus `src/model_editor.py` for one-shot external Chat Completions editing with deterministic fallback. Source configuration marks each feed as `international` or `chinese`; only validated Chinese candidates can reach the renderer.
+
+**Tech Stack:** Python 3.12 standard library, `unittest`, GitHub Actions, optional OpenAI-compatible Chat Completions API, JSON source configuration.
 
 ---
 
@@ -422,7 +424,7 @@ git push -u origin agent/chinese-ai-digest
 gh pr create --draft --base main --head agent/chinese-ai-digest --title "Generate a Chinese-only AI daily digest" --body-file /tmp/ai-daily-pr.md
 ```
 
-The PR body must summarize the Chinese source pool, GitHub Models integration, AI Infra weighting, fallback behavior, and verification commands.
+The PR body must summarize the Chinese source pool, optional external-model integration, AI Infra weighting, fallback behavior, and verification commands.
 
 - [ ] **Step 5: Merge after checks and confirm workflow discovery**
 

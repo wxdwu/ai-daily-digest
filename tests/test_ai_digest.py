@@ -159,16 +159,16 @@ class DigestTests(unittest.TestCase):
         self.assertGreater(len(candidates[0].body), 120)
         self.assertEqual(rejection_counts, {})
 
-    def test_github_models_is_default_editor(self):
+    def test_github_token_is_not_misused_as_a_retired_model_token(self):
         with patch.dict(
             "os.environ",
             {"GITHUB_TOKEN": "workflow-token", "GITHUB_MODELS_MODEL": "openai/gpt-4.1-mini"},
             clear=True,
         ):
             config = resolve_editor_config()
-        self.assertEqual(config["provider_name"], "GitHub Models")
-        self.assertEqual(config["token"], "workflow-token")
-        self.assertIn("models.github.ai", config["endpoint"])
+        self.assertEqual(config["provider_name"], "未配置外部模型")
+        self.assertEqual(config["token"], "")
+        self.assertEqual(config["endpoint"], "")
 
     def test_complete_external_editor_config_overrides_github_models(self):
         with patch.dict(

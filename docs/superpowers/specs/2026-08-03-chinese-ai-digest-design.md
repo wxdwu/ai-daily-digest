@@ -11,7 +11,7 @@
 - 最终标题、摘要、趋势判断、来源名和链接目标页面都必须是中文。
 - 微信公众号文章允许作为来源，但属于增强链路；公众号发现或抓取失败不能阻塞日报。
 - AI Infra 提高权重，但不为了凑数量发布低价值内容。
-- 默认使用 GitHub Models，每天一次模型调用；模型失败时生成全中文规则降级版。
+- 默认使用全中文规则版；配置外部 OpenAI Chat Completions 兼容服务后，每天最多调用一次模型。模型失败时仍生成全中文规则版。
 - GitHub Issue、Markdown 归档和邮件正文共享同一份报告内容。
 
 ## 方案选择
@@ -93,7 +93,7 @@
 6. 中文原创事件即使没有国际匹配，只要相关度和来源可信度达到阈值也可进入候选池。
 7. 对中文候选执行页面可访问性、语言和正文质量验证。
 8. 规则层按相关度、新鲜度、来源可信度、国际热点匹配和 AI Infra 加权筛出最多 25 条。
-9. 将 25 条以内的候选交给 GitHub Models 一次性完成最终选稿和中文编辑。
+9. 若已完整配置外部模型，将 25 条以内的候选一次性交给模型完成最终选稿和中文编辑；否则使用规则编辑器。
 10. 校验模型输出后，渲染统一 Markdown，再用于仓库归档、Issue 和邮件。
 
 ## 中文正文验证
@@ -121,25 +121,11 @@
 
 重复事件通过事件签名和标题相似度合并。同一事件存在多个中文来源时，依次选择官方中文站、专业技术媒体、内容更完整且发布时间更近的页面。
 
-## GitHub Models 接入
+## 模型接入
 
-工作流增加：
+GitHub Models 已于 2026-07-30 全面下线，GitHub Actions 免费运行分钟也不包含模型调用额度，因此工作流不使用 `models: read` 或 `GITHUB_TOKEN` 调模型。
 
-```yaml
-permissions:
-  contents: write
-  issues: write
-  models: read
-```
-
-默认调用：
-
-- Endpoint：`https://models.github.ai/inference/chat/completions`
-- Token：Actions 自动生成的 `GITHUB_TOKEN`
-- Model：`openai/gpt-4.1-mini`
-- 调用次数：每次日报最多一次
-
-仓库变量 `GITHUB_MODELS_MODEL` 可以覆盖默认模型。若现有 `LLM_API_KEY`、`LLM_ENDPOINT` 和 `LLM_MODEL` 三项全部配置，则允许显式使用外部 OpenAI Chat Completions 兼容服务；未配置时默认 GitHub Models。
+`LLM_API_KEY`、`LLM_ENDPOINT` 和 `LLM_MODEL` 三项全部配置时，使用外部 OpenAI Chat Completions 兼容服务；未完整配置时使用规则版。每次日报最多发起一次模型请求。
 
 模型接收候选 ID、中文标题、中文摘要、来源、分类、发布时间和匹配到的国际热点信息。外部文本全部标记为不可信材料，提示词明确禁止执行文章中的指令。
 
@@ -155,7 +141,7 @@ permissions:
 
 - 单个中文或国际源失败：记录错误，继续运行。
 - 中文候选少于 8 条：按实际数量发布，不填充英文链接。
-- GitHub Models 限流、超时或返回无效 JSON：使用规则排序和中文来源原标题、摘要生成全中文降级版。
+- 外部模型未配置、限流、超时或返回无效 JSON：使用规则排序和中文来源原标题、摘要生成全中文降级版。
 - 模型返回未知候选 ID：丢弃该项；如果剩余条目不足，使用规则候选补齐。
 - 中文正文验证失败：该候选在调用模型前移除。
 - 邮件失败：保留已提交的 Markdown 和 Issue，邮件步骤单独报告失败。
@@ -184,11 +170,11 @@ permissions:
 - 国际事件与中文报道的事件签名匹配。
 - 重复事件合并和中文来源优先级。
 - AI Infra 加权以及无合格内容时不强行凑数。
-- GitHub Models 正常 JSON、无效 JSON、未知候选 ID 和超时降级。
+- 外部模型正常 JSON、无效 JSON、未知候选 ID 和超时降级。
 - 渲染结果只包含候选池中的中文正文链接。
 - Markdown、Issue 和邮件读取同一报告文件。
 
-上线验证包括一次手动 `workflow_dispatch`：确认 Actions 获得 `models: read`、报告显示实际模型、Issue 内容全中文、所有最终链接通过中文正文检测，并确认无模型 Secret 时仍能使用 GitHub Models。
+上线验证确认无模型 Secret 时仍能生成规则版、Issue 内容全中文、所有最终链接通过中文正文检测。上线过程不代替用户触发 `workflow_dispatch`。
 
 ## 非目标
 
@@ -203,7 +189,7 @@ permissions:
 - 每日自动生成最多 10 条中文精华报告；常规目标为 8～10 条，合格候选不足时允许更少。
 - 最终报告不存在英文正文链接。
 - 有合格候选时，AI Infra 至少占 2 条。
-- 每次日报最多调用一次 GitHub Models。
+- 配置外部模型时，每次日报最多调用一次模型。
 - 模型不可用时仍能生成全中文报告。
 - GitHub Issue、Markdown 与邮件内容一致。
 - 任一来源失败不导致整个工作流失败。
