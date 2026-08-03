@@ -7,6 +7,7 @@ from unittest.mock import patch
 
 from src.ai_digest import (
     Item,
+    candidate_excerpt,
     categorize_and_score,
     deduplicate,
     extract_article_text,
@@ -159,6 +160,23 @@ class DigestTests(unittest.TestCase):
         self.assertGreater(len(candidates[0].body), 120)
         self.assertEqual(rejection_counts, {})
 
+    def test_placeholder_feed_summary_uses_article_excerpt(self):
+        candidate = type(
+            "Candidate",
+            (),
+            {
+                "summary": "点击查看原文>",
+                "body": (
+                    "网站导航 登录 / 注册 AI摘要 核心内容："
+                    "文章揭示 AI 竞争焦点正从模型能力转向智能体系统的工程化落地能力。"
+                    "关键观点：系统需要可编排和可追溯。"
+                ),
+            },
+        )()
+        excerpt = candidate_excerpt(candidate)
+        self.assertIn("智能体系统的工程化落地能力", excerpt)
+        self.assertNotIn("点击查看原文", excerpt)
+
     def test_github_token_is_not_misused_as_a_retired_model_token(self):
         with patch.dict(
             "os.environ",
@@ -170,7 +188,7 @@ class DigestTests(unittest.TestCase):
         self.assertEqual(config["token"], "")
         self.assertEqual(config["endpoint"], "")
 
-    def test_complete_external_editor_config_overrides_github_models(self):
+    def test_complete_external_editor_config_enables_model_editing(self):
         with patch.dict(
             "os.environ",
             {

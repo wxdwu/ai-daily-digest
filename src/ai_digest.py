@@ -403,6 +403,32 @@ def resolve_editor_config() -> dict[str, str]:
     }
 
 
+def candidate_excerpt(candidate: Any) -> str:
+    summary = clean_text(str(getattr(candidate, "summary", "")), 260)
+    placeholders = ("点击查看原文", "查看原文", "阅读全文", "read more")
+    if len(re.findall(r"[\u4e00-\u9fff]", summary)) >= 6 and not any(
+        marker in summary.lower() for marker in placeholders
+    ):
+        return summary
+
+    body = clean_text(str(getattr(candidate, "body", "")), 5_000)
+    ai_summary = re.search(
+        r"AI\s*摘要\s*核心内容[:：]\s*(.{20,260}?)(?:关键观点[:：]|适合|$)",
+        body,
+        flags=re.I,
+    )
+    if ai_summary:
+        return clean_text(ai_summary.group(1), 220)
+    ignored = ("网站导航", "登录", "注册", "扫码", "来源", "公众号", "阅读完需", "本文字数")
+    for sentence in re.split(r"(?<=[。！？])\s*", body):
+        if len(re.findall(r"[\u4e00-\u9fff]", sentence)) < 16:
+            continue
+        if any(marker in sentence[:80] for marker in ignored):
+            continue
+        return clean_text(sentence, 220)
+    return clean_text(body, 220)
+
+
 def categorize_and_score(
     item: Item, categories: list[dict[str, Any]], now: datetime
 ) -> Item:
@@ -743,7 +769,7 @@ def build_digest(args: argparse.Namespace) -> int:
         {
             "id": candidate.id,
             "title": candidate.title,
-            "summary": candidate.summary or candidate.body[:500],
+            "summary": candidate_excerpt(candidate),
             "source": candidate.source,
             "category": candidate.category_label or "AI 最新动态",
             "published": candidate.published.isoformat(),
