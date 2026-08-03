@@ -1,0 +1,95 @@
+name: AI Daily Digest
+
+on:
+  schedule:
+    # GitHub cron uses UTC: 23:00 UTC = 07:00 Asia/Shanghai on the next day.
+    - cron: "0 23 * * *"
+  workflow_dispatch:
+    inputs:
+      lookback_hours:
+        description: Hours of news to scan
+        required: false
+        default: "36"
+      ignore_seen:
+        description: Include links already reported on earlier days
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: ai-daily-digest
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      TZ: Asia/Shanghai
+      LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+      LLM_ENDPOINT: ${{ secrets.LLM_ENDPOINT }}
+      LLM_MODEL: ${{ secrets.LLM_MODEL }}
+      SMTP_HOST: ${{ secrets.SMTP_HOST }}
+      SMTP_PORT: ${{ secrets.SMTP_PORT }}
+      SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+      SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+      SMTP_STARTTLS: ${{ secrets.SMTP_STARTTLS }}
+      EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+      EMAIL_TO: ${{ secrets.EMAIL_TO }}
+      EMAIL_CC: ${{ secrets.EMAIL_CC }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build digest
+        env:
+          LOOKBACK_HOURS: ${{ inputs.lookback_hours || '36' }}
+          IGNORE_SEEN: ${{ inputs.ignore_seen || 'false' }}
+        run: |
+          args=(--lookback-hours "$LOOKBACK_HOURS")
+          if [[ "$IGNORE_SEEN" == "true" ]]; then args+=(--ignore-seen); fi
+          python src/ai_digest.py "${args[@]}"
+          echo "REPORT_DATE=$(date +%F)" >> "$GITHUB_ENV"
+
+      - name: Upload report artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ai-daily-${{ env.REPORT_DATE }}
+          path: |
+            reports/latest.md
+            reports/latest.json
+            reports/${{ env.REPORT_DATE }}.md
+          retention-days: 30
+
+      - name: Commit report archive
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports data/seen.json
+          if git diff --cached --quiet; then
+            echo "No report changes to commit"
+            exit 0
+          fi
+          git commit -m "chore: publish AI Daily ${REPORT_DATE}"
+          git push
+
+      - name: Create or update daily issue
+        if: ${{ vars.CREATE_DAILY_ISSUE != 'false' }}
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python src/publish_issue.py --date "$REPORT_DATE"
+
+      - name: Send email
+        if: ${{ env.SMTP_HOST != '' }}
+        run: python src/send_email.py --date "$REPORT_DATE"
+
