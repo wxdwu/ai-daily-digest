@@ -113,7 +113,55 @@
       "title": "Anthropic extends Claude Code's 50% weekly limit increase through August 19",
       "seen_at": "2026-07-20T02:47:37.628004+00:00",
       "run_date": "2026-07-20"
+    },
+    "e24f84cc7009b9ed72a0": {
+      "url": "https://github.com/wienerdog-ai/wienerdog/",
+      "title": "Show HN: Wienerdog – memory and self-improving skills for Claude Code/Codex",
+      "seen_at": "2026-08-03T01:23:42.175134+00:00",
+      "run_date": "2026-08-03"
+    },
+    "b91acbe190e28039b79e": {
+      "url": "https://simonwillison.net/2026/Aug/2/july-newsletter/#atom-everything",
+      "title": "July 2026 newsletter",
+      "seen_at": "2026-08-03T01:23:42.175134+00:00",
+      "run_date": "2026-08-03"
+    },
+    "9a0a25c308b815188c97": {
+      "url": "https://sprocket-demo.spikonado.com",
+      "title": "Show HN: Sprocket – The Best AI Agent for Hardware and Software Development",
+      "seen_at": "2026-08-03T01:23:42.175134+00:00",
+      "run_date": "2026-08-03"
+    },
+    "16fac92f6c7767e49d10": {
+      "url": "https://github.com/spikonado/sprocket",
+      "title": "Show HN: I'm 16 y/o and Built the only AI Agent for Hardware and Software Dev",
+      "seen_at": "2026-08-03T01:23:42.175134+00:00",
+      "run_date": "2026-08-03"
+    },
+    "e0ae5acd579a6af46e0b": {
+      "url": "https://blog.cloudflare.com/agents-week-welcome/",
+      "title": "Welcome to Agents Week",
+      "seen_at": "2026-08-03T01:23:42.175134+00:00",
+      "run_date": "2026-08-03"
+    },
+    "6802d89cd112c2e47fb9": {
+      "url": "https://news.ycombinator.com/item?id=49139845",
+      "title": "Ask HN: I still don't understand why AI agents need \"skills\"",
+      "seen_at": "2026-08-03T01:23:42.175134+00:00",
+      "run_date": "2026-08-03"
+    },
+    "36e263a3bf123e7a991d": {
+      "url": "https://www.brethorsting.com/blog/2026/08/the-greenhouse-and-the-lens-two-modes-of-agentic-ai-work/",
+      "title": "The Greenhouse and the Lens: Two Modes of Agentic AI Work",
+      "seen_at": "2026-08-03T01:23:42.175134+00:00",
+      "run_date": "2026-08-03"
+    },
+    "8c13360b179969723d02": {
+      "url": "https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything",
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "seen_at": "2026-08-03T01:23:42.175134+00:00",
+      "run_date": "2026-08-03"
     }
   },
-  "updated_at": "2026-07-20T02:47:37.628004+00:00"
+  "updated_at": "2026-08-03T01:23:42.175134+00:00"
 }
