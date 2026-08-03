@@ -37,7 +37,7 @@ def main() -> int:
     token = os.environ["GITHUB_TOKEN"]
     repository = os.environ["GITHUB_REPOSITORY"]
     api_url = os.getenv("GITHUB_API_URL", "https://api.github.com")
-    title = f"AI Daily · {args.date}"
+    title = f"每日 AI 速报 · {args.date}"
     body = Path(args.report).read_text(encoding="utf-8")[:65_000]
 
     query = urlencode({"state": "all", "per_page": 100})

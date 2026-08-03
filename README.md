@@ -1,86 +1,82 @@
-# AI Daily Digest
+# 每日 AI 速报
 
-每天 07:00（Asia/Shanghai）自动抓取、去重并筛选 AI 最新资讯，重点覆盖：
+每天北京时间 07:00 自动生成一份精简中文 AI 报告，重点覆盖：
 
-- 大模型：新模型、能力、评测、训练与后训练
-- AI Infra：训练/推理系统、GPU、Serving、量化、性能优化
-- AI Agent：Agent 框架、工具调用、MCP、Coding Agent、工作流
+- 大模型：新模型、能力、训练、后训练与评测
+- AI Infra：芯片、算力、训练与推理系统、Serving、量化和性能优化
+- AI Agent：智能体、工具调用、MCP、Coding Agent 和工作流
+- AI 最新动态：产业发布、融资收购、政策、安全与行业变化
 
-默认读取公开 RSS、Anthropic sitemap、arXiv 分类 RSS、Hacker News 和核心开源项目的 GitHub Releases。单个来源失败不会拖垮整次任务。产物包括每日 Markdown、机器可读 JSON、GitHub Actions artifact，以及默认开启的每日 GitHub Issue。
+系统先读取国际一手来源作为“事件雷达”，再到中文来源中寻找对应报道。只有标题、正文和链接均通过中文页面校验的条目才会进入报告，因此成品不会直接放英文原文链接。当前中文来源包括量子位、InfoQ 中文、NVIDIA 中文博客、NVIDIA 开发者中文博客和 AWS 中文博客。
 
-## 1. 放到 GitHub
+## 现在怎么测试
 
-新建一个 GitHub 仓库（公开或私有都可以），把本目录内容推上去。然后：
+代码进入 `main` 后，只需要：
 
-1. 打开仓库的 **Actions** 页，允许工作流运行。
-2. 在 **Actions → AI Daily Digest → Run workflow** 手动跑一次。
-3. 确认 `reports/latest.md`、当天归档和当天 Issue 正常生成。
+1. 打开仓库的 **Actions**。
+2. 左侧选择 **每日 AI 速报**。
+3. 点击右上角 **Run workflow**。
+4. 分支保持 `main`，第一次测试建议勾选 `ignore_seen`，再点绿色按钮运行。
 
-定时表达式在 `.github/workflows/ai-daily.yml`，当前是每天北京时间 07:00。想改成 09:00，把 cron 从 `0 23 * * *` 改为 `0 1 * * *`。GitHub 的定时任务偶尔会因平台负载延迟几分钟。
+运行完成后可以在三个地方看结果：
 
-如果组织策略不允许工作流写仓库，需要到 **Settings → Actions → General → Workflow permissions** 选择 **Read and write permissions**。工作流本身已声明 `contents: write` 和 `issues: write`。
+- 仓库的 `reports/latest.md`
+- 仓库 **Issues** 中当天的“每日 AI 速报”
+- 本次 Actions 运行页面底部的 artifact 压缩包
 
-## 2. 哪些地方需要登录或密钥
+工作流每天也会自动运行。GitHub cron 使用 UTC，当前 `0 23 * * *` 对应次日北京时间 07:00，平台繁忙时可能延迟几分钟。
 
-### 核心抓取：不需要额外登录
+## 大模型怎么调用
 
-所有资讯源均是公开接口或公开网页。只需要你的 GitHub 账号和仓库；Actions 自动提供 `GITHUB_TOKEN`，不用手工创建 Personal Access Token。
+默认使用 GitHub Actions 自动提供的 `GITHUB_TOKEN` 调用 GitHub Models，模型为 `openai/gpt-4.1-mini`。不需要手工创建 API Key，也不用在任何第三方网站登录。每份报告最多调用模型一次，用于从候选中选出 8–10 条精华、改写中文标题和摘要、总结三个趋势。
 
-### 中文摘要与“为什么值得看”：可选
+如果 GitHub Models 暂时不可用或触及单独的模型限额，任务不会失败，而是自动生成规则版中文报告。Actions 的运行分钟数与 GitHub Models 的调用额度是两套独立额度。
 
-不配置时，简报仍会正常生成，但会保留英文标题和来源摘要。若要自动翻译和编辑成中文，需要一个支持 OpenAI Chat Completions 兼容协议的模型服务账号，并在：
+想换 GitHub Models 中的模型，可在 **Settings → Secrets and variables → Actions → Variables** 添加：
 
-**Settings → Secrets and variables → Actions → Secrets**
-
-添加：
-
-| Secret | 示例/说明 |
+| Variable | 值 |
 |---|---|
-| `LLM_API_KEY` | 模型服务 API Key |
-| `LLM_ENDPOINT` | 完整接口地址，例如 `https://你的服务/v1/chat/completions` |
-| `LLM_MODEL` | 该账号可用的模型名称 |
+| `GITHUB_MODELS_MODEL` | 例如 `openai/gpt-4.1-mini` |
 
-三项必须一起配置。脚本只把入选条目的标题和短摘录发给模型，不会发送 GitHub 密钥。模型失败时自动降级成无润色版本。
+也可以改用兼容 OpenAI Chat Completions 的外部服务。在 **Settings → Secrets and variables → Actions → Secrets** 同时添加 `LLM_API_KEY`、`LLM_ENDPOINT` 和 `LLM_MODEL`；只配置其中一部分不会覆盖默认 GitHub Models。
 
-### 邮件和抄送：可选
+## 邮件怎么配置（可选）
 
-若每天 Issue 已经够用，完全不需要邮件账号。想把简报发到邮箱，再添加：
+如果 GitHub Issue 已经够用，不需要配置邮件。要自动发送和抄送，请在 **Settings → Secrets and variables → Actions → Secrets** 添加：
 
 | Secret | 说明 |
 |---|---|
-| `SMTP_HOST` | SMTP 服务器，例如 Gmail 为 `smtp.gmail.com` |
-| `SMTP_PORT` | SSL 通常 `465`；STARTTLS 通常 `587` |
-| `SMTP_USERNAME` | SMTP 登录用户名 |
-| `SMTP_PASSWORD` | Gmail App Password / QQ 邮箱授权码；不要填日常登录密码 |
-| `SMTP_STARTTLS` | 587 端口填 `true`；465 可不填或填 `false` |
-| `EMAIL_FROM` | 发件人地址 |
-| `EMAIL_TO` | 收件人；多人用逗号分隔 |
-| `EMAIL_CC` | 可选抄送；多人用逗号分隔 |
+| `SMTP_HOST` | SMTP 服务器，例如 QQ 邮箱 `smtp.qq.com` |
+| `SMTP_PORT` | SSL 常用 `465`；STARTTLS 常用 `587` |
+| `SMTP_USERNAME` | SMTP 用户名，通常是完整邮箱地址 |
+| `SMTP_PASSWORD` | 邮箱生成的 SMTP 授权码，不是网页登录密码 |
+| `SMTP_STARTTLS` | 587 端口填 `true`；465 填 `false` 或不填 |
+| `EMAIL_FROM` | 发件人邮箱 |
+| `EMAIL_TO` | 收件人，多个地址用逗号分隔 |
+| `EMAIL_CC` | 可选抄送，多个地址用逗号分隔 |
 
-Gmail 需要登录 Google 账号、开启两步验证并创建 App Password；QQ/163 等邮箱通常要在邮箱设置里开启 SMTP 并生成授权码。所有值都放 GitHub Actions Secrets，不要写进源码。
+这里唯一需要额外登录的是你的邮箱后台：开启 SMTP 服务并生成授权码。QQ、163 邮箱通常在邮箱设置中开启；Gmail 通常需要两步验证和 App Password。所有授权码都放 GitHub Secrets，不要写进代码。
 
-## 3. 常用配置
+## GitHub 权限检查
 
-- 资讯源与权重：`config/sources.json` 的 `sources`
-- 三类关键词与分数：`config/sources.json` 的 `categories`
-- 每期数量：`max_items` 和 `per_category`
-- 观察窗口：默认 36 小时，手动运行时可临时修改
+如果第一次运行在提交报告或创建 Issue 时提示权限不足，打开：
+
+**Settings → Actions → General → Workflow permissions → Read and write permissions**
+
+保存后重新运行。工作流已声明 `contents: write`、`issues: write` 和 `models: read`。
+
+## 常用调整
+
+- 来源、关键词和观察窗口：`config/sources.json`
 - 关闭每日 Issue：添加 Repository variable `CREATE_DAILY_ISSUE=false`
-- 已读去重：`data/seen.json` 保留 30 天；手动运行可勾选 `ignore_seen`
+- 忽略历史去重：手动运行时勾选 `ignore_seen`
+- 修改自动运行时间：编辑 `.github/workflows/ai-daily.yml` 中的 cron
 
-排序综合考虑关键词相关度、来源权重、发布时间和 HN 热度。不是简单把所有 AI 新闻堆在一起。
-
-## 4. 本地运行与测试
-
-要求 Python 3.11+，没有第三方依赖：
+本地验证不需要第三方依赖：
 
 ```bash
 python -m unittest discover -s tests -v
-python src/ai_digest.py --ignore-seen
+python -m src.ai_digest --ignore-seen
 ```
 
-本地如需启用模型或邮件，用环境变量注入密钥；不要创建会被提交的密钥文件。
-
-## 5. 维护建议
-
-RSS 地址会变化，但失败源只会显示在报告的“运行状态”中。每隔一段时间看一次该区块：连续失败的源可以在 `config/sources.json` 替换或删除。GitHub Releases、arXiv 和 HN 通常比网页选择器稳定。
+抓取、模型或单个来源失败都不会阻断整份日报，具体情况会写在报告的“运行状态”中。

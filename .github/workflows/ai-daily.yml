@@ -1,4 +1,4 @@
-name: AI Daily Digest
+name: 每日 AI 速报
 
 on:
   schedule:
@@ -7,11 +7,11 @@ on:
   workflow_dispatch:
     inputs:
       lookback_hours:
-        description: Hours of news to scan
+        description: 国际资讯扫描小时数
         required: false
         default: "36"
       ignore_seen:
-        description: Include links already reported on earlier days
+        description: 是否包含以前已经推送过的链接
         required: false
         type: boolean
         default: false
@@ -19,6 +19,7 @@ on:
 permissions:
   contents: write
   issues: write
+  models: read
 
 concurrency:
   group: ai-daily-digest
@@ -30,6 +31,8 @@ jobs:
     timeout-minutes: 12
     env:
       TZ: Asia/Shanghai
+      GITHUB_TOKEN: ${{ github.token }}
+      GITHUB_MODELS_MODEL: ${{ vars.GITHUB_MODELS_MODEL }}
       LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
       LLM_ENDPOINT: ${{ secrets.LLM_ENDPOINT }}
       LLM_MODEL: ${{ secrets.LLM_MODEL }}
@@ -58,7 +61,7 @@ jobs:
         run: |
           args=(--lookback-hours "$LOOKBACK_HOURS")
           if [[ "$IGNORE_SEEN" == "true" ]]; then args+=(--ignore-seen); fi
-          python src/ai_digest.py "${args[@]}"
+          python -m src.ai_digest "${args[@]}"
           echo "REPORT_DATE=$(date +%F)" >> "$GITHUB_ENV"
 
       - name: Upload report artifact
@@ -92,4 +95,3 @@ jobs:
       - name: Send email
         if: ${{ env.SMTP_HOST != '' }}
         run: python src/send_email.py --date "$REPORT_DATE"
-

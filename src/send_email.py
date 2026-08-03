@@ -29,7 +29,7 @@ def main() -> int:
     to = split_addresses(os.environ["EMAIL_TO"])
     cc = split_addresses(os.getenv("EMAIL_CC", ""))
     message = EmailMessage()
-    message["Subject"] = f"AI Daily · {args.date}"
+    message["Subject"] = f"每日 AI 速报 · {args.date}"
     message["From"] = os.environ["EMAIL_FROM"]
     message["To"] = ", ".join(to)
     if cc:
@@ -57,4 +57,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
