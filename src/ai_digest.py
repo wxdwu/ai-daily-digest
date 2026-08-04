@@ -429,6 +429,12 @@ def candidate_excerpt(candidate: Any) -> str:
     return clean_text(body, 220)
 
 
+def run_diagnostic_lines(source_errors: list[str], warnings: list[str]) -> list[str]:
+    lines = [f"来源失败：{error}" for error in source_errors if error]
+    lines.extend(f"提示：{warning}" for warning in warnings if warning)
+    return lines
+
+
 def categorize_and_score(
     item: Item, categories: list[dict[str, Any]], now: datetime
 ) -> Item:
@@ -811,6 +817,11 @@ def build_digest(args: argparse.Namespace) -> int:
         f"Fetched {len(raw_items)} raw items; radar {len(radar_topics)}; "
         f"validated Chinese {len(validated)}; selected {len(selected)}; source errors {len(source_errors)}"
     )
+    diagnostic_warnings = list(warnings)
+    if editorial.warning:
+        diagnostic_warnings.append(editorial.warning)
+    for diagnostic in run_diagnostic_lines(source_errors, diagnostic_warnings):
+        print(diagnostic)
     print(f"Wrote {latest} and {archive}")
     return 0
 

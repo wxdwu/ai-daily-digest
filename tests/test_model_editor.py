@@ -1,7 +1,7 @@
 import json
 import unittest
 
-from src.model_editor import edit_candidates
+from src.model_editor import edit_candidates, fallback_editorial
 
 
 def candidate_dict(candidate_id):
@@ -30,6 +30,25 @@ class FakeResponse:
 
 
 class ModelEditorTests(unittest.TestCase):
+    def test_fallback_headline_uses_category_range_instead_of_item_counts(self):
+        candidates = [candidate_dict("c1"), candidate_dict("c2")]
+        candidates[0]["category"] = "大模型"
+        candidates[1]["category"] = "AI Agent"
+        result = fallback_editorial(candidates)
+        self.assertEqual(result.storm_summary, "从大模型到 AI Agent，今日 AI 重点一页看完。")
+        self.assertNotIn("筛选出", result.storm_summary)
+
+    def test_fallback_headline_handles_one_category(self):
+        result = fallback_editorial([candidate_dict("c1")])
+        self.assertEqual(result.storm_summary, "今日聚焦 AI Infra，AI 重点一页看完。")
+
+    def test_fallback_headline_spaces_leading_english_category(self):
+        candidates = [candidate_dict("c1"), candidate_dict("c2")]
+        candidates[0]["category"] = "AI Infra"
+        candidates[1]["category"] = "AI 最新动态"
+        result = fallback_editorial(candidates)
+        self.assertEqual(result.storm_summary, "从 AI Infra 到 AI 最新动态，今日 AI 重点一页看完。")
+
     def test_accepts_only_known_candidate_ids(self):
         completion = {
             "choices": [{"message": {"content": json.dumps({
@@ -58,6 +77,8 @@ class ModelEditorTests(unittest.TestCase):
         self.assertEqual(result.mode, "外部模型: example-model")
         self.assertEqual(len(calls), 1)
         self.assertNotIn("url", calls[0]["messages"][1]["content"])
+        self.assertIn("storm_summary（30到50字）", calls[0]["messages"][1]["content"])
+        self.assertIn("selected_items（每项只含id、title）", calls[0]["messages"][1]["content"])
 
     def test_invalid_response_returns_deterministic_fallback(self):
         result = edit_candidates(

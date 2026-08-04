@@ -14,6 +14,7 @@ from src.ai_digest import (
     parse_datetime,
     parse_feed,
     resolve_editor_config,
+    run_diagnostic_lines,
     split_source_pools,
     validate_chinese_items,
 )
@@ -27,6 +28,18 @@ CATEGORIES = [
 
 
 class DigestTests(unittest.TestCase):
+    def test_diagnostic_lines_keep_errors_outside_the_report(self):
+        self.assertEqual(
+            run_diagnostic_lines(
+                ["量子位: timeout"],
+                ["中文页面校验未通过：1 条"],
+            ),
+            [
+                "来源失败：量子位: timeout",
+                "提示：中文页面校验未通过：1 条",
+            ],
+        )
+
     def test_parse_rfc_and_iso_dates(self):
         self.assertEqual(parse_datetime("Mon, 20 Jul 2026 08:00:00 GMT").hour, 8)
         self.assertEqual(parse_datetime("2026-07-20T08:00:00Z").tzinfo, timezone.utc)

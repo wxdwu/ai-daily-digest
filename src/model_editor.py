@@ -46,16 +46,26 @@ def fallback_editorial(candidates: list[dict[str, Any]], warning: str = "") -> E
                 "why": "来自已验证的中文 AI 资讯来源。",
             }
         )
-    category_counts: dict[str, int] = {}
+    categories: list[str] = []
     for candidate in candidates[:10]:
-        category = str(candidate.get("category") or "AI 最新动态")
-        category_counts[category] = category_counts.get(category, 0) + 1
-    count_text = "、".join(f"{name} {count} 条" for name, count in category_counts.items())
-    storm = f"今日筛选出 {len(selected)} 条中文 AI 精华资讯"
-    if count_text:
-        storm += f"，包括{count_text}。"
+        category = _clean(candidate.get("category") or "AI 最新动态", 40)
+        if category and category not in categories:
+            categories.append(category)
+    if len(categories) >= 2:
+        first_is_english = bool(re.match(r"[A-Za-z]", categories[0]))
+        last_is_english = bool(re.match(r"[A-Za-z]", categories[-1]))
+        after_from = " " if first_is_english else ""
+        before_to = " " if first_is_english else ""
+        after_to = " " if last_is_english else ""
+        storm = (
+            f"从{after_from}{categories[0]}{before_to}到{after_to}{categories[-1]}，"
+            "今日 AI 重点一页看完。"
+        )
+    elif categories:
+        separator = " " if re.match(r"[A-Za-z]", categories[0]) else ""
+        storm = f"今日聚焦{separator}{categories[0]}，AI 重点一页看完。"
     else:
-        storm += "。"
+        storm = "本期没有筛出足够可靠的中文 AI 资讯。"
     return EditorialResult(storm, selected, [], "规则降级", warning)
 
 
@@ -92,8 +102,8 @@ def edit_candidates(
     user_prompt = (
         "从候选中选出最多10条最重要资讯，覆盖AI最新动态、大模型、AI Agent和AI Infra；"
         "有合格内容时优先保留至少2条AI Infra。返回对象字段："
-        "storm_summary（60到100字）、selected_items（每项含id、title、summary、why）、"
-        "trends（最多3条）。title不超过35字，summary不超过70字，why不超过35字。\n"
+        "storm_summary（30到50字）、selected_items（每项只含id、title）。"
+        "title不超过35字，标题要准确、凝练、适合手机快速浏览。\n"
         + json.dumps(compact, ensure_ascii=False)
     )
     payload = json.dumps(
