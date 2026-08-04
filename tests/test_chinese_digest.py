@@ -1,4 +1,5 @@
 from datetime import datetime, timezone
+import re
 import unittest
 
 from src.chinese_digest import (
@@ -103,16 +104,16 @@ class MatchingTests(unittest.TestCase):
 
 
 class ReportTests(unittest.TestCase):
-    def test_report_uses_only_verified_chinese_candidate_links(self):
+    def test_report_is_a_compact_clickable_title_list(self):
         candidate = make_candidate("c1", "英伟达发布中文推理平台", "infra")
         editorial = EditorialResult(
-            storm_summary="今日重点关注大模型推理平台和智能体基础设施的新进展。",
+            storm_summary="从大模型到智能体落地，今日重点一页看完。",
             selected_items=[
                 {
                     "id": "c1",
                     "title": "英伟达推理平台迎来更新",
-                    "summary": "中文报道梳理了新平台的推理吞吐和部署变化。",
-                    "why": "影响大模型服务成本。",
+                    "summary": "不应显示的摘要",
+                    "why": "不应显示的理由",
                 },
                 {
                     "id": "radar-english",
@@ -121,8 +122,9 @@ class ReportTests(unittest.TestCase):
                     "why": "",
                 },
             ],
-            trends=["推理成本继续下降。"],
-            mode="外部模型: example-model",
+            trends=["不应显示的趋势"],
+            mode="规则降级",
+            warning="不应显示的警告",
         )
         report = render_chinese_report(
             [candidate],
@@ -131,12 +133,83 @@ class ReportTests(unittest.TestCase):
             radar_count=12,
             chinese_source_count=5,
             valid_count=1,
+            source_errors=["不应显示的来源错误"],
         )
         self.assertIn("# 每日 AI 速报 · 2026-08-04", report)
-        self.assertIn("[英伟达推理平台迎来更新](https://example.cn/c1)", report)
-        self.assertIn("今日 AI 风暴", report)
+        self.assertIn("📮 今日 AI 猛料：从大模型到智能体落地，今日重点一页看完。", report)
+        self.assertIn("1. [英伟达推理平台迎来更新](https://example.cn/c1)", report)
+        for hidden in (
+            "不应显示的摘要",
+            "不应显示的理由",
+            "不应显示的趋势",
+            "不应显示的警告",
+            "不应显示的来源错误",
+            "运行状态",
+            "示例中文媒体",
+            "AI Infra",
+        ):
+            self.assertNotIn(hidden, report)
         self.assertNotIn("radar-english", report)
         self.assertNotIn("English radar must not leak", report)
+
+    def test_report_normalizes_and_truncates_titles(self):
+        long_title = "这是一个明显超过三十五个可见字符并且需要在手机速报中被稳定截断的中文资讯标题！！！"
+        candidates = [
+            make_candidate("c1", long_title, "models"),
+            make_candidate("c2", "模型发布！！！", "models"),
+        ]
+        editorial = EditorialResult(
+            storm_summary="今日重点一页看完。",
+            selected_items=[
+                {"id": "c1", "title": long_title, "summary": "", "why": ""},
+                {"id": "c2", "title": "模型发布！！！", "summary": "", "why": ""},
+            ],
+        )
+        report = render_chinese_report(
+            candidates,
+            editorial,
+            datetime(2026, 8, 3, 23, 0, tzinfo=timezone.utc),
+            radar_count=0,
+            chinese_source_count=1,
+            valid_count=2,
+        )
+        displayed = re.search(r"1\. \[(.*?)\]\(", report).group(1)
+        self.assertEqual(len(displayed), 35)
+        self.assertTrue(displayed.endswith("…"))
+        self.assertIn("2. [模型发布](https://example.cn/c2)", report)
+
+    def test_report_caps_known_candidates_at_ten(self):
+        candidates = [make_candidate(f"c{i}", f"第{i}条中文资讯", "agents") for i in range(1, 12)]
+        editorial = EditorialResult(
+            storm_summary="今日重点一页看完。",
+            selected_items=[
+                {"id": candidate.id, "title": candidate.title, "summary": "", "why": ""}
+                for candidate in candidates
+            ],
+        )
+        report = render_chinese_report(
+            candidates,
+            editorial,
+            datetime(2026, 8, 3, 23, 0, tzinfo=timezone.utc),
+            radar_count=0,
+            chinese_source_count=1,
+            valid_count=11,
+        )
+        self.assertIn("10. [第10条中文资讯](https://example.cn/c10)", report)
+        self.assertNotIn("11. [", report)
+
+    def test_empty_report_is_one_short_headline(self):
+        report = render_chinese_report(
+            [],
+            EditorialResult("", []),
+            datetime(2026, 8, 3, 23, 0, tzinfo=timezone.utc),
+            radar_count=0,
+            chinese_source_count=1,
+            valid_count=0,
+        )
+        self.assertIn("📮 今日 AI 猛料：本期没有筛出足够可靠的中文 AI 资讯。", report)
+        self.assertNotIn("1. [", report)
+        self.assertNotIn("运行状态", report)
 
 
 if __name__ == "__main__":

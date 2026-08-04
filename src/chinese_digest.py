@@ -156,6 +156,14 @@ def select_candidates(ranked: list[ChineseCandidate], max_items: int = 10) -> li
     return selected
 
 
+def _compact_title(value: str, limit: int = 35) -> str:
+    title = re.sub(r"\s+", " ", value).strip()
+    title = re.sub(r"[。！!？?，,、；;：:….\s]+$", "", title)
+    if len(title) <= limit:
+        return title
+    return title[: limit - 1].rstrip() + "…"
+
+
 def render_chinese_report(
     candidates: list[ChineseCandidate],
     editorial: EditorialResult,
@@ -170,71 +178,20 @@ def render_chinese_report(
     local_tz = ZoneInfo(os.getenv("TZ", "Asia/Shanghai"))
     local_now = now.astimezone(local_tz)
     by_id = {candidate.id: candidate for candidate in candidates}
-    selected = [item for item in editorial.selected_items if str(item.get("id", "")) in by_id]
+    selected = [
+        item for item in editorial.selected_items if str(item.get("id", "")) in by_id
+    ][:10]
+    storm_summary = re.sub(r"\s+", " ", editorial.storm_summary).strip()
+    if not selected:
+        storm_summary = "本期没有筛出足够可靠的中文 AI 资讯。"
     lines = [
         f"# 每日 AI 速报 · {local_now:%Y-%m-%d}",
         "",
-        f"> 生成时间：{local_now:%Y-%m-%d %H:%M}（{local_tz.key}）",
-        "",
-        "## 📮 今日 AI 风暴",
-        "",
-        editorial.storm_summary or "本期没有筛出足够可靠的中文 AI 资讯。",
+        f"📮 今日 AI 猛料：{storm_summary}",
         "",
     ]
-    if selected:
-        lines.extend(["## 今日精华", ""])
-        for index, edited in enumerate(selected, 1):
-            candidate = by_id[str(edited["id"])]
-            title = str(edited.get("title") or candidate.title).strip()
-            summary = str(edited.get("summary") or candidate.summary).strip()
-            why = str(edited.get("why") or "").strip()
-            published = candidate.published.astimezone(local_tz).strftime("%m-%d %H:%M")
-            lines.extend(
-                [
-                    f"### {index}. [{title}]({candidate.url})",
-                    "",
-                    f"`{candidate.category_label or 'AI 最新动态'}` · `{candidate.source}` · `{published}`",
-                    "",
-                    summary or "请打开中文原文查看完整信息。",
-                    "",
-                ]
-            )
-            if why:
-                lines.extend([f"**为什么值得看：** {why}", ""])
-    else:
-        lines.extend(["本观察窗口内没有通过中文正文校验的高质量资讯。", ""])
-
-    if editorial.trends:
-        lines.extend(["## 三个趋势", ""])
-        lines.extend(f"- {trend}" for trend in editorial.trends)
-        lines.append("")
-
-    lines.extend(
-        [
-            "## 运行状态",
-            "",
-            f"- 国际雷达：{radar_count} 条",
-            f"- 中文来源：{chinese_source_count} 个",
-            f"- 通过中文正文校验：{valid_count} 条",
-            f"- 编辑模式：{editorial.mode}",
-        ]
-    )
-    all_warnings = list(warnings or [])
-    if editorial.warning:
-        all_warnings.append(editorial.warning)
-    if all_warnings:
-        lines.extend(["", "提示："])
-        lines.extend(f"- {warning}" for warning in all_warnings)
-    if source_errors:
-        lines.extend(["", "本次读取失败但未中断的来源："])
-        lines.extend(f"- {error}" for error in source_errors)
-    lines.extend(
-        [
-            "",
-            "---",
-            "",
-            "仅收录已通过中文正文校验的链接；重要结论请打开原文复核。",
-            "",
-        ]
-    )
-    return "\n".join(lines)
+    for index, edited in enumerate(selected, 1):
+        candidate = by_id[str(edited["id"])]
+        title = _compact_title(str(edited.get("title") or candidate.title))
+        lines.append(f"{index}. [{title}]({candidate.url})")
+    return "\n".join(lines).rstrip() + "\n"
