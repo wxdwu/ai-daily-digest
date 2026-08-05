@@ -305,7 +305,43 @@
       "title": "114B参数、6B激活，Sand.ai刚刚开源全球首个千亿MoE视频生成模型",
       "seen_at": "2026-08-05T08:20:26.761970+00:00",
       "run_date": "2026-08-05"
+    },
+    "245c9879e07eb2ee2d8b": {
+      "url": "https://www.infoq.cn/article/OlBv9DATXabu0bb4kAPt?utm_source=rss&utm_medium=article",
+      "title": "Ming-Flash-Omni：全模态统一大模型的关键技术与实践",
+      "seen_at": "2026-08-05T23:44:27.445646+00:00",
+      "run_date": "2026-08-06"
+    },
+    "17defaf6cae27210da6d": {
+      "url": "https://aws.amazon.com/cn/blogs/china/aws-lambda-microvms-quick-deploy-gaming-service-colyseus/",
+      "title": "用 AWS Lambda MicroVMs 快速部署多人游戏服务器：让 Colyseus 实时服务”无服务器化”",
+      "seen_at": "2026-08-05T23:44:27.445646+00:00",
+      "run_date": "2026-08-06"
+    },
+    "57aa853efacd33ec2d00": {
+      "url": "https://www.infoq.cn/article/KROGtjyegHRSKCSNS70o?utm_source=rss&utm_medium=article",
+      "title": "GPT-5.6价格暴降，最低打两折！网友隔空点A社：该你了",
+      "seen_at": "2026-08-05T23:44:27.445646+00:00",
+      "run_date": "2026-08-06"
+    },
+    "ca39a3d648e19df4f0cd": {
+      "url": "https://www.infoq.cn/article/Zx9Z9etgapBsdOL9FtW1?utm_source=rss&utm_medium=article",
+      "title": "谷歌连发三模型，把机器人调教成“全能打工人”！几小时速配、从头控到脚，还能“组团”开干",
+      "seen_at": "2026-08-05T23:44:27.445646+00:00",
+      "run_date": "2026-08-06"
+    },
+    "03c390e5c351930bcad4": {
+      "url": "https://www.infoq.cn/article/sJLewGjY5sUZPgpGy071?utm_source=rss&utm_medium=article",
+      "title": "AI 根因分析从模型推理转向上下文工程",
+      "seen_at": "2026-08-05T23:44:27.445646+00:00",
+      "run_date": "2026-08-06"
+    },
+    "b80e182f0bcaf1955488": {
+      "url": "https://www.infoq.cn/article/YZEahCZsDt3lZhHYvLPX?utm_source=rss&utm_medium=article",
+      "title": "亚马逊云科技发布 GuardDuty Investigation Agent：让 AI 帮安全团队追查攻击线索",
+      "seen_at": "2026-08-05T23:44:27.445646+00:00",
+      "run_date": "2026-08-06"
     }
   },
-  "updated_at": "2026-08-05T08:20:26.761970+00:00"
+  "updated_at": "2026-08-05T23:44:27.445646+00:00"
 }
