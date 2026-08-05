@@ -49,7 +49,7 @@ def render_report_html(report: str) -> str:
     body {{ margin: 0; background: #ffffff; color: #202124; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }}
     main {{ max-width: 680px; margin: 0 auto; padding: 12px 16px; }}
     ol {{ margin: 0; padding-left: 28px; }}
-    li {{ padding: 10px 0; border-bottom: 1px solid #e8eaed; font-size: 17px; line-height: 1.45; }}
+    li {{ padding: 5px 0; border-bottom: 1px solid #e8eaed; font-size: 14px; line-height: 1.35; }}
     li:last-child {{ border-bottom: 0; }}
     a {{ display: block; max-width: 100%; color: #1769d2; text-decoration: none; overflow-wrap: anywhere; word-break: break-all; }}
     p {{ margin: 0; font-size: 16px; line-height: 1.5; }}

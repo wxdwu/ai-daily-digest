@@ -25,6 +25,9 @@ class EmailRenderingTests(unittest.TestCase):
         self.assertIn("overflow-wrap: anywhere", html_body)
         self.assertIn("display: block", html_body)
         self.assertIn("word-break: break-all", html_body)
+        self.assertIn("padding: 5px 0", html_body)
+        self.assertIn("font-size: 14px", html_body)
+        self.assertIn("line-height: 1.35", html_body)
 
     def test_message_contains_plain_and_html_without_attachment(self):
         message = build_message(
