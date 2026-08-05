@@ -221,7 +221,55 @@
       "title": "AI不再用完即忘：华为诺亚开源MindMemOS，记忆和Skill一起进化",
       "seen_at": "2026-08-04T00:11:26.743114+00:00",
       "run_date": "2026-08-04"
+    },
+    "0739fbc63346d2756eea": {
+      "url": "https://www.qbitai.com/2026/08/465732.html",
+      "title": "亿级日活App的“算力生死劫”：推理成本倒挂，他们靠跨云架构砍掉75% GPU集群",
+      "seen_at": "2026-08-05T00:06:56.151347+00:00",
+      "run_date": "2026-08-05"
+    },
+    "9810544401510ade5c2a": {
+      "url": "https://developer.nvidia.cn/blog/spark-ugc-ai-roundtable/",
+      "title": "告别 Token 焦虑：用 NVIDIA DGX Spark 打造游戏 UGC 多智能体“AI 圆桌”协作系统",
+      "seen_at": "2026-08-05T00:06:56.151347+00:00",
+      "run_date": "2026-08-05"
+    },
+    "90c197237863a59c1da4": {
+      "url": "https://developer.nvidia.cn/blog/how-to-run-isolated-tenant-kubernetes-clusters-on-shared-gpu-infrastructure/",
+      "title": "如何在共享 GPU 基础架构上运行隔离的租户 Kubernetes 集群",
+      "seen_at": "2026-08-05T00:06:56.151347+00:00",
+      "run_date": "2026-08-05"
+    },
+    "9c6d66199cda6a7b85c0": {
+      "url": "https://www.infoq.cn/article/vUmdr8i7Mo5sqovwLxN8?utm_source=rss&utm_medium=article",
+      "title": "中国软件行业领军人物、深开鸿CEO王成录博士确认出席AICon深圳，将分享“让 AI 拥有身体：从大模型迈向物理 AI”",
+      "seen_at": "2026-08-05T00:06:56.151347+00:00",
+      "run_date": "2026-08-05"
+    },
+    "2535172a45e7b20fb35f": {
+      "url": "https://aws.amazon.com/cn/blogs/china/backend-service-ai-application-deploy/",
+      "title": "后端即服务：AI时代应用部署新范式",
+      "seen_at": "2026-08-05T00:06:56.151347+00:00",
+      "run_date": "2026-08-05"
+    },
+    "9ea78951cbf2b43fe55a": {
+      "url": "https://www.qbitai.com/2026/08/466386.html",
+      "title": "开源版Claude Science来了！零依赖、MIT协议，内置30+项科研Skills",
+      "seen_at": "2026-08-05T00:06:56.151347+00:00",
+      "run_date": "2026-08-05"
+    },
+    "66fbf63aaba35053767e": {
+      "url": "https://www.qbitai.com/2026/08/465814.html",
+      "title": "DeepSeek低价风暴打服硅谷！海外平台争相倒贴V4 Flash",
+      "seen_at": "2026-08-05T00:06:56.151347+00:00",
+      "run_date": "2026-08-05"
+    },
+    "5b3986717333cbf69380": {
+      "url": "https://www.infoq.cn/article/Mar3v7yyH4PjYFKLUZUh?utm_source=rss&utm_medium=article",
+      "title": "以 AI 为辅助的安全研究人员发现，攻击者可以利用经过特殊构造的视频获取用户电脑的访问权限",
+      "seen_at": "2026-08-05T00:06:56.151347+00:00",
+      "run_date": "2026-08-05"
     }
   },
-  "updated_at": "2026-08-04T00:11:26.743114+00:00"
+  "updated_at": "2026-08-05T00:06:56.151347+00:00"
 }
