@@ -3,7 +3,9 @@ import unittest
 from src.send_email import build_message, render_report_html
 
 
-REPORT = """1. [英伟达 & GPU](https://example.cn/c1?x=1&y=2)
+REPORT = """算力 & Agent 进入落地期
+
+1. [英伟达 & GPU](https://example.cn/c1?x=1&y=2)
 2. [智能体安全更新](https://example.cn/c2)
 """
 
@@ -12,19 +14,21 @@ class EmailRenderingTests(unittest.TestCase):
     def test_html_is_only_a_compact_safe_link_list(self):
         html_body = render_report_html(REPORT)
 
-        self.assertIn("<ol>", html_body)
-        self.assertIn(
-            '<a href="https://example.cn/c1?x=1&amp;y=2">英伟达 &amp; GPU</a>',
-            html_body,
-        )
-        self.assertEqual(html_body.count("<li>"), 2)
-        self.assertNotIn("<h1", html_body)
+        self.assertIn("<ol ", html_body)
+        self.assertIn('<h1 class="digest-headline"', html_body)
+        self.assertIn("算力 &amp; Agent 进入落地期", html_body)
+        self.assertIn("AI DAILY · 2 条精选", html_body)
+        self.assertIn('href="https://example.cn/c1?x=1&amp;y=2"', html_body)
+        self.assertIn(">英伟达 &amp; GPU</a>", html_body)
+        self.assertEqual(html_body.count("<li "), 2)
         self.assertNotIn('class="lead"', html_body)
         self.assertNotIn('class="meta"', html_body)
         self.assertNotIn('class="summary"', html_body)
         self.assertIn("overflow-wrap: anywhere", html_body)
         self.assertIn("display: block", html_body)
-        self.assertIn("word-break: break-all", html_body)
+        self.assertIn("word-break: normal", html_body)
+        self.assertNotIn("word-break: break-all", html_body)
+        self.assertIn("text-decoration: none !important", html_body)
         self.assertIn("padding: 5px 0", html_body)
         self.assertIn("font-size: 14px", html_body)
         self.assertIn("line-height: 1.35", html_body)
@@ -43,10 +47,10 @@ class EmailRenderingTests(unittest.TestCase):
             message.get_body(preferencelist=("plain",)).get_content().strip(),
             REPORT.strip(),
         )
-        self.assertIn(
-            '<a href="https://example.cn/c1?x=1&amp;y=2">英伟达 &amp; GPU</a>',
-            message.get_body(preferencelist=("html",)).get_content(),
-        )
+        html_body = message.get_body(preferencelist=("html",)).get_content()
+        self.assertIn('href="https://example.cn/c1?x=1&amp;y=2"', html_body)
+        self.assertIn(">英伟达 &amp; GPU</a>", html_body)
+        self.assertIn("算力 &amp; Agent 进入落地期", html_body)
         self.assertEqual(len(list(message.iter_attachments())), 0)
 
     def test_empty_result_is_one_plain_html_paragraph(self):
@@ -54,6 +58,7 @@ class EmailRenderingTests(unittest.TestCase):
 
         self.assertIn("<p>本期没有筛出足够可靠的中文 AI 资讯。</p>", html_body)
         self.assertNotIn("<ol>", html_body)
+        self.assertNotIn('<h1 class="digest-headline"', html_body)
 
 
 if __name__ == "__main__":

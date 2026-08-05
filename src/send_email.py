@@ -33,11 +33,31 @@ def render_report_html(report: str) -> str:
             fallback_lines.append(line)
 
     if links:
+        link_style = (
+            "display: block; max-width: 100%; color: #24446b !important; "
+            "text-decoration: none !important; overflow-wrap: anywhere; "
+            "word-break: normal; font-size: 14px; line-height: 1.35; font-weight: 600;"
+        )
         items = "\n".join(
-            f'<li><a href="{html.escape(url, quote=True)}">{html.escape(title)}</a></li>'
+            '<li style="padding: 5px 0; border-bottom: 1px solid #edf1f5;">'
+            f'<a href="{html.escape(url, quote=True)}" style="{link_style}">'
+            f"{html.escape(title)}</a></li>"
             for title, url in links
         )
-        content = f"<ol>\n{items}\n</ol>"
+        headline = fallback_lines[0] if fallback_lines else "今日 AI 焦点"
+        focus = (
+            '<div class="digest-focus" style="margin: 0 0 4px; padding: 8px 10px; '
+            'background: #f3f7fd; border-left: 3px solid #3b82f6; border-radius: 6px;">'
+            '<div style="margin: 0; color: #527097; font-size: 10px; line-height: 1.2; '
+            f'font-weight: 700; letter-spacing: .08em;">AI DAILY · {len(links)} 条精选</div>'
+            '<h1 class="digest-headline" style="margin: 2px 0 0; color: #172b4d; '
+            f'font-size: 15px; line-height: 1.3; font-weight: 700;">{html.escape(headline)}</h1>'
+            "</div>"
+        )
+        content = (
+            f'{focus}<ol style="margin: 0; padding-left: 26px; color: #667085;">\n'
+            f"{items}\n</ol>"
+        )
     else:
         content = f"<p>{html.escape(' '.join(fallback_lines))}</p>"
     return f"""<!doctype html>
@@ -47,12 +67,14 @@ def render_report_html(report: str) -> str:
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body {{ margin: 0; background: #ffffff; color: #202124; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }}
-    main {{ max-width: 680px; margin: 0 auto; padding: 12px 16px; }}
-    ol {{ margin: 0; padding-left: 28px; }}
-    li {{ padding: 5px 0; border-bottom: 1px solid #e8eaed; font-size: 14px; line-height: 1.35; }}
+    main {{ max-width: 680px; margin: 0 auto; padding: 10px 14px; }}
+    .digest-focus {{ background: #f3f7fd; border-left: 3px solid #3b82f6; }}
+    .digest-headline {{ color: #172b4d; font-size: 15px; line-height: 1.3; }}
+    ol {{ margin: 0; padding-left: 26px; color: #667085; }}
+    li {{ padding: 5px 0; border-bottom: 1px solid #edf1f5; font-size: 14px; line-height: 1.35; }}
     li:last-child {{ border-bottom: 0; }}
-    a {{ display: block; max-width: 100%; color: #1769d2; text-decoration: none; overflow-wrap: anywhere; word-break: break-all; }}
-    p {{ margin: 0; font-size: 16px; line-height: 1.5; }}
+    a {{ display: block; max-width: 100%; color: #24446b !important; text-decoration: none !important; overflow-wrap: anywhere; word-break: normal; font-weight: 600; }}
+    p {{ margin: 0; font-size: 14px; line-height: 1.4; }}
   </style>
 </head>
 <body><main>
