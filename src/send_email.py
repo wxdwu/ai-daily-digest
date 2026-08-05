@@ -51,7 +51,7 @@ def render_report_html(report: str) -> str:
     ol {{ margin: 0; padding-left: 28px; }}
     li {{ padding: 10px 0; border-bottom: 1px solid #e8eaed; font-size: 17px; line-height: 1.45; }}
     li:last-child {{ border-bottom: 0; }}
-    a {{ color: #1769d2; text-decoration: none; }}
+    a {{ display: block; max-width: 100%; color: #1769d2; text-decoration: none; overflow-wrap: anywhere; word-break: break-all; }}
     p {{ margin: 0; font-size: 16px; line-height: 1.5; }}
   </style>
 </head>

@@ -22,6 +22,9 @@ class EmailRenderingTests(unittest.TestCase):
         self.assertNotIn('class="lead"', html_body)
         self.assertNotIn('class="meta"', html_body)
         self.assertNotIn('class="summary"', html_body)
+        self.assertIn("overflow-wrap: anywhere", html_body)
+        self.assertIn("display: block", html_body)
+        self.assertIn("word-break: break-all", html_body)
 
     def test_message_contains_plain_and_html_without_attachment(self):
         message = build_message(
