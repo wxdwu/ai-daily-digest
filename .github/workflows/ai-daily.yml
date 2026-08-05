@@ -2,8 +2,8 @@ name: 每日 AI 速报
 
 on:
   schedule:
-    # GitHub cron uses UTC: 23:00 UTC = 07:00 Asia/Shanghai on the next day.
-    - cron: "0 23 * * *"
+    # GitHub cron uses UTC: 01:00 UTC = 09:00 Asia/Shanghai.
+    - cron: "0 1 * * *"
   workflow_dispatch:
     inputs:
       lookback_hours:
