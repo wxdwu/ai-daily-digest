@@ -231,13 +231,13 @@
     "9810544401510ade5c2a": {
       "url": "https://developer.nvidia.cn/blog/spark-ugc-ai-roundtable/",
       "title": "告别 Token 焦虑：用 NVIDIA DGX Spark 打造游戏 UGC 多智能体“AI 圆桌”协作系统",
-      "seen_at": "2026-08-05T07:16:47.906152+00:00",
+      "seen_at": "2026-08-05T07:41:39.857587+00:00",
       "run_date": "2026-08-05"
     },
     "90c197237863a59c1da4": {
       "url": "https://developer.nvidia.cn/blog/how-to-run-isolated-tenant-kubernetes-clusters-on-shared-gpu-infrastructure/",
       "title": "如何在共享 GPU 基础架构上运行隔离的租户 Kubernetes 集群",
-      "seen_at": "2026-08-05T07:16:47.906152+00:00",
+      "seen_at": "2026-08-05T07:41:39.857587+00:00",
       "run_date": "2026-08-05"
     },
     "9c6d66199cda6a7b85c0": {
@@ -249,19 +249,19 @@
     "2535172a45e7b20fb35f": {
       "url": "https://aws.amazon.com/cn/blogs/china/backend-service-ai-application-deploy/",
       "title": "后端即服务：AI时代应用部署新范式",
-      "seen_at": "2026-08-05T07:16:47.906152+00:00",
+      "seen_at": "2026-08-05T07:41:39.857587+00:00",
       "run_date": "2026-08-05"
     },
     "9ea78951cbf2b43fe55a": {
       "url": "https://www.qbitai.com/2026/08/466386.html",
       "title": "开源版Claude Science来了！零依赖、MIT协议，内置30+项科研Skills",
-      "seen_at": "2026-08-05T07:16:47.906152+00:00",
+      "seen_at": "2026-08-05T07:41:39.857587+00:00",
       "run_date": "2026-08-05"
     },
     "66fbf63aaba35053767e": {
       "url": "https://www.qbitai.com/2026/08/465814.html",
       "title": "DeepSeek低价风暴打服硅谷！海外平台争相倒贴V4 Flash",
-      "seen_at": "2026-08-05T07:16:47.906152+00:00",
+      "seen_at": "2026-08-05T07:41:39.857587+00:00",
       "run_date": "2026-08-05"
     },
     "5b3986717333cbf69380": {
@@ -273,21 +273,27 @@
     "d6af8752f6f43e125077": {
       "url": "https://www.qbitai.com/2026/08/466454.html",
       "title": "倒卖英伟达GPU算力比火箭卫星来钱快！马斯克交出SpaceX首份财报",
-      "seen_at": "2026-08-05T07:16:47.906152+00:00",
+      "seen_at": "2026-08-05T07:41:39.857587+00:00",
       "run_date": "2026-08-05"
     },
     "10a10c9889bc60c665d0": {
       "url": "https://blogs.nvidia.cn/blog/open-secure-ai-alliance-contributions/",
       "title": "AI 领导者提出 SAFE 指南，旨在提高网络安全透明度",
-      "seen_at": "2026-08-05T07:16:47.906152+00:00",
+      "seen_at": "2026-08-05T07:41:39.857587+00:00",
       "run_date": "2026-08-05"
     },
     "3d80a1462af389a11b4d": {
       "url": "https://www.qbitai.com/2026/08/466553.html",
       "title": "老黄垒20年的CUDA护城河，AI刚刚用10小时凿开了",
-      "seen_at": "2026-08-05T07:16:47.906152+00:00",
+      "seen_at": "2026-08-05T07:41:39.857587+00:00",
+      "run_date": "2026-08-05"
+    },
+    "ee0a69799f02c26fcfdd": {
+      "url": "https://www.infoq.cn/article/4rVt0Kd7LZeHP1krbeTf?utm_source=rss&utm_medium=article",
+      "title": "GPT-5.6 当老板：买假用户、被Chrome干崩3小时，烧掉3亿Token收入却为0",
+      "seen_at": "2026-08-05T07:41:39.857587+00:00",
       "run_date": "2026-08-05"
     }
   },
-  "updated_at": "2026-08-05T07:16:47.906152+00:00"
+  "updated_at": "2026-08-05T07:41:39.857587+00:00"
 }
