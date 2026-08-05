@@ -79,6 +79,8 @@ class ModelEditorTests(unittest.TestCase):
         self.assertNotIn("url", calls[0]["messages"][1]["content"])
         self.assertIn("storm_summary（30到50字）", calls[0]["messages"][1]["content"])
         self.assertIn("selected_items（每项只含id、title）", calls[0]["messages"][1]["content"])
+        self.assertIn("语义完整，不得使用省略号截断", calls[0]["messages"][1]["content"])
+        self.assertNotIn("title不超过35字", calls[0]["messages"][1]["content"])
 
     def test_invalid_response_returns_deterministic_fallback(self):
         result = edit_candidates(

@@ -103,7 +103,7 @@ def edit_candidates(
         "从候选中选出最多10条最重要资讯，覆盖AI最新动态、大模型、AI Agent和AI Infra；"
         "有合格内容时优先保留至少2条AI Infra。返回对象字段："
         "storm_summary（30到50字）、selected_items（每项只含id、title）。"
-        "title不超过35字，标题要准确、凝练、适合手机快速浏览。\n"
+        "title要准确、简洁、语义完整，不得使用省略号截断。\n"
         + json.dumps(compact, ensure_ascii=False)
     )
     payload = json.dumps(

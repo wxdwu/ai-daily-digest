@@ -141,7 +141,7 @@ class ReportTests(unittest.TestCase):
             "1. [英伟达推理平台迎来更新](https://example.cn/c1)\n",
         )
 
-    def test_report_normalizes_and_truncates_titles(self):
+    def test_report_normalizes_titles_without_truncating(self):
         long_title = "这是一个明显超过三十五个可见字符并且需要在手机速报中被稳定截断的中文资讯标题！！！"
         candidates = [
             make_candidate("c1", long_title, "models"),
@@ -163,8 +163,11 @@ class ReportTests(unittest.TestCase):
             valid_count=2,
         )
         displayed = re.search(r"1\. \[(.*?)\]\(", report).group(1)
-        self.assertEqual(len(displayed), 35)
-        self.assertTrue(displayed.endswith("…"))
+        self.assertEqual(
+            displayed,
+            "这是一个明显超过三十五个可见字符并且需要在手机速报中被稳定截断的中文资讯标题",
+        )
+        self.assertFalse(displayed.endswith("…"))
         self.assertIn("2. [模型发布](https://example.cn/c2)", report)
 
     def test_report_caps_known_candidates_at_ten(self):

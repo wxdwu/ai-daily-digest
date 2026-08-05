@@ -154,12 +154,9 @@ def select_candidates(ranked: list[ChineseCandidate], max_items: int = 10) -> li
     return selected
 
 
-def _compact_title(value: str, limit: int = 35) -> str:
+def _normalized_title(value: str) -> str:
     title = re.sub(r"\s+", " ", value).strip()
-    title = re.sub(r"[。！!？?，,、；;：:….\s]+$", "", title)
-    if len(title) <= limit:
-        return title
-    return title[: limit - 1].rstrip() + "…"
+    return re.sub(r"[。！!？?，,、；;：:….\s]+$", "", title)
 
 
 def render_chinese_report(
@@ -182,6 +179,6 @@ def render_chinese_report(
     lines = []
     for index, edited in enumerate(selected, 1):
         candidate = by_id[str(edited["id"])]
-        title = _compact_title(str(edited.get("title") or candidate.title))
+        title = _normalized_title(str(edited.get("title") or candidate.title))
         lines.append(f"{index}. [{title}]({candidate.url})")
     return "\n".join(lines) + "\n"
