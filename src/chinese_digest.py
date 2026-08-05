@@ -164,6 +164,13 @@ def _compact_title(value: str, limit: int = 35) -> str:
     return title[: limit - 1].rstrip() + "…"
 
 
+def _compact_summary(value: str, limit: int = 120) -> str:
+    summary = re.sub(r"\s+", " ", value).strip()
+    if len(summary) <= limit:
+        return summary
+    return summary[: limit - 1].rstrip() + "…"
+
+
 def render_chinese_report(
     candidates: list[ChineseCandidate],
     editorial: EditorialResult,
@@ -193,5 +200,22 @@ def render_chinese_report(
     for index, edited in enumerate(selected, 1):
         candidate = by_id[str(edited["id"])]
         title = _compact_title(str(edited.get("title") or candidate.title))
-        lines.append(f"{index}. [{title}]({candidate.url})")
+        published = candidate.published
+        if published.tzinfo is None:
+            published = published.replace(tzinfo=timezone.utc)
+        local_published = published.astimezone(local_tz)
+        category = candidate.category_label or "AI 最新动态"
+        summary = _compact_summary(
+            str(edited.get("summary") or candidate.summary or "请打开中文原文查看完整信息。")
+        )
+        lines.extend(
+            [
+                f"{index}. [{title}]({candidate.url})",
+                "",
+                f"   `{category}` · `{local_published:%m-%d %H:%M}`",
+                "",
+                f"   {summary}",
+                "",
+            ]
+        )
     return "\n".join(lines).rstrip() + "\n"
