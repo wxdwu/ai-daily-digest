@@ -5,10 +5,8 @@ from __future__ import annotations
 from dataclasses import asdict, dataclass, field
 from datetime import datetime, timezone
 from difflib import SequenceMatcher
-import os
 import re
 from typing import Any
-from zoneinfo import ZoneInfo
 
 from src.model_editor import EditorialResult
 
@@ -164,13 +162,6 @@ def _compact_title(value: str, limit: int = 35) -> str:
     return title[: limit - 1].rstrip() + "…"
 
 
-def _compact_summary(value: str, limit: int = 120) -> str:
-    summary = re.sub(r"\s+", " ", value).strip()
-    if len(summary) <= limit:
-        return summary
-    return summary[: limit - 1].rstrip() + "…"
-
-
 def render_chinese_report(
     candidates: list[ChineseCandidate],
     editorial: EditorialResult,
@@ -182,40 +173,15 @@ def render_chinese_report(
     source_errors: list[str] | None = None,
     warnings: list[str] | None = None,
 ) -> str:
-    local_tz = ZoneInfo(os.getenv("TZ", "Asia/Shanghai"))
-    local_now = now.astimezone(local_tz)
     by_id = {candidate.id: candidate for candidate in candidates}
     selected = [
         item for item in editorial.selected_items if str(item.get("id", "")) in by_id
     ][:10]
-    storm_summary = re.sub(r"\s+", " ", editorial.storm_summary).strip()
     if not selected:
-        storm_summary = "本期没有筛出足够可靠的中文 AI 资讯。"
-    lines = [
-        f"# 每日 AI 速报 · {local_now:%Y-%m-%d}",
-        "",
-        f"📮 今日 AI 猛料：{storm_summary}",
-        "",
-    ]
+        return "本期没有筛出足够可靠的中文 AI 资讯。\n"
+    lines = []
     for index, edited in enumerate(selected, 1):
         candidate = by_id[str(edited["id"])]
         title = _compact_title(str(edited.get("title") or candidate.title))
-        published = candidate.published
-        if published.tzinfo is None:
-            published = published.replace(tzinfo=timezone.utc)
-        local_published = published.astimezone(local_tz)
-        category = candidate.category_label or "AI 最新动态"
-        summary = _compact_summary(
-            str(edited.get("summary") or candidate.summary or "请打开中文原文查看完整信息。")
-        )
-        lines.extend(
-            [
-                f"{index}. [{title}]({candidate.url})",
-                "",
-                f"   `{category}` · `{local_published:%m-%d %H:%M}`",
-                "",
-                f"   {summary}",
-                "",
-            ]
-        )
-    return "\n".join(lines).rstrip() + "\n"
+        lines.append(f"{index}. [{title}]({candidate.url})")
+    return "\n".join(lines) + "\n"

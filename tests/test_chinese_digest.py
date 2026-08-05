@@ -104,7 +104,7 @@ class MatchingTests(unittest.TestCase):
 
 
 class ReportTests(unittest.TestCase):
-    def test_report_has_clickable_title_metadata_and_short_intro(self):
+    def test_report_is_only_a_clickable_title_list(self):
         candidate = make_candidate("c1", "英伟达发布中文推理平台", "infra")
         candidate.published = datetime(2026, 8, 4, 1, 27, tzinfo=timezone.utc)
         editorial = EditorialResult(
@@ -136,23 +136,10 @@ class ReportTests(unittest.TestCase):
             valid_count=1,
             source_errors=["不应显示的来源错误"],
         )
-        self.assertIn("# 每日 AI 速报 · 2026-08-04", report)
-        self.assertIn("📮 今日 AI 猛料：从大模型到智能体落地，今日重点一页看完。", report)
-        self.assertIn("1. [英伟达推理平台迎来更新](https://example.cn/c1)", report)
-        self.assertIn("`AI Infra` · `08-04 09:27`", report)
-        self.assertIn("推理成本倒挂，团队正跨云重构 GPU 集群。", report)
-        for hidden in (
-            "不应显示的理由",
-            "不应显示的趋势",
-            "不应显示的警告",
-            "不应显示的来源错误",
-            "运行状态",
-            "示例中文媒体",
-            "为什么值得看",
-        ):
-            self.assertNotIn(hidden, report)
-        self.assertNotIn("radar-english", report)
-        self.assertNotIn("English radar must not leak", report)
+        self.assertEqual(
+            report,
+            "1. [英伟达推理平台迎来更新](https://example.cn/c1)\n",
+        )
 
     def test_report_normalizes_and_truncates_titles(self):
         long_title = "这是一个明显超过三十五个可见字符并且需要在手机速报中被稳定截断的中文资讯标题！！！"
@@ -209,9 +196,7 @@ class ReportTests(unittest.TestCase):
             chinese_source_count=1,
             valid_count=0,
         )
-        self.assertIn("📮 今日 AI 猛料：本期没有筛出足够可靠的中文 AI 资讯。", report)
-        self.assertNotIn("1. [", report)
-        self.assertNotIn("运行状态", report)
+        self.assertEqual(report, "本期没有筛出足够可靠的中文 AI 资讯。\n")
 
 
 if __name__ == "__main__":
