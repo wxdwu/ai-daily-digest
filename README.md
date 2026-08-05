@@ -20,11 +20,11 @@
 
 运行完成后可以在三个地方看结果：
 
+- 配置的收件邮箱
 - 仓库的 `reports/latest.md`
-- 仓库 **Issues** 中当天的“每日 AI 速报”
 - 本次 Actions 运行页面底部的 artifact 压缩包
 
-Markdown、Issue 和邮件使用同一份极简内容：一句“今日 AI 猛料”总概括，加上最多 10 条可直接点击的精炼中文标题。来源、时间、摘要和运行状态不会占用报告正文。
+Markdown 和邮件使用同一份精简内容：一句“今日 AI 猛料”总概括，加上最多 10 条资讯。每条包含可直接点击的精炼中文标题、分类、发布时间和一段短介绍；不显示媒体出处和“为什么值得看”。邮件同时提供 HTML 与纯文本正文，在支持 HTML 的邮箱中标题可以直接点击。
 
 工作流每天也会自动运行。GitHub cron 使用 UTC，当前 `0 23 * * *` 对应次日北京时间 07:00，平台繁忙时可能延迟几分钟。
 
@@ -44,9 +44,15 @@ GitHub Actions 的免费运行分钟只提供服务器，不自带大模型额�
 
 三项必须同时填写；未配置完整时自动使用规则版，不会导致 Actions 失败。模型只会收到候选的中文标题、短摘要、来源、分类和时间，不会收到链接或任何 GitHub 密钥。
 
-## 邮件怎么配置（可选）
+## 每天会不会消耗 Token
 
-如果 GitHub Issue 已经够用，不需要配置邮件。要自动发送和抄送，请在 **Settings → Secrets and variables → Actions → Secrets** 添加：
+RSS 抓取、中文网页校验、报告生成、仓库存档和 SMTP 邮件都不消耗大模型 Token，它们只占用 GitHub Actions 运行分钟。
+
+只有同时配置 `LLM_API_KEY`、`LLM_ENDPOINT`、`LLM_MODEL` 时，每份报告才会调用一次外部模型，并按该模型服务商的输入、输出 Token 规则计费。没有配置完整这三项时使用本地规则版，因此大模型 Token 消耗为 0。
+
+## 邮件怎么配置（必需）
+
+GitHub Issue 已停用，邮件是唯一通知渠道。请在 **Settings → Secrets and variables → Actions → Secrets** 添加：
 
 | Secret | 说明 |
 |---|---|
@@ -59,20 +65,19 @@ GitHub Actions 的免费运行分钟只提供服务器，不自带大模型额�
 | `EMAIL_TO` | 收件人，多个地址用逗号分隔 |
 | `EMAIL_CC` | 可选抄送，多个地址用逗号分隔 |
 
-这里唯一需要额外登录的是你的邮箱后台：开启 SMTP 服务并生成授权码。QQ、163 邮箱通常在邮箱设置中开启；Gmail 通常需要两步验证和 App Password。所有授权码都放 GitHub Secrets，不要写进代码。
+这里需要额外登录你的邮箱后台：开启 SMTP 服务并生成授权码。QQ、163 邮箱通常在邮箱设置中开启；Gmail 通常需要两步验证和 App Password。所有授权码都放 GitHub Secrets，不要写进代码。缺少必需配置时，`Send email` 步骤会明确列出缺失的 Secret 名称并失败，不会静默跳过。
 
 ## GitHub 权限检查
 
-如果第一次运行在提交报告或创建 Issue 时提示权限不足，打开：
+如果第一次运行在提交报告时提示权限不足，打开：
 
 **Settings → Actions → General → Workflow permissions → Read and write permissions**
 
-保存后重新运行。工作流已声明 `contents: write` 和 `issues: write`。
+保存后重新运行。工作流只声明报告归档所需的 `contents: write`。
 
 ## 常用调整
 
 - 来源、关键词和观察窗口：`config/sources.json`
-- 关闭每日 Issue：添加 Repository variable `CREATE_DAILY_ISSUE=false`
 - 忽略历史去重：手动运行时勾选 `ignore_seen`
 - 修改自动运行时间：编辑 `.github/workflows/ai-daily.yml` 中的 cron
 

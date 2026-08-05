@@ -13,6 +13,15 @@ class WorkflowTests(unittest.TestCase):
         workflow = Path(".github/workflows/ai-daily.yml").read_text(encoding="utf-8")
         self.assertIn("python -m src.ai_digest", workflow)
 
+    def test_email_is_the_only_required_notification_channel(self):
+        workflow = Path(".github/workflows/ai-daily.yml").read_text(encoding="utf-8")
+
+        self.assertNotIn("issues: write", workflow)
+        self.assertNotIn("Create or update daily issue", workflow)
+        self.assertNotIn("publish_issue.py", workflow)
+        self.assertNotRegex(workflow, r"(?s)- name: Send email\n\s+if:")
+        self.assertIn('run: python src/send_email.py --date "$REPORT_DATE"', workflow)
+
 
 if __name__ == "__main__":
     unittest.main()
