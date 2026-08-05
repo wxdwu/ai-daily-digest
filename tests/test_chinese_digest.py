@@ -104,11 +104,11 @@ class MatchingTests(unittest.TestCase):
 
 
 class ReportTests(unittest.TestCase):
-    def test_report_is_only_a_clickable_title_list(self):
+    def test_report_has_one_focus_headline_and_a_clickable_title_list(self):
         candidate = make_candidate("c1", "英伟达发布中文推理平台", "infra")
         candidate.published = datetime(2026, 8, 4, 1, 27, tzinfo=timezone.utc)
         editorial = EditorialResult(
-            storm_summary="从大模型到智能体落地，今日重点一页看完。",
+            storm_summary="算力基础设施与智能体落地提速。",
             selected_items=[
                 {
                     "id": "c1",
@@ -138,6 +138,7 @@ class ReportTests(unittest.TestCase):
         )
         self.assertEqual(
             report,
+            "算力基础设施与智能体落地提速\n\n"
             "1. [英伟达推理平台迎来更新](https://example.cn/c1)\n",
         )
 

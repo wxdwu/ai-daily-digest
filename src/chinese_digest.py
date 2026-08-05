@@ -181,4 +181,5 @@ def render_chinese_report(
         candidate = by_id[str(edited["id"])]
         title = _normalized_title(str(edited.get("title") or candidate.title))
         lines.append(f"{index}. [{title}]({candidate.url})")
-    return "\n".join(lines) + "\n"
+    headline = _normalized_title(editorial.storm_summary) or "今日 AI 焦点"
+    return f"{headline}\n\n" + "\n".join(lines) + "\n"

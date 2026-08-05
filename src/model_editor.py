@@ -52,18 +52,15 @@ def fallback_editorial(candidates: list[dict[str, Any]], warning: str = "") -> E
         if category and category not in categories:
             categories.append(category)
     if len(categories) >= 2:
-        first_is_english = bool(re.match(r"[A-Za-z]", categories[0]))
-        last_is_english = bool(re.match(r"[A-Za-z]", categories[-1]))
-        after_from = " " if first_is_english else ""
-        before_to = " " if first_is_english else ""
-        after_to = " " if last_is_english else ""
-        storm = (
-            f"从{after_from}{categories[0]}{before_to}到{after_to}{categories[-1]}，"
-            "今日 AI 重点一页看完。"
-        )
+        first = categories[0]
+        last = categories[-1]
+        before_and = " " if re.match(r"[A-Za-z]", first) else ""
+        after_and = " " if re.match(r"[A-Za-z]", last) else ""
+        after_last = " " if re.match(r"[A-Za-z]", last) else ""
+        storm = f"{first}{before_and}与{after_and}{last}{after_last}成为今日焦点"
     elif categories:
         separator = " " if re.match(r"[A-Za-z]", categories[0]) else ""
-        storm = f"今日聚焦{separator}{categories[0]}，AI 重点一页看完。"
+        storm = f"今日聚焦{separator}{categories[0]}"
     else:
         storm = "本期没有筛出足够可靠的中文 AI 资讯。"
     return EditorialResult(storm, selected, [], "规则降级", warning)
@@ -102,7 +99,8 @@ def edit_candidates(
     user_prompt = (
         "从候选中选出最多10条最重要资讯，覆盖AI最新动态、大模型、AI Agent和AI Infra；"
         "有合格内容时优先保留至少2条AI Infra。返回对象字段："
-        "storm_summary（30到50字）、selected_items（每项只含id、title）。"
+        "storm_summary（14到24字的当日内容焦点，不使用“猛料”或“一页看完”）、"
+        "selected_items（每项只含id、title）。"
         "title要准确、简洁、语义完整，不得使用省略号截断。\n"
         + json.dumps(compact, ensure_ascii=False)
     )

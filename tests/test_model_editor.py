@@ -35,19 +35,19 @@ class ModelEditorTests(unittest.TestCase):
         candidates[0]["category"] = "大模型"
         candidates[1]["category"] = "AI Agent"
         result = fallback_editorial(candidates)
-        self.assertEqual(result.storm_summary, "从大模型到 AI Agent，今日 AI 重点一页看完。")
-        self.assertNotIn("筛选出", result.storm_summary)
+        self.assertEqual(result.storm_summary, "大模型与 AI Agent 成为今日焦点")
+        self.assertNotIn("一页看完", result.storm_summary)
 
     def test_fallback_headline_handles_one_category(self):
         result = fallback_editorial([candidate_dict("c1")])
-        self.assertEqual(result.storm_summary, "今日聚焦 AI Infra，AI 重点一页看完。")
+        self.assertEqual(result.storm_summary, "今日聚焦 AI Infra")
 
     def test_fallback_headline_spaces_leading_english_category(self):
         candidates = [candidate_dict("c1"), candidate_dict("c2")]
         candidates[0]["category"] = "AI Infra"
         candidates[1]["category"] = "AI 最新动态"
         result = fallback_editorial(candidates)
-        self.assertEqual(result.storm_summary, "从 AI Infra 到 AI 最新动态，今日 AI 重点一页看完。")
+        self.assertEqual(result.storm_summary, "AI Infra 与 AI 最新动态 成为今日焦点")
 
     def test_accepts_only_known_candidate_ids(self):
         completion = {
@@ -77,7 +77,10 @@ class ModelEditorTests(unittest.TestCase):
         self.assertEqual(result.mode, "外部模型: example-model")
         self.assertEqual(len(calls), 1)
         self.assertNotIn("url", calls[0]["messages"][1]["content"])
-        self.assertIn("storm_summary（30到50字）", calls[0]["messages"][1]["content"])
+        self.assertIn(
+            "storm_summary（14到24字的当日内容焦点，不使用“猛料”或“一页看完”）",
+            calls[0]["messages"][1]["content"],
+        )
         self.assertIn("selected_items（每项只含id、title）", calls[0]["messages"][1]["content"])
         self.assertIn("语义完整，不得使用省略号截断", calls[0]["messages"][1]["content"])
         self.assertNotIn("title不超过35字", calls[0]["messages"][1]["content"])
