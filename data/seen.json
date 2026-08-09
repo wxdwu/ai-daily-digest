@@ -491,7 +491,43 @@
       "title": "Gartner发布2026中国网络安全技术成熟度曲线，AI安全开始“挤泡沫”",
       "seen_at": "2026-08-08T23:16:08.054674+00:00",
       "run_date": "2026-08-09"
+    },
+    "3edaab30451f254187b7": {
+      "url": "https://www.infoq.cn/article/RXRuR3TN9msNMAUWRtCl?utm_source=rss&utm_medium=article",
+      "title": "OpenAI给10亿用户免费换上GPT-5.6",
+      "seen_at": "2026-08-09T23:17:52.372321+00:00",
+      "run_date": "2026-08-10"
+    },
+    "23af2a22e935f0f83f15": {
+      "url": "https://www.qbitai.com/2026/08/469010.html",
+      "title": "180万刀，连亚马逊都烧不起Claude了",
+      "seen_at": "2026-08-09T23:17:52.372321+00:00",
+      "run_date": "2026-08-10"
+    },
+    "24f101c6cf942275a33d": {
+      "url": "https://www.qbitai.com/2026/08/468913.html",
+      "title": "GPT-5.6和Fable联手，解决了一道悬了25年的数学难题",
+      "seen_at": "2026-08-09T23:17:52.372321+00:00",
+      "run_date": "2026-08-10"
+    },
+    "e0b5f006a4d1a46f70a9": {
+      "url": "https://www.qbitai.com/2026/08/468766.html",
+      "title": "Opus 5狂烧6.9亿token做游戏，GPT-5.6用5美元复刻了",
+      "seen_at": "2026-08-09T23:17:52.372321+00:00",
+      "run_date": "2026-08-10"
+    },
+    "101d123e4b98b5803f3a": {
+      "url": "https://www.qbitai.com/2026/08/468782.html",
+      "title": "当题库追不上模型，AI开始给自己出题：中国这支团队跑通了数据层RSI",
+      "seen_at": "2026-08-09T23:17:52.372321+00:00",
+      "run_date": "2026-08-10"
+    },
+    "533d6c7f207432ced8fb": {
+      "url": "https://www.infoq.cn/article/MMh1pkuNSPDlUAtuRelk?utm_source=rss&utm_medium=article",
+      "title": "从失控到可控：基于系统控制论的 Agent 安全防御体系设计与实践｜AICon深圳",
+      "seen_at": "2026-08-09T23:17:52.372321+00:00",
+      "run_date": "2026-08-10"
     }
   },
-  "updated_at": "2026-08-08T23:16:08.054674+00:00"
+  "updated_at": "2026-08-09T23:17:52.372321+00:00"
 }
