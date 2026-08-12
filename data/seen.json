@@ -647,7 +647,67 @@
       "title": "DORA：AI 辅助软件开发的团队画像与能力模型，帮助团队将研究成果落地",
       "seen_at": "2026-08-11T23:27:15.307152+00:00",
       "run_date": "2026-08-12"
+    },
+    "79cc4aed70e71a3b2f20": {
+      "url": "https://aws.amazon.com/cn/blogs/china/access-amazon-bedrock-inference-mantle-litellm-gateway/",
+      "title": "接入 Amazon Bedrock 新一代推理引擎 Mantle：用 LiteLLM 网关统一调用 GPT-5.6 与 Claude",
+      "seen_at": "2026-08-12T23:27:39.525663+00:00",
+      "run_date": "2026-08-13"
+    },
+    "4b0363b87be4e54daca1": {
+      "url": "https://blogs.nvidia.cn/blog/local-ai-open-source-models-agents-nemotron/",
+      "title": "NVIDIA 与本地 AI 社区共同推动开源模型和智能体发展",
+      "seen_at": "2026-08-12T23:27:39.525663+00:00",
+      "run_date": "2026-08-13"
+    },
+    "0f0c0d6954adaf3c78ed": {
+      "url": "https://www.infoq.cn/article/9sy33cA91Fp8z5mlOvNu?utm_source=rss&utm_medium=article",
+      "title": "小扎万字长文炮轰闭源：蒸馏无罪，Meta 正式重回开源模型路线",
+      "seen_at": "2026-08-12T23:27:39.525663+00:00",
+      "run_date": "2026-08-13"
+    },
+    "4676f4bf3e4a348a11bb": {
+      "url": "https://www.infoq.cn/article/YBCpst8secs3xWqZwWLe?utm_source=rss&utm_medium=article",
+      "title": "别再所有人平分AI算力：顶级模型给资深工程师才省钱，新人刷题式成长已失效",
+      "seen_at": "2026-08-12T23:27:39.525663+00:00",
+      "run_date": "2026-08-13"
+    },
+    "dd251a03f919ed50fbfe": {
+      "url": "https://www.infoq.cn/article/pKprBfc9MPLZVaNpMQgg?utm_source=rss&utm_medium=article",
+      "title": "SkiaSharp 4 连发多个版本：GPU 渲染提速，WebAssembly 支持升级",
+      "seen_at": "2026-08-12T23:27:39.525663+00:00",
+      "run_date": "2026-08-13"
+    },
+    "9da8ce9cf7d6a337bfa8": {
+      "url": "https://www.infoq.cn/article/KwZX2bLcaHRjuLG95vHI?utm_source=rss&utm_medium=article",
+      "title": "从亚百毫秒级启动到生产级部署，腾讯云为何重构 Agent 沙箱？",
+      "seen_at": "2026-08-12T23:27:39.525663+00:00",
+      "run_date": "2026-08-13"
+    },
+    "1746f4a5eb91141d4042": {
+      "url": "https://www.qbitai.com/2026/08/471030.html",
+      "title": "紫东太初推出GMC核心集剪枝方法，少80%Token仍满血保真多模态能力",
+      "seen_at": "2026-08-12T23:27:39.525663+00:00",
+      "run_date": "2026-08-13"
+    },
+    "429d6d3419d5785b9451": {
+      "url": "https://www.infoq.cn/article/hMG80lZUX1kaJWpr58g1?utm_source=rss&utm_medium=article",
+      "title": "面壁智能正式启动IPO：中信证券辅导，端侧模型走向资本市场",
+      "seen_at": "2026-08-12T23:27:39.525663+00:00",
+      "run_date": "2026-08-13"
+    },
+    "b8bc2eaa54a5b5c706b0": {
+      "url": "https://www.infoq.cn/article/rcSr7bVQFB9Uskadg74T?utm_source=rss&utm_medium=article",
+      "title": "机器人大脑之争进入深水区：为什么物理世界需要从头设计模型",
+      "seen_at": "2026-08-12T23:27:39.525663+00:00",
+      "run_date": "2026-08-13"
+    },
+    "69097901e6bbfbf3ec40": {
+      "url": "https://www.qbitai.com/2026/08/470901.html",
+      "title": "2026中国科创投资夏季峰会暨陕西科创产业生态大会圆满落幕",
+      "seen_at": "2026-08-12T23:27:39.525663+00:00",
+      "run_date": "2026-08-13"
     }
   },
-  "updated_at": "2026-08-11T23:27:15.307152+00:00"
+  "updated_at": "2026-08-12T23:27:39.525663+00:00"
 }
