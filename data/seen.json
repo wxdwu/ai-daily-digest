@@ -767,7 +767,61 @@
       "title": "与运行时无关的 AI 工作流：一种兼顾生产环境稳定性和快速评估迭代的模式",
       "seen_at": "2026-08-13T23:28:40.423788+00:00",
       "run_date": "2026-08-14"
+    },
+    "0024baea0bc2ee667ab8": {
+      "url": "https://www.infoq.cn/article/YWXm26HRwC9ySEGZ9Lpp?utm_source=rss&utm_medium=article",
+      "title": "AI 圈上演神级互撕！Codex、Claude Code 两位负责人公开对喷",
+      "seen_at": "2026-08-14T23:09:41.736155+00:00",
+      "run_date": "2026-08-15"
+    },
+    "846127e1d6119a2d161e": {
+      "url": "https://www.infoq.cn/article/Uiz6Ovab2eKT0T9q3Nzp?utm_source=rss&utm_medium=article",
+      "title": "涛思数据创始人&CEO陶建辉博士确认出席AICon深圳，将分享“大模型在工业场景落地的挑战与实践”",
+      "seen_at": "2026-08-14T23:09:41.736155+00:00",
+      "run_date": "2026-08-15"
+    },
+    "d283f633af649f14edb5": {
+      "url": "https://www.infoq.cn/article/de9AljWc4ejW2KAyW8dD?utm_source=rss&utm_medium=article",
+      "title": "DeepSeek 把 Harness 开源了：模型、工具、Agent Loop 全是插件",
+      "seen_at": "2026-08-14T23:09:41.736155+00:00",
+      "run_date": "2026-08-15"
+    },
+    "f286ec6c0955a1950985": {
+      "url": "https://www.qbitai.com/2026/08/472722.html",
+      "title": "算力需求两年涨10倍，机器人为了走进真实物理世界，正在疯狂「吃算力」",
+      "seen_at": "2026-08-14T23:09:41.736155+00:00",
+      "run_date": "2026-08-15"
+    },
+    "d50df00737902329e17e": {
+      "url": "https://www.infoq.cn/article/AJz1m242RSJLpXpsC1eg?utm_source=rss&utm_medium=article",
+      "title": "AI 智能体开始参与交付，谁来证明它没有“动手脚”？IBM 与 Red Hat 给出一套新方案",
+      "seen_at": "2026-08-14T23:09:41.736155+00:00",
+      "run_date": "2026-08-15"
+    },
+    "2aa73ab8ce99f51b2686": {
+      "url": "https://www.infoq.cn/article/plZY01etBHv3ETOYG0af?utm_source=rss&utm_medium=article",
+      "title": "Gemini 3.7 Flash 突袭：性能逼近旗舰、价格打“骨折”！！DeepMind新帅重画性价比斩杀线",
+      "seen_at": "2026-08-14T23:09:41.736155+00:00",
+      "run_date": "2026-08-15"
+    },
+    "592185409ddfe1729502": {
+      "url": "https://www.qbitai.com/2026/08/473379.html",
+      "title": "刚刚，Qwen3.8-27B 开源了！家用显卡也能跑",
+      "seen_at": "2026-08-14T23:09:41.736155+00:00",
+      "run_date": "2026-08-15"
+    },
+    "82edd723b7c26e8d16b4": {
+      "url": "https://www.infoq.cn/article/5JAOs4xARzjGb5sj2LxG?utm_source=rss&utm_medium=article",
+      "title": "Zig 创始人直言，Bun 靠 Claude 生成的 Rust 重构版是“没人把关的烂代码”",
+      "seen_at": "2026-08-14T23:09:41.736155+00:00",
+      "run_date": "2026-08-15"
+    },
+    "53325a32fe3ab3d709b5": {
+      "url": "https://www.qbitai.com/2026/08/473149.html",
+      "title": "太初元碁助力国家级“AI+教育”大赛 “AI+加速卡模型适配赛道”开启招募",
+      "seen_at": "2026-08-14T23:09:41.736155+00:00",
+      "run_date": "2026-08-15"
     }
   },
-  "updated_at": "2026-08-13T23:28:40.423788+00:00"
+  "updated_at": "2026-08-14T23:09:41.736155+00:00"
 }
