@@ -875,7 +875,67 @@
       "title": "MCP 走向无状态，开发者追问：这不就又变回 API 了吗？",
       "seen_at": "2026-08-16T23:08:11.459210+00:00",
       "run_date": "2026-08-17"
+    },
+    "0796bf3214f2f14c48c7": {
+      "url": "https://aws.amazon.com/cn/blogs/china/large-model-training-inference-container-environment-ip/",
+      "title": "从大模型训练与推理出发：亚马逊云科技容器环境 IP 消耗、规划与 VPC CNI 优化",
+      "seen_at": "2026-08-17T23:10:20.855229+00:00",
+      "run_date": "2026-08-18"
+    },
+    "bdcc33bb48c514389b0e": {
+      "url": "https://www.infoq.cn/article/J9Zi9LELcpxFRe23PHdY?utm_source=rss&utm_medium=article",
+      "title": "Netflix详述其基于Triton与vLLM的内部LLM服务平台",
+      "seen_at": "2026-08-17T23:10:20.855229+00:00",
+      "run_date": "2026-08-18"
+    },
+    "74fefded5552df40f5c8": {
+      "url": "https://aws.amazon.com/cn/blogs/china/mattel163-intelligent-platform-generation/",
+      "title": "Mattel163携手亚马逊云科技，用多智能体平台自动生成玩家洞察报告",
+      "seen_at": "2026-08-17T23:10:20.855229+00:00",
+      "run_date": "2026-08-18"
+    },
+    "a13fbdd09f84594400d1": {
+      "url": "https://www.infoq.cn/article/MljtE2Xk6hVkd061LY7k?utm_source=rss&utm_medium=article",
+      "title": "从模型能力到工程优化，海外开发者正在“榨干” Qwen3.8-27B",
+      "seen_at": "2026-08-17T23:10:20.855229+00:00",
+      "run_date": "2026-08-18"
+    },
+    "8d7bac0fdc93b23e5c3f": {
+      "url": "https://www.infoq.cn/article/jOPScUAQrlfpNwDAhaOL?utm_source=rss&utm_medium=article",
+      "title": "盘古训练与推理通信优化实践：亲和昇腾平台的性能探索｜AICon深圳",
+      "seen_at": "2026-08-17T23:10:20.855229+00:00",
+      "run_date": "2026-08-18"
+    },
+    "c27488008068fa4e6027": {
+      "url": "https://www.infoq.cn/article/77NthDLZNgqTgBuMKsQh?utm_source=rss&utm_medium=article",
+      "title": "WorkSwarm：引领办公智能体新范式，让AI从一个助手，进化为一支与你并肩作战的团队",
+      "seen_at": "2026-08-17T23:10:20.855229+00:00",
+      "run_date": "2026-08-18"
+    },
+    "157779281054c9887b69": {
+      "url": "https://www.infoq.cn/article/FzWV9Jzv2CPK8yjLPxdA?utm_source=rss&utm_medium=article",
+      "title": "AI 智能体改变代码评审逻辑，Rootly 废止小 PR 规则",
+      "seen_at": "2026-08-17T23:10:20.855229+00:00",
+      "run_date": "2026-08-18"
+    },
+    "2d29864e23e5db0da504": {
+      "url": "https://www.infoq.cn/article/7wuQJXJqFVR3rZb8Usyg?utm_source=rss&utm_medium=article",
+      "title": "甲骨文企业AI战略曝光：Agent进数据库、GPU跑满、多云砍掉流量费",
+      "seen_at": "2026-08-17T23:10:20.855229+00:00",
+      "run_date": "2026-08-18"
+    },
+    "fdb8987c86e5d703067d": {
+      "url": "https://blogs.nvidia.cn/blog/accelerating-3d-vision-for-physical-ai-with-nvidia-dgx-spark/",
+      "title": "借助 NVIDIA DGX Spark 加速 3D 视觉全流程，及拓科技构建面向物理 AI 开发与落地的本地化平台",
+      "seen_at": "2026-08-17T23:10:20.855229+00:00",
+      "run_date": "2026-08-18"
+    },
+    "12f8a23c5137e4b25535": {
+      "url": "https://www.infoq.cn/article/JEaC9PfmAENVHbijfm05?utm_source=rss&utm_medium=article",
+      "title": "Dropbox 集成 MCP 与 Dash，将安全设计与代码审查连接起来",
+      "seen_at": "2026-08-17T23:10:20.855229+00:00",
+      "run_date": "2026-08-18"
     }
   },
-  "updated_at": "2026-08-16T23:08:11.459210+00:00"
+  "updated_at": "2026-08-17T23:10:20.855229+00:00"
 }
