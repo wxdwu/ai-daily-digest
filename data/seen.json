@@ -1,119 +1,5 @@
 {
   "items": {
-    "a3c21f6b947fe0158189": {
-      "url": "https://developer.nvidia.com/blog/nvidia-verified-agent-skills-provide-capability-governance-for-ai-agents/",
-      "title": "NVIDIA-Verified Agent Skills Provide Capability Governance for AI Agents",
-      "seen_at": "2026-07-20T02:47:37.628004+00:00",
-      "run_date": "2026-07-20"
-    },
-    "0f29ba9312fcf0b76b7a": {
-      "url": "https://developer.nvidia.com/blog/mastering-agentic-techniques-ai-agent-reinforcement-learning/",
-      "title": "Mastering Agentic Techniques: AI Agent Reinforcement Learning",
-      "seen_at": "2026-07-20T02:47:37.628004+00:00",
-      "run_date": "2026-07-20"
-    },
-    "9789259dbb054fa95c79": {
-      "url": "https://developer.nvidia.com/blog/how-to-run-an-autoresearch-workflow-with-rl-agent-skills-and-nvidia-nemo/",
-      "title": "How to Run an Autoresearch Workflow with RL Agent Skills and NVIDIA NeMo",
-      "seen_at": "2026-07-20T02:47:37.628004+00:00",
-      "run_date": "2026-07-20"
-    },
-    "87390e4e7e5622069191": {
-      "url": "https://github.com/asofyan/dart-framework",
-      "title": "Dart Framework – Systems Thinking Skill for AI Agents",
-      "seen_at": "2026-07-20T02:44:46.313950+00:00",
-      "run_date": "2026-07-20"
-    },
-    "dfc07ef41f48fef682fe": {
-      "url": "https://play.in2itgame.com/agent-docs",
-      "title": "A card game I built as a decision-making benchmark for AI agents",
-      "seen_at": "2026-07-20T02:44:46.313950+00:00",
-      "run_date": "2026-07-20"
-    },
-    "54efa0afbbbe22498c6b": {
-      "url": "https://www.custodianlabs.io",
-      "title": "Show HN: Deploy AI agent in 5 lines of code",
-      "seen_at": "2026-07-20T02:44:46.313950+00:00",
-      "run_date": "2026-07-20"
-    },
-    "fa96cbe0523b68b42c51": {
-      "url": "https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything",
-      "title": "AI Mania Is Eviscerating Global Decision-Making",
-      "seen_at": "2026-07-20T02:44:46.313950+00:00",
-      "run_date": "2026-07-20"
-    },
-    "2e0c60a2d9cf7caa13df": {
-      "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything",
-      "title": "Claude Code uses Bun written in Rust now",
-      "seen_at": "2026-07-20T02:47:37.628004+00:00",
-      "run_date": "2026-07-20"
-    },
-    "b7f276774bb24ff20c2a": {
-      "url": "https://developer.nvidia.com/blog/ai-model-co-design-hardware-friendly-llm-design/",
-      "title": "AI Model Co-Design: Hardware-Friendly LLM Design",
-      "seen_at": "2026-07-20T02:47:37.628004+00:00",
-      "run_date": "2026-07-20"
-    },
-    "c72645b82ec19c7f5551": {
-      "url": "https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/#atom-everything",
-      "title": "SQLite Query Explainer",
-      "seen_at": "2026-07-20T02:44:46.313950+00:00",
-      "run_date": "2026-07-20"
-    },
-    "34319b69336461029f7d": {
-      "url": "https://www.basecompute.co/getbasert",
-      "title": "6.4x faster than llama.cpp, 3.9x faster than MLX",
-      "seen_at": "2026-07-20T02:44:46.313950+00:00",
-      "run_date": "2026-07-20"
-    },
-    "fc87a58a4ffd25894536": {
-      "url": "https://callbro.ai/",
-      "title": "Show HN: CallBro – Granola, but Powered by Codex, Claude Code, or Your Local LLM",
-      "seen_at": "2026-07-20T02:44:46.313950+00:00",
-      "run_date": "2026-07-20"
-    },
-    "72303af1426935afc81c": {
-      "url": "https://sairc.vercel.app/resources",
-      "title": "Compiled List of over $1000 in AI/GPU/LLM Credits (100% Free)",
-      "seen_at": "2026-07-20T02:44:46.313950+00:00",
-      "run_date": "2026-07-20"
-    },
-    "bba0044fdbb0512f6ebe": {
-      "url": "https://twitter.com/i/status/2078511173759324328",
-      "title": "Claude Code 50% higher weekly limits continuing through August 19",
-      "seen_at": "2026-07-20T02:44:46.313950+00:00",
-      "run_date": "2026-07-20"
-    },
-    "9d87c00496abb5a98849": {
-      "url": "https://www.flexinference.com",
-      "title": "Show HN: FlexInference LLM Router",
-      "seen_at": "2026-07-20T02:44:46.313950+00:00",
-      "run_date": "2026-07-20"
-    },
-    "50a934e6e9e53a1cbdea": {
-      "url": "https://netflixtechblog.com/in-house-llm-serving-at-netflix-a5a8e799ea2c?source=rss-c3aeaf49d8a4------2",
-      "title": "In-House LLM Serving at Netflix",
-      "seen_at": "2026-07-20T02:44:46.313950+00:00",
-      "run_date": "2026-07-20"
-    },
-    "51b56c37acf93a401fae": {
-      "url": "https://chaoxu.prof/posts/2026-07-18-ai-agents-for-the-working-mathematician.html",
-      "title": "AI Agents for the Working Mathematician",
-      "seen_at": "2026-07-20T02:47:37.628004+00:00",
-      "run_date": "2026-07-20"
-    },
-    "1a7305e685286f2109ff": {
-      "url": "https://shikigami.dev/",
-      "title": "Show HN: Shikigami, run AI coding agents in parallel, each in a Git worktree",
-      "seen_at": "2026-07-20T02:46:07.752352+00:00",
-      "run_date": "2026-07-20"
-    },
-    "ee157e5b2ea640f1c0e5": {
-      "url": "https://twitter.com/ClaudeDevs/status/2078511173759324328",
-      "title": "Anthropic extends Claude Code's 50% weekly limit increase through August 19",
-      "seen_at": "2026-07-20T02:47:37.628004+00:00",
-      "run_date": "2026-07-20"
-    },
     "e24f84cc7009b9ed72a0": {
       "url": "https://github.com/wienerdog-ai/wienerdog/",
       "title": "Show HN: Wienerdog – memory and self-improving skills for Claude Code/Codex",
@@ -989,7 +875,67 @@
       "title": "GitHub 加固默认安全策略，延时防护与软件包签名之争引热议",
       "seen_at": "2026-08-18T23:10:25.600668+00:00",
       "run_date": "2026-08-19"
+    },
+    "4fff2f7a53959c00f0ea": {
+      "url": "https://developer.nvidia.cn/blog/how-ai-coding-agents-can-unlock-materials-simulation-with-nvidia-alchemi-toolkit/",
+      "title": "AI 编码智能体如何借助 NVIDIA ALCHEMI 工具包解锁材质模拟",
+      "seen_at": "2026-08-19T23:11:39.303708+00:00",
+      "run_date": "2026-08-20"
+    },
+    "aa79d7328e644d3777fa": {
+      "url": "https://developer.nvidia.cn/blog/game-theoretic-reinforcement-learning-gpu-rewrites-300-year-kissing-number-problem/",
+      "title": "用博弈论强化学习与 GPU，改写 300 年“亲吻数”难题",
+      "seen_at": "2026-08-19T23:11:39.303708+00:00",
+      "run_date": "2026-08-20"
+    },
+    "7bde875a129ee4110e8c": {
+      "url": "https://www.infoq.cn/article/5LJARsierf0NbH3Rc6wc?utm_source=rss&utm_medium=article",
+      "title": "Embabel智能体框架发布1.0版本",
+      "seen_at": "2026-08-19T23:11:39.303708+00:00",
+      "run_date": "2026-08-20"
+    },
+    "2f35a84352a01af82802": {
+      "url": "https://www.qbitai.com/2026/08/475901.html",
+      "title": "IDC发布2026中国AI50强：360以“智能体+安全”双轮驱动入选",
+      "seen_at": "2026-08-19T23:11:39.303708+00:00",
+      "run_date": "2026-08-20"
+    },
+    "1861725f9d197ae0fa8a": {
+      "url": "https://www.infoq.cn/article/BLfF9zUGrzpqJ5QbSBJD?utm_source=rss&utm_medium=article",
+      "title": "OpenAI 因安全问题突然停训GPT-6！网友：当你造出一个神，就不可能再给它拴上绳子",
+      "seen_at": "2026-08-19T23:11:39.303708+00:00",
+      "run_date": "2026-08-20"
+    },
+    "8ad386d21fd24e0711ef": {
+      "url": "https://developer.nvidia.cn/blog/run-massive-scale-umap-in-minutes-using-multiple-gpus-without-losing-accuracy/",
+      "title": "使用多个 GPU 在几分钟内运行大规模 UMAP，且不会降低准确性",
+      "seen_at": "2026-08-19T23:11:39.303708+00:00",
+      "run_date": "2026-08-20"
+    },
+    "31c6c37f9b96711cf3c5": {
+      "url": "https://www.qbitai.com/2026/08/475477.html",
+      "title": "具身数据底座开卖，首发5100元：机器人训练数据有了新解法",
+      "seen_at": "2026-08-19T23:11:39.303708+00:00",
+      "run_date": "2026-08-20"
+    },
+    "91446fda34ca46c93c62": {
+      "url": "https://www.qbitai.com/2026/08/475764.html",
+      "title": "用DeepSeek网页版就能瓜分鹅厂600万？？！",
+      "seen_at": "2026-08-19T23:11:39.303708+00:00",
+      "run_date": "2026-08-20"
+    },
+    "26d161ca5c503d7a7664": {
+      "url": "https://www.infoq.cn/article/61DFAJiVlqlaWQXi9kzA?utm_source=rss&utm_medium=article",
+      "title": "AI爬虫涌入电商，安全防线正在从“拦截”转向“判断”",
+      "seen_at": "2026-08-19T23:11:39.303708+00:00",
+      "run_date": "2026-08-20"
+    },
+    "539f9d55f3be671b6012": {
+      "url": "https://www.infoq.cn/article/0AR0FaYEllc9tk7iWu9U?utm_source=rss&utm_medium=article",
+      "title": "Pinterest 如何通过集中式 Terraform 管道在大规模环境中保障 AWS 基础设施的安全",
+      "seen_at": "2026-08-19T23:11:39.303708+00:00",
+      "run_date": "2026-08-20"
     }
   },
-  "updated_at": "2026-08-18T23:10:25.600668+00:00"
+  "updated_at": "2026-08-19T23:11:39.303708+00:00"
 }
