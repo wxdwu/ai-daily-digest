@@ -935,7 +935,49 @@
       "title": "Pinterest 如何通过集中式 Terraform 管道在大规模环境中保障 AWS 基础设施的安全",
       "seen_at": "2026-08-19T23:11:39.303708+00:00",
       "run_date": "2026-08-20"
+    },
+    "f2d03ff78303cf22d0aa": {
+      "url": "https://www.infoq.cn/article/qaWyth5P4tZE1CQhhaGq?utm_source=rss&utm_medium=article",
+      "title": "AI Infra 正在诞生自己的石油期货？GPU 不够买之后，华尔街开始交易算力",
+      "seen_at": "2026-08-20T23:14:16.401271+00:00",
+      "run_date": "2026-08-21"
+    },
+    "5efe9c573ec52c34ee11": {
+      "url": "https://www.infoq.cn/article/LpNjOA7au7WIhTBmVcJo?utm_source=rss&utm_medium=article",
+      "title": "CFP 开放 | KCD 杭州站邀您共议 Agent 时代的云原生、可观测与大模型推理",
+      "seen_at": "2026-08-20T23:14:16.401271+00:00",
+      "run_date": "2026-08-21"
+    },
+    "632956f4db79d0db667c": {
+      "url": "https://www.infoq.cn/article/CPidTC2YJ7AvlU7jUgiq?utm_source=rss&utm_medium=article",
+      "title": "你的 Coding Agent 有多大价值，取决于它对你的数据了解多少 | 技术实践",
+      "seen_at": "2026-08-20T23:14:16.401271+00:00",
+      "run_date": "2026-08-21"
+    },
+    "4082fe73ab2b9baca648": {
+      "url": "https://aws.amazon.com/cn/blogs/china/ecs-codepipeline-enterprise-container-ci-cd-based-on-github/",
+      "title": "ECS + CodePipeline 企业轻量级容器化 CI/CD 实战—基于 GitHub + CodePipeline + CodeBuild + ECS Fargate 的全托管容器化部署方案",
+      "seen_at": "2026-08-20T23:14:16.401271+00:00",
+      "run_date": "2026-08-21"
+    },
+    "344a35b64946c15df1d1": {
+      "url": "https://www.infoq.cn/article/u2O9k3QiZkeIbqJ7GsPw?utm_source=rss&utm_medium=article",
+      "title": "将Pod作为worker而非智能体：在Kubernetes上重新思考AI智能体的部署单元",
+      "seen_at": "2026-08-20T23:14:16.401271+00:00",
+      "run_date": "2026-08-21"
+    },
+    "f750f226e3349c57e768": {
+      "url": "https://www.infoq.cn/article/pKbwv6YkdSE1UdCiKl2F?utm_source=rss&utm_medium=article",
+      "title": "CloudFlare 预览网页 WebMCP 自动支持功能",
+      "seen_at": "2026-08-20T23:14:16.401271+00:00",
+      "run_date": "2026-08-21"
+    },
+    "be57eb4784b9d1ed19cb": {
+      "url": "https://www.infoq.cn/article/d5mWBGZxB2l2vRTO8wFU?utm_source=rss&utm_medium=article",
+      "title": "将可理解性作为架构特性：无法理解的系统无法安全演进",
+      "seen_at": "2026-08-20T23:14:16.401271+00:00",
+      "run_date": "2026-08-21"
     }
   },
-  "updated_at": "2026-08-19T23:11:39.303708+00:00"
+  "updated_at": "2026-08-20T23:14:16.401271+00:00"
 }
