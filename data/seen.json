@@ -977,7 +977,61 @@
       "title": "将可理解性作为架构特性：无法理解的系统无法安全演进",
       "seen_at": "2026-08-20T23:14:16.401271+00:00",
       "run_date": "2026-08-21"
+    },
+    "93b15824534c22c367ca": {
+      "url": "https://www.infoq.cn/article/jlTfe57D4r0Juzpz8Fk5?utm_source=rss&utm_medium=article",
+      "title": "DeepSeek 发布多模态模型，“小鲸鱼”长出了眼睛",
+      "seen_at": "2026-08-21T23:11:37.731343+00:00",
+      "run_date": "2026-08-22"
+    },
+    "41ff66b74eb61d3fd01b": {
+      "url": "https://www.infoq.cn/article/aGfkSN1YlmLrUQMPea9L?utm_source=rss&utm_medium=article",
+      "title": "本地运行、支持视觉与工具调用：Meta 开源智能体模型",
+      "seen_at": "2026-08-21T23:11:37.731343+00:00",
+      "run_date": "2026-08-22"
+    },
+    "fb52019b4e8043fa3838": {
+      "url": "https://www.infoq.cn/article/YB51rwb95keVmlIZ0xQd?utm_source=rss&utm_medium=article",
+      "title": "材科源图三个月完成两轮融资，AI全链路闭环加速材料产业化",
+      "seen_at": "2026-08-21T23:11:37.731343+00:00",
+      "run_date": "2026-08-22"
+    },
+    "63f47f5130743f9f088b": {
+      "url": "https://aws.amazon.com/cn/blogs/china/using-open-source-identity-keycloak-implement-amazon-quick-sso/",
+      "title": "使用开源身份提供商 Keycloak 实现 Amazon Quick 多端 SSO——从部署到SAML + OIDC 双协议集成与验证",
+      "seen_at": "2026-08-21T23:11:37.731343+00:00",
+      "run_date": "2026-08-22"
+    },
+    "6f405948b3d9f3f27e18": {
+      "url": "https://www.qbitai.com/2026/08/476409.html",
+      "title": "国产“预制算力”来了：工厂预制率超90% 24小时内投运 交付效率提升70%",
+      "seen_at": "2026-08-21T23:11:37.731343+00:00",
+      "run_date": "2026-08-22"
+    },
+    "c47e1248f2359be55f90": {
+      "url": "https://www.infoq.cn/article/7FAcAhVUw89VJNwuOwrc?utm_source=rss&utm_medium=article",
+      "title": "视频生成迎来“Claude Code时刻”，MiniMax Design “杀入” Adobe、Canva 腹地",
+      "seen_at": "2026-08-21T23:11:37.731343+00:00",
+      "run_date": "2026-08-22"
+    },
+    "315f6fae9f4f80cfeaf0": {
+      "url": "https://www.infoq.cn/article/9FZ8z60yB4tS4WQEP4dw?utm_source=rss&utm_medium=article",
+      "title": "OpenAI 之后又是 Anthropic，Claude 将攻击延伸至公共互联网",
+      "seen_at": "2026-08-21T23:11:37.731343+00:00",
+      "run_date": "2026-08-22"
+    },
+    "84d6d5aa489c8863d56c": {
+      "url": "https://www.qbitai.com/2026/08/476596.html",
+      "title": "机器人的GPT-3时刻真·来了！卡卡西上身，看3秒就学会新动作",
+      "seen_at": "2026-08-21T23:11:37.731343+00:00",
+      "run_date": "2026-08-22"
+    },
+    "7ea8219a35fc40895192": {
+      "url": "https://www.infoq.cn/article/9x1ohAMlMpMCLdygg8Yf?utm_source=rss&utm_medium=article",
+      "title": "不跟风、不堆模型，百度靠什么突围AI办公赛道？",
+      "seen_at": "2026-08-21T23:11:37.731343+00:00",
+      "run_date": "2026-08-22"
     }
   },
-  "updated_at": "2026-08-20T23:14:16.401271+00:00"
+  "updated_at": "2026-08-21T23:11:37.731343+00:00"
 }
