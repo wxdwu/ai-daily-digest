@@ -1121,7 +1121,49 @@
       "title": "WRC 2026｜原生全模态世界模型：从模拟世界到交互世界",
       "seen_at": "2026-08-24T23:12:12.891262+00:00",
       "run_date": "2026-08-25"
+    },
+    "5c92c381eaa4aa00bdab": {
+      "url": "https://aws.amazon.com/cn/blogs/china/amazon-linux-2023-deploy-gpu-container-environment/",
+      "title": "在 Amazon Linux 2023 上部署 GPU 容器环境：快速入门指南",
+      "seen_at": "2026-08-25T23:14:45.015227+00:00",
+      "run_date": "2026-08-26"
+    },
+    "5acb4ac4af508c5b63d5": {
+      "url": "https://www.qbitai.com/2026/08/478839.html",
+      "title": "人民教育音像数字出版社与小猿达成合作 “中小学课本学习智能体”首落小猿AI学习机",
+      "seen_at": "2026-08-25T23:14:45.015227+00:00",
+      "run_date": "2026-08-26"
+    },
+    "9e6a4ce223e06fe4f355": {
+      "url": "https://aws.amazon.com/cn/blogs/china/hybrid-cloud-architecture-network-monitoring-solution/",
+      "title": "混合云架构下秒级多维网络监控方案",
+      "seen_at": "2026-08-25T23:14:45.015227+00:00",
+      "run_date": "2026-08-26"
+    },
+    "fad782f073224b0a5ca4": {
+      "url": "https://www.infoq.cn/article/9UoCxEhRcFG5ovFxTkXS?utm_source=rss&utm_medium=article",
+      "title": "Grafana 正式发布 gcx 和 MCP 服务器，助力基于遥测的智能代理开发",
+      "seen_at": "2026-08-25T23:14:45.015227+00:00",
+      "run_date": "2026-08-26"
+    },
+    "f6c3f3242fac03dd5860": {
+      "url": "https://www.infoq.cn/article/4mIQfr4w5gPLXSIW7YST?utm_source=rss&utm_medium=article",
+      "title": "主要前沿模型提供商采用水印技术以满足欧盟法规要求",
+      "seen_at": "2026-08-25T23:14:45.015227+00:00",
+      "run_date": "2026-08-26"
+    },
+    "33710addd1f388a68af8": {
+      "url": "https://www.qbitai.com/2026/08/479192.html",
+      "title": "开源国产8B模型，比肩闭源Image 2了！",
+      "seen_at": "2026-08-25T23:14:45.015227+00:00",
+      "run_date": "2026-08-26"
+    },
+    "2b8017fe175d5c0baabc": {
+      "url": "https://www.infoq.cn/article/xIctLq7L5cK9dIrVVCvd?utm_source=rss&utm_medium=article",
+      "title": "Cloudflare 将 CI 管道转变为 TypeScript 工作流",
+      "seen_at": "2026-08-25T23:14:45.015227+00:00",
+      "run_date": "2026-08-26"
     }
   },
-  "updated_at": "2026-08-24T23:12:12.891262+00:00"
+  "updated_at": "2026-08-25T23:14:45.015227+00:00"
 }
