@@ -1163,7 +1163,67 @@
       "title": "Cloudflare 将 CI 管道转变为 TypeScript 工作流",
       "seen_at": "2026-08-25T23:14:45.015227+00:00",
       "run_date": "2026-08-26"
+    },
+    "f1cc602218c14bb36cbf": {
+      "url": "https://www.qbitai.com/2026/08/480005.html",
+      "title": "工业Agent不是“套壳”大模型！西门子百年经验灌进工业AI",
+      "seen_at": "2026-08-27T04:06:50.609836+00:00",
+      "run_date": "2026-08-27"
+    },
+    "c240d386d52d5ecc32d9": {
+      "url": "https://www.infoq.cn/article/8ouuK09WuWA7Up35W9vb?utm_source=rss&utm_medium=article",
+      "title": "技术革命：为 Agentic AI 时代做好准备 | 技术趋势",
+      "seen_at": "2026-08-27T04:06:50.609836+00:00",
+      "run_date": "2026-08-27"
+    },
+    "01cf1de931e284f35cca": {
+      "url": "https://www.infoq.cn/article/3F8I0zcLfC5wcENtLASD?utm_source=rss&utm_medium=article",
+      "title": "英伟达公布 Vera Rubin 最新进展：推理、网络和定制芯片全面升级",
+      "seen_at": "2026-08-27T04:06:50.609836+00:00",
+      "run_date": "2026-08-27"
+    },
+    "8418267bf85e78b0bf60": {
+      "url": "https://www.infoq.cn/article/y7KTOS9YbBz0OcoyiweQ?utm_source=rss&utm_medium=article",
+      "title": "535B 大模型“直播”训练三个月：代码、数据、Loss全公开，吴恩达公开力挺",
+      "seen_at": "2026-08-27T04:06:50.609836+00:00",
+      "run_date": "2026-08-27"
+    },
+    "451401f8ec056986108d": {
+      "url": "https://www.qbitai.com/2026/08/479919.html",
+      "title": "神秘「牛来」模型果然是智谱！GLM首个原生多模态，还用的国产卡",
+      "seen_at": "2026-08-27T04:06:50.609836+00:00",
+      "run_date": "2026-08-27"
+    },
+    "6844f463c90049094781": {
+      "url": "https://www.qbitai.com/2026/08/480001.html",
+      "title": "千问办公首发上线Qwen3.8-Flash，生成速度提升100%，Token消耗减少75%",
+      "seen_at": "2026-08-27T04:06:50.609836+00:00",
+      "run_date": "2026-08-27"
+    },
+    "18441b2f726b49f36444": {
+      "url": "https://www.infoq.cn/article/vS7tpsLPdevZhMKdtxei?utm_source=rss&utm_medium=article",
+      "title": "DeepSeek 开源 Harness：AI 智能体基础设施开始“拆分”",
+      "seen_at": "2026-08-27T04:06:50.609836+00:00",
+      "run_date": "2026-08-27"
+    },
+    "a58e5e9dc31658d78d93": {
+      "url": "https://www.infoq.cn/article/RJDrRaDC1drafw0Kvoki?utm_source=rss&utm_medium=article",
+      "title": "不懂算法的工厂老兵，在 AMD 锐龙 AI Max+ 395上跑出工业智能体",
+      "seen_at": "2026-08-27T04:06:50.609836+00:00",
+      "run_date": "2026-08-27"
+    },
+    "205fdb964fb3f24ed72d": {
+      "url": "https://www.infoq.cn/article/Ztjb9xolQG8qFThbgxBD?utm_source=rss&utm_medium=article",
+      "title": "“额度想重置就重置，不问财务”，Codex Tibo首曝幕后：产品没做好，就补偿用户",
+      "seen_at": "2026-08-27T04:06:50.609836+00:00",
+      "run_date": "2026-08-27"
+    },
+    "5f5c7d1912f70543f698": {
+      "url": "https://aws.amazon.com/cn/blogs/china/agent-architecture-performance-security-practice/",
+      "title": "为游戏业务团队构建只读代码问答 Agent：架构、性能与安全实践",
+      "seen_at": "2026-08-27T04:06:50.609836+00:00",
+      "run_date": "2026-08-27"
     }
   },
-  "updated_at": "2026-08-25T23:14:45.015227+00:00"
+  "updated_at": "2026-08-27T04:06:50.609836+00:00"
 }
