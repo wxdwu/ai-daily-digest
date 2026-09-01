@@ -1367,7 +1367,67 @@
       "title": "S3 兼容不代表具备 S3 级别的安全性",
       "seen_at": "2026-08-30T00:50:08.470362+00:00",
       "run_date": "2026-08-30"
+    },
+    "3edace3f6b726bb763d2": {
+      "url": "https://www.infoq.cn/article/6gFLptyMHRQhrILOlQ9Q?utm_source=rss&utm_medium=article",
+      "title": "不抢最贵GPU，专捡“没人要”的算力：前英伟达工程师搞出一套“拾荒者”打法",
+      "seen_at": "2026-09-01T01:29:09.392689+00:00",
+      "run_date": "2026-09-01"
+    },
+    "54654aa8bcf440edf17b": {
+      "url": "https://www.infoq.cn/article/l88X1azz8wfwphDyECoP?utm_source=rss&utm_medium=article",
+      "title": "AI 写代码飞快，为何交付没有变快？小红书 Muse 的 Agentic 架构实践",
+      "seen_at": "2026-09-01T01:29:09.392689+00:00",
+      "run_date": "2026-09-01"
+    },
+    "97d11461624f3b24ae29": {
+      "url": "https://www.infoq.cn/article/GuFWNd24Ww5AFlrXxTBo?utm_source=rss&utm_medium=article",
+      "title": "坚决不用行业标准AGENTS.md，Claude Code惹来“封杀令”：Anthropic终于回应了，但开发者更气了",
+      "seen_at": "2026-09-01T01:29:09.392689+00:00",
+      "run_date": "2026-09-01"
+    },
+    "bfa4f9586929aa12ecee": {
+      "url": "https://aws.amazon.com/cn/blogs/china/eks-gpu-node-network-high-performance/",
+      "title": "EKS 上的 GPU 工作负载：节点、网络与高性能存储的架构实践",
+      "seen_at": "2026-09-01T01:29:09.392689+00:00",
+      "run_date": "2026-09-01"
+    },
+    "34833432f6695b1f6c9c": {
+      "url": "https://aws.amazon.com/cn/blogs/china/database-migration-cdc-optimize-practice/",
+      "title": "大规模数据库迁移中的 CDC 吞吐优化实践",
+      "seen_at": "2026-09-01T01:29:09.392689+00:00",
+      "run_date": "2026-09-01"
+    },
+    "836103cb4491d442c9b3": {
+      "url": "https://www.qbitai.com/2026/08/481919.html",
+      "title": "范式与华为达成重磅算力战略合作，成为首批拥抱国产最高端算力底座的AI企业",
+      "seen_at": "2026-09-01T01:29:09.392689+00:00",
+      "run_date": "2026-09-01"
+    },
+    "1bae670d969bd216cd6d": {
+      "url": "https://www.qbitai.com/2026/08/481475.html",
+      "title": "AQuA：让量化研究 Agent 持续进化，也让回测结果经得起检验",
+      "seen_at": "2026-09-01T01:29:09.392689+00:00",
+      "run_date": "2026-09-01"
+    },
+    "ee70bcb66ba4000d01fb": {
+      "url": "https://www.infoq.cn/article/8iWWrov7bkk1hz5CcFft?utm_source=rss&utm_medium=article",
+      "title": "智能体适应度函数：将演进式架构扩展至确定性规则之外",
+      "seen_at": "2026-09-01T01:29:09.392689+00:00",
+      "run_date": "2026-09-01"
+    },
+    "ad01a8ad27ca0be4d226": {
+      "url": "https://www.infoq.cn/article/4KQHJC49t8J8FPqaEVLv?utm_source=rss&utm_medium=article",
+      "title": "OpenClaw 从意外爆红到“无人问津”：一个开源 AI Agent 的八个月过山车",
+      "seen_at": "2026-09-01T01:29:09.392689+00:00",
+      "run_date": "2026-09-01"
+    },
+    "945619a06865eb6992e3": {
+      "url": "https://www.infoq.cn/article/rsiiPG7xwQakgyulC88D?utm_source=rss&utm_medium=article",
+      "title": "“你以为买的是 DeepSeek Flash，到手可能是 1.5 bit 缩水版”：Pi 核心贡献者谈 AI Token 黑箱",
+      "seen_at": "2026-09-01T01:29:09.392689+00:00",
+      "run_date": "2026-09-01"
     }
   },
-  "updated_at": "2026-08-31T00:57:03.894336+00:00"
+  "updated_at": "2026-09-01T01:29:09.392689+00:00"
 }
