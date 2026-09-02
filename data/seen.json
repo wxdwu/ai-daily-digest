@@ -1427,7 +1427,49 @@
       "title": "“你以为买的是 DeepSeek Flash，到手可能是 1.5 bit 缩水版”：Pi 核心贡献者谈 AI Token 黑箱",
       "seen_at": "2026-09-01T01:29:09.392689+00:00",
       "run_date": "2026-09-01"
+    },
+    "a491d930de6ec8893684": {
+      "url": "https://www.infoq.cn/article/S6ATgchCiYMHpPaTPzer?utm_source=rss&utm_medium=article",
+      "title": "谷歌 HEIR 项目旨在让同态加密推理成为可以一键实现的功能",
+      "seen_at": "2026-09-02T00:36:57.472517+00:00",
+      "run_date": "2026-09-02"
+    },
+    "161bc84208c2b0cc02ca": {
+      "url": "https://aws.amazon.com/cn/blogs/china/eks-cluster-environment-configuration-best-practices/",
+      "title": "企业级 EKS 集群生产环境配置最佳实践",
+      "seen_at": "2026-09-02T00:36:57.472517+00:00",
+      "run_date": "2026-09-02"
+    },
+    "37867559ebc7cbb0f6c9": {
+      "url": "https://www.infoq.cn/article/WGj2Jx0K2sbP3dhUXeC5?utm_source=rss&utm_medium=article",
+      "title": "智能体请求暴增9.4倍，token账单却没涨：Uber 公开AI软件工厂省钱方法",
+      "seen_at": "2026-09-02T00:36:57.472517+00:00",
+      "run_date": "2026-09-02"
+    },
+    "f60fdc488480fb775b40": {
+      "url": "https://www.qbitai.com/2026/09/482406.html",
+      "title": "A社化身A割！Claude官宣永久提额25%，结果到手反而少17%",
+      "seen_at": "2026-09-02T00:36:57.472517+00:00",
+      "run_date": "2026-09-02"
+    },
+    "253e160584a6ca016247": {
+      "url": "https://www.infoq.cn/article/s8dvlxO3lh3CEDgcsUEi?utm_source=rss&utm_medium=article",
+      "title": "1200个 Agent 秘密交流，700个集体攻击Hugging Face，OpenAI 模型完成了一次没有剧本的集体暴走",
+      "seen_at": "2026-09-02T00:36:57.472517+00:00",
+      "run_date": "2026-09-02"
+    },
+    "e4781c20ecc38dbab387": {
+      "url": "https://www.qbitai.com/2026/08/481893.html",
+      "title": "「GPT-6」灰测demo刷屏！周四发布在即",
+      "seen_at": "2026-09-02T00:36:57.472517+00:00",
+      "run_date": "2026-09-02"
+    },
+    "69f29b1fa86483549c9c": {
+      "url": "https://aws.amazon.com/cn/blogs/china/amazon-dynamodb-build-agent-memory-retrieval/",
+      "title": "用 Amazon DynamoDB 构建无需双写的 Agent Memory 与语义检索",
+      "seen_at": "2026-09-02T00:36:57.472517+00:00",
+      "run_date": "2026-09-02"
     }
   },
-  "updated_at": "2026-09-01T01:29:09.392689+00:00"
+  "updated_at": "2026-09-02T00:36:57.472517+00:00"
 }
