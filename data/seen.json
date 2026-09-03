@@ -1,113 +1,5 @@
 {
   "items": {
-    "e24f84cc7009b9ed72a0": {
-      "url": "https://github.com/wienerdog-ai/wienerdog/",
-      "title": "Show HN: Wienerdog – memory and self-improving skills for Claude Code/Codex",
-      "seen_at": "2026-08-03T01:23:42.175134+00:00",
-      "run_date": "2026-08-03"
-    },
-    "b91acbe190e28039b79e": {
-      "url": "https://simonwillison.net/2026/Aug/2/july-newsletter/#atom-everything",
-      "title": "July 2026 newsletter",
-      "seen_at": "2026-08-03T01:23:42.175134+00:00",
-      "run_date": "2026-08-03"
-    },
-    "9a0a25c308b815188c97": {
-      "url": "https://sprocket-demo.spikonado.com",
-      "title": "Show HN: Sprocket – The Best AI Agent for Hardware and Software Development",
-      "seen_at": "2026-08-03T01:23:42.175134+00:00",
-      "run_date": "2026-08-03"
-    },
-    "16fac92f6c7767e49d10": {
-      "url": "https://github.com/spikonado/sprocket",
-      "title": "Show HN: I'm 16 y/o and Built the only AI Agent for Hardware and Software Dev",
-      "seen_at": "2026-08-03T01:23:42.175134+00:00",
-      "run_date": "2026-08-03"
-    },
-    "e0ae5acd579a6af46e0b": {
-      "url": "https://blog.cloudflare.com/agents-week-welcome/",
-      "title": "Welcome to Agents Week",
-      "seen_at": "2026-08-03T01:23:42.175134+00:00",
-      "run_date": "2026-08-03"
-    },
-    "6802d89cd112c2e47fb9": {
-      "url": "https://news.ycombinator.com/item?id=49139845",
-      "title": "Ask HN: I still don't understand why AI agents need \"skills\"",
-      "seen_at": "2026-08-03T01:23:42.175134+00:00",
-      "run_date": "2026-08-03"
-    },
-    "36e263a3bf123e7a991d": {
-      "url": "https://www.brethorsting.com/blog/2026/08/the-greenhouse-and-the-lens-two-modes-of-agentic-ai-work/",
-      "title": "The Greenhouse and the Lens: Two Modes of Agentic AI Work",
-      "seen_at": "2026-08-03T01:23:42.175134+00:00",
-      "run_date": "2026-08-03"
-    },
-    "8c13360b179969723d02": {
-      "url": "https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything",
-      "title": "Ten advances in mathematics and theoretical computer science",
-      "seen_at": "2026-08-03T01:23:42.175134+00:00",
-      "run_date": "2026-08-03"
-    },
-    "69522d7763b68185ca45": {
-      "url": "https://www.qbitai.com/2026/08/465226.html",
-      "title": "刚刚，阿里Qwen3.8-Max来了！冲进全球第一梯队，模型表现直逼Claude",
-      "seen_at": "2026-08-04T00:11:26.743114+00:00",
-      "run_date": "2026-08-04"
-    },
-    "f7a8765b8132290eda2d": {
-      "url": "https://www.infoq.cn/article/uRoTVrUKptoRHzFwSpxj?utm_source=rss&utm_medium=article",
-      "title": "Altman 带着GPT-6进白宫？OpenAI 新模型曝光，或成美国首批过审模型",
-      "seen_at": "2026-08-04T00:11:26.743114+00:00",
-      "run_date": "2026-08-04"
-    },
-    "2d6afa8fc5574c5a6e47": {
-      "url": "https://www.qbitai.com/2026/08/465215.html",
-      "title": "阿里Qwen3.8正式发布，编程与办公再进化，推理更快更稳定",
-      "seen_at": "2026-08-04T00:11:26.743114+00:00",
-      "run_date": "2026-08-04"
-    },
-    "58267269132e3ff1b16d": {
-      "url": "https://www.infoq.cn/article/5si5hgXIKQjbwFwyJ5aC?utm_source=rss&utm_medium=article",
-      "title": "Amazon EKS 新增升级后 7 天内回滚 Kubernetes 版本的功能",
-      "seen_at": "2026-08-04T00:11:26.743114+00:00",
-      "run_date": "2026-08-04"
-    },
-    "44bdfa7c314545a8c440": {
-      "url": "https://www.qbitai.com/2026/08/465361.html",
-      "title": "2026中国科创投资夏季峰会暨陕西科创产业生态大会圆满落幕",
-      "seen_at": "2026-08-04T00:11:26.743114+00:00",
-      "run_date": "2026-08-04"
-    },
-    "64552a3016e1b435fb48": {
-      "url": "https://www.qbitai.com/2026/08/465176.html",
-      "title": "赛博义父Tibo爆料：谷歌早一年就做出了ChatGPT，硬是没敢发！",
-      "seen_at": "2026-08-04T00:11:26.743114+00:00",
-      "run_date": "2026-08-04"
-    },
-    "d026ae66cc6c522cdf8e": {
-      "url": "https://www.qbitai.com/2026/08/465673.html",
-      "title": "这个新生图模型有点夯：4K直出的，国产的，开源的！",
-      "seen_at": "2026-08-04T00:11:26.743114+00:00",
-      "run_date": "2026-08-04"
-    },
-    "ca9c6058363cd480ba4f": {
-      "url": "https://www.infoq.cn/article/amvXR0j31a7NMB4F5Z3Z?utm_source=rss&utm_medium=article",
-      "title": "浙江大学软件学院教授周经森博士确认出席AICon深圳，将分享人工智能时代的性能工程",
-      "seen_at": "2026-08-04T00:11:26.743114+00:00",
-      "run_date": "2026-08-04"
-    },
-    "c52d8c6b9cfa631840af": {
-      "url": "https://www.qbitai.com/2026/08/465211.html",
-      "title": "阿里“千问办公”开启公测",
-      "seen_at": "2026-08-04T00:11:26.743114+00:00",
-      "run_date": "2026-08-04"
-    },
-    "cde8cd294893b683a93e": {
-      "url": "https://www.qbitai.com/2026/08/464835.html",
-      "title": "AI不再用完即忘：华为诺亚开源MindMemOS，记忆和Skill一起进化",
-      "seen_at": "2026-08-04T00:11:26.743114+00:00",
-      "run_date": "2026-08-04"
-    },
     "0739fbc63346d2756eea": {
       "url": "https://www.qbitai.com/2026/08/465732.html",
       "title": "亿级日活App的“算力生死劫”：推理成本倒挂，他们靠跨云架构砍掉75% GPU集群",
@@ -1469,7 +1361,55 @@
       "title": "用 Amazon DynamoDB 构建无需双写的 Agent Memory 与语义检索",
       "seen_at": "2026-09-02T00:36:57.472517+00:00",
       "run_date": "2026-09-02"
+    },
+    "224e01f2bde48eaedd3d": {
+      "url": "https://www.qbitai.com/2026/09/483104.html",
+      "title": "还在为大模型洗数据熬夜？蚂蚁拿下VLDB工业最佳论文，一套宽表搞定35PB语料，效率狂飙5.6倍",
+      "seen_at": "2026-09-03T00:46:54.074834+00:00",
+      "run_date": "2026-09-03"
+    },
+    "a61183742880fca1ad06": {
+      "url": "https://www.qbitai.com/2026/09/483101.html",
+      "title": "阿里更新旗舰模型Qwen3.8-Max，前端编程能力跃居全球第一",
+      "seen_at": "2026-09-03T00:46:54.074834+00:00",
+      "run_date": "2026-09-03"
+    },
+    "2e3b2de4e7aaf1d9ddf9": {
+      "url": "https://www.qbitai.com/2026/09/482586.html",
+      "title": "李飞飞发布：全球首个多模态世界模型",
+      "seen_at": "2026-09-03T00:46:54.074834+00:00",
+      "run_date": "2026-09-03"
+    },
+    "d3c78b3c5dd6604e2912": {
+      "url": "https://www.qbitai.com/2026/09/482652.html",
+      "title": "Claude最强Fable 5.1发布！8项屠榜，最高降价45%，反蒸馏机制上线",
+      "seen_at": "2026-09-03T00:46:54.074834+00:00",
+      "run_date": "2026-09-03"
+    },
+    "55ade2d974a94af40e91": {
+      "url": "https://www.infoq.cn/article/EPME6yOoJGusHdGZTGFJ?utm_source=rss&utm_medium=article",
+      "title": "Claude越狱后，Anthropic停掉训练、150人紧急转岗",
+      "seen_at": "2026-09-03T00:46:54.074834+00:00",
+      "run_date": "2026-09-03"
+    },
+    "34eca3dd109d44cbd3a1": {
+      "url": "https://www.infoq.cn/article/ztbou1CqjAdzrT6GNSKV?utm_source=rss&utm_medium=article",
+      "title": "Cloudflare OS：Cloudflare 基于能力模型构建的开源企业级 AI 平台",
+      "seen_at": "2026-09-03T00:46:54.074834+00:00",
+      "run_date": "2026-09-03"
+    },
+    "0443e88b5eca774359c8": {
+      "url": "https://www.qbitai.com/2026/09/483097.html",
+      "title": "前字节强化学习专家孙鹏博士加盟星尘智能，完善Physical AI全栈技术布局",
+      "seen_at": "2026-09-03T00:46:54.074834+00:00",
+      "run_date": "2026-09-03"
+    },
+    "bdc8b5d39417f36f71ec": {
+      "url": "https://www.qbitai.com/2026/09/482699.html",
+      "title": "巨简单，更懂家！海信JUOS正式发布：行业首个家庭智能伴侣级AIOS",
+      "seen_at": "2026-09-03T00:46:54.074834+00:00",
+      "run_date": "2026-09-03"
     }
   },
-  "updated_at": "2026-09-02T00:36:57.472517+00:00"
+  "updated_at": "2026-09-03T00:46:54.074834+00:00"
 }
