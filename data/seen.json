@@ -1409,7 +1409,67 @@
       "title": "巨简单，更懂家！海信JUOS正式发布：行业首个家庭智能伴侣级AIOS",
       "seen_at": "2026-09-03T00:46:54.074834+00:00",
       "run_date": "2026-09-03"
+    },
+    "b168016773dfbbab9495": {
+      "url": "https://www.infoq.cn/article/9YiEhb3hAFtUlxOpMdGC?utm_source=rss&utm_medium=article",
+      "title": "李飞飞首个多模态世界模型 Atlas 正式发布：从零开始预训练，几张图就能构建世界",
+      "seen_at": "2026-09-04T00:29:15.955428+00:00",
+      "run_date": "2026-09-04"
+    },
+    "2b8c459c68a4d9602cab": {
+      "url": "https://www.qbitai.com/2026/09/483948.html",
+      "title": "新版GPT Image 2.5已经能伪造GPT-6发布会了",
+      "seen_at": "2026-09-04T00:29:15.955428+00:00",
+      "run_date": "2026-09-04"
+    },
+    "db30d8eeb9a2f5aa81fe": {
+      "url": "https://www.infoq.cn/article/ofYabQL5uvxdaIY7B31f?utm_source=rss&utm_medium=article",
+      "title": "Diagrid Catalyst 2.0 发布，为 AI 智能体新增持久化、可验证的执行能力",
+      "seen_at": "2026-09-04T00:29:15.955428+00:00",
+      "run_date": "2026-09-04"
+    },
+    "9cb6a06f0db351fc24f2": {
+      "url": "https://www.infoq.cn/article/1qWhPgQVFTBcz8arxCCk?utm_source=rss&utm_medium=article",
+      "title": "超越偏移量延迟：PB 级规模下 Hudi 数据湖流水线的队列等待时间计算",
+      "seen_at": "2026-09-04T00:29:15.955428+00:00",
+      "run_date": "2026-09-04"
+    },
+    "b7f14402b7312fc8ca78": {
+      "url": "https://www.infoq.cn/article/PfVEf7xZJBSkrYib9R8z?utm_source=rss&utm_medium=article",
+      "title": "BMC 漏洞致数千台服务器面临硬件级入侵风险",
+      "seen_at": "2026-09-04T00:29:15.955428+00:00",
+      "run_date": "2026-09-04"
+    },
+    "0e36e473743f58ef1112": {
+      "url": "https://www.infoq.cn/article/labxcNbT15HapoWw69lq?utm_source=rss&utm_medium=article",
+      "title": "Cursor 推出 Origin：面向智能体的 GitHub 替代方案",
+      "seen_at": "2026-09-04T00:29:15.955428+00:00",
+      "run_date": "2026-09-04"
+    },
+    "afe15c6e156f0e3b5d61": {
+      "url": "https://www.qbitai.com/2026/09/483898.html",
+      "title": "刚刚，GPT-6正式发布！OpenAI：欢迎来到AGI时代",
+      "seen_at": "2026-09-04T00:29:15.955428+00:00",
+      "run_date": "2026-09-04"
+    },
+    "08cfe5e235a777ed4ec3": {
+      "url": "https://www.infoq.cn/article/cg5y0kCfmWKrIjCraZeH?utm_source=rss&utm_medium=article",
+      "title": "亚马逊云科技推出规范驱动组合：数据工作流不再靠复制代码",
+      "seen_at": "2026-09-04T00:29:15.955428+00:00",
+      "run_date": "2026-09-04"
+    },
+    "5144e0a601d604a6bcd5": {
+      "url": "https://blogs.nvidia.cn/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
+      "title": "Spark 迸发：NVIDIA 在 IFA 2026 加速本地 AI",
+      "seen_at": "2026-09-04T00:29:15.955428+00:00",
+      "run_date": "2026-09-04"
+    },
+    "8f6f7053be564ecf3f94": {
+      "url": "https://www.qbitai.com/2026/09/483189.html",
+      "title": "世界生成模型来了3D头部玩家，可进入生产管线的场景级生成时代来临！",
+      "seen_at": "2026-09-04T00:29:15.955428+00:00",
+      "run_date": "2026-09-04"
     }
   },
-  "updated_at": "2026-09-03T00:46:54.074834+00:00"
+  "updated_at": "2026-09-04T00:29:15.955428+00:00"
 }
