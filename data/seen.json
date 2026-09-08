@@ -1,47 +1,5 @@
 {
   "items": {
-    "9d1d0a7e392262dff53e": {
-      "url": "https://www.infoq.cn/article/B6WtPNGNH0d5LolB1ED2?utm_source=rss&utm_medium=article",
-      "title": "蚂蚁集团开源Avernet：破解多智能体“找不到、对不齐”协作难题",
-      "seen_at": "2026-08-08T23:16:08.054674+00:00",
-      "run_date": "2026-08-09"
-    },
-    "21e85b9061f4ee8252e6": {
-      "url": "https://www.infoq.cn/article/hQp9boye2rpPH7ZWUvXL?utm_source=rss&utm_medium=article",
-      "title": "金融监管领域的 Harness 实践：让知识与数据驱动 Agent 稳定运行｜AICon深圳",
-      "seen_at": "2026-08-08T23:16:08.054674+00:00",
-      "run_date": "2026-08-09"
-    },
-    "2c1eed688da1d9ade5bc": {
-      "url": "https://www.qbitai.com/2026/08/468631.html",
-      "title": "奥特曼的ChatGPT育儿大法，捅了马蜂窝",
-      "seen_at": "2026-08-08T23:16:08.054674+00:00",
-      "run_date": "2026-08-09"
-    },
-    "dc73df18c506256a9988": {
-      "url": "https://www.qbitai.com/2026/08/468305.html",
-      "title": "openJiuwen发布业界首个企业级智能体分布式蜂群架构，联合邮储成功落地金融生产环境",
-      "seen_at": "2026-08-08T23:16:08.054674+00:00",
-      "run_date": "2026-08-09"
-    },
-    "d1a5c1eb623675ad41ef": {
-      "url": "https://www.infoq.cn/article/9C3eK9tJqDXbabbBy3aj?utm_source=rss&utm_medium=article",
-      "title": "MiniMax H3 团队 Reddit 被问爆：2K 要开源，图像模型在路上，Apache-2.0 也在考虑了",
-      "seen_at": "2026-08-08T23:16:08.054674+00:00",
-      "run_date": "2026-08-09"
-    },
-    "6e7d067885bd43604722": {
-      "url": "https://www.qbitai.com/2026/08/468462.html",
-      "title": "都学坏了！奥特曼亲手封锁最强模型Astra，重蹈Mythos覆辙",
-      "seen_at": "2026-08-08T23:16:08.054674+00:00",
-      "run_date": "2026-08-09"
-    },
-    "fbb6e15c36879368bf4c": {
-      "url": "https://www.infoq.cn/article/zko5GmLUpmxdSwWbkfTI?utm_source=rss&utm_medium=article",
-      "title": "Gartner发布2026中国网络安全技术成熟度曲线，AI安全开始“挤泡沫”",
-      "seen_at": "2026-08-08T23:16:08.054674+00:00",
-      "run_date": "2026-08-09"
-    },
     "3edaab30451f254187b7": {
       "url": "https://www.infoq.cn/article/RXRuR3TN9msNMAUWRtCl?utm_source=rss&utm_medium=article",
       "title": "OpenAI给10亿用户免费换上GPT-5.6",
@@ -1325,7 +1283,67 @@
       "title": "微软 Foundry 模型路由扩容：覆盖区域增至 28 个，更新模型池",
       "seen_at": "2026-09-07T00:24:59.043039+00:00",
       "run_date": "2026-09-07"
+    },
+    "459fa74e6ae3de80339c": {
+      "url": "https://www.qbitai.com/2026/09/485108.html",
+      "title": "菲尔兹奖得主入局大模型！4B手机Qwen+云端GLM刷爆ARC-AGI 3",
+      "seen_at": "2026-09-08T00:46:18.796570+00:00",
+      "run_date": "2026-09-08"
+    },
+    "50b10fd4157269a368e0": {
+      "url": "https://www.infoq.cn/article/atCusTaSOmddUx1vvJba?utm_source=rss&utm_medium=article",
+      "title": "TikTok SRE 技术负责人：AI Agents 说到底就是分布式系统",
+      "seen_at": "2026-09-08T00:46:18.796570+00:00",
+      "run_date": "2026-09-08"
+    },
+    "aa3f9cb96a841c55f524": {
+      "url": "https://www.infoq.cn/article/STpCLL13xCQsoYrfWSLb?utm_source=rss&utm_medium=article",
+      "title": "微软将人工智能治理从政策层面转向运行时执行",
+      "seen_at": "2026-09-08T00:46:18.796570+00:00",
+      "run_date": "2026-09-08"
+    },
+    "f73a7c532dae16088f05": {
+      "url": "https://aws.amazon.com/cn/blogs/china/proxy-redis-cluster-migration-amazon-elasticache-valkey-9-0/",
+      "title": "Proxy 模式 Redis 集群跨云迁移至 Amazon ElastiCache：Valkey 9.0 集群多 DB 能力落地实践",
+      "seen_at": "2026-09-08T00:46:18.796570+00:00",
+      "run_date": "2026-09-08"
+    },
+    "1c505e30f899b9a75756": {
+      "url": "https://www.qbitai.com/2026/09/485039.html",
+      "title": "产业龙头领投！中科类脑完成数亿元B+轮战略融资",
+      "seen_at": "2026-09-08T00:46:18.796570+00:00",
+      "run_date": "2026-09-08"
+    },
+    "a711dbd7a2b324e746d6": {
+      "url": "https://www.infoq.cn/article/D5heSof43WbGMHrCCIsy?utm_source=rss&utm_medium=article",
+      "title": "9 月 9 日，邀您共赴 2026 外滩大会“智能体安全”之约",
+      "seen_at": "2026-09-08T00:46:18.796570+00:00",
+      "run_date": "2026-09-08"
+    },
+    "341759d1662536914334": {
+      "url": "https://www.infoq.cn/article/uTRvjxweSGdp2kzlhPiV?utm_source=rss&utm_medium=article",
+      "title": "AWS 开源 Kiro Crew，让 Coding Agent 异步跑起来",
+      "seen_at": "2026-09-08T00:46:18.796570+00:00",
+      "run_date": "2026-09-08"
+    },
+    "e214ca726621d5ad9b6e": {
+      "url": "https://www.infoq.cn/article/boiE7qfjxSQjHKUtevvp?utm_source=rss&utm_medium=article",
+      "title": "阿里前销售总监在美失踪逾半月后确认身亡；5天10万元！外国高管涌入中国“工厂游”；传DeepSeek计划采购16万颗昇腾芯片｜AI周报",
+      "seen_at": "2026-09-08T00:46:18.796570+00:00",
+      "run_date": "2026-09-08"
+    },
+    "9c2588b515ae920a6f5c": {
+      "url": "https://www.qbitai.com/2026/09/485431.html",
+      "title": "GPT-6不只Astra！Sol内测结果曝光，速度快6倍",
+      "seen_at": "2026-09-08T00:46:18.796570+00:00",
+      "run_date": "2026-09-08"
+    },
+    "7e6bc815c5f06e9b38b0": {
+      "url": "https://www.qbitai.com/2026/09/485056.html",
+      "title": "原生全模态技术战略闭环，智象（HiDream.ai）发布具身世界模型HiDream-O1-Embodied",
+      "seen_at": "2026-09-08T00:46:18.796570+00:00",
+      "run_date": "2026-09-08"
     }
   },
-  "updated_at": "2026-09-07T00:24:59.043039+00:00"
+  "updated_at": "2026-09-08T00:46:18.796570+00:00"
 }
