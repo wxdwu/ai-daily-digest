@@ -1,41 +1,5 @@
 {
   "items": {
-    "3edaab30451f254187b7": {
-      "url": "https://www.infoq.cn/article/RXRuR3TN9msNMAUWRtCl?utm_source=rss&utm_medium=article",
-      "title": "OpenAI给10亿用户免费换上GPT-5.6",
-      "seen_at": "2026-08-09T23:17:52.372321+00:00",
-      "run_date": "2026-08-10"
-    },
-    "23af2a22e935f0f83f15": {
-      "url": "https://www.qbitai.com/2026/08/469010.html",
-      "title": "180万刀，连亚马逊都烧不起Claude了",
-      "seen_at": "2026-08-09T23:17:52.372321+00:00",
-      "run_date": "2026-08-10"
-    },
-    "24f101c6cf942275a33d": {
-      "url": "https://www.qbitai.com/2026/08/468913.html",
-      "title": "GPT-5.6和Fable联手，解决了一道悬了25年的数学难题",
-      "seen_at": "2026-08-09T23:17:52.372321+00:00",
-      "run_date": "2026-08-10"
-    },
-    "e0b5f006a4d1a46f70a9": {
-      "url": "https://www.qbitai.com/2026/08/468766.html",
-      "title": "Opus 5狂烧6.9亿token做游戏，GPT-5.6用5美元复刻了",
-      "seen_at": "2026-08-09T23:17:52.372321+00:00",
-      "run_date": "2026-08-10"
-    },
-    "101d123e4b98b5803f3a": {
-      "url": "https://www.qbitai.com/2026/08/468782.html",
-      "title": "当题库追不上模型，AI开始给自己出题：中国这支团队跑通了数据层RSI",
-      "seen_at": "2026-08-09T23:17:52.372321+00:00",
-      "run_date": "2026-08-10"
-    },
-    "533d6c7f207432ced8fb": {
-      "url": "https://www.infoq.cn/article/MMh1pkuNSPDlUAtuRelk?utm_source=rss&utm_medium=article",
-      "title": "从失控到可控：基于系统控制论的 Agent 安全防御体系设计与实践｜AICon深圳",
-      "seen_at": "2026-08-09T23:17:52.372321+00:00",
-      "run_date": "2026-08-10"
-    },
     "7a63903180d8cdf5b0f2": {
       "url": "https://www.infoq.cn/article/FEcOI8kYoGuFYq39acEo?utm_source=rss&utm_medium=article",
       "title": "涨价30倍仍是最便宜的模型，DeepSeek可能有这个底气",
@@ -1343,7 +1307,61 @@
       "title": "原生全模态技术战略闭环，智象（HiDream.ai）发布具身世界模型HiDream-O1-Embodied",
       "seen_at": "2026-09-08T00:46:18.796570+00:00",
       "run_date": "2026-09-08"
+    },
+    "fb6aeaac93ac5a6ee68d": {
+      "url": "https://www.infoq.cn/article/yfQdTa8cRxjJB0rzZMJR?utm_source=rss&utm_medium=article",
+      "title": "Karmada 正式从 CNCF 毕业，已用于多集群 AI 训练与 GPU 调度",
+      "seen_at": "2026-09-09T00:46:42.579081+00:00",
+      "run_date": "2026-09-09"
+    },
+    "b3d9f291fc6df34fb639": {
+      "url": "https://www.infoq.cn/article/rdESg5icYIZ71J7xb69K?utm_source=rss&utm_medium=article",
+      "title": "OpenAI 详解 GPT-Live 架构如何实现了连续的有状态语音交互",
+      "seen_at": "2026-09-09T00:46:42.579081+00:00",
+      "run_date": "2026-09-09"
+    },
+    "aefee78d1954836b0409": {
+      "url": "https://www.infoq.cn/article/IR6XdUEok3aY1YSDOvat?utm_source=rss&utm_medium=article",
+      "title": "Arm 发布 Neoverse CSS N4：单裸片最高128核，押注智能体时代 CPU 需求",
+      "seen_at": "2026-09-09T00:46:42.579081+00:00",
+      "run_date": "2026-09-09"
+    },
+    "3c80e1c363e82b313561": {
+      "url": "https://www.qbitai.com/2026/09/485784.html",
+      "title": "深度智控获宁德时代、沙特阿美战投等重磅加码，加速打造物理AI时代算力与能源底座",
+      "seen_at": "2026-09-09T00:46:42.579081+00:00",
+      "run_date": "2026-09-09"
+    },
+    "a3c05d718a88b880a693": {
+      "url": "https://www.infoq.cn/article/hOJ5r8sQvQsGvm0KNHTd?utm_source=rss&utm_medium=article",
+      "title": "OpenClaw 2.0 发布：简化配置，支持智能体协作",
+      "seen_at": "2026-09-09T00:46:42.579081+00:00",
+      "run_date": "2026-09-09"
+    },
+    "fcdd8ee5ea81ed3d8941": {
+      "url": "https://www.infoq.cn/article/C8WbrpalJEjLfSh2xJJj?utm_source=rss&utm_medium=article",
+      "title": "Cohere 发布 Parse 5，可以从复杂的文档中高效地提取多模态信息",
+      "seen_at": "2026-09-09T00:46:42.579081+00:00",
+      "run_date": "2026-09-09"
+    },
+    "6f566769ae6df39ebba2": {
+      "url": "https://www.qbitai.com/2026/09/485854.html",
+      "title": "感谢用GPT-6搓3D的！燃烧自己的token换来一次全体重置",
+      "seen_at": "2026-09-09T00:46:42.579081+00:00",
+      "run_date": "2026-09-09"
+    },
+    "1af0c9b65827d6d6092a": {
+      "url": "https://www.infoq.cn/article/zmiQaFpdA993WFozmTt3?utm_source=rss&utm_medium=article",
+      "title": "AI Coding 在大型客户端工程中的落地实践——从通才模型到专才 Agent｜QCon上海",
+      "seen_at": "2026-09-09T00:46:42.579081+00:00",
+      "run_date": "2026-09-09"
+    },
+    "e0a522a4a4e4788f0d80": {
+      "url": "https://www.qbitai.com/2026/09/485555.html",
+      "title": "王云鹤创业后交出首个模型",
+      "seen_at": "2026-09-09T00:46:42.579081+00:00",
+      "run_date": "2026-09-09"
     }
   },
-  "updated_at": "2026-09-08T00:46:18.796570+00:00"
+  "updated_at": "2026-09-09T00:46:42.579081+00:00"
 }
