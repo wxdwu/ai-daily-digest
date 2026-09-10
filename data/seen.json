@@ -1,65 +1,5 @@
 {
   "items": {
-    "7a63903180d8cdf5b0f2": {
-      "url": "https://www.infoq.cn/article/FEcOI8kYoGuFYq39acEo?utm_source=rss&utm_medium=article",
-      "title": "涨价30倍仍是最便宜的模型，DeepSeek可能有这个底气",
-      "seen_at": "2026-08-10T23:22:53.410985+00:00",
-      "run_date": "2026-08-11"
-    },
-    "3634a9eb17cb87572876": {
-      "url": "https://www.qbitai.com/2026/08/469500.html",
-      "title": "Claude Code倒计时5天默认自动模式，多花的钱A社自己掏",
-      "seen_at": "2026-08-10T23:22:53.410985+00:00",
-      "run_date": "2026-08-11"
-    },
-    "5684c94f34afba1d8efd": {
-      "url": "https://www.infoq.cn/article/qBHKWa0AabfP0Fs8rGrk?utm_source=rss&utm_medium=article",
-      "title": "AI推理规模上升后，华为开始重新定义“存储”的位置",
-      "seen_at": "2026-08-10T23:22:53.410985+00:00",
-      "run_date": "2026-08-11"
-    },
-    "261d734cff60796e5dbb": {
-      "url": "https://www.qbitai.com/2026/08/469520.html",
-      "title": "对话郎咸朋：具身也会有“蔚小理”，靠融资实现不了物理AGI",
-      "seen_at": "2026-08-10T23:22:53.410985+00:00",
-      "run_date": "2026-08-11"
-    },
-    "dba2cf1889c0b8aca1cc": {
-      "url": "https://www.qbitai.com/2026/08/469493.html",
-      "title": "Meoo秒悟团队版全量上线， 接入Qwen-3.8-Max、即日起可直接订阅",
-      "seen_at": "2026-08-10T23:22:53.410985+00:00",
-      "run_date": "2026-08-11"
-    },
-    "13261c208b096fa1eebd": {
-      "url": "https://www.infoq.cn/article/dXkqWgtLOtDEl82dzQR6?utm_source=rss&utm_medium=article",
-      "title": "破局“数据困境”：橡木果发布全球首个“具身本能模型”Natus AGE-0，获招商局创投与蔚来资本天使轮投资",
-      "seen_at": "2026-08-10T23:22:53.410985+00:00",
-      "run_date": "2026-08-11"
-    },
-    "2131e2d3cae982e0b47a": {
-      "url": "https://www.infoq.cn/article/xWWwhH3iPjwRakLOQiXQ?utm_source=rss&utm_medium=article",
-      "title": "宇树科技今日申购，或出一批90后千万富豪；字节拟训练超5万亿参数模型，张一鸣：反对蒸馏；数百管理层被裁难找下家，猎头：没那么多岗｜AI周报",
-      "seen_at": "2026-08-10T23:22:53.410985+00:00",
-      "run_date": "2026-08-11"
-    },
-    "cd0bf9a81bd979f6d98f": {
-      "url": "https://www.qbitai.com/2026/08/469544.html",
-      "title": "模型路线趋同之后，Physical AI的胜负手变了",
-      "seen_at": "2026-08-10T23:22:53.410985+00:00",
-      "run_date": "2026-08-11"
-    },
-    "ab06b79e5dcff58a581b": {
-      "url": "https://www.infoq.cn/article/5qWsLD6JV8N2zDgGuhK9?utm_source=rss&utm_medium=article",
-      "title": "当 human in the loop 变成“闭着眼睛点确认”，企业Agent 安全还能靠谁？",
-      "seen_at": "2026-08-10T23:22:53.410985+00:00",
-      "run_date": "2026-08-11"
-    },
-    "f7a73bdac195abe66920": {
-      "url": "https://www.qbitai.com/2026/08/469076.html",
-      "title": "3B模型碾压英伟达谷歌后，Om AI端侧原生VLX模型：小参数实现物理世界精准感知",
-      "seen_at": "2026-08-10T23:22:53.410985+00:00",
-      "run_date": "2026-08-11"
-    },
     "803af6376a6950b040fd": {
       "url": "https://www.qbitai.com/2026/08/470485.html",
       "title": "百年黎曼猜想被Claude破了新纪录！是个未公开新模型",
@@ -1361,7 +1301,67 @@
       "title": "王云鹤创业后交出首个模型",
       "seen_at": "2026-09-09T00:46:42.579081+00:00",
       "run_date": "2026-09-09"
+    },
+    "381b57f969b0cf37feb7": {
+      "url": "https://www.infoq.cn/article/WlJkEfJxMgaK9o91ow2Z?utm_source=rss&utm_medium=article",
+      "title": "Shopify 推出 Gisting 新技术：将大模型系统提示词压缩为主旨词元",
+      "seen_at": "2026-09-10T00:41:13.030254+00:00",
+      "run_date": "2026-09-10"
+    },
+    "810e894fde6c67c8dfdd": {
+      "url": "https://www.qbitai.com/2026/09/486370.html",
+      "title": "国产AI4S计算平台登场亮相2026外滩大会 算力技术与人才布局双向发力",
+      "seen_at": "2026-09-10T00:41:13.030254+00:00",
+      "run_date": "2026-09-10"
+    },
+    "d566673871e355573ad8": {
+      "url": "https://aws.amazon.com/cn/blogs/china/take-on-your-most-ambitious-work-with-gpt-6-astra-on-amazon-bedrock/",
+      "title": "用 Amazon Bedrock GPT-6 Astra，搞定最挑战的工作！",
+      "seen_at": "2026-09-10T00:41:13.030254+00:00",
+      "run_date": "2026-09-10"
+    },
+    "a3ef6413b425959fdadd": {
+      "url": "https://www.infoq.cn/article/UN2Gt8aKT40ed5z52WuL?utm_source=rss&utm_medium=article",
+      "title": "招商银行统一近万张AI加速卡：利用率从35%提至60%+、每百万Token推理成本降低60%",
+      "seen_at": "2026-09-10T00:41:13.030254+00:00",
+      "run_date": "2026-09-10"
+    },
+    "a59857e8ae66cb0db115": {
+      "url": "https://www.infoq.cn/article/klMJ7wvdgqiYK6BmBI5u?utm_source=rss&utm_medium=article",
+      "title": "Kubernetes 推广 KYAML，将其作为一种更安全、更一致的配置清单处理方式",
+      "seen_at": "2026-09-10T00:41:13.030254+00:00",
+      "run_date": "2026-09-10"
+    },
+    "cf1fff1ea646f16e2793": {
+      "url": "https://aws.amazon.com/cn/blogs/china/rds-for-mysql-8-0-binlog-processing-blue-green-deployment/",
+      "title": "RDS for MySQL 8.0 升级 8.4 之下游 Binlog 消费处理实战 （一）—— 蓝绿部署下的 Canal CDC 位点衔接与故障处理",
+      "seen_at": "2026-09-10T00:41:13.030254+00:00",
+      "run_date": "2026-09-10"
+    },
+    "7d093a1f411203afe693": {
+      "url": "https://www.infoq.cn/article/Qf5dY8QyzRUZaeA9JG5Z?utm_source=rss&utm_medium=article",
+      "title": "如何在人工智能时代开展严谨且可持续的人工审核",
+      "seen_at": "2026-09-10T00:41:13.030254+00:00",
+      "run_date": "2026-09-10"
+    },
+    "11b779869e46c8f466df": {
+      "url": "https://www.qbitai.com/2026/09/486288.html",
+      "title": "蚂蚁百灵发布首个金融增强模型，AI开始进入真实投研工作流",
+      "seen_at": "2026-09-10T00:41:13.030254+00:00",
+      "run_date": "2026-09-10"
+    },
+    "c9f630eed5473205a828": {
+      "url": "https://www.infoq.cn/article/h4M6YGm3G7Zph5QEIV5R?utm_source=rss&utm_medium=article",
+      "title": "pnpm 12 采用 Rust 语言重写了包管理器，在保留 pnpm 11 工作流的同时提升了安装速度",
+      "seen_at": "2026-09-10T00:41:13.030254+00:00",
+      "run_date": "2026-09-10"
+    },
+    "0f2a9d29b4f624473b6b": {
+      "url": "https://www.qbitai.com/2026/09/486038.html",
+      "title": "宜宾，一场机器人“招聘会”的产业雄心",
+      "seen_at": "2026-09-10T00:41:13.030254+00:00",
+      "run_date": "2026-09-10"
     }
   },
-  "updated_at": "2026-09-09T00:46:42.579081+00:00"
+  "updated_at": "2026-09-10T00:41:13.030254+00:00"
 }
