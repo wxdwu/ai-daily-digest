@@ -1,65 +1,5 @@
 {
   "items": {
-    "803af6376a6950b040fd": {
-      "url": "https://www.qbitai.com/2026/08/470485.html",
-      "title": "百年黎曼猜想被Claude破了新纪录！是个未公开新模型",
-      "seen_at": "2026-08-11T23:27:15.307152+00:00",
-      "run_date": "2026-08-12"
-    },
-    "78fd9edd8fdc74ce6e10": {
-      "url": "https://www.infoq.cn/article/fe63sMOT127Pu7QpHP3a?utm_source=rss&utm_medium=article",
-      "title": "为 Agentic Enterprise 实现 ROI：企业高管需要关注的 3 个关键因素",
-      "seen_at": "2026-08-11T23:27:15.307152+00:00",
-      "run_date": "2026-08-12"
-    },
-    "5c5f128813fd88894299": {
-      "url": "https://www.qbitai.com/2026/08/470621.html",
-      "title": "一家新能源大厂，如何撑起全球最大AI算力超级单体？",
-      "seen_at": "2026-08-11T23:27:15.307152+00:00",
-      "run_date": "2026-08-12"
-    },
-    "b5485f123d106be5168e": {
-      "url": "https://www.infoq.cn/article/2NsA9FT1uhjmdRrwzOo3?utm_source=rss&utm_medium=article",
-      "title": "让 Agent 读懂业务世界：Snowflake Cortex Agents 的本体驱动推理实践",
-      "seen_at": "2026-08-11T23:27:15.307152+00:00",
-      "run_date": "2026-08-12"
-    },
-    "4b1ece3188a0efbadb42": {
-      "url": "https://www.qbitai.com/2026/08/469869.html",
-      "title": "当AI开始“自作主张”，谁来为智能体戴上“项圈”？全球AI安全实战化大考，中国方案打入前三",
-      "seen_at": "2026-08-11T23:27:15.307152+00:00",
-      "run_date": "2026-08-12"
-    },
-    "44b7077a077dcce15ca0": {
-      "url": "https://www.infoq.cn/article/eXUYjgSomYtprPMpbIPd?utm_source=rss&utm_medium=article",
-      "title": "HashiCorp 发布 Vault Kubernetes 密钥管理功能的公开测试版",
-      "seen_at": "2026-08-11T23:27:15.307152+00:00",
-      "run_date": "2026-08-12"
-    },
-    "233892f8412b51f34256": {
-      "url": "https://www.qbitai.com/2026/08/470576.html",
-      "title": "谷歌创始人布林紧急接管Gemini团队，但“3.5 Pro已被取消”",
-      "seen_at": "2026-08-11T23:27:15.307152+00:00",
-      "run_date": "2026-08-12"
-    },
-    "1084770f5277b7e75070": {
-      "url": "https://www.qbitai.com/2026/08/470254.html",
-      "title": "GPU开始金融化！黄仁勋拉上华尔街搞5000亿美元融资",
-      "seen_at": "2026-08-11T23:27:15.307152+00:00",
-      "run_date": "2026-08-12"
-    },
-    "692202f24b7914d14647": {
-      "url": "https://www.infoq.cn/article/FisL2qoucPCr9v55Xpp8?utm_source=rss&utm_medium=article",
-      "title": "开源共生 先锋同行｜世界人工智能开源大赛（GOAI）全球六城巡回宣讲活动圆满收官",
-      "seen_at": "2026-08-11T23:27:15.307152+00:00",
-      "run_date": "2026-08-12"
-    },
-    "ba47637f1fa99f721d4c": {
-      "url": "https://www.infoq.cn/article/1oV8oaYwzU15W5BdSL7C?utm_source=rss&utm_medium=article",
-      "title": "DORA：AI 辅助软件开发的团队画像与能力模型，帮助团队将研究成果落地",
-      "seen_at": "2026-08-11T23:27:15.307152+00:00",
-      "run_date": "2026-08-12"
-    },
     "79cc4aed70e71a3b2f20": {
       "url": "https://aws.amazon.com/cn/blogs/china/access-amazon-bedrock-inference-mantle-litellm-gateway/",
       "title": "接入 Amazon Bedrock 新一代推理引擎 Mantle：用 LiteLLM 网关统一调用 GPT-5.6 与 Claude",
@@ -1361,7 +1301,67 @@
       "title": "宜宾，一场机器人“招聘会”的产业雄心",
       "seen_at": "2026-09-10T00:41:13.030254+00:00",
       "run_date": "2026-09-10"
+    },
+    "e61a10641557b2f6b638": {
+      "url": "https://www.infoq.cn/article/8t2vJHOc5srUyQqSlO9m?utm_source=rss&utm_medium=article",
+      "title": "PayPal谈 Agentic Commerce：AI智能体将如何进入跨境支付场景？",
+      "seen_at": "2026-09-11T00:38:05.687338+00:00",
+      "run_date": "2026-09-11"
+    },
+    "12a098a38fe4f1aaa1b3": {
+      "url": "https://developer.nvidia.cn/blog/cuda-toolkit-13-4-adds-windows-on-arm-support-and-greater-control-over-shared-gpus/",
+      "title": "CUDA 工具包 13.4 在 Arm 上添加了 Windows 支持，并增强了对共享 GPU 的控制",
+      "seen_at": "2026-09-11T00:38:05.687338+00:00",
+      "run_date": "2026-09-11"
+    },
+    "3dd6529099c176292275": {
+      "url": "https://www.infoq.cn/article/sbaJrAa8VTIRKIPCpKlo?utm_source=rss&utm_medium=article",
+      "title": "参数几乎翻倍，推理反而更省：DeepSeek V4.1-Flash 重构 KV Cache",
+      "seen_at": "2026-09-11T00:38:05.687338+00:00",
+      "run_date": "2026-09-11"
+    },
+    "7dc798944cb5e7409cc8": {
+      "url": "https://www.qbitai.com/2026/09/486436.html",
+      "title": "打造10万卡国产算力集群推出JoyAI世界模型，京东发布物理AI建设最新成果",
+      "seen_at": "2026-09-11T00:38:05.687338+00:00",
+      "run_date": "2026-09-11"
+    },
+    "a5d8a3397e1fb1ca8553": {
+      "url": "https://www.qbitai.com/2026/09/486684.html",
+      "title": "AGI时代的第一个生图模型，ChatGPT Images 2.5上线",
+      "seen_at": "2026-09-11T00:38:05.687338+00:00",
+      "run_date": "2026-09-11"
+    },
+    "6ee74a90ea7e53b51352": {
+      "url": "https://developer.nvidia.cn/blog/when-to-use-encode-prefill-decode-disaggregation-to-accelerate-multimodal-model-serving/",
+      "title": "何时使用“编码-预填充-解码”解耦技术来加速多模态模型服务",
+      "seen_at": "2026-09-11T00:38:05.687338+00:00",
+      "run_date": "2026-09-11"
+    },
+    "f97389fe36462b85bf37": {
+      "url": "https://www.infoq.cn/article/RCa5y6tvZXbjGKeLSGZt?utm_source=rss&utm_medium=article",
+      "title": "Snowflake 落地中国两年：迈向智能体企业时代，关键在上下文",
+      "seen_at": "2026-09-11T00:38:05.687338+00:00",
+      "run_date": "2026-09-11"
+    },
+    "6457c424cb9c12cfd71f": {
+      "url": "https://www.infoq.cn/article/YBvKfhWu90StYj4SJVIV?utm_source=rss&utm_medium=article",
+      "title": "推理成为新中心、Agent把生产级问题提前：AI Infra 的边界正在被重写",
+      "seen_at": "2026-09-11T00:38:05.687338+00:00",
+      "run_date": "2026-09-11"
+    },
+    "09591668473784b070b0": {
+      "url": "https://www.qbitai.com/2026/09/486900.html",
+      "title": "全球首个3D原生城市世界模型ABot-Earth 0.7发布，构建AI理解真实世界的入口",
+      "seen_at": "2026-09-11T00:38:05.687338+00:00",
+      "run_date": "2026-09-11"
+    },
+    "16ede44b65ca3393d7fd": {
+      "url": "https://www.qbitai.com/2026/09/486716.html",
+      "title": "这个新开源的世界模型只有1.3B，单卡就能实时跑！",
+      "seen_at": "2026-09-11T00:38:05.687338+00:00",
+      "run_date": "2026-09-11"
     }
   },
-  "updated_at": "2026-09-10T00:41:13.030254+00:00"
+  "updated_at": "2026-09-11T00:38:05.687338+00:00"
 }
