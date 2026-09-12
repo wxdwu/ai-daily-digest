@@ -1,65 +1,5 @@
 {
   "items": {
-    "79cc4aed70e71a3b2f20": {
-      "url": "https://aws.amazon.com/cn/blogs/china/access-amazon-bedrock-inference-mantle-litellm-gateway/",
-      "title": "接入 Amazon Bedrock 新一代推理引擎 Mantle：用 LiteLLM 网关统一调用 GPT-5.6 与 Claude",
-      "seen_at": "2026-08-12T23:27:39.525663+00:00",
-      "run_date": "2026-08-13"
-    },
-    "4b0363b87be4e54daca1": {
-      "url": "https://blogs.nvidia.cn/blog/local-ai-open-source-models-agents-nemotron/",
-      "title": "NVIDIA 与本地 AI 社区共同推动开源模型和智能体发展",
-      "seen_at": "2026-08-12T23:27:39.525663+00:00",
-      "run_date": "2026-08-13"
-    },
-    "0f0c0d6954adaf3c78ed": {
-      "url": "https://www.infoq.cn/article/9sy33cA91Fp8z5mlOvNu?utm_source=rss&utm_medium=article",
-      "title": "小扎万字长文炮轰闭源：蒸馏无罪，Meta 正式重回开源模型路线",
-      "seen_at": "2026-08-12T23:27:39.525663+00:00",
-      "run_date": "2026-08-13"
-    },
-    "4676f4bf3e4a348a11bb": {
-      "url": "https://www.infoq.cn/article/YBCpst8secs3xWqZwWLe?utm_source=rss&utm_medium=article",
-      "title": "别再所有人平分AI算力：顶级模型给资深工程师才省钱，新人刷题式成长已失效",
-      "seen_at": "2026-08-12T23:27:39.525663+00:00",
-      "run_date": "2026-08-13"
-    },
-    "dd251a03f919ed50fbfe": {
-      "url": "https://www.infoq.cn/article/pKprBfc9MPLZVaNpMQgg?utm_source=rss&utm_medium=article",
-      "title": "SkiaSharp 4 连发多个版本：GPU 渲染提速，WebAssembly 支持升级",
-      "seen_at": "2026-08-12T23:27:39.525663+00:00",
-      "run_date": "2026-08-13"
-    },
-    "9da8ce9cf7d6a337bfa8": {
-      "url": "https://www.infoq.cn/article/KwZX2bLcaHRjuLG95vHI?utm_source=rss&utm_medium=article",
-      "title": "从亚百毫秒级启动到生产级部署，腾讯云为何重构 Agent 沙箱？",
-      "seen_at": "2026-08-12T23:27:39.525663+00:00",
-      "run_date": "2026-08-13"
-    },
-    "1746f4a5eb91141d4042": {
-      "url": "https://www.qbitai.com/2026/08/471030.html",
-      "title": "紫东太初推出GMC核心集剪枝方法，少80%Token仍满血保真多模态能力",
-      "seen_at": "2026-08-12T23:27:39.525663+00:00",
-      "run_date": "2026-08-13"
-    },
-    "429d6d3419d5785b9451": {
-      "url": "https://www.infoq.cn/article/hMG80lZUX1kaJWpr58g1?utm_source=rss&utm_medium=article",
-      "title": "面壁智能正式启动IPO：中信证券辅导，端侧模型走向资本市场",
-      "seen_at": "2026-08-12T23:27:39.525663+00:00",
-      "run_date": "2026-08-13"
-    },
-    "b8bc2eaa54a5b5c706b0": {
-      "url": "https://www.infoq.cn/article/rcSr7bVQFB9Uskadg74T?utm_source=rss&utm_medium=article",
-      "title": "机器人大脑之争进入深水区：为什么物理世界需要从头设计模型",
-      "seen_at": "2026-08-12T23:27:39.525663+00:00",
-      "run_date": "2026-08-13"
-    },
-    "69097901e6bbfbf3ec40": {
-      "url": "https://www.qbitai.com/2026/08/470901.html",
-      "title": "2026中国科创投资夏季峰会暨陕西科创产业生态大会圆满落幕",
-      "seen_at": "2026-08-12T23:27:39.525663+00:00",
-      "run_date": "2026-08-13"
-    },
     "777178b6d03818c68fb8": {
       "url": "https://www.qbitai.com/2026/08/472059.html",
       "title": "4.8亿美元砸向端侧算力！Agent芯片新贵冲出重围",
@@ -1361,7 +1301,49 @@
       "title": "这个新开源的世界模型只有1.3B，单卡就能实时跑！",
       "seen_at": "2026-09-11T00:38:05.687338+00:00",
       "run_date": "2026-09-11"
+    },
+    "ff664b2fc26e7fd32ff1": {
+      "url": "https://www.qbitai.com/2026/09/487273.html",
+      "title": "墨芯人工智能亮相2026 Inclusion·外滩大会：以专用稀疏推理芯片提升算力效能，共创AI新经济",
+      "seen_at": "2026-09-12T00:44:43.221556+00:00",
+      "run_date": "2026-09-12"
+    },
+    "dc78a564bc3363979b26": {
+      "url": "https://blogs.nvidia.cn/blog/d-matrix-nvlink-fusion/",
+      "title": "d-Matrix 采用 NVIDIA NVLink Fusion 进行机架级 XPU 部署",
+      "seen_at": "2026-09-12T00:44:43.221556+00:00",
+      "run_date": "2026-09-12"
+    },
+    "e7a7a5eb300d22d36910": {
+      "url": "https://www.qbitai.com/2026/09/487092.html",
+      "title": "OpenAI这是拿千禧年难题当Benchmark刷啊。。。",
+      "seen_at": "2026-09-12T00:44:43.221556+00:00",
+      "run_date": "2026-09-12"
+    },
+    "bfb788bb3cab47d538ce": {
+      "url": "https://www.infoq.cn/article/NizuOkFpcOPgbeClC4uL?utm_source=rss&utm_medium=article",
+      "title": "AMD 发布锐龙AI Max PRO 400 系列，端侧智能体走向多模型协同",
+      "seen_at": "2026-09-12T00:44:43.221556+00:00",
+      "run_date": "2026-09-12"
+    },
+    "292dffcad0ea372a2df7": {
+      "url": "https://www.infoq.cn/article/sT7izVmjw1YVxh3FQyK8?utm_source=rss&utm_medium=article",
+      "title": "“数据比模型重要”成了共识，接下来拼什么？",
+      "seen_at": "2026-09-12T00:44:43.221556+00:00",
+      "run_date": "2026-09-12"
+    },
+    "a37876ce89a544169024": {
+      "url": "https://www.qbitai.com/2026/09/487055.html",
+      "title": "吹爆开源！RunningHub让MiniMax H3满血提速12倍，本地部署照样起飞",
+      "seen_at": "2026-09-12T00:44:43.221556+00:00",
+      "run_date": "2026-09-12"
+    },
+    "7f6ec192138da6aaa11a": {
+      "url": "https://aws.amazon.com/cn/blogs/china/amazon-quick-is-now-generally-available-on-desktop/",
+      "title": "Amazon Quick 桌面端，企业级 AI 工作助手正式可用！",
+      "seen_at": "2026-09-12T00:44:43.221556+00:00",
+      "run_date": "2026-09-12"
     }
   },
-  "updated_at": "2026-09-11T00:38:05.687338+00:00"
+  "updated_at": "2026-09-12T00:44:43.221556+00:00"
 }
