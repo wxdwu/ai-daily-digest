@@ -1,59 +1,5 @@
 {
   "items": {
-    "0024baea0bc2ee667ab8": {
-      "url": "https://www.infoq.cn/article/YWXm26HRwC9ySEGZ9Lpp?utm_source=rss&utm_medium=article",
-      "title": "AI 圈上演神级互撕！Codex、Claude Code 两位负责人公开对喷",
-      "seen_at": "2026-08-14T23:09:41.736155+00:00",
-      "run_date": "2026-08-15"
-    },
-    "846127e1d6119a2d161e": {
-      "url": "https://www.infoq.cn/article/Uiz6Ovab2eKT0T9q3Nzp?utm_source=rss&utm_medium=article",
-      "title": "涛思数据创始人&CEO陶建辉博士确认出席AICon深圳，将分享“大模型在工业场景落地的挑战与实践”",
-      "seen_at": "2026-08-14T23:09:41.736155+00:00",
-      "run_date": "2026-08-15"
-    },
-    "d283f633af649f14edb5": {
-      "url": "https://www.infoq.cn/article/de9AljWc4ejW2KAyW8dD?utm_source=rss&utm_medium=article",
-      "title": "DeepSeek 把 Harness 开源了：模型、工具、Agent Loop 全是插件",
-      "seen_at": "2026-08-14T23:09:41.736155+00:00",
-      "run_date": "2026-08-15"
-    },
-    "f286ec6c0955a1950985": {
-      "url": "https://www.qbitai.com/2026/08/472722.html",
-      "title": "算力需求两年涨10倍，机器人为了走进真实物理世界，正在疯狂「吃算力」",
-      "seen_at": "2026-08-14T23:09:41.736155+00:00",
-      "run_date": "2026-08-15"
-    },
-    "d50df00737902329e17e": {
-      "url": "https://www.infoq.cn/article/AJz1m242RSJLpXpsC1eg?utm_source=rss&utm_medium=article",
-      "title": "AI 智能体开始参与交付，谁来证明它没有“动手脚”？IBM 与 Red Hat 给出一套新方案",
-      "seen_at": "2026-08-14T23:09:41.736155+00:00",
-      "run_date": "2026-08-15"
-    },
-    "2aa73ab8ce99f51b2686": {
-      "url": "https://www.infoq.cn/article/plZY01etBHv3ETOYG0af?utm_source=rss&utm_medium=article",
-      "title": "Gemini 3.7 Flash 突袭：性能逼近旗舰、价格打“骨折”！！DeepMind新帅重画性价比斩杀线",
-      "seen_at": "2026-08-14T23:09:41.736155+00:00",
-      "run_date": "2026-08-15"
-    },
-    "592185409ddfe1729502": {
-      "url": "https://www.qbitai.com/2026/08/473379.html",
-      "title": "刚刚，Qwen3.8-27B 开源了！家用显卡也能跑",
-      "seen_at": "2026-08-14T23:09:41.736155+00:00",
-      "run_date": "2026-08-15"
-    },
-    "82edd723b7c26e8d16b4": {
-      "url": "https://www.infoq.cn/article/5JAOs4xARzjGb5sj2LxG?utm_source=rss&utm_medium=article",
-      "title": "Zig 创始人直言，Bun 靠 Claude 生成的 Rust 重构版是“没人把关的烂代码”",
-      "seen_at": "2026-08-14T23:09:41.736155+00:00",
-      "run_date": "2026-08-15"
-    },
-    "53325a32fe3ab3d709b5": {
-      "url": "https://www.qbitai.com/2026/08/473149.html",
-      "title": "太初元碁助力国家级“AI+教育”大赛 “AI+加速卡模型适配赛道”开启招募",
-      "seen_at": "2026-08-14T23:09:41.736155+00:00",
-      "run_date": "2026-08-15"
-    },
     "c4e25e7eb57fed31691b": {
       "url": "https://www.qbitai.com/2026/08/473876.html",
       "title": "至知研究院提出大模型可解释性新路线：拆权重，数据成本不到1%",
@@ -1325,7 +1271,31 @@
       "title": "探索RSI，生数新世界模型让机器人开始自我进化",
       "seen_at": "2026-09-13T00:28:23.268583+00:00",
       "run_date": "2026-09-13"
+    },
+    "dea6225d41006c187ad6": {
+      "url": "https://www.infoq.cn/article/0kYhxXxhOXhxGATe64ec?utm_source=rss&utm_medium=article",
+      "title": "Read, Don't Write: 重塑大模型评价体系，构建全自动、可进化的“探测式”评测管线｜QCon上海",
+      "seen_at": "2026-09-14T00:30:24.751302+00:00",
+      "run_date": "2026-09-14"
+    },
+    "c0b80c27533d4a37fbaa": {
+      "url": "https://www.qbitai.com/2026/09/487796.html",
+      "title": "A社承认Claude安全对齐存在缺陷，但“尚无解决方案”",
+      "seen_at": "2026-09-14T00:30:24.751302+00:00",
+      "run_date": "2026-09-14"
+    },
+    "1d653f7820dde3f8c35a": {
+      "url": "https://www.qbitai.com/2026/09/488672.html",
+      "title": "2000+真实场景搬进仿真！一个导航模型零样本“通吃”四种机器人本体",
+      "seen_at": "2026-09-14T00:30:24.751302+00:00",
+      "run_date": "2026-09-14"
+    },
+    "520c87dbe91cf02a4538": {
+      "url": "https://www.infoq.cn/article/eS4M9XEPmLbkxksCyAye?utm_source=rss&utm_medium=article",
+      "title": "Figma 如何利用 AI 代理提升安全性",
+      "seen_at": "2026-09-14T00:30:24.751302+00:00",
+      "run_date": "2026-09-14"
     }
   },
-  "updated_at": "2026-09-13T00:28:23.268583+00:00"
+  "updated_at": "2026-09-14T00:30:24.751302+00:00"
 }
