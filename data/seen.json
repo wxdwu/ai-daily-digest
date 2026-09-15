@@ -1,47 +1,5 @@
 {
   "items": {
-    "c4e25e7eb57fed31691b": {
-      "url": "https://www.qbitai.com/2026/08/473876.html",
-      "title": "至知研究院提出大模型可解释性新路线：拆权重，数据成本不到1%",
-      "seen_at": "2026-08-15T23:09:15.126474+00:00",
-      "run_date": "2026-08-16"
-    },
-    "391be965c19472fdc06d": {
-      "url": "https://www.qbitai.com/2026/08/473669.html",
-      "title": "源神启动！一张消费级显卡跑“Opus级”Agent，Qwen3.8-27B多项榜单反超Claude",
-      "seen_at": "2026-08-15T23:09:15.126474+00:00",
-      "run_date": "2026-08-16"
-    },
-    "58f6f465fe6977704089": {
-      "url": "https://www.infoq.cn/article/XpFUaftcEE3iLgGzYGZi?utm_source=rss&utm_medium=article",
-      "title": "DeepSeek + Pi 王炸组合跑赢 Claude Code？Pi创始人：这套组合我早押中了",
-      "seen_at": "2026-08-15T23:09:15.126474+00:00",
-      "run_date": "2026-08-16"
-    },
-    "35b10bcf0613f9bdd8b3": {
-      "url": "https://www.infoq.cn/article/RaKIH7E4lA9uQ4Iasltb?utm_source=rss&utm_medium=article",
-      "title": "Cloudflare Computer 发布：让 AI 智能体拥有持久化运行环境",
-      "seen_at": "2026-08-15T23:09:15.126474+00:00",
-      "run_date": "2026-08-16"
-    },
-    "d5d59bc2d24beab75f1c": {
-      "url": "https://www.infoq.cn/article/OgbViICigja8tasE0lwi?utm_source=rss&utm_medium=article",
-      "title": "面向多模态推理的高效长上下文建模｜AICon深圳",
-      "seen_at": "2026-08-15T23:09:15.126474+00:00",
-      "run_date": "2026-08-16"
-    },
-    "31094cb9af80269216e5": {
-      "url": "https://www.qbitai.com/2026/08/473597.html",
-      "title": "DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了",
-      "seen_at": "2026-08-15T23:09:15.126474+00:00",
-      "run_date": "2026-08-16"
-    },
-    "ee25d61a3ec86734ca0e": {
-      "url": "https://www.qbitai.com/2026/08/473866.html",
-      "title": "根治AI音乐通病！这家国产音乐模型正面挑战SUNO",
-      "seen_at": "2026-08-15T23:09:15.126474+00:00",
-      "run_date": "2026-08-16"
-    },
     "3db308938fa7d1e1c7cf": {
       "url": "https://www.qbitai.com/2026/08/473972.html",
       "title": "WorkSwarm：引领办公智能体新范式，让AI从一个助手，进化为一支与你并肩作战的团队",
@@ -1295,7 +1253,49 @@
       "title": "Figma 如何利用 AI 代理提升安全性",
       "seen_at": "2026-09-14T00:30:24.751302+00:00",
       "run_date": "2026-09-14"
+    },
+    "f2df474683d799198736": {
+      "url": "https://aws.amazon.com/cn/blogs/china/using-agentic-ai-assistant-notiops-build-aws-operations/",
+      "title": "使用 Agentic AI 助手 NotiOps 构建可追溯且只读的 AWS 运维工作台",
+      "seen_at": "2026-09-15T01:01:34.605020+00:00",
+      "run_date": "2026-09-15"
+    },
+    "df2ee2dbfff65c9adeac": {
+      "url": "https://www.qbitai.com/2026/09/489105.html",
+      "title": "首届蚂蚁灵波具身大模型挑战赛正式启动",
+      "seen_at": "2026-09-15T01:01:34.605020+00:00",
+      "run_date": "2026-09-15"
+    },
+    "ebc45f9514f0be326aa5": {
+      "url": "https://www.infoq.cn/article/JghIFNXBNVSAfbgbR4S9?utm_source=rss&utm_medium=article",
+      "title": "openJiuwen 首发双维度 RSI 框架，AI 自修改，落地办公智能体，算力亲和助力又快又省",
+      "seen_at": "2026-09-15T01:01:34.605020+00:00",
+      "run_date": "2026-09-15"
+    },
+    "1d870800d801198a8eb5": {
+      "url": "https://www.infoq.cn/article/xD9oWbebhcjwgHz1oEfa?utm_source=rss&utm_medium=article",
+      "title": "Arm 推出 AI Portal：当 AI 应用从“模型可用”走向“平台可用”",
+      "seen_at": "2026-09-15T01:01:34.605020+00:00",
+      "run_date": "2026-09-15"
+    },
+    "2d002aea5501da272036": {
+      "url": "https://www.qbitai.com/2026/09/488725.html",
+      "title": "中国物理AI大突破：PhysBrain 1.5登顶全球开源榜一，空间智能与GPT-6 Astra并驾齐驱",
+      "seen_at": "2026-09-15T01:01:34.605020+00:00",
+      "run_date": "2026-09-15"
+    },
+    "aeb16201f426306fe43d": {
+      "url": "https://www.infoq.cn/article/VIjBCuNElpg2H4bLywVc?utm_source=rss&utm_medium=article",
+      "title": "Java 近期新闻：TornadoVM 6、JReleaser、LangChain4j、Java Operator SDK、JHipster、Yupiik Fusion",
+      "seen_at": "2026-09-15T01:01:34.605020+00:00",
+      "run_date": "2026-09-15"
+    },
+    "1addcd77d90f86da7fe2": {
+      "url": "https://www.infoq.cn/article/XLzpR2brCNW2VgYuuYJk?utm_source=rss&utm_medium=article",
+      "title": "GitLab 警告称，AI 代理的沙箱安全性取决于其网络访问的安全性",
+      "seen_at": "2026-09-15T01:01:34.605020+00:00",
+      "run_date": "2026-09-15"
     }
   },
-  "updated_at": "2026-09-14T00:30:24.751302+00:00"
+  "updated_at": "2026-09-15T01:01:34.605020+00:00"
 }
