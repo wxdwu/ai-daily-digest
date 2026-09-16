@@ -1,17 +1,5 @@
 {
   "items": {
-    "3db308938fa7d1e1c7cf": {
-      "url": "https://www.qbitai.com/2026/08/473972.html",
-      "title": "WorkSwarm：引领办公智能体新范式，让AI从一个助手，进化为一支与你并肩作战的团队",
-      "seen_at": "2026-08-16T23:08:11.459210+00:00",
-      "run_date": "2026-08-17"
-    },
-    "05c3c3a8161bd45c31da": {
-      "url": "https://www.infoq.cn/article/412hbBva0NF0AYP0CjzD?utm_source=rss&utm_medium=article",
-      "title": "MCP 走向无状态，开发者追问：这不就又变回 API 了吗？",
-      "seen_at": "2026-08-16T23:08:11.459210+00:00",
-      "run_date": "2026-08-17"
-    },
     "0796bf3214f2f14c48c7": {
       "url": "https://aws.amazon.com/cn/blogs/china/large-model-training-inference-container-environment-ip/",
       "title": "从大模型训练与推理出发：亚马逊云科技容器环境 IP 消耗、规划与 VPC CNI 优化",
@@ -1295,7 +1283,67 @@
       "title": "GitLab 警告称，AI 代理的沙箱安全性取决于其网络访问的安全性",
       "seen_at": "2026-09-15T01:01:34.605020+00:00",
       "run_date": "2026-09-15"
+    },
+    "2ba153cfa21280ac47a1": {
+      "url": "https://www.infoq.cn/article/at1UIEMQbHewc34wvFQ8?utm_source=rss&utm_medium=article",
+      "title": "支付宝 xUI -- “阿宝”背后的 Agentic 终端交互引擎",
+      "seen_at": "2026-09-16T00:51:50.289353+00:00",
+      "run_date": "2026-09-16"
+    },
+    "728c9e271e6c71fac0fe": {
+      "url": "https://www.infoq.cn/article/zfjt89uVj0EGxf6aeaw4?utm_source=rss&utm_medium=article",
+      "title": "缓存不该困在一台服务器里",
+      "seen_at": "2026-09-16T00:51:50.289353+00:00",
+      "run_date": "2026-09-16"
+    },
+    "b22a259a0e0745c1b8f1": {
+      "url": "https://www.infoq.cn/article/QtIy65SxjN0Q4riY7tCo?utm_source=rss&utm_medium=article",
+      "title": "OpenAI故意欠技术债，等Codex来还：仅2名工程师，把核心存储从Python重写成Rust",
+      "seen_at": "2026-09-16T00:51:50.289353+00:00",
+      "run_date": "2026-09-16"
+    },
+    "29b09287db1fbab09ab0": {
+      "url": "https://www.qbitai.com/2026/09/489698.html",
+      "title": "地平线第1500万颗征程芯片搭载大众 ID. AURA T6，HSD V2.1 即将推出",
+      "seen_at": "2026-09-16T00:51:50.289353+00:00",
+      "run_date": "2026-09-16"
+    },
+    "123ac7879d0140dfd3f1": {
+      "url": "https://www.infoq.cn/article/4OXJdfB36TpMRdvrVgIc?utm_source=rss&utm_medium=article",
+      "title": "Meta 打造“组织第二大脑”智能体的设计思路",
+      "seen_at": "2026-09-16T00:51:50.289353+00:00",
+      "run_date": "2026-09-16"
+    },
+    "6c39c42a7e0bd110065c": {
+      "url": "https://www.qbitai.com/2026/09/489460.html",
+      "title": "无问芯穹联合清华、上交正式开源具身端侧推理引擎APXInf，Pi 0.5性能SOTA",
+      "seen_at": "2026-09-16T00:51:50.289353+00:00",
+      "run_date": "2026-09-16"
+    },
+    "e82a18016768143d59f8": {
+      "url": "https://www.qbitai.com/2026/09/489381.html",
+      "title": "一张GPU跑10万原子！分子之心用AI把化学反应“拍”成了电影",
+      "seen_at": "2026-09-16T00:51:50.289353+00:00",
+      "run_date": "2026-09-16"
+    },
+    "41425a6ef7b9eef7da5a": {
+      "url": "https://www.infoq.cn/article/jGTsO1DrV87muOqyDPGS?utm_source=rss&utm_medium=article",
+      "title": "Agent开始调用基础设施，Kubernetes准备好了吗？",
+      "seen_at": "2026-09-16T00:51:50.289353+00:00",
+      "run_date": "2026-09-16"
+    },
+    "7204e9afdc8b8480e1cb": {
+      "url": "https://www.infoq.cn/article/IfxYoy1PPkFQUpjWVBVr?utm_source=rss&utm_medium=article",
+      "title": "OpenAI 发布适用于编程和计算机应用的 GPT-6 Astra",
+      "seen_at": "2026-09-16T00:51:50.289353+00:00",
+      "run_date": "2026-09-16"
+    },
+    "ec57bec7ab7c28ba2b18": {
+      "url": "https://www.infoq.cn/article/g9eJhszhJa3JcZsgZwmj?utm_source=rss&utm_medium=article",
+      "title": "Claude在英伟达内部被限用，黄仁勋告诉特朗普：我们不会让AI发展放缓发生",
+      "seen_at": "2026-09-16T00:51:50.289353+00:00",
+      "run_date": "2026-09-16"
     }
   },
-  "updated_at": "2026-09-15T01:01:34.605020+00:00"
+  "updated_at": "2026-09-16T00:51:50.289353+00:00"
 }
