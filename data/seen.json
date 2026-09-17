@@ -1,65 +1,5 @@
 {
   "items": {
-    "0796bf3214f2f14c48c7": {
-      "url": "https://aws.amazon.com/cn/blogs/china/large-model-training-inference-container-environment-ip/",
-      "title": "从大模型训练与推理出发：亚马逊云科技容器环境 IP 消耗、规划与 VPC CNI 优化",
-      "seen_at": "2026-08-17T23:10:20.855229+00:00",
-      "run_date": "2026-08-18"
-    },
-    "bdcc33bb48c514389b0e": {
-      "url": "https://www.infoq.cn/article/J9Zi9LELcpxFRe23PHdY?utm_source=rss&utm_medium=article",
-      "title": "Netflix详述其基于Triton与vLLM的内部LLM服务平台",
-      "seen_at": "2026-08-17T23:10:20.855229+00:00",
-      "run_date": "2026-08-18"
-    },
-    "74fefded5552df40f5c8": {
-      "url": "https://aws.amazon.com/cn/blogs/china/mattel163-intelligent-platform-generation/",
-      "title": "Mattel163携手亚马逊云科技，用多智能体平台自动生成玩家洞察报告",
-      "seen_at": "2026-08-17T23:10:20.855229+00:00",
-      "run_date": "2026-08-18"
-    },
-    "a13fbdd09f84594400d1": {
-      "url": "https://www.infoq.cn/article/MljtE2Xk6hVkd061LY7k?utm_source=rss&utm_medium=article",
-      "title": "从模型能力到工程优化，海外开发者正在“榨干” Qwen3.8-27B",
-      "seen_at": "2026-08-17T23:10:20.855229+00:00",
-      "run_date": "2026-08-18"
-    },
-    "8d7bac0fdc93b23e5c3f": {
-      "url": "https://www.infoq.cn/article/jOPScUAQrlfpNwDAhaOL?utm_source=rss&utm_medium=article",
-      "title": "盘古训练与推理通信优化实践：亲和昇腾平台的性能探索｜AICon深圳",
-      "seen_at": "2026-08-17T23:10:20.855229+00:00",
-      "run_date": "2026-08-18"
-    },
-    "c27488008068fa4e6027": {
-      "url": "https://www.infoq.cn/article/77NthDLZNgqTgBuMKsQh?utm_source=rss&utm_medium=article",
-      "title": "WorkSwarm：引领办公智能体新范式，让AI从一个助手，进化为一支与你并肩作战的团队",
-      "seen_at": "2026-08-17T23:10:20.855229+00:00",
-      "run_date": "2026-08-18"
-    },
-    "157779281054c9887b69": {
-      "url": "https://www.infoq.cn/article/FzWV9Jzv2CPK8yjLPxdA?utm_source=rss&utm_medium=article",
-      "title": "AI 智能体改变代码评审逻辑，Rootly 废止小 PR 规则",
-      "seen_at": "2026-08-17T23:10:20.855229+00:00",
-      "run_date": "2026-08-18"
-    },
-    "2d29864e23e5db0da504": {
-      "url": "https://www.infoq.cn/article/7wuQJXJqFVR3rZb8Usyg?utm_source=rss&utm_medium=article",
-      "title": "甲骨文企业AI战略曝光：Agent进数据库、GPU跑满、多云砍掉流量费",
-      "seen_at": "2026-08-17T23:10:20.855229+00:00",
-      "run_date": "2026-08-18"
-    },
-    "fdb8987c86e5d703067d": {
-      "url": "https://blogs.nvidia.cn/blog/accelerating-3d-vision-for-physical-ai-with-nvidia-dgx-spark/",
-      "title": "借助 NVIDIA DGX Spark 加速 3D 视觉全流程，及拓科技构建面向物理 AI 开发与落地的本地化平台",
-      "seen_at": "2026-08-17T23:10:20.855229+00:00",
-      "run_date": "2026-08-18"
-    },
-    "12f8a23c5137e4b25535": {
-      "url": "https://www.infoq.cn/article/JEaC9PfmAENVHbijfm05?utm_source=rss&utm_medium=article",
-      "title": "Dropbox 集成 MCP 与 Dash，将安全设计与代码审查连接起来",
-      "seen_at": "2026-08-17T23:10:20.855229+00:00",
-      "run_date": "2026-08-18"
-    },
     "698e618ebb988db07f7a": {
       "url": "https://www.infoq.cn/article/3MxCwCyMpwcWjpvKJ7u4?utm_source=rss&utm_medium=article",
       "title": "Agentic AI 在普惠健康险的创新与实践｜AICon深圳",
@@ -1343,7 +1283,67 @@
       "title": "Claude在英伟达内部被限用，黄仁勋告诉特朗普：我们不会让AI发展放缓发生",
       "seen_at": "2026-09-16T00:51:50.289353+00:00",
       "run_date": "2026-09-16"
+    },
+    "574393e97acf7e420681": {
+      "url": "https://www.qbitai.com/2026/09/490396.html",
+      "title": "B站AI无限竞技场今日上线！全球百大AI模型同场竞技，GPT-6高居榜首",
+      "seen_at": "2026-09-17T00:56:10.579053+00:00",
+      "run_date": "2026-09-17"
+    },
+    "31befd3a7403e01c4a81": {
+      "url": "https://www.qbitai.com/2026/09/490760.html",
+      "title": "AI大模型工场2026 AI产业生态大会今日举办，大咖同台共探智能生长与产业共生",
+      "seen_at": "2026-09-17T00:56:10.579053+00:00",
+      "run_date": "2026-09-17"
+    },
+    "22851793a2eecb27cb99": {
+      "url": "https://www.infoq.cn/article/EixaQZkFMDLhlfE7RUK7?utm_source=rss&utm_medium=article",
+      "title": "借助会话追踪与成本控制排查 AI 智能体故障",
+      "seen_at": "2026-09-17T00:56:10.579053+00:00",
+      "run_date": "2026-09-17"
+    },
+    "26edf35ae70013fd4eb6": {
+      "url": "https://www.qbitai.com/2026/09/490839.html",
+      "title": "通用能力不打折，空间具身智能断层领先！ZDTaichu5.0-9B国产开源，跻身全球多模态第一梯队",
+      "seen_at": "2026-09-17T00:56:10.579053+00:00",
+      "run_date": "2026-09-17"
+    },
+    "2398e27451c5c162181e": {
+      "url": "https://www.infoq.cn/article/d4hdvQuOU1sbCZESvw4j?utm_source=rss&utm_medium=article",
+      "title": "Go 要从服务器杀进单片机？TinyGo 同时押注 UEFI、Wasm 和无线通信",
+      "seen_at": "2026-09-17T00:56:10.579053+00:00",
+      "run_date": "2026-09-17"
+    },
+    "c6312f186f482fa2d4c5": {
+      "url": "https://www.qbitai.com/2026/09/490400.html",
+      "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+      "seen_at": "2026-09-17T00:56:10.579053+00:00",
+      "run_date": "2026-09-17"
+    },
+    "54e0c4ecfd3d6e51bfe5": {
+      "url": "https://www.infoq.cn/article/ifpS7rhLq24FjWYM6IqW?utm_source=rss&utm_medium=article",
+      "title": "QQ 飞车 Agentic 研发转型过程中的Loop Engineering",
+      "seen_at": "2026-09-17T00:56:10.579053+00:00",
+      "run_date": "2026-09-17"
+    },
+    "2b648be955d497d2279e": {
+      "url": "https://www.infoq.cn/article/j2kBZR1JiZxATpU7gjtS?utm_source=rss&utm_medium=article",
+      "title": "模型再强，为什么 Demo 还是进不了生产？",
+      "seen_at": "2026-09-17T00:56:10.579053+00:00",
+      "run_date": "2026-09-17"
+    },
+    "30a0b1e0b3236392de63": {
+      "url": "https://www.infoq.cn/article/BAafGhU4GTtbxrRrSEPW?utm_source=rss&utm_medium=article",
+      "title": "Java新闻汇总：Simple JSON API、GlassFish、Jakarta EE、JNoSQL和Open Liberty、LangChain4j",
+      "seen_at": "2026-09-17T00:56:10.579053+00:00",
+      "run_date": "2026-09-17"
+    },
+    "5070a78223cbc5494517": {
+      "url": "https://www.qbitai.com/2026/09/490756.html",
+      "title": "高通技术公司携手中兴努比亚和豆包手机助手，共同推动智能手机迈入个人AI新时代",
+      "seen_at": "2026-09-17T00:56:10.579053+00:00",
+      "run_date": "2026-09-17"
     }
   },
-  "updated_at": "2026-09-16T00:51:50.289353+00:00"
+  "updated_at": "2026-09-17T00:56:10.579053+00:00"
 }
