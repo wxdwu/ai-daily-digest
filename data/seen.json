@@ -1,59 +1,5 @@
 {
   "items": {
-    "698e618ebb988db07f7a": {
-      "url": "https://www.infoq.cn/article/3MxCwCyMpwcWjpvKJ7u4?utm_source=rss&utm_medium=article",
-      "title": "Agentic AI 在普惠健康险的创新与实践｜AICon深圳",
-      "seen_at": "2026-08-18T23:10:25.600668+00:00",
-      "run_date": "2026-08-19"
-    },
-    "18f7ff562bce746bdb26": {
-      "url": "https://www.infoq.cn/article/J7CiEHSU79e9TYi3soro?utm_source=rss&utm_medium=article",
-      "title": "谷歌发布 Angular v22，带来稳定的 Signal Forms、默认启用的 OnPush 以及实验性的 WebMCP",
-      "seen_at": "2026-08-18T23:10:25.600668+00:00",
-      "run_date": "2026-08-19"
-    },
-    "c211665d7e918b153dde": {
-      "url": "https://www.infoq.cn/article/kJK3qG9m7UEYtf7siCgU?utm_source=rss&utm_medium=article",
-      "title": "豆包视频通话升级，火山引擎多模态传输系统提供技术支撑",
-      "seen_at": "2026-08-18T23:10:25.600668+00:00",
-      "run_date": "2026-08-19"
-    },
-    "f1daf5c79baa2a1cb92e": {
-      "url": "https://www.infoq.cn/article/1EP0hwuqRzccrWArR7GJ?utm_source=rss&utm_medium=article",
-      "title": "DeepSeek Harness 怎么入门？这套极简教程用一个项目给你讲清楚",
-      "seen_at": "2026-08-18T23:10:25.600668+00:00",
-      "run_date": "2026-08-19"
-    },
-    "b24c71ccc2bef925bf04": {
-      "url": "https://www.infoq.cn/article/jsqPaMGuPXFkhifJmTym?utm_source=rss&utm_medium=article",
-      "title": "共识之外：Linux 生态系统中 AI 政策的碎片化现象",
-      "seen_at": "2026-08-18T23:10:25.600668+00:00",
-      "run_date": "2026-08-19"
-    },
-    "6310b2e767ce4c92b407": {
-      "url": "https://www.infoq.cn/article/gC7CU8lbYmha1QPMvqP7?utm_source=rss&utm_medium=article",
-      "title": "世界人工智能开源大赛（GOAI）初赛评审正式启动，全球AI创新项目进入首轮遴选",
-      "seen_at": "2026-08-18T23:10:25.600668+00:00",
-      "run_date": "2026-08-19"
-    },
-    "f221c7bb0757c8fc1424": {
-      "url": "https://www.infoq.cn/article/LLrRNFqoYHPWGNSPslWm?utm_source=rss&utm_medium=article",
-      "title": "模型跑起来之后：视觉 AI 还需要哪些系统能力？",
-      "seen_at": "2026-08-18T23:10:25.600668+00:00",
-      "run_date": "2026-08-19"
-    },
-    "5efc473401095a4192df": {
-      "url": "https://www.qbitai.com/2026/08/474840.html",
-      "title": "人人都能写好听的歌，阿里发布AI音乐模型HappyShrimp",
-      "seen_at": "2026-08-18T23:10:25.600668+00:00",
-      "run_date": "2026-08-19"
-    },
-    "5b5b36e330f76a0d5d59": {
-      "url": "https://www.infoq.cn/article/t0bchRo0KBVZFRTPwPXt?utm_source=rss&utm_medium=article",
-      "title": "GitHub 加固默认安全策略，延时防护与软件包签名之争引热议",
-      "seen_at": "2026-08-18T23:10:25.600668+00:00",
-      "run_date": "2026-08-19"
-    },
     "4fff2f7a53959c00f0ea": {
       "url": "https://developer.nvidia.cn/blog/how-ai-coding-agents-can-unlock-materials-simulation-with-nvidia-alchemi-toolkit/",
       "title": "AI 编码智能体如何借助 NVIDIA ALCHEMI 工具包解锁材质模拟",
@@ -1343,7 +1289,61 @@
       "title": "高通技术公司携手中兴努比亚和豆包手机助手，共同推动智能手机迈入个人AI新时代",
       "seen_at": "2026-09-17T00:56:10.579053+00:00",
       "run_date": "2026-09-17"
+    },
+    "f04893b7d286d1b7124d": {
+      "url": "https://www.infoq.cn/article/bmducufWEHZZRxEYjM4l?utm_source=rss&utm_medium=article",
+      "title": "汪涛详解华为AI战略：算力为核心，昇腾960提前登场，PB级 KV Cache把基础设施推入新阶段",
+      "seen_at": "2026-09-18T00:51:45.808792+00:00",
+      "run_date": "2026-09-18"
+    },
+    "02fb255f4e68135efd64": {
+      "url": "https://www.infoq.cn/article/paoGkkFVHV3gbhG3GEdC?utm_source=rss&utm_medium=article",
+      "title": "阶跃发布全新语音大模型 StepAudio 3系列：覆盖语音识别、生成、实时交互与音乐创作",
+      "seen_at": "2026-09-18T00:51:45.808792+00:00",
+      "run_date": "2026-09-18"
+    },
+    "93d6dd99aa754d3e2941": {
+      "url": "https://aws.amazon.com/cn/blogs/china/one-stop-how-to-litellm-configuration-amazon-bedrock-guardrail/",
+      "title": "一站式搞懂如何在LiteLLM上配置 Amazon Bedrock Guardrail",
+      "seen_at": "2026-09-18T00:51:45.808792+00:00",
+      "run_date": "2026-09-18"
+    },
+    "658e7c39265176784c72": {
+      "url": "https://www.infoq.cn/article/jXliIdDVTYDAtm73EoSU?utm_source=rss&utm_medium=article",
+      "title": "百度智能云首发产业智能体操作系统，要实现 AI 的商业和技术飞轮",
+      "seen_at": "2026-09-18T00:51:45.808792+00:00",
+      "run_date": "2026-09-18"
+    },
+    "c1b26c9b76310a01868c": {
+      "url": "https://www.infoq.cn/article/UZM5vKcN4CbNkPUS6Aid?utm_source=rss&utm_medium=article",
+      "title": "让仿真走到设计前端，第叁范式发布国内首款 GPU 原生跨尺度系统级电磁仿真软件",
+      "seen_at": "2026-09-18T00:51:45.808792+00:00",
+      "run_date": "2026-09-18"
+    },
+    "0979e66c43b04f47e1b1": {
+      "url": "https://www.qbitai.com/2026/09/491596.html",
+      "title": "Claude Code团队讲究啊，这都往外说",
+      "seen_at": "2026-09-18T00:51:45.808792+00:00",
+      "run_date": "2026-09-18"
+    },
+    "a51228a263165ba69182": {
+      "url": "https://www.infoq.cn/article/HWTj56QXAtdSar5YGp32?utm_source=rss&utm_medium=article",
+      "title": "边说话边推理、边聊天边调用工具，谷歌 Gemini 3.8 Live 要攻克语音 Agent 的沉默时刻",
+      "seen_at": "2026-09-18T00:51:45.808792+00:00",
+      "run_date": "2026-09-18"
+    },
+    "ea09f4da7106d7305523": {
+      "url": "https://www.infoq.cn/article/EsH2bUAoMNQx6Nt7vytC?utm_source=rss&utm_medium=article",
+      "title": "神秘模型 Union Alpha 突袭！上线首日跑掉20亿Token，部分网友实测称性能直逼 Astra",
+      "seen_at": "2026-09-18T00:51:45.808792+00:00",
+      "run_date": "2026-09-18"
+    },
+    "92c7fe9236d61189c185": {
+      "url": "https://www.qbitai.com/2026/09/491091.html",
+      "title": "国产RSI模型交卷！Flash模型靠它反打旗舰",
+      "seen_at": "2026-09-18T00:51:45.808792+00:00",
+      "run_date": "2026-09-18"
     }
   },
-  "updated_at": "2026-09-17T00:56:10.579053+00:00"
+  "updated_at": "2026-09-18T00:51:45.808792+00:00"
 }
