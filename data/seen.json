@@ -1,65 +1,5 @@
 {
   "items": {
-    "4fff2f7a53959c00f0ea": {
-      "url": "https://developer.nvidia.cn/blog/how-ai-coding-agents-can-unlock-materials-simulation-with-nvidia-alchemi-toolkit/",
-      "title": "AI 编码智能体如何借助 NVIDIA ALCHEMI 工具包解锁材质模拟",
-      "seen_at": "2026-08-19T23:11:39.303708+00:00",
-      "run_date": "2026-08-20"
-    },
-    "aa79d7328e644d3777fa": {
-      "url": "https://developer.nvidia.cn/blog/game-theoretic-reinforcement-learning-gpu-rewrites-300-year-kissing-number-problem/",
-      "title": "用博弈论强化学习与 GPU，改写 300 年“亲吻数”难题",
-      "seen_at": "2026-08-19T23:11:39.303708+00:00",
-      "run_date": "2026-08-20"
-    },
-    "7bde875a129ee4110e8c": {
-      "url": "https://www.infoq.cn/article/5LJARsierf0NbH3Rc6wc?utm_source=rss&utm_medium=article",
-      "title": "Embabel智能体框架发布1.0版本",
-      "seen_at": "2026-08-19T23:11:39.303708+00:00",
-      "run_date": "2026-08-20"
-    },
-    "2f35a84352a01af82802": {
-      "url": "https://www.qbitai.com/2026/08/475901.html",
-      "title": "IDC发布2026中国AI50强：360以“智能体+安全”双轮驱动入选",
-      "seen_at": "2026-08-19T23:11:39.303708+00:00",
-      "run_date": "2026-08-20"
-    },
-    "1861725f9d197ae0fa8a": {
-      "url": "https://www.infoq.cn/article/BLfF9zUGrzpqJ5QbSBJD?utm_source=rss&utm_medium=article",
-      "title": "OpenAI 因安全问题突然停训GPT-6！网友：当你造出一个神，就不可能再给它拴上绳子",
-      "seen_at": "2026-08-19T23:11:39.303708+00:00",
-      "run_date": "2026-08-20"
-    },
-    "8ad386d21fd24e0711ef": {
-      "url": "https://developer.nvidia.cn/blog/run-massive-scale-umap-in-minutes-using-multiple-gpus-without-losing-accuracy/",
-      "title": "使用多个 GPU 在几分钟内运行大规模 UMAP，且不会降低准确性",
-      "seen_at": "2026-08-19T23:11:39.303708+00:00",
-      "run_date": "2026-08-20"
-    },
-    "31c6c37f9b96711cf3c5": {
-      "url": "https://www.qbitai.com/2026/08/475477.html",
-      "title": "具身数据底座开卖，首发5100元：机器人训练数据有了新解法",
-      "seen_at": "2026-08-19T23:11:39.303708+00:00",
-      "run_date": "2026-08-20"
-    },
-    "91446fda34ca46c93c62": {
-      "url": "https://www.qbitai.com/2026/08/475764.html",
-      "title": "用DeepSeek网页版就能瓜分鹅厂600万？？！",
-      "seen_at": "2026-08-19T23:11:39.303708+00:00",
-      "run_date": "2026-08-20"
-    },
-    "26d161ca5c503d7a7664": {
-      "url": "https://www.infoq.cn/article/61DFAJiVlqlaWQXi9kzA?utm_source=rss&utm_medium=article",
-      "title": "AI爬虫涌入电商，安全防线正在从“拦截”转向“判断”",
-      "seen_at": "2026-08-19T23:11:39.303708+00:00",
-      "run_date": "2026-08-20"
-    },
-    "539f9d55f3be671b6012": {
-      "url": "https://www.infoq.cn/article/0AR0FaYEllc9tk7iWu9U?utm_source=rss&utm_medium=article",
-      "title": "Pinterest 如何通过集中式 Terraform 管道在大规模环境中保障 AWS 基础设施的安全",
-      "seen_at": "2026-08-19T23:11:39.303708+00:00",
-      "run_date": "2026-08-20"
-    },
     "f2d03ff78303cf22d0aa": {
       "url": "https://www.infoq.cn/article/qaWyth5P4tZE1CQhhaGq?utm_source=rss&utm_medium=article",
       "title": "AI Infra 正在诞生自己的石油期货？GPU 不够买之后，华尔街开始交易算力",
@@ -1343,7 +1283,61 @@
       "title": "国产RSI模型交卷！Flash模型靠它反打旗舰",
       "seen_at": "2026-09-18T00:51:45.808792+00:00",
       "run_date": "2026-09-18"
+    },
+    "010d47ce1748f0da2c35": {
+      "url": "https://aws.amazon.com/cn/blogs/china/0-inference-aws-spot-gpu-inference-testing-environment/",
+      "title": "从 0 到推理：用 AWS Spot GPU 打造一键自助的短时推理测试环境",
+      "seen_at": "2026-09-19T00:43:43.802767+00:00",
+      "run_date": "2026-09-19"
+    },
+    "0bc67210d1004eb11351": {
+      "url": "https://www.infoq.cn/article/AFC40lL0yaxVCDvBRFOK?utm_source=rss&utm_medium=article",
+      "title": "Grab 智能体框架 LLM-Kit 加速 AI 智能体生产部署",
+      "seen_at": "2026-09-19T00:43:43.802767+00:00",
+      "run_date": "2026-09-19"
+    },
+    "03ff436382cd1287ea78": {
+      "url": "https://aws.amazon.com/cn/blogs/china/llm-ocr-distributed-agent-tool/",
+      "title": "从 LLM OCR 到分布式 Agent：一个报销工具的三次进化",
+      "seen_at": "2026-09-19T00:43:43.802767+00:00",
+      "run_date": "2026-09-19"
+    },
+    "6c5119a2d4a15d1f3526": {
+      "url": "https://www.qbitai.com/2026/09/491711.html",
+      "title": "刚刚，Claude Code大重构！内部3万Agent管理技术免费开放",
+      "seen_at": "2026-09-19T00:43:43.802767+00:00",
+      "run_date": "2026-09-19"
+    },
+    "7fb510a80586f6d99310": {
+      "url": "https://www.qbitai.com/2026/09/492426.html",
+      "title": "无问芯穹与华环电子签署战略合作，共同探索国产异构算力AI基础设施新方向",
+      "seen_at": "2026-09-19T00:43:43.802767+00:00",
+      "run_date": "2026-09-19"
+    },
+    "4161dc1a2504d470e744": {
+      "url": "https://www.infoq.cn/article/W3tOIQhV5pKhsXP6mgWw?utm_source=rss&utm_medium=article",
+      "title": "700 个 AI 智能体本应彼此隔离，却建起留言板联手攻击，独立调查还原 Hugging Face 事件",
+      "seen_at": "2026-09-19T00:43:43.802767+00:00",
+      "run_date": "2026-09-19"
+    },
+    "05557f695ce40d635c53": {
+      "url": "https://aws.amazon.com/cn/blogs/china/aws-continuum-customer-sdlc-lifecycle-security-management-1/",
+      "title": "从应用安全到云安全，AWS Continuum帮助客户在SDLC 全生命周期进行安全管理（一）",
+      "seen_at": "2026-09-19T00:43:43.802767+00:00",
+      "run_date": "2026-09-19"
+    },
+    "70149f655c08ab96a8eb": {
+      "url": "https://www.infoq.cn/article/wbpy0Kv3tB32jEPV6Cg0?utm_source=rss&utm_medium=article",
+      "title": "被热议的RSI，39 年前就已诞生？现代人工智能之父复盘RSI的漫长探索",
+      "seen_at": "2026-09-19T00:43:43.802767+00:00",
+      "run_date": "2026-09-19"
+    },
+    "df9add715105e64002e6": {
+      "url": "https://www.infoq.cn/article/eluArohETBhwjjYZRoMG?utm_source=rss&utm_medium=article",
+      "title": "微软借助 AI 单月修补超千个安全漏洞",
+      "seen_at": "2026-09-19T00:43:43.802767+00:00",
+      "run_date": "2026-09-19"
     }
   },
-  "updated_at": "2026-09-18T00:51:45.808792+00:00"
+  "updated_at": "2026-09-19T00:43:43.802767+00:00"
 }
