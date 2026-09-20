@@ -1,47 +1,5 @@
 {
   "items": {
-    "f2d03ff78303cf22d0aa": {
-      "url": "https://www.infoq.cn/article/qaWyth5P4tZE1CQhhaGq?utm_source=rss&utm_medium=article",
-      "title": "AI Infra 正在诞生自己的石油期货？GPU 不够买之后，华尔街开始交易算力",
-      "seen_at": "2026-08-20T23:14:16.401271+00:00",
-      "run_date": "2026-08-21"
-    },
-    "5efe9c573ec52c34ee11": {
-      "url": "https://www.infoq.cn/article/LpNjOA7au7WIhTBmVcJo?utm_source=rss&utm_medium=article",
-      "title": "CFP 开放 | KCD 杭州站邀您共议 Agent 时代的云原生、可观测与大模型推理",
-      "seen_at": "2026-08-20T23:14:16.401271+00:00",
-      "run_date": "2026-08-21"
-    },
-    "632956f4db79d0db667c": {
-      "url": "https://www.infoq.cn/article/CPidTC2YJ7AvlU7jUgiq?utm_source=rss&utm_medium=article",
-      "title": "你的 Coding Agent 有多大价值，取决于它对你的数据了解多少 | 技术实践",
-      "seen_at": "2026-08-20T23:14:16.401271+00:00",
-      "run_date": "2026-08-21"
-    },
-    "4082fe73ab2b9baca648": {
-      "url": "https://aws.amazon.com/cn/blogs/china/ecs-codepipeline-enterprise-container-ci-cd-based-on-github/",
-      "title": "ECS + CodePipeline 企业轻量级容器化 CI/CD 实战—基于 GitHub + CodePipeline + CodeBuild + ECS Fargate 的全托管容器化部署方案",
-      "seen_at": "2026-08-20T23:14:16.401271+00:00",
-      "run_date": "2026-08-21"
-    },
-    "344a35b64946c15df1d1": {
-      "url": "https://www.infoq.cn/article/u2O9k3QiZkeIbqJ7GsPw?utm_source=rss&utm_medium=article",
-      "title": "将Pod作为worker而非智能体：在Kubernetes上重新思考AI智能体的部署单元",
-      "seen_at": "2026-08-20T23:14:16.401271+00:00",
-      "run_date": "2026-08-21"
-    },
-    "f750f226e3349c57e768": {
-      "url": "https://www.infoq.cn/article/pKbwv6YkdSE1UdCiKl2F?utm_source=rss&utm_medium=article",
-      "title": "CloudFlare 预览网页 WebMCP 自动支持功能",
-      "seen_at": "2026-08-20T23:14:16.401271+00:00",
-      "run_date": "2026-08-21"
-    },
-    "be57eb4784b9d1ed19cb": {
-      "url": "https://www.infoq.cn/article/d5mWBGZxB2l2vRTO8wFU?utm_source=rss&utm_medium=article",
-      "title": "将可理解性作为架构特性：无法理解的系统无法安全演进",
-      "seen_at": "2026-08-20T23:14:16.401271+00:00",
-      "run_date": "2026-08-21"
-    },
     "93b15824534c22c367ca": {
       "url": "https://www.infoq.cn/article/jlTfe57D4r0Juzpz8Fk5?utm_source=rss&utm_medium=article",
       "title": "DeepSeek 发布多模态模型，“小鲸鱼”长出了眼睛",
@@ -1337,7 +1295,49 @@
       "title": "微软借助 AI 单月修补超千个安全漏洞",
       "seen_at": "2026-09-19T00:43:43.802767+00:00",
       "run_date": "2026-09-19"
+    },
+    "3294f2d752ac21c32d8b": {
+      "url": "https://www.infoq.cn/article/G4tlQvg2IsabE0v1RDOE?utm_source=rss&utm_medium=article",
+      "title": "从算子调优到推理自治：构建 MaaS 场景下的 AI Inference 自动优化闭环｜QCon上海",
+      "seen_at": "2026-09-20T00:28:06.990589+00:00",
+      "run_date": "2026-09-20"
+    },
+    "d852958650698dbb2ecf": {
+      "url": "https://www.qbitai.com/2026/09/492476.html",
+      "title": "华为汪涛：华为要打造AI算力底座，只做好一颗芯片远远不够",
+      "seen_at": "2026-09-20T00:28:06.990589+00:00",
+      "run_date": "2026-09-20"
+    },
+    "1ce19d6ffbf590c82890": {
+      "url": "https://www.qbitai.com/2026/09/492573.html",
+      "title": "27B模型分分钟交付网页，Qwen 3.8还是太能了",
+      "seen_at": "2026-09-20T00:28:06.990589+00:00",
+      "run_date": "2026-09-20"
+    },
+    "75d674ccf091e496d045": {
+      "url": "https://www.infoq.cn/article/brH7TRcHB9evl32KQJkY?utm_source=rss&utm_medium=article",
+      "title": "单个机柜到底能跑多少个 Agent？答案不在 GPU 身上",
+      "seen_at": "2026-09-20T00:28:06.990589+00:00",
+      "run_date": "2026-09-20"
+    },
+    "b9505475d8f8ac11e785": {
+      "url": "https://www.qbitai.com/2026/09/492661.html",
+      "title": "马斯克批量收购破产公司ing…世界首富脑子是不一样",
+      "seen_at": "2026-09-20T00:28:06.990589+00:00",
+      "run_date": "2026-09-20"
+    },
+    "4b4696a45983c05132e3": {
+      "url": "https://www.infoq.cn/article/CEphwKjzAe7LzbOriLcq?utm_source=rss&utm_medium=article",
+      "title": "Claude“主导”Anthropic 26%的AI研发、3万Agent同时运行：当AI开始“造AI”，头部AI公司的RSI路线正在分化",
+      "seen_at": "2026-09-20T00:28:06.990589+00:00",
+      "run_date": "2026-09-20"
+    },
+    "ab7b5eecbd3b021b87e3": {
+      "url": "https://www.qbitai.com/2026/09/492467.html",
+      "title": "陶哲轩代表SAIR Foundation宣布正式启动“开放数学模型计划”",
+      "seen_at": "2026-09-20T00:28:06.990589+00:00",
+      "run_date": "2026-09-20"
     }
   },
-  "updated_at": "2026-09-19T00:43:43.802767+00:00"
+  "updated_at": "2026-09-20T00:28:06.990589+00:00"
 }
