@@ -1,59 +1,5 @@
 {
   "items": {
-    "93b15824534c22c367ca": {
-      "url": "https://www.infoq.cn/article/jlTfe57D4r0Juzpz8Fk5?utm_source=rss&utm_medium=article",
-      "title": "DeepSeek 发布多模态模型，“小鲸鱼”长出了眼睛",
-      "seen_at": "2026-08-21T23:11:37.731343+00:00",
-      "run_date": "2026-08-22"
-    },
-    "41ff66b74eb61d3fd01b": {
-      "url": "https://www.infoq.cn/article/aGfkSN1YlmLrUQMPea9L?utm_source=rss&utm_medium=article",
-      "title": "本地运行、支持视觉与工具调用：Meta 开源智能体模型",
-      "seen_at": "2026-08-21T23:11:37.731343+00:00",
-      "run_date": "2026-08-22"
-    },
-    "fb52019b4e8043fa3838": {
-      "url": "https://www.infoq.cn/article/YB51rwb95keVmlIZ0xQd?utm_source=rss&utm_medium=article",
-      "title": "材科源图三个月完成两轮融资，AI全链路闭环加速材料产业化",
-      "seen_at": "2026-08-21T23:11:37.731343+00:00",
-      "run_date": "2026-08-22"
-    },
-    "63f47f5130743f9f088b": {
-      "url": "https://aws.amazon.com/cn/blogs/china/using-open-source-identity-keycloak-implement-amazon-quick-sso/",
-      "title": "使用开源身份提供商 Keycloak 实现 Amazon Quick 多端 SSO——从部署到SAML + OIDC 双协议集成与验证",
-      "seen_at": "2026-08-21T23:11:37.731343+00:00",
-      "run_date": "2026-08-22"
-    },
-    "6f405948b3d9f3f27e18": {
-      "url": "https://www.qbitai.com/2026/08/476409.html",
-      "title": "国产“预制算力”来了：工厂预制率超90% 24小时内投运 交付效率提升70%",
-      "seen_at": "2026-08-21T23:11:37.731343+00:00",
-      "run_date": "2026-08-22"
-    },
-    "c47e1248f2359be55f90": {
-      "url": "https://www.infoq.cn/article/7FAcAhVUw89VJNwuOwrc?utm_source=rss&utm_medium=article",
-      "title": "视频生成迎来“Claude Code时刻”，MiniMax Design “杀入” Adobe、Canva 腹地",
-      "seen_at": "2026-08-21T23:11:37.731343+00:00",
-      "run_date": "2026-08-22"
-    },
-    "315f6fae9f4f80cfeaf0": {
-      "url": "https://www.infoq.cn/article/9FZ8z60yB4tS4WQEP4dw?utm_source=rss&utm_medium=article",
-      "title": "OpenAI 之后又是 Anthropic，Claude 将攻击延伸至公共互联网",
-      "seen_at": "2026-08-21T23:11:37.731343+00:00",
-      "run_date": "2026-08-22"
-    },
-    "84d6d5aa489c8863d56c": {
-      "url": "https://www.qbitai.com/2026/08/476596.html",
-      "title": "机器人的GPT-3时刻真·来了！卡卡西上身，看3秒就学会新动作",
-      "seen_at": "2026-08-21T23:11:37.731343+00:00",
-      "run_date": "2026-08-22"
-    },
-    "7ea8219a35fc40895192": {
-      "url": "https://www.infoq.cn/article/9x1ohAMlMpMCLdygg8Yf?utm_source=rss&utm_medium=article",
-      "title": "不跟风、不堆模型，百度靠什么突围AI办公赛道？",
-      "seen_at": "2026-08-21T23:11:37.731343+00:00",
-      "run_date": "2026-08-22"
-    },
     "88d47da7e4056b0d64c3": {
       "url": "https://www.qbitai.com/2026/08/476930.html",
       "title": "从模型到生产力：星海图与产业朋友圈共探具身智能的下一站",
@@ -1337,7 +1283,67 @@
       "title": "陶哲轩代表SAIR Foundation宣布正式启动“开放数学模型计划”",
       "seen_at": "2026-09-20T00:28:06.990589+00:00",
       "run_date": "2026-09-20"
+    },
+    "26dda2a89c64fc5c3441": {
+      "url": "https://www.infoq.cn/article/zVZhvQIW9BvrWd3SU7st?utm_source=rss&utm_medium=article",
+      "title": "Dropbox 分享如何通过提升现有基础设施能效为 AI 腾出算力余量",
+      "seen_at": "2026-09-21T00:35:51.294389+00:00",
+      "run_date": "2026-09-21"
+    },
+    "5d1b907c7c965e86280b": {
+      "url": "https://www.infoq.cn/article/oP7tDkoaamphFBkDY8uW?utm_source=rss&utm_medium=article",
+      "title": "硅基流动完成B+轮二期及C轮融资，年内累计融资近29亿元",
+      "seen_at": "2026-09-21T00:35:51.294389+00:00",
+      "run_date": "2026-09-21"
+    },
+    "89bc98a3e81489ed2a88": {
+      "url": "https://aws.amazon.com/cn/blogs/china/ai-how-to-quick-build-visualization-using-amazon-quick-app/",
+      "title": "AI 时代如何快速搭建可视化数仓：使用 Amazon Quick App 快速搭建 Amazon Redshift 应用",
+      "seen_at": "2026-09-21T00:35:51.294389+00:00",
+      "run_date": "2026-09-21"
+    },
+    "a58e44659dc0849d7604": {
+      "url": "https://aws.amazon.com/cn/blogs/china/using-kiro-amazon-eks-cluster-practice/",
+      "title": "使用 Kiro 辅助 Amazon EKS 集群升级实践",
+      "seen_at": "2026-09-21T00:35:51.294389+00:00",
+      "run_date": "2026-09-21"
+    },
+    "47076627ee1e3d0a2d57": {
+      "url": "https://www.infoq.cn/article/3FdzSfrzlb3vMDwsC1Ny?utm_source=rss&utm_medium=article",
+      "title": "微软开源 TauGrid，简化 Kubernetes AI 工作负载管理",
+      "seen_at": "2026-09-21T00:35:51.294389+00:00",
+      "run_date": "2026-09-21"
+    },
+    "13b3398c5deb0ee73c9c": {
+      "url": "https://www.infoq.cn/article/9jw1St7ULZijG8XNCWkW?utm_source=rss&utm_medium=article",
+      "title": "瞄准 AI 编程、金融等场景，单次成本仅为Opus 5 的1/8！这款国产旗舰模型跻身 AA 榜单全球前三",
+      "seen_at": "2026-09-21T00:35:51.294389+00:00",
+      "run_date": "2026-09-21"
+    },
+    "5ed55077bbc973db1f19": {
+      "url": "https://www.infoq.cn/article/MaOcETZFPCvAuFRQJps2?utm_source=rss&utm_medium=article",
+      "title": "70强会师杭州，世界人工智能开源大赛（GOAI）总决赛即将启幕",
+      "seen_at": "2026-09-21T00:35:51.294389+00:00",
+      "run_date": "2026-09-21"
+    },
+    "972cfbb00dd245194557": {
+      "url": "https://www.qbitai.com/2026/09/492939.html",
+      "title": "APUS 开源国内首批Jev跨平台复现：国产模型实现秒级决策",
+      "seen_at": "2026-09-21T00:35:51.294389+00:00",
+      "run_date": "2026-09-21"
+    },
+    "4e3805c287670291393a": {
+      "url": "https://www.infoq.cn/article/EBIZhgc8pLujPiIum6Yt?utm_source=rss&utm_medium=article",
+      "title": "最新桌面 Agent，AI 工作流解码办公效率提升",
+      "seen_at": "2026-09-21T00:35:51.294389+00:00",
+      "run_date": "2026-09-21"
+    },
+    "25800c1d53b9a37fde64": {
+      "url": "https://www.qbitai.com/2026/09/492849.html",
+      "title": "《网络安全人才实战能力报告-AI赋能篇》正式发布，当AI进入业务深水区安全如何跟上",
+      "seen_at": "2026-09-21T00:35:51.294389+00:00",
+      "run_date": "2026-09-21"
     }
   },
-  "updated_at": "2026-09-20T00:28:06.990589+00:00"
+  "updated_at": "2026-09-21T00:35:51.294389+00:00"
 }
