@@ -1,17 +1,5 @@
 {
   "items": {
-    "88d47da7e4056b0d64c3": {
-      "url": "https://www.qbitai.com/2026/08/476930.html",
-      "title": "从模型到生产力：星海图与产业朋友圈共探具身智能的下一站",
-      "seen_at": "2026-08-22T23:08:57.018610+00:00",
-      "run_date": "2026-08-23"
-    },
-    "673edfc27e7f667b8763": {
-      "url": "https://www.infoq.cn/article/MKDQBpGhC5Uu3pB4kMbC?utm_source=rss&utm_medium=article",
-      "title": "撞名Anthropic的“外挂”刷屏：让“DeepSeek V4‑Pro碾压 Fable 5”但无人能复现，Token开销反而翻倍",
-      "seen_at": "2026-08-22T23:08:57.018610+00:00",
-      "run_date": "2026-08-23"
-    },
     "345a867d7133493ecd4d": {
       "url": "https://www.infoq.cn/article/cwj5Ikvhqu5mKH22zKsO?utm_source=rss&utm_medium=article",
       "title": "亚马逊云科技开源 Dogwood：给 AI 智能体的工具调用立规矩",
@@ -1343,7 +1331,67 @@
       "title": "《网络安全人才实战能力报告-AI赋能篇》正式发布，当AI进入业务深水区安全如何跟上",
       "seen_at": "2026-09-21T00:35:51.294389+00:00",
       "run_date": "2026-09-21"
+    },
+    "cbcdb10c81e02e45a2a1": {
+      "url": "https://www.infoq.cn/article/Obuxu1mvY9p6RNOlxFGc?utm_source=rss&utm_medium=article",
+      "title": "不靠最强大模型，也能拿全球第一？OceanBase 的 “纯国产组合” 登顶国际 Data Agent 榜",
+      "seen_at": "2026-09-22T01:19:44.082627+00:00",
+      "run_date": "2026-09-22"
+    },
+    "5086b15a3416fcef8130": {
+      "url": "https://www.infoq.cn/article/AGIRRRtM1lBDFIvwWuRX?utm_source=rss&utm_medium=article",
+      "title": "Altum：蚂蚁集团新一代大模型训练数据处理系统设计与实践｜QCon上海",
+      "seen_at": "2026-09-22T01:19:44.082627+00:00",
+      "run_date": "2026-09-22"
+    },
+    "36b4c76e07200806dee2": {
+      "url": "https://www.infoq.cn/article/mMNcVfyGXtyFhPM0sKvN?utm_source=rss&utm_medium=article",
+      "title": "IDC评估中国 AI算力管理平台：范式综合评分位列第一",
+      "seen_at": "2026-09-22T01:19:44.082627+00:00",
+      "run_date": "2026-09-22"
+    },
+    "e66cffc5a6b874a352b7": {
+      "url": "https://www.infoq.cn/article/vA7opkWL5WYlwYcPIdds?utm_source=rss&utm_medium=article",
+      "title": "《2026年中国人工智能计算力发展评估报告》发布，智能体重塑算力基础设施，智能算力规模预计增长87.9%",
+      "seen_at": "2026-09-22T01:19:44.082627+00:00",
+      "run_date": "2026-09-22"
+    },
+    "b02c8b84fd1c0c972492": {
+      "url": "https://www.qbitai.com/2026/09/493235.html",
+      "title": "长三角安全人工智能安徽省实验室发布星界、星驭、星鉴三大AI安全解决方案",
+      "seen_at": "2026-09-22T01:19:44.082627+00:00",
+      "run_date": "2026-09-22"
+    },
+    "bccb4cc55eca05c25a3f": {
+      "url": "https://www.qbitai.com/2026/09/493091.html",
+      "title": "汽车行业首个AI超级智能体「迪迪虾」来了！腾势多款车型即将OTA",
+      "seen_at": "2026-09-22T01:19:44.082627+00:00",
+      "run_date": "2026-09-22"
+    },
+    "f8fb33192563395ed286": {
+      "url": "https://www.infoq.cn/article/rIpDfDZXDoN9L7akct7e?utm_source=rss&utm_medium=article",
+      "title": "祥峰再次出手，超维动力获超 5 亿融资，我们拆解了这家公司的全栈路线",
+      "seen_at": "2026-09-22T01:19:44.082627+00:00",
+      "run_date": "2026-09-22"
+    },
+    "1f686236f79180a18486": {
+      "url": "https://www.qbitai.com/2026/09/493241.html",
+      "title": "啊啊啊GPT-6 Astra这么不安全！这次马斯克都瘫坐了",
+      "seen_at": "2026-09-22T01:19:44.082627+00:00",
+      "run_date": "2026-09-22"
+    },
+    "bd9f0a2913cb224da432": {
+      "url": "https://www.infoq.cn/article/at5IL3FiObSQ4y9gBv0a?utm_source=rss&utm_medium=article",
+      "title": "智能效能进阶：丰富模型选择，实现智能路由",
+      "seen_at": "2026-09-22T01:19:44.082627+00:00",
+      "run_date": "2026-09-22"
+    },
+    "d6fd70defa46f4b86760": {
+      "url": "https://www.infoq.cn/article/FK2ZF2u01pt45uEAqQFq?utm_source=rss&utm_medium=article",
+      "title": "GitHub Copilot 推出 HydraFusion 项目，依托多模型路由实现前沿级性能",
+      "seen_at": "2026-09-22T01:19:44.082627+00:00",
+      "run_date": "2026-09-22"
     }
   },
-  "updated_at": "2026-09-21T00:35:51.294389+00:00"
+  "updated_at": "2026-09-22T01:19:44.082627+00:00"
 }
