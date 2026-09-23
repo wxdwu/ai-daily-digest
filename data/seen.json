@@ -1,29 +1,5 @@
 {
   "items": {
-    "345a867d7133493ecd4d": {
-      "url": "https://www.infoq.cn/article/cwj5Ikvhqu5mKH22zKsO?utm_source=rss&utm_medium=article",
-      "title": "亚马逊云科技开源 Dogwood：给 AI 智能体的工具调用立规矩",
-      "seen_at": "2026-08-23T23:08:43.822272+00:00",
-      "run_date": "2026-08-24"
-    },
-    "72d86b82a8ffd50d309b": {
-      "url": "https://www.qbitai.com/2026/08/478191.html",
-      "title": "匿名牛来大模型被扒出智谱血缘，也有人怀疑Cursor拿开源GLM训的",
-      "seen_at": "2026-08-23T23:08:43.822272+00:00",
-      "run_date": "2026-08-24"
-    },
-    "630448c87096268f6bc4": {
-      "url": "https://www.qbitai.com/2026/08/478164.html",
-      "title": "英伟达AI服务器将涨价15%！1GW数据中心成本激增50亿美元",
-      "seen_at": "2026-08-23T23:08:43.822272+00:00",
-      "run_date": "2026-08-24"
-    },
-    "4f41b54dbe77f4085302": {
-      "url": "https://www.qbitai.com/2026/08/478007.html",
-      "title": "从世界模型到现实生产力，无界动力深度参与WRC主论坛及多场同期活动",
-      "seen_at": "2026-08-23T23:08:43.822272+00:00",
-      "run_date": "2026-08-24"
-    },
     "3f0c5c8068ba31f72d4b": {
       "url": "https://www.qbitai.com/2026/08/478469.html",
       "title": "单芯片到万卡集群体系化突破 中诚华隆HL200推理芯片及超节点集群重磅发布",
@@ -1391,7 +1367,61 @@
       "title": "GitHub Copilot 推出 HydraFusion 项目，依托多模型路由实现前沿级性能",
       "seen_at": "2026-09-22T01:19:44.082627+00:00",
       "run_date": "2026-09-22"
+    },
+    "90d5db49b47d50b65506": {
+      "url": "https://www.infoq.cn/article/rNHK14OsBl5CgSpMoTPq?utm_source=rss&utm_medium=article",
+      "title": "从生成内容到创造体验，多模态大模型如何改变内容生产？",
+      "seen_at": "2026-09-23T00:59:40.819821+00:00",
+      "run_date": "2026-09-23"
+    },
+    "13f9177ee07618b41b54": {
+      "url": "https://www.infoq.cn/article/jCdqhiUJHJlVgOYGfWGx?utm_source=rss&utm_medium=article",
+      "title": "华为云码道面向鸿蒙开发者升级：上线鸿蒙编码大模型，覆盖开发到编译全流程",
+      "seen_at": "2026-09-23T00:59:40.819821+00:00",
+      "run_date": "2026-09-23"
+    },
+    "02eab801cdd685943370": {
+      "url": "https://www.infoq.cn/article/7suOC8BJWYA4yx6dvZXa?utm_source=rss&utm_medium=article",
+      "title": "从 AI 工具到经营智能体：快手分销增长 Agent 实践",
+      "seen_at": "2026-09-23T00:59:40.819821+00:00",
+      "run_date": "2026-09-23"
+    },
+    "d8770feb69690e9f83c5": {
+      "url": "https://blogs.nvidia.cn/blog/ai-security-agent-stack/",
+      "title": "AI 安全是一个工程问题 —— 如何在智能体技术栈的每一层解决这一问题",
+      "seen_at": "2026-09-23T00:59:40.819821+00:00",
+      "run_date": "2026-09-23"
+    },
+    "a3faa38934afb3076fbc": {
+      "url": "https://blogs.nvidia.cn/blog/physical-ai-halos-safety/",
+      "title": "大规模部署物理 AI，为何必须让安全覆盖每一个层级",
+      "seen_at": "2026-09-23T00:59:40.819821+00:00",
+      "run_date": "2026-09-23"
+    },
+    "f3d64be47c006b19e4ed": {
+      "url": "https://www.infoq.cn/article/L9QQKUgo3DEjschVRKD9?utm_source=rss&utm_medium=article",
+      "title": "阿里吴泳铭：千问将训练5-10万亿参数规模的新模型",
+      "seen_at": "2026-09-23T00:59:40.819821+00:00",
+      "run_date": "2026-09-23"
+    },
+    "fee03f9a2c5f71148e25": {
+      "url": "https://www.qbitai.com/2026/09/494120.html",
+      "title": "基元律动韩凯：从多模型调度到反馈闭环，探索Agent持续进化",
+      "seen_at": "2026-09-23T00:59:40.819821+00:00",
+      "run_date": "2026-09-23"
+    },
+    "b35a39d31dbee751a2ba": {
+      "url": "https://www.qbitai.com/2026/09/493865.html",
+      "title": "虎鲸文娱推出“鲸锐AI”影视制作与管理平台，打造文娱产业新基建",
+      "seen_at": "2026-09-23T00:59:40.819821+00:00",
+      "run_date": "2026-09-23"
+    },
+    "51eba9a8ec9bde623fb9": {
+      "url": "https://www.infoq.cn/article/MejovdhJpA8y4wbWlTMU?utm_source=rss&utm_medium=article",
+      "title": "Netflix 重构 Conductor，以支持每月 4.2 亿次的工作流执行以及 10 倍规模的工作流",
+      "seen_at": "2026-09-23T00:59:40.819821+00:00",
+      "run_date": "2026-09-23"
     }
   },
-  "updated_at": "2026-09-22T01:19:44.082627+00:00"
+  "updated_at": "2026-09-23T00:59:40.819821+00:00"
 }
