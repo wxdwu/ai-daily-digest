@@ -1,59 +1,5 @@
 {
   "items": {
-    "3f0c5c8068ba31f72d4b": {
-      "url": "https://www.qbitai.com/2026/08/478469.html",
-      "title": "单芯片到万卡集群体系化突破 中诚华隆HL200推理芯片及超节点集群重磅发布",
-      "seen_at": "2026-08-24T23:12:12.891262+00:00",
-      "run_date": "2026-08-25"
-    },
-    "a5b7541cf55640960b78": {
-      "url": "https://www.qbitai.com/2026/08/478427.html",
-      "title": "阿里视频大模型Wan3.0正式上线，行业评价“稳定、真实、有质感”",
-      "seen_at": "2026-08-24T23:12:12.891262+00:00",
-      "run_date": "2026-08-25"
-    },
-    "1c0732a76a83076140a8": {
-      "url": "https://www.infoq.cn/article/2IBWc7BuB2qoGao5tlQT?utm_source=rss&utm_medium=article",
-      "title": "多个 AI 智能体“同住”一台 EC2：AgentCore 推出持久计算",
-      "seen_at": "2026-08-24T23:12:12.891262+00:00",
-      "run_date": "2026-08-25"
-    },
-    "0a80389761a80815cdf4": {
-      "url": "https://www.infoq.cn/article/4h2jb2eOcBrP5AG5hLYt?utm_source=rss&utm_medium=article",
-      "title": "Netflix 开源了一个用于因果推理的智能代理工作流",
-      "seen_at": "2026-08-24T23:12:12.891262+00:00",
-      "run_date": "2026-08-25"
-    },
-    "31a199f83af6500e8442": {
-      "url": "https://www.infoq.cn/article/ONGSA7k86LcxFyU64N2z?utm_source=rss&utm_medium=article",
-      "title": "DeepSeek 再度调价；英伟达AI服务器涨价超 15%；“AI红娘”承诺三年不结婚就退款，前 Kimi搜索负责人创业目标：拉高10%结婚率 | AI周报",
-      "seen_at": "2026-08-24T23:12:12.891262+00:00",
-      "run_date": "2026-08-25"
-    },
-    "ac89a407a9e85eb19cee": {
-      "url": "https://www.infoq.cn/article/1pa8asW4xOs6y2GYfl8T?utm_source=rss&utm_medium=article",
-      "title": "Cloudflare WriteGuard 为 MCP 服务器提供了精细化的安全控制",
-      "seen_at": "2026-08-24T23:12:12.891262+00:00",
-      "run_date": "2026-08-25"
-    },
-    "32ca8ffc733444163b17": {
-      "url": "https://www.infoq.cn/article/6zto2Zd1cdiODGyBcf6r?utm_source=rss&utm_medium=article",
-      "title": "从现实到反馈：KDC 完整工程模型全景",
-      "seen_at": "2026-08-24T23:12:12.891262+00:00",
-      "run_date": "2026-08-25"
-    },
-    "ab0a27e6e57621113e37": {
-      "url": "https://www.qbitai.com/2026/08/478473.html",
-      "title": "阿里达摩院推出肝癌AI模型，精准识别1厘米微小肿瘤",
-      "seen_at": "2026-08-24T23:12:12.891262+00:00",
-      "run_date": "2026-08-25"
-    },
-    "5a95e7c5c141832b87c1": {
-      "url": "https://www.qbitai.com/2026/08/478421.html",
-      "title": "WRC 2026｜原生全模态世界模型：从模拟世界到交互世界",
-      "seen_at": "2026-08-24T23:12:12.891262+00:00",
-      "run_date": "2026-08-25"
-    },
     "5c92c381eaa4aa00bdab": {
       "url": "https://aws.amazon.com/cn/blogs/china/amazon-linux-2023-deploy-gpu-container-environment/",
       "title": "在 Amazon Linux 2023 上部署 GPU 容器环境：快速入门指南",
@@ -1421,7 +1367,67 @@
       "title": "Netflix 重构 Conductor，以支持每月 4.2 亿次的工作流执行以及 10 倍规模的工作流",
       "seen_at": "2026-09-23T00:59:40.819821+00:00",
       "run_date": "2026-09-23"
+    },
+    "e279cf11960af1dfb481": {
+      "url": "https://www.infoq.cn/article/jG9ksSRvpkfP20Qif8Ov?utm_source=rss&utm_medium=article",
+      "title": "Claude Opus 5.5 发布：一天内迁移 68 万行代码，单任务成本比 GPT-6 Astra 便宜 80%",
+      "seen_at": "2026-09-24T00:56:22.224468+00:00",
+      "run_date": "2026-09-24"
+    },
+    "9b42a04e93473b19098a": {
+      "url": "https://developer.nvidia.cn/blog/enabling-private-high-performance-production-ai-inference-with-nvidia-confidential-computing/",
+      "title": "借助 NVIDIA 机密计算实现私有高性能生产级 AI 推理",
+      "seen_at": "2026-09-24T00:56:22.224468+00:00",
+      "run_date": "2026-09-24"
+    },
+    "e234fe206e636e6d7f4e": {
+      "url": "https://www.infoq.cn/article/rB0WGcG9iLIRH3xZojY5?utm_source=rss&utm_medium=article",
+      "title": "数百亿向量怎么搜？Pinterest 抛弃“内存大户”HNSW，转向量化 SPANN",
+      "seen_at": "2026-09-24T00:56:22.224468+00:00",
+      "run_date": "2026-09-24"
+    },
+    "3811bae272a362582419": {
+      "url": "https://www.qbitai.com/2026/09/496493.html",
+      "title": "汇智智能发布Hellome：国内首个FDE直连智能体服务平台，把AI交付周期压进“周”",
+      "seen_at": "2026-09-24T00:56:22.224468+00:00",
+      "run_date": "2026-09-24"
+    },
+    "b149808c0d8949d23471": {
+      "url": "https://www.qbitai.com/2026/09/496471.html",
+      "title": "斑马智能发布端模型AutoOmni2.0，让元神AI更懂“我的世界”",
+      "seen_at": "2026-09-24T00:56:22.224468+00:00",
+      "run_date": "2026-09-24"
+    },
+    "a32c343054e34d73b609": {
+      "url": "https://www.qbitai.com/2026/09/496494.html",
+      "title": "达卯科技完成新一轮融资，算电协同核心软件层“稀缺标的”",
+      "seen_at": "2026-09-24T00:56:22.224468+00:00",
+      "run_date": "2026-09-24"
+    },
+    "ce007395b54e646c5033": {
+      "url": "https://www.qbitai.com/2026/09/496393.html",
+      "title": "DeepSeek新论文公开Agent训练！梁文锋署名",
+      "seen_at": "2026-09-24T00:56:22.224468+00:00",
+      "run_date": "2026-09-24"
+    },
+    "e41ce2cc2fac81fd3bec": {
+      "url": "https://www.qbitai.com/2026/09/496384.html",
+      "title": "Qwen一号位定了！刘大一恒接棒",
+      "seen_at": "2026-09-24T00:56:22.224468+00:00",
+      "run_date": "2026-09-24"
+    },
+    "d44fa6e17781d296939f": {
+      "url": "https://www.infoq.cn/article/3rXojuNPmJANFv8iWqI8?utm_source=rss&utm_medium=article",
+      "title": "人人都在造世界模型，HappyWorld‑Bench 试着给出一张统一考卷",
+      "seen_at": "2026-09-24T00:56:22.224468+00:00",
+      "run_date": "2026-09-24"
+    },
+    "6761886e3e4b2e04113b": {
+      "url": "https://www.infoq.cn/article/fZRdzxQYpaTS2sQSqpVk?utm_source=rss&utm_medium=article",
+      "title": "大语言模型：下一代 DSL 编写者",
+      "seen_at": "2026-09-24T00:56:22.224468+00:00",
+      "run_date": "2026-09-24"
     }
   },
-  "updated_at": "2026-09-23T00:59:40.819821+00:00"
+  "updated_at": "2026-09-24T00:56:22.224468+00:00"
 }
