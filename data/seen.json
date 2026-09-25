@@ -1,47 +1,5 @@
 {
   "items": {
-    "5c92c381eaa4aa00bdab": {
-      "url": "https://aws.amazon.com/cn/blogs/china/amazon-linux-2023-deploy-gpu-container-environment/",
-      "title": "在 Amazon Linux 2023 上部署 GPU 容器环境：快速入门指南",
-      "seen_at": "2026-08-25T23:14:45.015227+00:00",
-      "run_date": "2026-08-26"
-    },
-    "5acb4ac4af508c5b63d5": {
-      "url": "https://www.qbitai.com/2026/08/478839.html",
-      "title": "人民教育音像数字出版社与小猿达成合作 “中小学课本学习智能体”首落小猿AI学习机",
-      "seen_at": "2026-08-25T23:14:45.015227+00:00",
-      "run_date": "2026-08-26"
-    },
-    "9e6a4ce223e06fe4f355": {
-      "url": "https://aws.amazon.com/cn/blogs/china/hybrid-cloud-architecture-network-monitoring-solution/",
-      "title": "混合云架构下秒级多维网络监控方案",
-      "seen_at": "2026-08-25T23:14:45.015227+00:00",
-      "run_date": "2026-08-26"
-    },
-    "fad782f073224b0a5ca4": {
-      "url": "https://www.infoq.cn/article/9UoCxEhRcFG5ovFxTkXS?utm_source=rss&utm_medium=article",
-      "title": "Grafana 正式发布 gcx 和 MCP 服务器，助力基于遥测的智能代理开发",
-      "seen_at": "2026-08-25T23:14:45.015227+00:00",
-      "run_date": "2026-08-26"
-    },
-    "f6c3f3242fac03dd5860": {
-      "url": "https://www.infoq.cn/article/4mIQfr4w5gPLXSIW7YST?utm_source=rss&utm_medium=article",
-      "title": "主要前沿模型提供商采用水印技术以满足欧盟法规要求",
-      "seen_at": "2026-08-25T23:14:45.015227+00:00",
-      "run_date": "2026-08-26"
-    },
-    "33710addd1f388a68af8": {
-      "url": "https://www.qbitai.com/2026/08/479192.html",
-      "title": "开源国产8B模型，比肩闭源Image 2了！",
-      "seen_at": "2026-08-25T23:14:45.015227+00:00",
-      "run_date": "2026-08-26"
-    },
-    "2b8017fe175d5c0baabc": {
-      "url": "https://www.infoq.cn/article/xIctLq7L5cK9dIrVVCvd?utm_source=rss&utm_medium=article",
-      "title": "Cloudflare 将 CI 管道转变为 TypeScript 工作流",
-      "seen_at": "2026-08-25T23:14:45.015227+00:00",
-      "run_date": "2026-08-26"
-    },
     "f1cc602218c14bb36cbf": {
       "url": "https://www.qbitai.com/2026/08/480005.html",
       "title": "工业Agent不是“套壳”大模型！西门子百年经验灌进工业AI",
@@ -1427,7 +1385,67 @@
       "title": "大语言模型：下一代 DSL 编写者",
       "seen_at": "2026-09-24T00:56:22.224468+00:00",
       "run_date": "2026-09-24"
+    },
+    "a21e238e46b719a02c28": {
+      "url": "https://www.qbitai.com/2026/09/496925.html",
+      "title": "PCIe显卡被低估了！内核补齐+通信重构，DeepSeek推理吞吐翻近7倍",
+      "seen_at": "2026-09-25T00:58:04.580863+00:00",
+      "run_date": "2026-09-25"
+    },
+    "33f9b84ee0d2198e294a": {
+      "url": "https://www.infoq.cn/article/LtHFz94fa1W1DQjNvHVb?utm_source=rss&utm_medium=article",
+      "title": "显存不够、内存太贵，KV Cache越堆越大：华为给出自己的新解法",
+      "seen_at": "2026-09-25T00:58:04.580863+00:00",
+      "run_date": "2026-09-25"
+    },
+    "25cd46d41c0840081dff": {
+      "url": "https://www.infoq.cn/article/b5oxzJyafr0lkZexoo8E?utm_source=rss&utm_medium=article",
+      "title": "29 小时攻破浏览器，GPT-6 Astra 成为 OpenAI 首个“严重级”模型",
+      "seen_at": "2026-09-25T00:58:04.580863+00:00",
+      "run_date": "2026-09-25"
+    },
+    "82b4467245255465f5e3": {
+      "url": "https://www.infoq.cn/article/VSIsPFiO2hrjBi30wDfE?utm_source=rss&utm_medium=article",
+      "title": "GPT-6猛砍价，Opus 5.5忙“变好用”：模型价格战，已经不能只看API定价",
+      "seen_at": "2026-09-25T00:58:04.580863+00:00",
+      "run_date": "2026-09-25"
+    },
+    "523acba7e19887cc6d25": {
+      "url": "https://www.infoq.cn/article/amffXXMpr23rX3eoJDhv?utm_source=rss&utm_medium=article",
+      "title": "数据、模型、算力越来越难分开，Data+AI 基础设施怎么进化？",
+      "seen_at": "2026-09-25T00:58:04.580863+00:00",
+      "run_date": "2026-09-25"
+    },
+    "601c99ad04c8ee76dc38": {
+      "url": "https://aws.amazon.com/cn/blogs/china/laya-service-validation-amazon-sagemaker/",
+      "title": "Laya 非自回归决策服务：本地验证与 Amazon SageMaker AI 部署实践",
+      "seen_at": "2026-09-25T00:58:04.580863+00:00",
+      "run_date": "2026-09-25"
+    },
+    "d6ca18e4ebe92bb07b22": {
+      "url": "https://www.infoq.cn/article/4gr5Zt9GZoyIwF2f6LvR?utm_source=rss&utm_medium=article",
+      "title": "WSO2 发布 Agent Manager，企业寻求应对日益严重的 AI Agent 泛滥问题",
+      "seen_at": "2026-09-25T00:58:04.580863+00:00",
+      "run_date": "2026-09-25"
+    },
+    "e0cf05813222cf35864a": {
+      "url": "https://www.infoq.cn/article/Zh6Xo7f31MJdQtbUTUk5?utm_source=rss&utm_medium=article",
+      "title": "GPU负责算，CPU负责干活：英特尔开始重新出牌",
+      "seen_at": "2026-09-25T00:58:04.580863+00:00",
+      "run_date": "2026-09-25"
+    },
+    "a730f55b7a7b41c38778": {
+      "url": "https://www.qbitai.com/2026/09/496767.html",
+      "title": "5分钟完成机器人纳管、10秒启动跨集群任务，清华大学联合无问芯穹开源具身智能云原生平台RLark",
+      "seen_at": "2026-09-25T00:58:04.580863+00:00",
+      "run_date": "2026-09-25"
+    },
+    "c6337af2bd42015bb7c9": {
+      "url": "https://www.qbitai.com/2026/09/496647.html",
+      "title": "Meta靠自研Manus翻身！股价一夜暴涨11%，登顶苹果商店，增速反超ChatGPT",
+      "seen_at": "2026-09-25T00:58:04.580863+00:00",
+      "run_date": "2026-09-25"
     }
   },
-  "updated_at": "2026-09-24T00:56:22.224468+00:00"
+  "updated_at": "2026-09-25T00:58:04.580863+00:00"
 }
