@@ -1,65 +1,5 @@
 {
   "items": {
-    "f1cc602218c14bb36cbf": {
-      "url": "https://www.qbitai.com/2026/08/480005.html",
-      "title": "工业Agent不是“套壳”大模型！西门子百年经验灌进工业AI",
-      "seen_at": "2026-08-27T04:06:50.609836+00:00",
-      "run_date": "2026-08-27"
-    },
-    "c240d386d52d5ecc32d9": {
-      "url": "https://www.infoq.cn/article/8ouuK09WuWA7Up35W9vb?utm_source=rss&utm_medium=article",
-      "title": "技术革命：为 Agentic AI 时代做好准备 | 技术趋势",
-      "seen_at": "2026-08-27T04:06:50.609836+00:00",
-      "run_date": "2026-08-27"
-    },
-    "01cf1de931e284f35cca": {
-      "url": "https://www.infoq.cn/article/3F8I0zcLfC5wcENtLASD?utm_source=rss&utm_medium=article",
-      "title": "英伟达公布 Vera Rubin 最新进展：推理、网络和定制芯片全面升级",
-      "seen_at": "2026-08-27T04:06:50.609836+00:00",
-      "run_date": "2026-08-27"
-    },
-    "8418267bf85e78b0bf60": {
-      "url": "https://www.infoq.cn/article/y7KTOS9YbBz0OcoyiweQ?utm_source=rss&utm_medium=article",
-      "title": "535B 大模型“直播”训练三个月：代码、数据、Loss全公开，吴恩达公开力挺",
-      "seen_at": "2026-08-27T04:06:50.609836+00:00",
-      "run_date": "2026-08-27"
-    },
-    "451401f8ec056986108d": {
-      "url": "https://www.qbitai.com/2026/08/479919.html",
-      "title": "神秘「牛来」模型果然是智谱！GLM首个原生多模态，还用的国产卡",
-      "seen_at": "2026-08-27T04:06:50.609836+00:00",
-      "run_date": "2026-08-27"
-    },
-    "6844f463c90049094781": {
-      "url": "https://www.qbitai.com/2026/08/480001.html",
-      "title": "千问办公首发上线Qwen3.8-Flash，生成速度提升100%，Token消耗减少75%",
-      "seen_at": "2026-08-27T04:06:50.609836+00:00",
-      "run_date": "2026-08-27"
-    },
-    "18441b2f726b49f36444": {
-      "url": "https://www.infoq.cn/article/vS7tpsLPdevZhMKdtxei?utm_source=rss&utm_medium=article",
-      "title": "DeepSeek 开源 Harness：AI 智能体基础设施开始“拆分”",
-      "seen_at": "2026-08-27T04:06:50.609836+00:00",
-      "run_date": "2026-08-27"
-    },
-    "a58e5e9dc31658d78d93": {
-      "url": "https://www.infoq.cn/article/RJDrRaDC1drafw0Kvoki?utm_source=rss&utm_medium=article",
-      "title": "不懂算法的工厂老兵，在 AMD 锐龙 AI Max+ 395上跑出工业智能体",
-      "seen_at": "2026-08-27T04:06:50.609836+00:00",
-      "run_date": "2026-08-27"
-    },
-    "205fdb964fb3f24ed72d": {
-      "url": "https://www.infoq.cn/article/Ztjb9xolQG8qFThbgxBD?utm_source=rss&utm_medium=article",
-      "title": "“额度想重置就重置，不问财务”，Codex Tibo首曝幕后：产品没做好，就补偿用户",
-      "seen_at": "2026-08-27T04:06:50.609836+00:00",
-      "run_date": "2026-08-27"
-    },
-    "5f5c7d1912f70543f698": {
-      "url": "https://aws.amazon.com/cn/blogs/china/agent-architecture-performance-security-practice/",
-      "title": "为游戏业务团队构建只读代码问答 Agent：架构、性能与安全实践",
-      "seen_at": "2026-08-27T04:06:50.609836+00:00",
-      "run_date": "2026-08-27"
-    },
     "9073f66e3aa527747cdb": {
       "url": "https://www.infoq.cn/article/AN2AuAT58V9fe8KXD2zi?utm_source=rss&utm_medium=article",
       "title": "大模型推理加速全链路：内存管理、编译优化、量化与并行策略",
@@ -1475,7 +1415,31 @@
       "title": "世界人工智能开源大赛（GOAI）总决赛暨颁奖盛典在杭州举行",
       "seen_at": "2026-09-26T00:59:55.710772+00:00",
       "run_date": "2026-09-26"
+    },
+    "84b17a5b12140341436a": {
+      "url": "https://www.qbitai.com/2026/09/497425.html",
+      "title": "谷歌TPU跑Kimi比英伟达GPU快57%！用的还是DeepSeek推理框架",
+      "seen_at": "2026-09-27T00:59:25.925061+00:00",
+      "run_date": "2026-09-27"
+    },
+    "d23890062147f9a168a8": {
+      "url": "https://www.qbitai.com/2026/09/497624.html",
+      "title": "笔记本跑7000亿参数GLM！无GPU也行? SSD当显存用火爆GitHub",
+      "seen_at": "2026-09-27T00:59:25.925061+00:00",
+      "run_date": "2026-09-27"
+    },
+    "c81045f957088894f5cb": {
+      "url": "https://www.qbitai.com/2026/09/498478.html",
+      "title": "索辰科技加码世界模型，与战略投资企业美梦空间联合发布具身模型与物理测评标准",
+      "seen_at": "2026-09-27T00:59:25.925061+00:00",
+      "run_date": "2026-09-27"
+    },
+    "98efbd1a226569220727": {
+      "url": "https://www.qbitai.com/2026/09/498271.html",
+      "title": "AI开始研究Physical AI：FSD级团队亮出首版模型Simate-beta，空降RoboDojo",
+      "seen_at": "2026-09-27T00:59:25.925061+00:00",
+      "run_date": "2026-09-27"
     }
   },
-  "updated_at": "2026-09-26T00:59:55.710772+00:00"
+  "updated_at": "2026-09-27T00:59:25.925061+00:00"
 }
