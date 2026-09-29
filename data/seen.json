@@ -1,89 +1,5 @@
 {
   "items": {
-    "ddb3aeced7774b3eb3c0": {
-      "url": "https://www.infoq.cn/article/c4zPz7WHXryL5Erw7xop?utm_source=rss&utm_medium=article",
-      "title": "下一层抽象：从UX角度思考Agentic OS的样貌",
-      "seen_at": "2026-08-29T03:55:54.807638+00:00",
-      "run_date": "2026-08-29"
-    },
-    "b2446005db0212806644": {
-      "url": "https://www.infoq.cn/article/A0CMcU7UVsMQreKPcKOw?utm_source=rss&utm_medium=article",
-      "title": "规模化 AI 代码审查：LinkedIn 的多智能体方案",
-      "seen_at": "2026-08-29T03:55:54.807638+00:00",
-      "run_date": "2026-08-29"
-    },
-    "823e93bfe9eacd804f39": {
-      "url": "https://www.infoq.cn/article/IROW9KWVs4zSCByU8wQE?utm_source=rss&utm_medium=article",
-      "title": "大模型和硬件之间，长出了一层新生意",
-      "seen_at": "2026-08-29T03:55:54.807638+00:00",
-      "run_date": "2026-08-29"
-    },
-    "2e5a73bc923ddee73f7b": {
-      "url": "https://www.qbitai.com/2026/08/480487.html",
-      "title": "Claude开始接管物理世界！能用机械臂阻拦5000万美元打款了",
-      "seen_at": "2026-08-29T03:55:54.807638+00:00",
-      "run_date": "2026-08-29"
-    },
-    "c9f77e6d3e66c3f61442": {
-      "url": "https://www.infoq.cn/article/JDYKJmiY9vTRSw47t15a?utm_source=rss&utm_medium=article",
-      "title": "Cloudflare 发布 Kitesurf，一款面向 AI 智能智能体的浏览器引擎",
-      "seen_at": "2026-08-29T03:55:54.807638+00:00",
-      "run_date": "2026-08-29"
-    },
-    "3d1e7ef1503aea879d9d": {
-      "url": "https://www.infoq.cn/article/SxrNXURUimQf4hL83ybj?utm_source=rss&utm_medium=article",
-      "title": "腾讯混元 Hy4 preview 开源，参与“训练自己”！WorkBuddy实测：有了小型团队交付实力，但还得有人盯",
-      "seen_at": "2026-08-29T03:55:54.807638+00:00",
-      "run_date": "2026-08-29"
-    },
-    "f62fb52483ae4183cab6": {
-      "url": "https://www.infoq.cn/article/Z9bIWfsMCIA9yiLUSDvJ?utm_source=rss&utm_medium=article",
-      "title": "曝英伟达129 亿美元收购Hugging Face！黄仁勋：我只后悔没有更早、更多投资OpenAI、Anthropic",
-      "seen_at": "2026-08-29T03:55:54.807638+00:00",
-      "run_date": "2026-08-29"
-    },
-    "e79e8e29fcf75ee8f64a": {
-      "url": "https://aws.amazon.com/cn/blogs/china/amazon-bedrock-agentcore-practice-validation/",
-      "title": "将 Dify 工作流迁移至 Amazon Bedrock AgentCore 的实践与验证",
-      "seen_at": "2026-08-29T03:55:54.807638+00:00",
-      "run_date": "2026-08-29"
-    },
-    "604c2787010998ccee73": {
-      "url": "https://www.infoq.cn/article/REPGvBlF661I4hRmvV8J?utm_source=rss&utm_medium=article",
-      "title": "从方案走向运行｜世界人工智能开源大赛（GOAI）复赛作品提交正式开启",
-      "seen_at": "2026-08-29T03:55:54.807638+00:00",
-      "run_date": "2026-08-29"
-    },
-    "bcbeb6f04ec0694e0557": {
-      "url": "https://www.infoq.cn/article/sTYSudHtvkbNJvuSbp31?utm_source=rss&utm_medium=article",
-      "title": "智谱认领“牛来”模型，实测：“牛马”友好",
-      "seen_at": "2026-08-29T03:55:54.807638+00:00",
-      "run_date": "2026-08-29"
-    },
-    "366ace3e47b95433d5d0": {
-      "url": "https://www.qbitai.com/2026/08/481372.html",
-      "title": "AI本地部署不如官方版的元凶找到了：734个依赖包，每一个都可能坑",
-      "seen_at": "2026-08-30T00:50:08.470362+00:00",
-      "run_date": "2026-08-30"
-    },
-    "030e3aede710649d3df9": {
-      "url": "https://www.qbitai.com/2026/08/481223.html",
-      "title": "Claude开始训练Claude！4美元一小时，跑赢150美元人类研究员",
-      "seen_at": "2026-08-30T00:50:08.470362+00:00",
-      "run_date": "2026-08-30"
-    },
-    "a14187dd64094eb65ec0": {
-      "url": "https://www.infoq.cn/article/MCTm2NvWob0ZHulXe0AQ?utm_source=rss&utm_medium=article",
-      "title": "谷歌落后一个时代？CEO 亲自官宣“语音转文字”模型，网友：你们看不清形势啊",
-      "seen_at": "2026-08-30T00:50:08.470362+00:00",
-      "run_date": "2026-08-30"
-    },
-    "9c41952061cf5ab06167": {
-      "url": "https://www.infoq.cn/article/xr3L0bkiFZGzYmtZwscB?utm_source=rss&utm_medium=article",
-      "title": "S3 兼容不代表具备 S3 级别的安全性",
-      "seen_at": "2026-08-30T00:50:08.470362+00:00",
-      "run_date": "2026-08-30"
-    },
     "3edace3f6b726bb763d2": {
       "url": "https://www.infoq.cn/article/6gFLptyMHRQhrILOlQ9Q?utm_source=rss&utm_medium=article",
       "title": "不抢最贵GPU，专捡“没人要”的算力：前英伟达工程师搞出一套“拾荒者”打法",
@@ -1397,7 +1313,37 @@
       "title": "又快又能打！匿名模型玉兔模型杀上双榜第一，Coding实测全记录",
       "seen_at": "2026-09-28T01:15:06.738611+00:00",
       "run_date": "2026-09-28"
+    },
+    "6e0b1e3988a381977055": {
+      "url": "https://blogs.nvidia.cn/blog/open-agent-safety-platform/",
+      "title": "NVIDIA 发布开放智能体安全平台，保障智能体从测试到部署全流程安全",
+      "seen_at": "2026-09-29T02:21:08.291622+00:00",
+      "run_date": "2026-09-29"
+    },
+    "c59dd286512588f34ef3": {
+      "url": "https://www.infoq.cn/article/OooAe7xY816xAdLrkv8V?utm_source=rss&utm_medium=article",
+      "title": "Cloudflare 推出智能体开发栈生命周期，以取代传统 SDLC",
+      "seen_at": "2026-09-29T02:21:08.291622+00:00",
+      "run_date": "2026-09-29"
+    },
+    "29eb71dee7a5a42183e1": {
+      "url": "https://www.infoq.cn/article/5Xfeqshw0hwfUD95JpWE?utm_source=rss&utm_medium=article",
+      "title": "Imagination 发布 E 系列 GPU IP 新进展：一套架构支持图形、计算与AI",
+      "seen_at": "2026-09-29T02:21:08.291622+00:00",
+      "run_date": "2026-09-29"
+    },
+    "3a940b8d3bc6df01531a": {
+      "url": "https://www.qbitai.com/2026/09/499098.html",
+      "title": "李飞飞创业公司被苏姿丰550亿收购！世界模型最大交易落地",
+      "seen_at": "2026-09-29T02:21:08.291622+00:00",
+      "run_date": "2026-09-29"
+    },
+    "7757e13df4fa9a2fb981": {
+      "url": "https://www.infoq.cn/article/9UvorlMxKgjEoFauQ4py?utm_source=rss&utm_medium=article",
+      "title": "生成式到代理式跃迁：构建保险后援数字分身｜QCon上海",
+      "seen_at": "2026-09-29T02:21:08.291622+00:00",
+      "run_date": "2026-09-29"
     }
   },
-  "updated_at": "2026-09-28T01:15:06.738611+00:00"
+  "updated_at": "2026-09-29T02:21:08.291622+00:00"
 }
