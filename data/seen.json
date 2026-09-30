@@ -1343,7 +1343,67 @@
       "title": "生成式到代理式跃迁：构建保险后援数字分身｜QCon上海",
       "seen_at": "2026-09-29T02:21:08.291622+00:00",
       "run_date": "2026-09-29"
+    },
+    "e1cb270013e8f94d2610": {
+      "url": "https://www.infoq.cn/article/O5pKYU5hfR2DgrXP6zRE?utm_source=rss&utm_medium=article",
+      "title": "大模型下沉车规芯片：超六成的车企座舱，为何选中了同一个“端侧大脑”？",
+      "seen_at": "2026-09-30T01:41:23.098646+00:00",
+      "run_date": "2026-09-30"
+    },
+    "628504575ea296d541cd": {
+      "url": "https://www.infoq.cn/article/XF5kZxV681STVDrzsstj?utm_source=rss&utm_medium=article",
+      "title": "Token价格一降再降，但不会让边缘AI退场：企业算力账越来越细",
+      "seen_at": "2026-09-30T01:41:23.098646+00:00",
+      "run_date": "2026-09-30"
+    },
+    "a76d6ccfae1aa489e371": {
+      "url": "https://aws.amazon.com/cn/blogs/china/using-aws-rtb-fabric-partner-build-domain-asg-eks/",
+      "title": "使用 AWS RTB Fabric 为外部合作伙伴构建自定义域名入站链路（ASG / EKS 实战）",
+      "seen_at": "2026-09-30T01:41:23.098646+00:00",
+      "run_date": "2026-09-30"
+    },
+    "c36325ec9c85b18699f6": {
+      "url": "https://www.infoq.cn/article/AmYfVbwTlVyApFszqKx3?utm_source=rss&utm_medium=article",
+      "title": "自主数据工程：迈向真正智能体成熟度的五个阶段 ｜ 技术趋势",
+      "seen_at": "2026-09-30T01:41:23.098646+00:00",
+      "run_date": "2026-09-30"
+    },
+    "fdbd4cb5241a3dac3a43": {
+      "url": "https://www.qbitai.com/2026/09/499246.html",
+      "title": "OpenAI光速上新GPT-6.1 Sol！一晚上25项更新，都在这里了",
+      "seen_at": "2026-09-30T01:41:23.098646+00:00",
+      "run_date": "2026-09-30"
+    },
+    "d8f73dd7b1005de17797": {
+      "url": "https://www.infoq.cn/article/KaaKQS6x5KiSlHa5UVVz?utm_source=rss&utm_medium=article",
+      "title": "82 亿美元、全股票交易：AMD 收购 World Labs，李飞飞直接向苏姿丰汇报",
+      "seen_at": "2026-09-30T01:41:23.098646+00:00",
+      "run_date": "2026-09-30"
+    },
+    "e37903db1741480b00e2": {
+      "url": "https://www.qbitai.com/2026/09/499188.html",
+      "title": "精准揪出RL训练数据Bug，Prompt直出小游戏，IQuest-Q1夯爆了！",
+      "seen_at": "2026-09-30T01:41:23.098646+00:00",
+      "run_date": "2026-09-30"
+    },
+    "c37c317fd67f41e3276a": {
+      "url": "https://www.qbitai.com/2026/09/499135.html",
+      "title": "成立一年完成5轮融资，诺因智能再获数亿元，累计超10亿元",
+      "seen_at": "2026-09-30T01:41:23.098646+00:00",
+      "run_date": "2026-09-30"
+    },
+    "cf097b5fa265edf0dc33": {
+      "url": "https://aws.amazon.com/cn/blogs/china/agent-security-framework-design-model-amazon/",
+      "title": "Agent 安全框架设计建议：洋葱模型、零信任原则与 Amazon Bedrock AgentCore 实践",
+      "seen_at": "2026-09-30T01:41:23.098646+00:00",
+      "run_date": "2026-09-30"
+    },
+    "5d1c9142cc74c7c2cac5": {
+      "url": "https://www.infoq.cn/article/uwfvFTWwH5Qupo2lBxF6?utm_source=rss&utm_medium=article",
+      "title": "AI 数据平台，要补的恰恰是“模型不知道的事”",
+      "seen_at": "2026-09-30T01:41:23.098646+00:00",
+      "run_date": "2026-09-30"
     }
   },
-  "updated_at": "2026-09-29T02:21:08.291622+00:00"
+  "updated_at": "2026-09-30T01:41:23.098646+00:00"
 }
