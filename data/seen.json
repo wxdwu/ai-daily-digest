@@ -1,47 +1,5 @@
 {
   "items": {
-    "a491d930de6ec8893684": {
-      "url": "https://www.infoq.cn/article/S6ATgchCiYMHpPaTPzer?utm_source=rss&utm_medium=article",
-      "title": "谷歌 HEIR 项目旨在让同态加密推理成为可以一键实现的功能",
-      "seen_at": "2026-09-02T00:36:57.472517+00:00",
-      "run_date": "2026-09-02"
-    },
-    "161bc84208c2b0cc02ca": {
-      "url": "https://aws.amazon.com/cn/blogs/china/eks-cluster-environment-configuration-best-practices/",
-      "title": "企业级 EKS 集群生产环境配置最佳实践",
-      "seen_at": "2026-09-02T00:36:57.472517+00:00",
-      "run_date": "2026-09-02"
-    },
-    "37867559ebc7cbb0f6c9": {
-      "url": "https://www.infoq.cn/article/WGj2Jx0K2sbP3dhUXeC5?utm_source=rss&utm_medium=article",
-      "title": "智能体请求暴增9.4倍，token账单却没涨：Uber 公开AI软件工厂省钱方法",
-      "seen_at": "2026-09-02T00:36:57.472517+00:00",
-      "run_date": "2026-09-02"
-    },
-    "f60fdc488480fb775b40": {
-      "url": "https://www.qbitai.com/2026/09/482406.html",
-      "title": "A社化身A割！Claude官宣永久提额25%，结果到手反而少17%",
-      "seen_at": "2026-09-02T00:36:57.472517+00:00",
-      "run_date": "2026-09-02"
-    },
-    "253e160584a6ca016247": {
-      "url": "https://www.infoq.cn/article/s8dvlxO3lh3CEDgcsUEi?utm_source=rss&utm_medium=article",
-      "title": "1200个 Agent 秘密交流，700个集体攻击Hugging Face，OpenAI 模型完成了一次没有剧本的集体暴走",
-      "seen_at": "2026-09-02T00:36:57.472517+00:00",
-      "run_date": "2026-09-02"
-    },
-    "e4781c20ecc38dbab387": {
-      "url": "https://www.qbitai.com/2026/08/481893.html",
-      "title": "「GPT-6」灰测demo刷屏！周四发布在即",
-      "seen_at": "2026-09-02T00:36:57.472517+00:00",
-      "run_date": "2026-09-02"
-    },
-    "69f29b1fa86483549c9c": {
-      "url": "https://aws.amazon.com/cn/blogs/china/amazon-dynamodb-build-agent-memory-retrieval/",
-      "title": "用 Amazon DynamoDB 构建无需双写的 Agent Memory 与语义检索",
-      "seen_at": "2026-09-02T00:36:57.472517+00:00",
-      "run_date": "2026-09-02"
-    },
     "224e01f2bde48eaedd3d": {
       "url": "https://www.qbitai.com/2026/09/483104.html",
       "title": "还在为大模型洗数据熬夜？蚂蚁拿下VLDB工业最佳论文，一套宽表搞定35PB语料，效率狂飙5.6倍",
@@ -1403,7 +1361,37 @@
       "title": "刚刚，GPT-6 Astra接上宇树G1，把厨房收拾了！",
       "seen_at": "2026-10-01T01:38:09.390320+00:00",
       "run_date": "2026-10-01"
+    },
+    "95ef887b9eabfe4ebf2e": {
+      "url": "https://www.infoq.cn/article/TLjNcyBg9Z72HV5kJ2kp?utm_source=rss&utm_medium=article",
+      "title": "生成即合规：Agentic AIGC 驱动的广告素材修复实践｜QCon上海",
+      "seen_at": "2026-10-02T01:51:03.325381+00:00",
+      "run_date": "2026-10-02"
+    },
+    "f21bd17b8de23f326461": {
+      "url": "https://www.qbitai.com/2026/10/499663.html",
+      "title": "谷歌Gemini 4突然发布！RSI加持，GPT和Opus都让让",
+      "seen_at": "2026-10-02T01:51:03.325381+00:00",
+      "run_date": "2026-10-02"
+    },
+    "88c7f3edb74807047982": {
+      "url": "https://www.infoq.cn/article/vVrSzjhEvkmpevS7wZzU?utm_source=rss&utm_medium=article",
+      "title": "刚刚，Gemini 4 Argon 发布：多项基测碾压 GPT-6 Astra，已参与谷歌 80 万行内核代码迁移",
+      "seen_at": "2026-10-02T01:51:03.325381+00:00",
+      "run_date": "2026-10-02"
+    },
+    "26aab45f5d32d400f725": {
+      "url": "https://www.qbitai.com/2026/09/499308.html",
+      "title": "DeepSeek知乎独家发文，首次公开V4.1 Agent训练“大本营”DSec",
+      "seen_at": "2026-10-02T01:51:03.325381+00:00",
+      "run_date": "2026-10-02"
+    },
+    "5cbabe2f41a2003bb9e3": {
+      "url": "https://www.infoq.cn/article/07qzHLvyNXSW1SFNV5NV?utm_source=rss&utm_medium=article",
+      "title": "像改文字一样改语音：火山引擎全新语音内容编辑模型",
+      "seen_at": "2026-10-02T01:51:03.325381+00:00",
+      "run_date": "2026-10-02"
     }
   },
-  "updated_at": "2026-10-01T01:38:09.390320+00:00"
+  "updated_at": "2026-10-02T01:51:03.325381+00:00"
 }
