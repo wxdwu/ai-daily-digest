@@ -1,53 +1,5 @@
 {
   "items": {
-    "224e01f2bde48eaedd3d": {
-      "url": "https://www.qbitai.com/2026/09/483104.html",
-      "title": "还在为大模型洗数据熬夜？蚂蚁拿下VLDB工业最佳论文，一套宽表搞定35PB语料，效率狂飙5.6倍",
-      "seen_at": "2026-09-03T00:46:54.074834+00:00",
-      "run_date": "2026-09-03"
-    },
-    "a61183742880fca1ad06": {
-      "url": "https://www.qbitai.com/2026/09/483101.html",
-      "title": "阿里更新旗舰模型Qwen3.8-Max，前端编程能力跃居全球第一",
-      "seen_at": "2026-09-03T00:46:54.074834+00:00",
-      "run_date": "2026-09-03"
-    },
-    "2e3b2de4e7aaf1d9ddf9": {
-      "url": "https://www.qbitai.com/2026/09/482586.html",
-      "title": "李飞飞发布：全球首个多模态世界模型",
-      "seen_at": "2026-09-03T00:46:54.074834+00:00",
-      "run_date": "2026-09-03"
-    },
-    "d3c78b3c5dd6604e2912": {
-      "url": "https://www.qbitai.com/2026/09/482652.html",
-      "title": "Claude最强Fable 5.1发布！8项屠榜，最高降价45%，反蒸馏机制上线",
-      "seen_at": "2026-09-03T00:46:54.074834+00:00",
-      "run_date": "2026-09-03"
-    },
-    "55ade2d974a94af40e91": {
-      "url": "https://www.infoq.cn/article/EPME6yOoJGusHdGZTGFJ?utm_source=rss&utm_medium=article",
-      "title": "Claude越狱后，Anthropic停掉训练、150人紧急转岗",
-      "seen_at": "2026-09-03T00:46:54.074834+00:00",
-      "run_date": "2026-09-03"
-    },
-    "34eca3dd109d44cbd3a1": {
-      "url": "https://www.infoq.cn/article/ztbou1CqjAdzrT6GNSKV?utm_source=rss&utm_medium=article",
-      "title": "Cloudflare OS：Cloudflare 基于能力模型构建的开源企业级 AI 平台",
-      "seen_at": "2026-09-03T00:46:54.074834+00:00",
-      "run_date": "2026-09-03"
-    },
-    "0443e88b5eca774359c8": {
-      "url": "https://www.qbitai.com/2026/09/483097.html",
-      "title": "前字节强化学习专家孙鹏博士加盟星尘智能，完善Physical AI全栈技术布局",
-      "seen_at": "2026-09-03T00:46:54.074834+00:00",
-      "run_date": "2026-09-03"
-    },
-    "bdc8b5d39417f36f71ec": {
-      "url": "https://www.qbitai.com/2026/09/482699.html",
-      "title": "巨简单，更懂家！海信JUOS正式发布：行业首个家庭智能伴侣级AIOS",
-      "seen_at": "2026-09-03T00:46:54.074834+00:00",
-      "run_date": "2026-09-03"
-    },
     "b168016773dfbbab9495": {
       "url": "https://www.infoq.cn/article/9YiEhb3hAFtUlxOpMdGC?utm_source=rss&utm_medium=article",
       "title": "李飞飞首个多模态世界模型 Atlas 正式发布：从零开始预训练，几张图就能构建世界",
@@ -1391,7 +1343,19 @@
       "title": "像改文字一样改语音：火山引擎全新语音内容编辑模型",
       "seen_at": "2026-10-02T01:51:03.325381+00:00",
       "run_date": "2026-10-02"
+    },
+    "20ac448f3a6ee4cce4fc": {
+      "url": "https://www.qbitai.com/2026/10/499991.html",
+      "title": "丘成桐新论文致谢了GPT和Claude",
+      "seen_at": "2026-10-03T01:30:20.745388+00:00",
+      "run_date": "2026-10-03"
+    },
+    "d71da1f7377b21f9b16c": {
+      "url": "https://www.qbitai.com/2026/10/500098.html",
+      "title": "openJiuwen X-Router自演进模型路由技术首发，昇腾亲和，Agent越跑越省，实测减少50+%Token消耗",
+      "seen_at": "2026-10-03T01:30:20.745388+00:00",
+      "run_date": "2026-10-03"
     }
   },
-  "updated_at": "2026-10-02T01:51:03.325381+00:00"
+  "updated_at": "2026-10-03T01:30:20.745388+00:00"
 }
