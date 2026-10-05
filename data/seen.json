@@ -1,41 +1,5 @@
 {
   "items": {
-    "d6252eb8e710d1a78491": {
-      "url": "https://www.infoq.cn/article/6Jc130IN2OaXqsPDIzmJ?utm_source=rss&utm_medium=article",
-      "title": "人人都能整个“自己的DeepSeek Harness”，那我们为啥还在给Claude Code们充会员？",
-      "seen_at": "2026-09-05T00:26:56.057044+00:00",
-      "run_date": "2026-09-05"
-    },
-    "d4d29e8482b8d895300a": {
-      "url": "https://www.qbitai.com/2026/09/484437.html",
-      "title": "机器人不能停下来等模型：星尘发布 SmoothRL，让在线强化学习跟上大模型的异步推理",
-      "seen_at": "2026-09-05T00:26:56.057044+00:00",
-      "run_date": "2026-09-05"
-    },
-    "cb5f38beb39f76abd9df": {
-      "url": "https://www.qbitai.com/2026/09/484547.html",
-      "title": "趋境科技与摩尔线程达成战略合作，高品质 AI Token 国产异构方案性价比超越国际先进算力",
-      "seen_at": "2026-09-05T00:26:56.057044+00:00",
-      "run_date": "2026-09-05"
-    },
-    "10093547847bb64dbded": {
-      "url": "https://www.infoq.cn/article/iV0rsPyO5XZDJ7797hLJ?utm_source=rss&utm_medium=article",
-      "title": "谷歌云发布 AI 智能体，简化数据库生命周期管理",
-      "seen_at": "2026-09-05T00:26:56.057044+00:00",
-      "run_date": "2026-09-05"
-    },
-    "935c04f724a661cddfba": {
-      "url": "https://www.infoq.cn/article/mKGb7ZiPRlAiFDZCWK0v?utm_source=rss&utm_medium=article",
-      "title": "GPT-6 Astra 正式登场：烧了 10万块 GPU、多项跑分逼近满分，OpenAI 开启“AGI时代”",
-      "seen_at": "2026-09-05T00:26:56.057044+00:00",
-      "run_date": "2026-09-05"
-    },
-    "e85fa32da51b83add58a": {
-      "url": "https://www.infoq.cn/article/M792kCZ4FIzk7YHe4WhT?utm_source=rss&utm_medium=article",
-      "title": "“美国大豆包”Gemini翻身：输出速度碾压同行、智能水平重回第一梯队",
-      "seen_at": "2026-09-05T00:26:56.057044+00:00",
-      "run_date": "2026-09-05"
-    },
     "1a8c31851494fb154679": {
       "url": "https://www.qbitai.com/2026/09/484726.html",
       "title": "GPT-6带火循环Transformer，阿里早已布局",
@@ -1319,7 +1283,13 @@
       "title": "OpenAI安全团队持续地震！负责人离职，三名员工因泄密被开",
       "seen_at": "2026-10-04T02:11:33.902791+00:00",
       "run_date": "2026-10-04"
+    },
+    "e4f7c4c29f39a115e77a": {
+      "url": "https://www.qbitai.com/2026/10/501605.html",
+      "title": "AI算力硬合作，马斯克还是更相信中国制造",
+      "seen_at": "2026-10-05T01:20:58.452473+00:00",
+      "run_date": "2026-10-05"
     }
   },
-  "updated_at": "2026-10-04T02:11:33.902791+00:00"
+  "updated_at": "2026-10-05T01:20:58.452473+00:00"
 }
