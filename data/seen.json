@@ -1,17 +1,5 @@
 {
   "items": {
-    "f3a422f587c4613d91ca": {
-      "url": "https://www.qbitai.com/2026/09/484649.html",
-      "title": "陶哲轩吐槽GPT-6孪生素数新突破：令人无语的一幕",
-      "seen_at": "2026-09-07T00:24:59.043039+00:00",
-      "run_date": "2026-09-07"
-    },
-    "85823257044798d1a811": {
-      "url": "https://www.infoq.cn/article/ba7Tq1EZbAD6JEzG16uE?utm_source=rss&utm_medium=article",
-      "title": "微软 Foundry 模型路由扩容：覆盖区域增至 28 个，更新模型池",
-      "seen_at": "2026-09-07T00:24:59.043039+00:00",
-      "run_date": "2026-09-07"
-    },
     "459fa74e6ae3de80339c": {
       "url": "https://www.qbitai.com/2026/09/485108.html",
       "title": "菲尔兹奖得主入局大模型！4B手机Qwen+云端GLM刷爆ARC-AGI 3",
@@ -1253,7 +1241,13 @@
       "title": "AI算力硬合作，马斯克还是更相信中国制造",
       "seen_at": "2026-10-05T01:20:58.452473+00:00",
       "run_date": "2026-10-05"
+    },
+    "c19205bef49271e5903e": {
+      "url": "https://www.infoq.cn/article/6jvNkzZCm5mjr22zr04D?utm_source=rss&utm_medium=article",
+      "title": "一边是 WebGPU 视觉革命，一边是浏览器垄断争议：Canvas UI 发布 35 个组件",
+      "seen_at": "2026-10-07T01:51:58.600097+00:00",
+      "run_date": "2026-10-07"
     }
   },
-  "updated_at": "2026-10-06T02:33:54.162690+00:00"
+  "updated_at": "2026-10-07T01:51:58.600097+00:00"
 }
