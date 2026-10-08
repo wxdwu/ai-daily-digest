@@ -1,65 +1,5 @@
 {
   "items": {
-    "459fa74e6ae3de80339c": {
-      "url": "https://www.qbitai.com/2026/09/485108.html",
-      "title": "菲尔兹奖得主入局大模型！4B手机Qwen+云端GLM刷爆ARC-AGI 3",
-      "seen_at": "2026-09-08T00:46:18.796570+00:00",
-      "run_date": "2026-09-08"
-    },
-    "50b10fd4157269a368e0": {
-      "url": "https://www.infoq.cn/article/atCusTaSOmddUx1vvJba?utm_source=rss&utm_medium=article",
-      "title": "TikTok SRE 技术负责人：AI Agents 说到底就是分布式系统",
-      "seen_at": "2026-09-08T00:46:18.796570+00:00",
-      "run_date": "2026-09-08"
-    },
-    "aa3f9cb96a841c55f524": {
-      "url": "https://www.infoq.cn/article/STpCLL13xCQsoYrfWSLb?utm_source=rss&utm_medium=article",
-      "title": "微软将人工智能治理从政策层面转向运行时执行",
-      "seen_at": "2026-09-08T00:46:18.796570+00:00",
-      "run_date": "2026-09-08"
-    },
-    "f73a7c532dae16088f05": {
-      "url": "https://aws.amazon.com/cn/blogs/china/proxy-redis-cluster-migration-amazon-elasticache-valkey-9-0/",
-      "title": "Proxy 模式 Redis 集群跨云迁移至 Amazon ElastiCache：Valkey 9.0 集群多 DB 能力落地实践",
-      "seen_at": "2026-09-08T00:46:18.796570+00:00",
-      "run_date": "2026-09-08"
-    },
-    "1c505e30f899b9a75756": {
-      "url": "https://www.qbitai.com/2026/09/485039.html",
-      "title": "产业龙头领投！中科类脑完成数亿元B+轮战略融资",
-      "seen_at": "2026-09-08T00:46:18.796570+00:00",
-      "run_date": "2026-09-08"
-    },
-    "a711dbd7a2b324e746d6": {
-      "url": "https://www.infoq.cn/article/D5heSof43WbGMHrCCIsy?utm_source=rss&utm_medium=article",
-      "title": "9 月 9 日，邀您共赴 2026 外滩大会“智能体安全”之约",
-      "seen_at": "2026-09-08T00:46:18.796570+00:00",
-      "run_date": "2026-09-08"
-    },
-    "341759d1662536914334": {
-      "url": "https://www.infoq.cn/article/uTRvjxweSGdp2kzlhPiV?utm_source=rss&utm_medium=article",
-      "title": "AWS 开源 Kiro Crew，让 Coding Agent 异步跑起来",
-      "seen_at": "2026-09-08T00:46:18.796570+00:00",
-      "run_date": "2026-09-08"
-    },
-    "e214ca726621d5ad9b6e": {
-      "url": "https://www.infoq.cn/article/boiE7qfjxSQjHKUtevvp?utm_source=rss&utm_medium=article",
-      "title": "阿里前销售总监在美失踪逾半月后确认身亡；5天10万元！外国高管涌入中国“工厂游”；传DeepSeek计划采购16万颗昇腾芯片｜AI周报",
-      "seen_at": "2026-09-08T00:46:18.796570+00:00",
-      "run_date": "2026-09-08"
-    },
-    "9c2588b515ae920a6f5c": {
-      "url": "https://www.qbitai.com/2026/09/485431.html",
-      "title": "GPT-6不只Astra！Sol内测结果曝光，速度快6倍",
-      "seen_at": "2026-09-08T00:46:18.796570+00:00",
-      "run_date": "2026-09-08"
-    },
-    "7e6bc815c5f06e9b38b0": {
-      "url": "https://www.qbitai.com/2026/09/485056.html",
-      "title": "原生全模态技术战略闭环，智象（HiDream.ai）发布具身世界模型HiDream-O1-Embodied",
-      "seen_at": "2026-09-08T00:46:18.796570+00:00",
-      "run_date": "2026-09-08"
-    },
     "fb6aeaac93ac5a6ee68d": {
       "url": "https://www.infoq.cn/article/yfQdTa8cRxjJB0rzZMJR?utm_source=rss&utm_medium=article",
       "title": "Karmada 正式从 CNCF 毕业，已用于多集群 AI 训练与 GPU 调度",
@@ -1247,7 +1187,25 @@
       "title": "一边是 WebGPU 视觉革命，一边是浏览器垄断争议：Canvas UI 发布 35 个组件",
       "seen_at": "2026-10-07T01:51:58.600097+00:00",
       "run_date": "2026-10-07"
+    },
+    "3b693292f51e8f247018": {
+      "url": "https://blogs.nvidia.cn/blog/local-ai-rtx-spark-microsoft-windows-event/",
+      "title": "NVIDIA 与微软携手，以 RTX Spark 和 AI 智能体开启 Windows PC 新序章",
+      "seen_at": "2026-10-08T02:19:12.060647+00:00",
+      "run_date": "2026-10-08"
+    },
+    "057356f9d9e613dbe5c3": {
+      "url": "https://www.infoq.cn/article/MwQyLYzgSiD16x36k9Ef?utm_source=rss&utm_medium=article",
+      "title": "MCP 终于无状态了，但状态并没有消失，只是被“甩”给了应用",
+      "seen_at": "2026-10-08T02:19:12.060647+00:00",
+      "run_date": "2026-10-08"
+    },
+    "101589a5dd869cdcd713": {
+      "url": "https://www.qbitai.com/2026/10/501803.html",
+      "title": "《怪物史莱克》编剧也来了！这家AI影视公司，视频模型全球第二！",
+      "seen_at": "2026-10-08T02:19:12.060647+00:00",
+      "run_date": "2026-10-08"
     }
   },
-  "updated_at": "2026-10-07T01:51:58.600097+00:00"
+  "updated_at": "2026-10-08T02:19:12.060647+00:00"
 }
