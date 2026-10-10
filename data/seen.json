@@ -1,65 +1,5 @@
 {
   "items": {
-    "381b57f969b0cf37feb7": {
-      "url": "https://www.infoq.cn/article/WlJkEfJxMgaK9o91ow2Z?utm_source=rss&utm_medium=article",
-      "title": "Shopify 推出 Gisting 新技术：将大模型系统提示词压缩为主旨词元",
-      "seen_at": "2026-09-10T00:41:13.030254+00:00",
-      "run_date": "2026-09-10"
-    },
-    "810e894fde6c67c8dfdd": {
-      "url": "https://www.qbitai.com/2026/09/486370.html",
-      "title": "国产AI4S计算平台登场亮相2026外滩大会 算力技术与人才布局双向发力",
-      "seen_at": "2026-09-10T00:41:13.030254+00:00",
-      "run_date": "2026-09-10"
-    },
-    "d566673871e355573ad8": {
-      "url": "https://aws.amazon.com/cn/blogs/china/take-on-your-most-ambitious-work-with-gpt-6-astra-on-amazon-bedrock/",
-      "title": "用 Amazon Bedrock GPT-6 Astra，搞定最挑战的工作！",
-      "seen_at": "2026-09-10T00:41:13.030254+00:00",
-      "run_date": "2026-09-10"
-    },
-    "a3ef6413b425959fdadd": {
-      "url": "https://www.infoq.cn/article/UN2Gt8aKT40ed5z52WuL?utm_source=rss&utm_medium=article",
-      "title": "招商银行统一近万张AI加速卡：利用率从35%提至60%+、每百万Token推理成本降低60%",
-      "seen_at": "2026-09-10T00:41:13.030254+00:00",
-      "run_date": "2026-09-10"
-    },
-    "a59857e8ae66cb0db115": {
-      "url": "https://www.infoq.cn/article/klMJ7wvdgqiYK6BmBI5u?utm_source=rss&utm_medium=article",
-      "title": "Kubernetes 推广 KYAML，将其作为一种更安全、更一致的配置清单处理方式",
-      "seen_at": "2026-09-10T00:41:13.030254+00:00",
-      "run_date": "2026-09-10"
-    },
-    "cf1fff1ea646f16e2793": {
-      "url": "https://aws.amazon.com/cn/blogs/china/rds-for-mysql-8-0-binlog-processing-blue-green-deployment/",
-      "title": "RDS for MySQL 8.0 升级 8.4 之下游 Binlog 消费处理实战 （一）—— 蓝绿部署下的 Canal CDC 位点衔接与故障处理",
-      "seen_at": "2026-09-10T00:41:13.030254+00:00",
-      "run_date": "2026-09-10"
-    },
-    "7d093a1f411203afe693": {
-      "url": "https://www.infoq.cn/article/Qf5dY8QyzRUZaeA9JG5Z?utm_source=rss&utm_medium=article",
-      "title": "如何在人工智能时代开展严谨且可持续的人工审核",
-      "seen_at": "2026-09-10T00:41:13.030254+00:00",
-      "run_date": "2026-09-10"
-    },
-    "11b779869e46c8f466df": {
-      "url": "https://www.qbitai.com/2026/09/486288.html",
-      "title": "蚂蚁百灵发布首个金融增强模型，AI开始进入真实投研工作流",
-      "seen_at": "2026-09-10T00:41:13.030254+00:00",
-      "run_date": "2026-09-10"
-    },
-    "c9f630eed5473205a828": {
-      "url": "https://www.infoq.cn/article/h4M6YGm3G7Zph5QEIV5R?utm_source=rss&utm_medium=article",
-      "title": "pnpm 12 采用 Rust 语言重写了包管理器，在保留 pnpm 11 工作流的同时提升了安装速度",
-      "seen_at": "2026-09-10T00:41:13.030254+00:00",
-      "run_date": "2026-09-10"
-    },
-    "0f2a9d29b4f624473b6b": {
-      "url": "https://www.qbitai.com/2026/09/486038.html",
-      "title": "宜宾，一场机器人“招聘会”的产业雄心",
-      "seen_at": "2026-09-10T00:41:13.030254+00:00",
-      "run_date": "2026-09-10"
-    },
     "e61a10641557b2f6b638": {
       "url": "https://www.infoq.cn/article/8t2vJHOc5srUyQqSlO9m?utm_source=rss&utm_medium=article",
       "title": "PayPal谈 Agentic Commerce：AI智能体将如何进入跨境支付场景？",
@@ -1187,7 +1127,67 @@
       "title": "ChatGPT踢到铁板了！能破解千禧数学难题，但论文复现率低至13.98%？",
       "seen_at": "2026-10-09T02:36:35.768696+00:00",
       "run_date": "2026-10-09"
+    },
+    "a1516d52b46d68d0726a": {
+      "url": "https://www.infoq.cn/article/e0iQfJNgepz7VigRdD61?utm_source=rss&utm_medium=article",
+      "title": "Codex 和 Claude Code 都跑偏了，前 OpenAI 研究员称 Jev 出现前 AI 世界是个悲剧",
+      "seen_at": "2026-10-10T01:57:27.105249+00:00",
+      "run_date": "2026-10-10"
+    },
+    "2680f213b4c29939ee75": {
+      "url": "https://www.qbitai.com/2026/10/502125.html",
+      "title": "清华具身模型登顶全球第一！突围GPT-6、英伟达，不靠外挂和额外数据",
+      "seen_at": "2026-10-10T01:57:27.105249+00:00",
+      "run_date": "2026-10-10"
+    },
+    "a1c7160668d432589272": {
+      "url": "https://aws.amazon.com/cn/blogs/china/based-on-amazon-bedrock-enterprise-ai-platform-ava-me-practice/",
+      "title": "基于 Amazon Bedrock 的企业级 AI 数字员工平台 ava me+ 实践",
+      "seen_at": "2026-10-10T01:57:27.105249+00:00",
+      "run_date": "2026-10-10"
+    },
+    "4479a8342861d67a47a7": {
+      "url": "https://aws.amazon.com/cn/blogs/china/how-to-agentcore-harness-quick-build-aiops-intelligent/",
+      "title": "赛潍：如何用 AgentCore Harness 快速构建 AIOps 智能体",
+      "seen_at": "2026-10-10T01:57:27.105249+00:00",
+      "run_date": "2026-10-10"
+    },
+    "254d974d2558da00049f": {
+      "url": "https://www.infoq.cn/article/PLEWse6sEviMN99iLE93?utm_source=rss&utm_medium=article",
+      "title": "从 Demo 到生产：AI Agent 缺的到底是什么？",
+      "seen_at": "2026-10-10T01:57:27.105249+00:00",
+      "run_date": "2026-10-10"
+    },
+    "ae24d7eb0c9b8c0d50af": {
+      "url": "https://www.qbitai.com/2026/10/502422.html",
+      "title": "联想天禧自研代码智能体TianxiCode斩获SWE-bench-Live全球第一",
+      "seen_at": "2026-10-10T01:57:27.105249+00:00",
+      "run_date": "2026-10-10"
+    },
+    "8e1fab6a20438a5afbda": {
+      "url": "https://developer.nvidia.cn/blog/building-reliable-data-analytics-agents-lessons-from-the-kdd-cup/",
+      "title": "构建可靠的数据分析智能体：从 KDD 杯中汲取的经验教训",
+      "seen_at": "2026-10-10T01:57:27.105249+00:00",
+      "run_date": "2026-10-10"
+    },
+    "3bc148ff52a70191195d": {
+      "url": "https://www.qbitai.com/2026/10/502106.html",
+      "title": "openJiuwen发布并开源企业级AgentOS，加速智能体规模落地企业",
+      "seen_at": "2026-10-10T01:57:27.105249+00:00",
+      "run_date": "2026-10-10"
+    },
+    "eb4264833a63b0c39629": {
+      "url": "https://www.infoq.cn/article/490gIS9Bk0NmylN7GIt1?utm_source=rss&utm_medium=article",
+      "title": "@ 一下就能派活？谷歌推出办公 Agent，拥有独立账号、能够创建子 Agent，还能调用 Claude",
+      "seen_at": "2026-10-10T01:57:27.105249+00:00",
+      "run_date": "2026-10-10"
+    },
+    "c4b8169e758aa0dc3c94": {
+      "url": "https://www.infoq.cn/article/tor9ik2Xesfgf1x3CadO?utm_source=rss&utm_medium=article",
+      "title": "Modal 破解 Kubernetes 限制，在几秒内扩展 100 万个并发沙箱",
+      "seen_at": "2026-10-10T01:57:27.105249+00:00",
+      "run_date": "2026-10-10"
     }
   },
-  "updated_at": "2026-10-09T02:36:35.768696+00:00"
+  "updated_at": "2026-10-10T01:57:27.105249+00:00"
 }
