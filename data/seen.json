@@ -1,65 +1,5 @@
 {
   "items": {
-    "e61a10641557b2f6b638": {
-      "url": "https://www.infoq.cn/article/8t2vJHOc5srUyQqSlO9m?utm_source=rss&utm_medium=article",
-      "title": "PayPal谈 Agentic Commerce：AI智能体将如何进入跨境支付场景？",
-      "seen_at": "2026-09-11T00:38:05.687338+00:00",
-      "run_date": "2026-09-11"
-    },
-    "12a098a38fe4f1aaa1b3": {
-      "url": "https://developer.nvidia.cn/blog/cuda-toolkit-13-4-adds-windows-on-arm-support-and-greater-control-over-shared-gpus/",
-      "title": "CUDA 工具包 13.4 在 Arm 上添加了 Windows 支持，并增强了对共享 GPU 的控制",
-      "seen_at": "2026-09-11T00:38:05.687338+00:00",
-      "run_date": "2026-09-11"
-    },
-    "3dd6529099c176292275": {
-      "url": "https://www.infoq.cn/article/sbaJrAa8VTIRKIPCpKlo?utm_source=rss&utm_medium=article",
-      "title": "参数几乎翻倍，推理反而更省：DeepSeek V4.1-Flash 重构 KV Cache",
-      "seen_at": "2026-09-11T00:38:05.687338+00:00",
-      "run_date": "2026-09-11"
-    },
-    "7dc798944cb5e7409cc8": {
-      "url": "https://www.qbitai.com/2026/09/486436.html",
-      "title": "打造10万卡国产算力集群推出JoyAI世界模型，京东发布物理AI建设最新成果",
-      "seen_at": "2026-09-11T00:38:05.687338+00:00",
-      "run_date": "2026-09-11"
-    },
-    "a5d8a3397e1fb1ca8553": {
-      "url": "https://www.qbitai.com/2026/09/486684.html",
-      "title": "AGI时代的第一个生图模型，ChatGPT Images 2.5上线",
-      "seen_at": "2026-09-11T00:38:05.687338+00:00",
-      "run_date": "2026-09-11"
-    },
-    "6ee74a90ea7e53b51352": {
-      "url": "https://developer.nvidia.cn/blog/when-to-use-encode-prefill-decode-disaggregation-to-accelerate-multimodal-model-serving/",
-      "title": "何时使用“编码-预填充-解码”解耦技术来加速多模态模型服务",
-      "seen_at": "2026-09-11T00:38:05.687338+00:00",
-      "run_date": "2026-09-11"
-    },
-    "f97389fe36462b85bf37": {
-      "url": "https://www.infoq.cn/article/RCa5y6tvZXbjGKeLSGZt?utm_source=rss&utm_medium=article",
-      "title": "Snowflake 落地中国两年：迈向智能体企业时代，关键在上下文",
-      "seen_at": "2026-09-11T00:38:05.687338+00:00",
-      "run_date": "2026-09-11"
-    },
-    "6457c424cb9c12cfd71f": {
-      "url": "https://www.infoq.cn/article/YBvKfhWu90StYj4SJVIV?utm_source=rss&utm_medium=article",
-      "title": "推理成为新中心、Agent把生产级问题提前：AI Infra 的边界正在被重写",
-      "seen_at": "2026-09-11T00:38:05.687338+00:00",
-      "run_date": "2026-09-11"
-    },
-    "09591668473784b070b0": {
-      "url": "https://www.qbitai.com/2026/09/486900.html",
-      "title": "全球首个3D原生城市世界模型ABot-Earth 0.7发布，构建AI理解真实世界的入口",
-      "seen_at": "2026-09-11T00:38:05.687338+00:00",
-      "run_date": "2026-09-11"
-    },
-    "16ede44b65ca3393d7fd": {
-      "url": "https://www.qbitai.com/2026/09/486716.html",
-      "title": "这个新开源的世界模型只有1.3B，单卡就能实时跑！",
-      "seen_at": "2026-09-11T00:38:05.687338+00:00",
-      "run_date": "2026-09-11"
-    },
     "ff664b2fc26e7fd32ff1": {
       "url": "https://www.qbitai.com/2026/09/487273.html",
       "title": "墨芯人工智能亮相2026 Inclusion·外滩大会：以专用稀疏推理芯片提升算力效能，共创AI新经济",
@@ -1187,7 +1127,55 @@
       "title": "Modal 破解 Kubernetes 限制，在几秒内扩展 100 万个并发沙箱",
       "seen_at": "2026-10-10T01:57:27.105249+00:00",
       "run_date": "2026-10-10"
+    },
+    "115ca8a4e0f17dbb8f50": {
+      "url": "https://www.infoq.cn/article/SuqGY4FQ95AVzs1S0KSV?utm_source=rss&utm_medium=article",
+      "title": "金融监管领域的 Harness 实践：让知识与数据驱动 Agent 稳定运行",
+      "seen_at": "2026-10-11T01:22:10.986704+00:00",
+      "run_date": "2026-10-11"
+    },
+    "e8d8d2d1250147c65cfe": {
+      "url": "https://www.infoq.cn/article/gNdWoDM8ygkAjXfsLaBK?utm_source=rss&utm_medium=article",
+      "title": "单次RL后训练烧掉260万美元、每步37亿Token，小米披露MiMo-V2.6“规模化强化学习”路线",
+      "seen_at": "2026-10-11T01:22:10.986704+00:00",
+      "run_date": "2026-10-11"
+    },
+    "65fbe64bb67cc8506629": {
+      "url": "https://www.infoq.cn/article/MAo3KoDWm9FGIcKau9AK?utm_source=rss&utm_medium=article",
+      "title": "CLAUDE.md 还是 AGENTS.md？Anthropic 的答案是：以后都不用",
+      "seen_at": "2026-10-11T01:22:10.986704+00:00",
+      "run_date": "2026-10-11"
+    },
+    "d17071fa3306922e10d6": {
+      "url": "https://www.infoq.cn/article/soBOt9TSckGlJlBS519y?utm_source=rss&utm_medium=article",
+      "title": "比 Astra 还贵！GPT-6.1 Sol 极速版上线，社区吐槽：“500 美元套餐都撑不过一天”",
+      "seen_at": "2026-10-11T01:22:10.986704+00:00",
+      "run_date": "2026-10-11"
+    },
+    "438e56b8bfc2e7074e68": {
+      "url": "https://www.infoq.cn/article/rKRPT18fGxtjipPAeaLa?utm_source=rss&utm_medium=article",
+      "title": "模型开放之后，AI能力为什么仍难以复用？",
+      "seen_at": "2026-10-11T01:22:10.986704+00:00",
+      "run_date": "2026-10-11"
+    },
+    "939426ec8f59555f02c5": {
+      "url": "https://www.infoq.cn/article/IAvNgDyPz2NpvfZLoDo0?utm_source=rss&utm_medium=article",
+      "title": "GKE Pod 快照可缩短模型加载时间",
+      "seen_at": "2026-10-11T01:22:10.986704+00:00",
+      "run_date": "2026-10-11"
+    },
+    "d39339dbadd463ee6b5d": {
+      "url": "https://www.infoq.cn/article/kVJUKEcbqhpL2qwpp2Eq?utm_source=rss&utm_medium=article",
+      "title": "Pallas 内核怎么调优？Google 给出的答案是“少信模型，多看寄存器”",
+      "seen_at": "2026-10-11T01:22:10.986704+00:00",
+      "run_date": "2026-10-11"
+    },
+    "a3953c00f2c331016c70": {
+      "url": "https://www.qbitai.com/2026/10/502364.html",
+      "title": "字节找到了DeepSeek时强时弱的原因",
+      "seen_at": "2026-10-11T01:22:10.986704+00:00",
+      "run_date": "2026-10-11"
     }
   },
-  "updated_at": "2026-10-10T01:57:27.105249+00:00"
+  "updated_at": "2026-10-11T01:22:10.986704+00:00"
 }
