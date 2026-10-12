@@ -1,47 +1,5 @@
 {
   "items": {
-    "ff664b2fc26e7fd32ff1": {
-      "url": "https://www.qbitai.com/2026/09/487273.html",
-      "title": "墨芯人工智能亮相2026 Inclusion·外滩大会：以专用稀疏推理芯片提升算力效能，共创AI新经济",
-      "seen_at": "2026-09-12T00:44:43.221556+00:00",
-      "run_date": "2026-09-12"
-    },
-    "dc78a564bc3363979b26": {
-      "url": "https://blogs.nvidia.cn/blog/d-matrix-nvlink-fusion/",
-      "title": "d-Matrix 采用 NVIDIA NVLink Fusion 进行机架级 XPU 部署",
-      "seen_at": "2026-09-12T00:44:43.221556+00:00",
-      "run_date": "2026-09-12"
-    },
-    "e7a7a5eb300d22d36910": {
-      "url": "https://www.qbitai.com/2026/09/487092.html",
-      "title": "OpenAI这是拿千禧年难题当Benchmark刷啊。。。",
-      "seen_at": "2026-09-12T00:44:43.221556+00:00",
-      "run_date": "2026-09-12"
-    },
-    "bfb788bb3cab47d538ce": {
-      "url": "https://www.infoq.cn/article/NizuOkFpcOPgbeClC4uL?utm_source=rss&utm_medium=article",
-      "title": "AMD 发布锐龙AI Max PRO 400 系列，端侧智能体走向多模型协同",
-      "seen_at": "2026-09-12T00:44:43.221556+00:00",
-      "run_date": "2026-09-12"
-    },
-    "292dffcad0ea372a2df7": {
-      "url": "https://www.infoq.cn/article/sT7izVmjw1YVxh3FQyK8?utm_source=rss&utm_medium=article",
-      "title": "“数据比模型重要”成了共识，接下来拼什么？",
-      "seen_at": "2026-09-12T00:44:43.221556+00:00",
-      "run_date": "2026-09-12"
-    },
-    "a37876ce89a544169024": {
-      "url": "https://www.qbitai.com/2026/09/487055.html",
-      "title": "吹爆开源！RunningHub让MiniMax H3满血提速12倍，本地部署照样起飞",
-      "seen_at": "2026-09-12T00:44:43.221556+00:00",
-      "run_date": "2026-09-12"
-    },
-    "7f6ec192138da6aaa11a": {
-      "url": "https://aws.amazon.com/cn/blogs/china/amazon-quick-is-now-generally-available-on-desktop/",
-      "title": "Amazon Quick 桌面端，企业级 AI 工作助手正式可用！",
-      "seen_at": "2026-09-12T00:44:43.221556+00:00",
-      "run_date": "2026-09-12"
-    },
     "97846a8c5c69a2d94a31": {
       "url": "https://www.infoq.cn/article/GhA2VWxo6JTGyKIb7KdT?utm_source=rss&utm_medium=article",
       "title": "两个 Token 就让 Kimi“变成”Claude？前Google DeepMind研究员意外撞上大模型的蒸馏疑云",
@@ -1175,7 +1133,43 @@
       "title": "字节找到了DeepSeek时强时弱的原因",
       "seen_at": "2026-10-11T01:22:10.986704+00:00",
       "run_date": "2026-10-11"
+    },
+    "c20e0cfa0528d0b60682": {
+      "url": "https://www.qbitai.com/2026/10/502585.html",
+      "title": "硅谷AI现状：谁有算力谁是爹",
+      "seen_at": "2026-10-12T01:52:54.624298+00:00",
+      "run_date": "2026-10-12"
+    },
+    "60d62f0ba696dedc5552": {
+      "url": "https://www.infoq.cn/article/soRObi5sjdTTUM95zLJK?utm_source=rss&utm_medium=article",
+      "title": "利用 AI 代码智能体优化软件架构的五种方法",
+      "seen_at": "2026-10-12T01:52:54.624298+00:00",
+      "run_date": "2026-10-12"
+    },
+    "11767ef149988059d748": {
+      "url": "https://www.infoq.cn/article/FTtTLqvzJeMiE03IowFP?utm_source=rss&utm_medium=article",
+      "title": "AI 时代的移动端稳定性保障 —— 柯南 AI Agent 实践｜QCon上海",
+      "seen_at": "2026-10-12T01:52:54.624298+00:00",
+      "run_date": "2026-10-12"
+    },
+    "9fed5b886d7ab36e5e24": {
+      "url": "https://www.infoq.cn/article/2SNgaiHoK808v22dl5SJ?utm_source=rss&utm_medium=article",
+      "title": "Uber 在 Kubernetes 平台上将扩容意图与执行操作解耦",
+      "seen_at": "2026-10-12T01:52:54.624298+00:00",
+      "run_date": "2026-10-12"
+    },
+    "931911ac41ab3407f011": {
+      "url": "https://www.qbitai.com/2026/10/502550.html",
+      "title": "下架8个月，GPT-4o的拯救行动居然还在继续",
+      "seen_at": "2026-10-12T01:52:54.624298+00:00",
+      "run_date": "2026-10-12"
+    },
+    "d92174b96a3fff400110": {
+      "url": "https://www.qbitai.com/2026/10/502544.html",
+      "title": "DeepSeek Bot来了！民间版，DSH装个插件就能用",
+      "seen_at": "2026-10-12T01:52:54.624298+00:00",
+      "run_date": "2026-10-12"
     }
   },
-  "updated_at": "2026-10-11T01:22:10.986704+00:00"
+  "updated_at": "2026-10-12T01:52:54.624298+00:00"
 }
