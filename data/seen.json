@@ -1,47 +1,5 @@
 {
   "items": {
-    "97846a8c5c69a2d94a31": {
-      "url": "https://www.infoq.cn/article/GhA2VWxo6JTGyKIb7KdT?utm_source=rss&utm_medium=article",
-      "title": "两个 Token 就让 Kimi“变成”Claude？前Google DeepMind研究员意外撞上大模型的蒸馏疑云",
-      "seen_at": "2026-09-13T00:28:23.268583+00:00",
-      "run_date": "2026-09-13"
-    },
-    "95bfc3f3ec1fbf7a9c0d": {
-      "url": "https://www.qbitai.com/2026/09/487860.html",
-      "title": "“算力中国·年度卓越成就”发布 太初元碁超智融合计算系统入选",
-      "seen_at": "2026-09-13T00:28:23.268583+00:00",
-      "run_date": "2026-09-13"
-    },
-    "54484a192743b969adc0": {
-      "url": "https://www.infoq.cn/article/hk3WB50fAOMDg55YVaaW?utm_source=rss&utm_medium=article",
-      "title": "从沙箱到执行边界：蚂蚁 AI Agent 的大规模企业级实践｜QCon上海",
-      "seen_at": "2026-09-13T00:28:23.268583+00:00",
-      "run_date": "2026-09-13"
-    },
-    "4444a5126ed2fd4495f7": {
-      "url": "https://www.infoq.cn/article/G7cublzVyXFOUX3vpz1t?utm_source=rss&utm_medium=article",
-      "title": "V4.1 Flash全面超越，开发者为何还在喷 DeepSeek：缺的不是能力，是软件工程思维",
-      "seen_at": "2026-09-13T00:28:23.268583+00:00",
-      "run_date": "2026-09-13"
-    },
-    "f0ee8b0540cd26b7625c": {
-      "url": "https://www.qbitai.com/2026/09/487701.html",
-      "title": "AI数学的最后一道高墙，塌了！GPT-6 Astra刷穿FrontierMath Tier 4",
-      "seen_at": "2026-09-13T00:28:23.268583+00:00",
-      "run_date": "2026-09-13"
-    },
-    "d3d3c5f0527abea88a80": {
-      "url": "https://www.infoq.cn/article/oPSaLpULlAxGxTbYXlXO?utm_source=rss&utm_medium=article",
-      "title": "模型一模一样，Token 却相差 70 倍？三项实测揭开 AI 编程工具的成本黑洞",
-      "seen_at": "2026-09-13T00:28:23.268583+00:00",
-      "run_date": "2026-09-13"
-    },
-    "cc049894f08ed62202c3": {
-      "url": "https://www.qbitai.com/2026/09/487752.html",
-      "title": "探索RSI，生数新世界模型让机器人开始自我进化",
-      "seen_at": "2026-09-13T00:28:23.268583+00:00",
-      "run_date": "2026-09-13"
-    },
     "dea6225d41006c187ad6": {
       "url": "https://www.infoq.cn/article/0kYhxXxhOXhxGATe64ec?utm_source=rss&utm_medium=article",
       "title": "Read, Don't Write: 重塑大模型评价体系，构建全自动、可进化的“探测式”评测管线｜QCon上海",
@@ -1169,7 +1127,37 @@
       "title": "DeepSeek Bot来了！民间版，DSH装个插件就能用",
       "seen_at": "2026-10-12T01:52:54.624298+00:00",
       "run_date": "2026-10-12"
+    },
+    "66b580bb74ce65debef7": {
+      "url": "https://www.infoq.cn/article/Qk7CzmLpDCvfYpAiU6Tf?utm_source=rss&utm_medium=article",
+      "title": "AI 智能体三周重构 30 万行代码，Code Health 从 5.6 升至 10.0：代码真的变好了吗？",
+      "seen_at": "2026-10-13T03:14:42.510896+00:00",
+      "run_date": "2026-10-13"
+    },
+    "da0c8133d528dd8f84f0": {
+      "url": "https://www.qbitai.com/2026/10/502628.html",
+      "title": "何恺明团队发布多模态Harness框架",
+      "seen_at": "2026-10-13T03:14:42.510896+00:00",
+      "run_date": "2026-10-13"
+    },
+    "d658738d41f83e38cac2": {
+      "url": "https://www.qbitai.com/2026/10/502654.html",
+      "title": "华为AI靠RSI通关25款游戏！操作次数比人类少56%",
+      "seen_at": "2026-10-13T03:14:42.510896+00:00",
+      "run_date": "2026-10-13"
+    },
+    "c6bcdc40050eb54b35b6": {
+      "url": "https://www.qbitai.com/2026/10/502644.html",
+      "title": "用不着Ctrl+F了！全新AI论文工具，帮你在原文献里海里捞针",
+      "seen_at": "2026-10-13T03:14:42.510896+00:00",
+      "run_date": "2026-10-13"
+    },
+    "f87e059a14481518561d": {
+      "url": "https://www.qbitai.com/2026/10/502649.html",
+      "title": "智谱新模型，490 tokens/s！",
+      "seen_at": "2026-10-13T03:14:42.510896+00:00",
+      "run_date": "2026-10-13"
     }
   },
-  "updated_at": "2026-10-12T01:52:54.624298+00:00"
+  "updated_at": "2026-10-13T03:14:42.510896+00:00"
 }
