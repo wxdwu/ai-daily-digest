@@ -1,29 +1,5 @@
 {
   "items": {
-    "dea6225d41006c187ad6": {
-      "url": "https://www.infoq.cn/article/0kYhxXxhOXhxGATe64ec?utm_source=rss&utm_medium=article",
-      "title": "Read, Don't Write: 重塑大模型评价体系，构建全自动、可进化的“探测式”评测管线｜QCon上海",
-      "seen_at": "2026-09-14T00:30:24.751302+00:00",
-      "run_date": "2026-09-14"
-    },
-    "c0b80c27533d4a37fbaa": {
-      "url": "https://www.qbitai.com/2026/09/487796.html",
-      "title": "A社承认Claude安全对齐存在缺陷，但“尚无解决方案”",
-      "seen_at": "2026-09-14T00:30:24.751302+00:00",
-      "run_date": "2026-09-14"
-    },
-    "1d653f7820dde3f8c35a": {
-      "url": "https://www.qbitai.com/2026/09/488672.html",
-      "title": "2000+真实场景搬进仿真！一个导航模型零样本“通吃”四种机器人本体",
-      "seen_at": "2026-09-14T00:30:24.751302+00:00",
-      "run_date": "2026-09-14"
-    },
-    "520c87dbe91cf02a4538": {
-      "url": "https://www.infoq.cn/article/eS4M9XEPmLbkxksCyAye?utm_source=rss&utm_medium=article",
-      "title": "Figma 如何利用 AI 代理提升安全性",
-      "seen_at": "2026-09-14T00:30:24.751302+00:00",
-      "run_date": "2026-09-14"
-    },
     "f2df474683d799198736": {
       "url": "https://aws.amazon.com/cn/blogs/china/using-agentic-ai-assistant-notiops-build-aws-operations/",
       "title": "使用 Agentic AI 助手 NotiOps 构建可追溯且只读的 AWS 运维工作台",
@@ -1157,7 +1133,67 @@
       "title": "智谱新模型，490 tokens/s！",
       "seen_at": "2026-10-13T03:14:42.510896+00:00",
       "run_date": "2026-10-13"
+    },
+    "1f4fe34b6fb2fbe47061": {
+      "url": "https://www.infoq.cn/article/8La5gsJVOOF5BvFiLAUF?utm_source=rss&utm_medium=article",
+      "title": "Claude 开始自己写程序管理 Agent 了：Anthropic 披露动态工作流架构",
+      "seen_at": "2026-10-14T01:27:03.722408+00:00",
+      "run_date": "2026-10-14"
+    },
+    "a285bb80b799d8411bfd": {
+      "url": "https://www.infoq.cn/article/BEJ6IXREBoXspGmXRQHj?utm_source=rss&utm_medium=article",
+      "title": "GitHub新晋顶流REA：当大模型能逆向一切，软件行业还剩什么？",
+      "seen_at": "2026-10-14T01:27:03.722408+00:00",
+      "run_date": "2026-10-14"
+    },
+    "45e9955ce0b6150f5ea1": {
+      "url": "https://aws.amazon.com/cn/blogs/china/multi-tenant-ai-agent-security-amazon-fsx-for-netapp-ontap-session/",
+      "title": "多租户 AI agent 的数据安全：Amazon FSx for NetApp ONTAP 的访问边界与会话防护",
+      "seen_at": "2026-10-14T01:27:03.722408+00:00",
+      "run_date": "2026-10-14"
+    },
+    "afa8833500281ef68bd0": {
+      "url": "https://aws.amazon.com/cn/blogs/china/site-builder-ai-agent-application-platform/",
+      "title": "Site-Builder：给 AI Agent 打造的应用上线平台",
+      "seen_at": "2026-10-14T01:27:03.722408+00:00",
+      "run_date": "2026-10-14"
+    },
+    "ed9eabef0414b06c6f25": {
+      "url": "https://www.infoq.cn/article/p2TobACROBC8UBPlRKXx?utm_source=rss&utm_medium=article",
+      "title": "手机解锁先见 AI，不再先找 App：阶跃星辰首款智能体手机来了，定价 3999",
+      "seen_at": "2026-10-14T01:27:03.722408+00:00",
+      "run_date": "2026-10-14"
+    },
+    "51305cbdb813e07cfabb": {
+      "url": "https://aws.amazon.com/cn/blogs/china/based-on-agentic-ai-manufacturing-bom-analytics/",
+      "title": "基于 Agentic AI 的离散制造 BOM 分析",
+      "seen_at": "2026-10-14T01:27:03.722408+00:00",
+      "run_date": "2026-10-14"
+    },
+    "b3c3bc15ca7fbe2428e9": {
+      "url": "https://www.infoq.cn/article/MrxaqhrQBMrZTcSGEgL1?utm_source=rss&utm_medium=article",
+      "title": "20年技术品牌建设都成浮云：编程智能体如何选择其首选工具",
+      "seen_at": "2026-10-14T01:27:03.722408+00:00",
+      "run_date": "2026-10-14"
+    },
+    "ae8e087457d7311b2222": {
+      "url": "https://www.qbitai.com/2026/10/502907.html",
+      "title": "“模态进化”：第八届亿邦产业互联网年会暨首届产业智能体大会双会合体定档",
+      "seen_at": "2026-10-14T01:27:03.722408+00:00",
+      "run_date": "2026-10-14"
+    },
+    "775c5c8ae2f16d483222": {
+      "url": "https://www.infoq.cn/article/LQjytCZpPdgOE5PrWU59?utm_source=rss&utm_medium=article",
+      "title": "刚亮相就传被英伟达收购：Gemini老兵团队凭什么还敢押注Coding Agent？",
+      "seen_at": "2026-10-14T01:27:03.722408+00:00",
+      "run_date": "2026-10-14"
+    },
+    "25d4d98545f91d94ac83": {
+      "url": "https://www.qbitai.com/2026/10/502767.html",
+      "title": "单轮23亿，累计43亿，无问芯穹刷新国产AI Infra赛道融资双重纪录",
+      "seen_at": "2026-10-14T01:27:03.722408+00:00",
+      "run_date": "2026-10-14"
     }
   },
-  "updated_at": "2026-10-13T03:14:42.510896+00:00"
+  "updated_at": "2026-10-14T01:27:03.722408+00:00"
 }
