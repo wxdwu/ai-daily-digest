@@ -1,12 +1,11 @@
-大模型与 AI Infra 成为今日焦点
+AI Infra 与大模型成为今日焦点
 
-1. [STEPX首款大模型原生智能体手机STEPX Neo正式发布](https://www.qbitai.com/2026/10/503201.html)
-2. [无问芯穹联合创始人戴国浩博士确认出席QCon上海，分享Agentic Infra 技术探索与实践](https://www.infoq.cn/article/EVQ0s2JRvxZyo9f9gSg6?utm_source=rss&utm_medium=article)
-3. [蓄势待发：全球 PC 应用生态已为 NVIDIA RTX Spark 做好准备](https://blogs.nvidia.cn/blog/local-ai-rtx-spark-laptops-software-updates/)
-4. [响应速度比Claude Code快3倍，实现真正无限上下文！APUS AI开源Reflex Agent](https://www.qbitai.com/2026/10/503165.html)
-5. [MemSilicon完成国际首款高密度、大容量1T4R 1Gb RRAM芯片流片](https://www.qbitai.com/2026/10/503198.html)
-6. [调度效率提升80%！商汤大装置助力上海量子城市首批智能体落地](https://www.qbitai.com/2026/10/503173.html)
-7. [告别资料散落，让知识持续积累：openJiuwen首发个人知识空间，重塑个人办公智能体新体验](https://www.qbitai.com/2026/10/503157.html)
-8. [Claude写代码太快，Git扛不住了：Anthropic仅靠7人，5个月重造版本控制系统](https://www.infoq.cn/article/6iRATYfkqF7aITPaFR2R?utm_source=rss&utm_medium=article)
-9. [国内最年轻AI教授创业：要让世界模型走向全身全模态](https://www.qbitai.com/2026/10/503172.html)
-10. [Meta 新模型杀回AI第一梯队，Alexandr Wang 亲述 Muse 7个月翻身内幕](https://www.infoq.cn/article/2QXm6PqYYX57AOxTYyO0?utm_source=rss&utm_medium=article)
+1. [算力效率的边界：以体系结构量化与分布式工程破局 AI Infra](https://www.infoq.cn/article/JbzA5yvzl2BkuTpkfdrU?utm_source=rss&utm_medium=article)
+2. [黄仁勋谈中国 AI 公司：算力很缺，但他们就是在拼命把事情做成](https://www.infoq.cn/article/HC8SAgaZmHc6sfwp9gc9?utm_source=rss&utm_medium=article)
+3. [使用 OpenKruiseGame 与 AWS Global Accelerator 接入全球游戏玩家](https://aws.amazon.com/cn/blogs/china/using-openkruisegame-aws-global-accelerator/)
+4. [国产 GPU 越来越多，为什么反而更难用](https://www.infoq.cn/article/pkyTD9OWfpU7QvIbLX2j?utm_source=rss&utm_medium=article)
+5. [Istio 1.31 拥抱 AI 智能体，却先宣布“告别”Google Cloud](https://www.infoq.cn/article/JxVNJwhmsB1YYKmgD9KU?utm_source=rss&utm_medium=article)
+6. [阶跃星辰开放 Step 5 Preview 权重：长程 Agent 的竞争，延伸到上下文管理与训练系统](https://www.infoq.cn/article/EwqsJX6f03ODRac6Kk4c?utm_source=rss&utm_medium=article)
+7. [成立不到半年融资数亿元，98年清华学者、KAN一作创业：让AI学会设计模型](https://www.infoq.cn/article/QdPWpubQFmegrsH9UZFC?utm_source=rss&utm_medium=article)
+8. [蚂蚁百灵开源 560B 模型 Ling-3.0-flash：0.19 美元搞定复杂工作流](https://www.infoq.cn/article/SxQO3Aw6JCTgNMTGPPE8?utm_source=rss&utm_medium=article)
+9. [Archestra 发布 OpenAPPA，用于防范提示词注入或模型幻觉引发的数据外泄](https://www.infoq.cn/article/LQCqiPUzgZyB3v24rsNO?utm_source=rss&utm_medium=article)
