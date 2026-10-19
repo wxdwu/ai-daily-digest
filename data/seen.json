@@ -1,59 +1,5 @@
 {
   "items": {
-    "f04893b7d286d1b7124d": {
-      "url": "https://www.infoq.cn/article/bmducufWEHZZRxEYjM4l?utm_source=rss&utm_medium=article",
-      "title": "汪涛详解华为AI战略：算力为核心，昇腾960提前登场，PB级 KV Cache把基础设施推入新阶段",
-      "seen_at": "2026-09-18T00:51:45.808792+00:00",
-      "run_date": "2026-09-18"
-    },
-    "02fb255f4e68135efd64": {
-      "url": "https://www.infoq.cn/article/paoGkkFVHV3gbhG3GEdC?utm_source=rss&utm_medium=article",
-      "title": "阶跃发布全新语音大模型 StepAudio 3系列：覆盖语音识别、生成、实时交互与音乐创作",
-      "seen_at": "2026-09-18T00:51:45.808792+00:00",
-      "run_date": "2026-09-18"
-    },
-    "93d6dd99aa754d3e2941": {
-      "url": "https://aws.amazon.com/cn/blogs/china/one-stop-how-to-litellm-configuration-amazon-bedrock-guardrail/",
-      "title": "一站式搞懂如何在LiteLLM上配置 Amazon Bedrock Guardrail",
-      "seen_at": "2026-09-18T00:51:45.808792+00:00",
-      "run_date": "2026-09-18"
-    },
-    "658e7c39265176784c72": {
-      "url": "https://www.infoq.cn/article/jXliIdDVTYDAtm73EoSU?utm_source=rss&utm_medium=article",
-      "title": "百度智能云首发产业智能体操作系统，要实现 AI 的商业和技术飞轮",
-      "seen_at": "2026-09-18T00:51:45.808792+00:00",
-      "run_date": "2026-09-18"
-    },
-    "c1b26c9b76310a01868c": {
-      "url": "https://www.infoq.cn/article/UZM5vKcN4CbNkPUS6Aid?utm_source=rss&utm_medium=article",
-      "title": "让仿真走到设计前端，第叁范式发布国内首款 GPU 原生跨尺度系统级电磁仿真软件",
-      "seen_at": "2026-09-18T00:51:45.808792+00:00",
-      "run_date": "2026-09-18"
-    },
-    "0979e66c43b04f47e1b1": {
-      "url": "https://www.qbitai.com/2026/09/491596.html",
-      "title": "Claude Code团队讲究啊，这都往外说",
-      "seen_at": "2026-09-18T00:51:45.808792+00:00",
-      "run_date": "2026-09-18"
-    },
-    "a51228a263165ba69182": {
-      "url": "https://www.infoq.cn/article/HWTj56QXAtdSar5YGp32?utm_source=rss&utm_medium=article",
-      "title": "边说话边推理、边聊天边调用工具，谷歌 Gemini 3.8 Live 要攻克语音 Agent 的沉默时刻",
-      "seen_at": "2026-09-18T00:51:45.808792+00:00",
-      "run_date": "2026-09-18"
-    },
-    "ea09f4da7106d7305523": {
-      "url": "https://www.infoq.cn/article/EsH2bUAoMNQx6Nt7vytC?utm_source=rss&utm_medium=article",
-      "title": "神秘模型 Union Alpha 突袭！上线首日跑掉20亿Token，部分网友实测称性能直逼 Astra",
-      "seen_at": "2026-09-18T00:51:45.808792+00:00",
-      "run_date": "2026-09-18"
-    },
-    "92c7fe9236d61189c185": {
-      "url": "https://www.qbitai.com/2026/09/491091.html",
-      "title": "国产RSI模型交卷！Flash模型靠它反打旗舰",
-      "seen_at": "2026-09-18T00:51:45.808792+00:00",
-      "run_date": "2026-09-18"
-    },
     "010d47ce1748f0da2c35": {
       "url": "https://aws.amazon.com/cn/blogs/china/0-inference-aws-spot-gpu-inference-testing-environment/",
       "title": "从 0 到推理：用 AWS Spot GPU 打造一键自助的短时推理测试环境",
@@ -1247,7 +1193,43 @@
       "title": "Cloudflare 计划推出公共证书颁发机构，用于签发量子安全的 TLS 证书",
       "seen_at": "2026-10-18T00:28:19.643290+00:00",
       "run_date": "2026-10-18"
+    },
+    "1a1f5d95f153e11441e1": {
+      "url": "https://www.infoq.cn/article/EuYOPRUBAeBgBGBu5ktk?utm_source=rss&utm_medium=article",
+      "title": "Meta 联手苹果推出全美最强开源模型，编码基测输给智谱、Kimi",
+      "seen_at": "2026-10-19T00:33:50.052949+00:00",
+      "run_date": "2026-10-19"
+    },
+    "79837d98515e6fcbd3c0": {
+      "url": "https://www.infoq.cn/article/qZPH971CbfHkaCfgG0cb?utm_source=rss&utm_medium=article",
+      "title": "“AI+终端”时代的萌芽：大模型在终端领域的探索和量产落地｜QCon上海",
+      "seen_at": "2026-10-19T00:33:50.052949+00:00",
+      "run_date": "2026-10-19"
+    },
+    "741e15e6349adacde744": {
+      "url": "https://www.qbitai.com/2026/10/504067.html",
+      "title": "突发！DeepSeek新模型发布，超级性价比斩杀一切",
+      "seen_at": "2026-10-19T00:33:50.052949+00:00",
+      "run_date": "2026-10-19"
+    },
+    "e037294e7ace3aa24bb7": {
+      "url": "https://www.qbitai.com/2026/10/503935.html",
+      "title": "清华开源！智能体操作系统任务成本降83%，AI记忆可查可改",
+      "seen_at": "2026-10-19T00:33:50.052949+00:00",
+      "run_date": "2026-10-19"
+    },
+    "038a378ac78550a2075e": {
+      "url": "https://www.qbitai.com/2026/10/503910.html",
+      "title": "Claude半小时解开密码学悬案，学界集体走偏20年",
+      "seen_at": "2026-10-19T00:33:50.052949+00:00",
+      "run_date": "2026-10-19"
+    },
+    "696f9ab68b017d145e93": {
+      "url": "https://www.qbitai.com/2026/10/503965.html",
+      "title": "智谱新模型，懂法方面全球第一了",
+      "seen_at": "2026-10-19T00:33:50.052949+00:00",
+      "run_date": "2026-10-19"
     }
   },
-  "updated_at": "2026-10-18T00:28:19.643290+00:00"
+  "updated_at": "2026-10-19T00:33:50.052949+00:00"
 }
