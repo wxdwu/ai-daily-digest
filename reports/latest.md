@@ -1,8 +1,8 @@
-大模型与 AI Agent 成为今日焦点
+AI Infra 与大模型成为今日焦点
 
-1. [Meta 联手苹果推出全美最强开源模型，编码基测输给智谱、Kimi](https://www.infoq.cn/article/EuYOPRUBAeBgBGBu5ktk?utm_source=rss&utm_medium=article)
-2. [“AI+终端”时代的萌芽：大模型在终端领域的探索和量产落地｜QCon上海](https://www.infoq.cn/article/qZPH971CbfHkaCfgG0cb?utm_source=rss&utm_medium=article)
-3. [突发！DeepSeek新模型发布，超级性价比斩杀一切](https://www.qbitai.com/2026/10/504067.html)
-4. [清华开源！智能体操作系统任务成本降83%，AI记忆可查可改](https://www.qbitai.com/2026/10/503935.html)
-5. [Claude半小时解开密码学悬案，学界集体走偏20年](https://www.qbitai.com/2026/10/503910.html)
-6. [智谱新模型，懂法方面全球第一了](https://www.qbitai.com/2026/10/503965.html)
+1. [Kubernetes多集群项目Karmada完成CNCF毕业](https://www.infoq.cn/article/4t84hFyjYP6gq9KNWE60?utm_source=rss&utm_medium=article)
+2. [谷歌开源Harness，支持 OpenCode 和 Codex：国内开发者接入Jev实测“真行”](https://www.infoq.cn/article/AD1M3mJ2SH1dJrTA1r5q?utm_source=rss&utm_medium=article)
+3. [DoorDash的Flux在云端智能体上运行130000个工程任务](https://www.infoq.cn/article/4IPptJpXQqX5Lr77uBFZ?utm_source=rss&utm_medium=article)
+4. [随着可观测性模式日趋成熟，OpenTelemetry 将 Kubernetes Attribute Processor 提升为稳定版本](https://www.infoq.cn/article/zBfzQbuxFmP1qrIpZWTG?utm_source=rss&utm_medium=article)
+5. [Gemini 4 Argon：为您解决最棘手的问题](https://www.infoq.cn/article/LkxBOvOJWmQGMQemUOrX?utm_source=rss&utm_medium=article)
+6. [VAST开源实时世界模型EdenLive！单消费级显卡、720P超24FPS](https://www.qbitai.com/2026/10/504136.html)
