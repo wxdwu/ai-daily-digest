@@ -1,65 +1,5 @@
 {
   "items": {
-    "26dda2a89c64fc5c3441": {
-      "url": "https://www.infoq.cn/article/zVZhvQIW9BvrWd3SU7st?utm_source=rss&utm_medium=article",
-      "title": "Dropbox 分享如何通过提升现有基础设施能效为 AI 腾出算力余量",
-      "seen_at": "2026-09-21T00:35:51.294389+00:00",
-      "run_date": "2026-09-21"
-    },
-    "5d1b907c7c965e86280b": {
-      "url": "https://www.infoq.cn/article/oP7tDkoaamphFBkDY8uW?utm_source=rss&utm_medium=article",
-      "title": "硅基流动完成B+轮二期及C轮融资，年内累计融资近29亿元",
-      "seen_at": "2026-09-21T00:35:51.294389+00:00",
-      "run_date": "2026-09-21"
-    },
-    "89bc98a3e81489ed2a88": {
-      "url": "https://aws.amazon.com/cn/blogs/china/ai-how-to-quick-build-visualization-using-amazon-quick-app/",
-      "title": "AI 时代如何快速搭建可视化数仓：使用 Amazon Quick App 快速搭建 Amazon Redshift 应用",
-      "seen_at": "2026-09-21T00:35:51.294389+00:00",
-      "run_date": "2026-09-21"
-    },
-    "a58e44659dc0849d7604": {
-      "url": "https://aws.amazon.com/cn/blogs/china/using-kiro-amazon-eks-cluster-practice/",
-      "title": "使用 Kiro 辅助 Amazon EKS 集群升级实践",
-      "seen_at": "2026-09-21T00:35:51.294389+00:00",
-      "run_date": "2026-09-21"
-    },
-    "47076627ee1e3d0a2d57": {
-      "url": "https://www.infoq.cn/article/3FdzSfrzlb3vMDwsC1Ny?utm_source=rss&utm_medium=article",
-      "title": "微软开源 TauGrid，简化 Kubernetes AI 工作负载管理",
-      "seen_at": "2026-09-21T00:35:51.294389+00:00",
-      "run_date": "2026-09-21"
-    },
-    "13b3398c5deb0ee73c9c": {
-      "url": "https://www.infoq.cn/article/9jw1St7ULZijG8XNCWkW?utm_source=rss&utm_medium=article",
-      "title": "瞄准 AI 编程、金融等场景，单次成本仅为Opus 5 的1/8！这款国产旗舰模型跻身 AA 榜单全球前三",
-      "seen_at": "2026-09-21T00:35:51.294389+00:00",
-      "run_date": "2026-09-21"
-    },
-    "5ed55077bbc973db1f19": {
-      "url": "https://www.infoq.cn/article/MaOcETZFPCvAuFRQJps2?utm_source=rss&utm_medium=article",
-      "title": "70强会师杭州，世界人工智能开源大赛（GOAI）总决赛即将启幕",
-      "seen_at": "2026-09-21T00:35:51.294389+00:00",
-      "run_date": "2026-09-21"
-    },
-    "972cfbb00dd245194557": {
-      "url": "https://www.qbitai.com/2026/09/492939.html",
-      "title": "APUS 开源国内首批Jev跨平台复现：国产模型实现秒级决策",
-      "seen_at": "2026-09-21T00:35:51.294389+00:00",
-      "run_date": "2026-09-21"
-    },
-    "4e3805c287670291393a": {
-      "url": "https://www.infoq.cn/article/EBIZhgc8pLujPiIum6Yt?utm_source=rss&utm_medium=article",
-      "title": "最新桌面 Agent，AI 工作流解码办公效率提升",
-      "seen_at": "2026-09-21T00:35:51.294389+00:00",
-      "run_date": "2026-09-21"
-    },
-    "25800c1d53b9a37fde64": {
-      "url": "https://www.qbitai.com/2026/09/492849.html",
-      "title": "《网络安全人才实战能力报告-AI赋能篇》正式发布，当AI进入业务深水区安全如何跟上",
-      "seen_at": "2026-09-21T00:35:51.294389+00:00",
-      "run_date": "2026-09-21"
-    },
     "cbcdb10c81e02e45a2a1": {
       "url": "https://www.infoq.cn/article/Obuxu1mvY9p6RNOlxFGc?utm_source=rss&utm_medium=article",
       "title": "不靠最强大模型，也能拿全球第一？OceanBase 的 “纯国产组合” 登顶国际 Data Agent 榜",
@@ -1169,7 +1109,67 @@
       "title": "VAST开源实时世界模型EdenLive！单消费级显卡、720P超24FPS",
       "seen_at": "2026-10-20T01:19:29.339400+00:00",
       "run_date": "2026-10-20"
+    },
+    "3d30872ed711ee4216ca": {
+      "url": "https://www.infoq.cn/article/J1Z3RYgH3Vyd9LFEfmlF?utm_source=rss&utm_medium=article",
+      "title": "RISC-V 加速进入 AI 与高性能计算：玄铁车规 IP、服务器芯片等新进展亮相",
+      "seen_at": "2026-10-21T01:04:23.445733+00:00",
+      "run_date": "2026-10-21"
+    },
+    "31e6b1b89405476aa780": {
+      "url": "https://www.qbitai.com/2026/10/504277.html",
+      "title": "从百比特芯片到整机交付，这家量子计算公司正将量子算力推向可调用服务",
+      "seen_at": "2026-10-21T01:04:23.445733+00:00",
+      "run_date": "2026-10-21"
+    },
+    "c490de2bccb2c1e91af2": {
+      "url": "https://www.infoq.cn/article/pvgeXQQbbt4TsPKeMMEL?utm_source=rss&utm_medium=article",
+      "title": "Lyft将流式计算集群迁移到Apache Flink Kubernetes Operator",
+      "seen_at": "2026-10-21T01:04:23.445733+00:00",
+      "run_date": "2026-10-21"
+    },
+    "7a6a1d7d8bd91a51028a": {
+      "url": "https://www.qbitai.com/2026/10/504314.html",
+      "title": "Claude新模型曝光！能跳出思维定势，修Bug治标又治本",
+      "seen_at": "2026-10-21T01:04:23.445733+00:00",
+      "run_date": "2026-10-21"
+    },
+    "a47828fce8fe6ff3ca0e": {
+      "url": "https://www.infoq.cn/article/mJ5udryLFwjov1pk4Dsq?utm_source=rss&utm_medium=article",
+      "title": "突破长文本推理瓶颈 九章云极Alaya-DFlash2助GLM-5.3解码提速3.41倍",
+      "seen_at": "2026-10-21T01:04:23.445733+00:00",
+      "run_date": "2026-10-21"
+    },
+    "35a3cb7c71e73e7e1337": {
+      "url": "https://www.infoq.cn/article/4FreCLUUQb4W4AXUhXo5?utm_source=rss&utm_medium=article",
+      "title": "AI Agent 越用越贵？如何借助可观测性平衡性能、质量与成本 ｜ 技术趋势",
+      "seen_at": "2026-10-21T01:04:23.445733+00:00",
+      "run_date": "2026-10-21"
+    },
+    "df3924c1bae0de8953aa": {
+      "url": "https://www.qbitai.com/2026/10/504225.html",
+      "title": "全栈自研！国产高端互连芯片，稳了!",
+      "seen_at": "2026-10-21T01:04:23.445733+00:00",
+      "run_date": "2026-10-21"
+    },
+    "0a4b0e474cd064110bde": {
+      "url": "https://www.qbitai.com/2026/10/504188.html",
+      "title": "日均6万亿Token服务背后，商汤大装置如何提升推理效能？",
+      "seen_at": "2026-10-21T01:04:23.445733+00:00",
+      "run_date": "2026-10-21"
+    },
+    "a1fc6ba2bfd6fadd7fcf": {
+      "url": "https://www.infoq.cn/article/bROfcYFpijQQVBz4NqDi?utm_source=rss&utm_medium=article",
+      "title": "Jev迎来中国挑战者：StartLux登顶决策模型榜单，还学会了“拿不准再想”",
+      "seen_at": "2026-10-21T01:04:23.445733+00:00",
+      "run_date": "2026-10-21"
+    },
+    "0f918da9b54172cd209a": {
+      "url": "https://www.qbitai.com/2026/10/504266.html",
+      "title": "2026物理AI与世界模型大会医疗健康世界模型分会场在南京举行",
+      "seen_at": "2026-10-21T01:04:23.445733+00:00",
+      "run_date": "2026-10-21"
     }
   },
-  "updated_at": "2026-10-20T01:19:29.339400+00:00"
+  "updated_at": "2026-10-21T01:04:23.445733+00:00"
 }
