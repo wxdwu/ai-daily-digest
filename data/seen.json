@@ -1169,7 +1169,49 @@
       "title": "2026物理AI与世界模型大会医疗健康世界模型分会场在南京举行",
       "seen_at": "2026-10-21T01:04:23.445733+00:00",
       "run_date": "2026-10-21"
+    },
+    "7963a23b740262c3aad3": {
+      "url": "https://www.infoq.cn/article/NBXP966Bz3eqr6Qidvaf?utm_source=rss&utm_medium=article",
+      "title": "DeepSeek开源最新推理框架：单集群日吞吐155万亿Token，KVCache可保存7天",
+      "seen_at": "2026-10-22T01:02:11.896394+00:00",
+      "run_date": "2026-10-22"
+    },
+    "19e1aca6ea737ca2b494": {
+      "url": "https://blogs.nvidia.cn/blog/openshell-reference-architecture/",
+      "title": "NVIDIA 推出面向安全 AI 智能体的 OpenShell 参考架构",
+      "seen_at": "2026-10-22T01:02:11.896394+00:00",
+      "run_date": "2026-10-22"
+    },
+    "85b8d93a73e306e2f9d6": {
+      "url": "https://www.infoq.cn/article/iqCrZLLizNkRTpfo2Jrb?utm_source=rss&utm_medium=article",
+      "title": "Cloudflare 开源面向 AI 智能体的决策模型 Clef",
+      "seen_at": "2026-10-22T01:02:11.896394+00:00",
+      "run_date": "2026-10-22"
+    },
+    "64710c504bf7e8f70bd9": {
+      "url": "https://www.infoq.cn/article/39xM9CkCb4jcZ9yra6o6?utm_source=rss&utm_medium=article",
+      "title": "Grab 日均 10 亿次请求换掉旧存储，P99 延迟降低 50%",
+      "seen_at": "2026-10-22T01:02:11.896394+00:00",
+      "run_date": "2026-10-22"
+    },
+    "7e7a4b2101b3a85d4092": {
+      "url": "https://www.infoq.cn/article/XxOpQpEMZpdCCYhXxgaE?utm_source=rss&utm_medium=article",
+      "title": "对话亚马逊CTO：仍在招聘初级工程师，关注中国开放模型",
+      "seen_at": "2026-10-22T01:02:11.896394+00:00",
+      "run_date": "2026-10-22"
+    },
+    "bab9e3687842eb13ed47": {
+      "url": "https://www.qbitai.com/2026/10/504456.html",
+      "title": "RSI三块关键拼图，MemT 1.0从模型层补上「记忆」",
+      "seen_at": "2026-10-22T01:02:11.896394+00:00",
+      "run_date": "2026-10-22"
+    },
+    "615c3d09e8e01f5223c3": {
+      "url": "https://www.qbitai.com/2026/10/504415.html",
+      "title": "Meshy推出Meshy Edit：基于全新自研AI模型，一句指令实现3D模型局部编辑",
+      "seen_at": "2026-10-22T01:02:11.896394+00:00",
+      "run_date": "2026-10-22"
     }
   },
-  "updated_at": "2026-10-21T01:04:23.445733+00:00"
+  "updated_at": "2026-10-22T01:02:11.896394+00:00"
 }
