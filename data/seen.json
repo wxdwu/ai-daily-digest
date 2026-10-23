@@ -1,119 +1,5 @@
 {
   "items": {
-    "cbcdb10c81e02e45a2a1": {
-      "url": "https://www.infoq.cn/article/Obuxu1mvY9p6RNOlxFGc?utm_source=rss&utm_medium=article",
-      "title": "不靠最强大模型，也能拿全球第一？OceanBase 的 “纯国产组合” 登顶国际 Data Agent 榜",
-      "seen_at": "2026-09-22T01:19:44.082627+00:00",
-      "run_date": "2026-09-22"
-    },
-    "5086b15a3416fcef8130": {
-      "url": "https://www.infoq.cn/article/AGIRRRtM1lBDFIvwWuRX?utm_source=rss&utm_medium=article",
-      "title": "Altum：蚂蚁集团新一代大模型训练数据处理系统设计与实践｜QCon上海",
-      "seen_at": "2026-09-22T01:19:44.082627+00:00",
-      "run_date": "2026-09-22"
-    },
-    "36b4c76e07200806dee2": {
-      "url": "https://www.infoq.cn/article/mMNcVfyGXtyFhPM0sKvN?utm_source=rss&utm_medium=article",
-      "title": "IDC评估中国 AI算力管理平台：范式综合评分位列第一",
-      "seen_at": "2026-09-22T01:19:44.082627+00:00",
-      "run_date": "2026-09-22"
-    },
-    "e66cffc5a6b874a352b7": {
-      "url": "https://www.infoq.cn/article/vA7opkWL5WYlwYcPIdds?utm_source=rss&utm_medium=article",
-      "title": "《2026年中国人工智能计算力发展评估报告》发布，智能体重塑算力基础设施，智能算力规模预计增长87.9%",
-      "seen_at": "2026-09-22T01:19:44.082627+00:00",
-      "run_date": "2026-09-22"
-    },
-    "b02c8b84fd1c0c972492": {
-      "url": "https://www.qbitai.com/2026/09/493235.html",
-      "title": "长三角安全人工智能安徽省实验室发布星界、星驭、星鉴三大AI安全解决方案",
-      "seen_at": "2026-09-22T01:19:44.082627+00:00",
-      "run_date": "2026-09-22"
-    },
-    "bccb4cc55eca05c25a3f": {
-      "url": "https://www.qbitai.com/2026/09/493091.html",
-      "title": "汽车行业首个AI超级智能体「迪迪虾」来了！腾势多款车型即将OTA",
-      "seen_at": "2026-09-22T01:19:44.082627+00:00",
-      "run_date": "2026-09-22"
-    },
-    "f8fb33192563395ed286": {
-      "url": "https://www.infoq.cn/article/rIpDfDZXDoN9L7akct7e?utm_source=rss&utm_medium=article",
-      "title": "祥峰再次出手，超维动力获超 5 亿融资，我们拆解了这家公司的全栈路线",
-      "seen_at": "2026-09-22T01:19:44.082627+00:00",
-      "run_date": "2026-09-22"
-    },
-    "1f686236f79180a18486": {
-      "url": "https://www.qbitai.com/2026/09/493241.html",
-      "title": "啊啊啊GPT-6 Astra这么不安全！这次马斯克都瘫坐了",
-      "seen_at": "2026-09-22T01:19:44.082627+00:00",
-      "run_date": "2026-09-22"
-    },
-    "bd9f0a2913cb224da432": {
-      "url": "https://www.infoq.cn/article/at5IL3FiObSQ4y9gBv0a?utm_source=rss&utm_medium=article",
-      "title": "智能效能进阶：丰富模型选择，实现智能路由",
-      "seen_at": "2026-09-22T01:19:44.082627+00:00",
-      "run_date": "2026-09-22"
-    },
-    "d6fd70defa46f4b86760": {
-      "url": "https://www.infoq.cn/article/FK2ZF2u01pt45uEAqQFq?utm_source=rss&utm_medium=article",
-      "title": "GitHub Copilot 推出 HydraFusion 项目，依托多模型路由实现前沿级性能",
-      "seen_at": "2026-09-22T01:19:44.082627+00:00",
-      "run_date": "2026-09-22"
-    },
-    "90d5db49b47d50b65506": {
-      "url": "https://www.infoq.cn/article/rNHK14OsBl5CgSpMoTPq?utm_source=rss&utm_medium=article",
-      "title": "从生成内容到创造体验，多模态大模型如何改变内容生产？",
-      "seen_at": "2026-09-23T00:59:40.819821+00:00",
-      "run_date": "2026-09-23"
-    },
-    "13f9177ee07618b41b54": {
-      "url": "https://www.infoq.cn/article/jCdqhiUJHJlVgOYGfWGx?utm_source=rss&utm_medium=article",
-      "title": "华为云码道面向鸿蒙开发者升级：上线鸿蒙编码大模型，覆盖开发到编译全流程",
-      "seen_at": "2026-09-23T00:59:40.819821+00:00",
-      "run_date": "2026-09-23"
-    },
-    "02eab801cdd685943370": {
-      "url": "https://www.infoq.cn/article/7suOC8BJWYA4yx6dvZXa?utm_source=rss&utm_medium=article",
-      "title": "从 AI 工具到经营智能体：快手分销增长 Agent 实践",
-      "seen_at": "2026-09-23T00:59:40.819821+00:00",
-      "run_date": "2026-09-23"
-    },
-    "d8770feb69690e9f83c5": {
-      "url": "https://blogs.nvidia.cn/blog/ai-security-agent-stack/",
-      "title": "AI 安全是一个工程问题 —— 如何在智能体技术栈的每一层解决这一问题",
-      "seen_at": "2026-09-23T00:59:40.819821+00:00",
-      "run_date": "2026-09-23"
-    },
-    "a3faa38934afb3076fbc": {
-      "url": "https://blogs.nvidia.cn/blog/physical-ai-halos-safety/",
-      "title": "大规模部署物理 AI，为何必须让安全覆盖每一个层级",
-      "seen_at": "2026-09-23T00:59:40.819821+00:00",
-      "run_date": "2026-09-23"
-    },
-    "f3d64be47c006b19e4ed": {
-      "url": "https://www.infoq.cn/article/L9QQKUgo3DEjschVRKD9?utm_source=rss&utm_medium=article",
-      "title": "阿里吴泳铭：千问将训练5-10万亿参数规模的新模型",
-      "seen_at": "2026-09-23T00:59:40.819821+00:00",
-      "run_date": "2026-09-23"
-    },
-    "fee03f9a2c5f71148e25": {
-      "url": "https://www.qbitai.com/2026/09/494120.html",
-      "title": "基元律动韩凯：从多模型调度到反馈闭环，探索Agent持续进化",
-      "seen_at": "2026-09-23T00:59:40.819821+00:00",
-      "run_date": "2026-09-23"
-    },
-    "b35a39d31dbee751a2ba": {
-      "url": "https://www.qbitai.com/2026/09/493865.html",
-      "title": "虎鲸文娱推出“鲸锐AI”影视制作与管理平台，打造文娱产业新基建",
-      "seen_at": "2026-09-23T00:59:40.819821+00:00",
-      "run_date": "2026-09-23"
-    },
-    "51eba9a8ec9bde623fb9": {
-      "url": "https://www.infoq.cn/article/MejovdhJpA8y4wbWlTMU?utm_source=rss&utm_medium=article",
-      "title": "Netflix 重构 Conductor，以支持每月 4.2 亿次的工作流执行以及 10 倍规模的工作流",
-      "seen_at": "2026-09-23T00:59:40.819821+00:00",
-      "run_date": "2026-09-23"
-    },
     "e279cf11960af1dfb481": {
       "url": "https://www.infoq.cn/article/jG9ksSRvpkfP20Qif8Ov?utm_source=rss&utm_medium=article",
       "title": "Claude Opus 5.5 发布：一天内迁移 68 万行代码，单任务成本比 GPT-6 Astra 便宜 80%",
@@ -1211,7 +1097,67 @@
       "title": "Meshy推出Meshy Edit：基于全新自研AI模型，一句指令实现3D模型局部编辑",
       "seen_at": "2026-10-22T01:02:11.896394+00:00",
       "run_date": "2026-10-22"
+    },
+    "ccb1a8d1b78d39632652": {
+      "url": "https://www.qbitai.com/2026/10/504734.html",
+      "title": "多智能体协同重构医疗AI！清华AIR孵化：医生AI分身“坐诊”医院",
+      "seen_at": "2026-10-23T01:03:08.642783+00:00",
+      "run_date": "2026-10-23"
+    },
+    "77987b9c13a3ab4342b6": {
+      "url": "https://www.infoq.cn/article/o9OcWNkkwgKvsZmgY45d?utm_source=rss&utm_medium=article",
+      "title": "面向 Qwen 系列模型线性注意力的高性能优化实践",
+      "seen_at": "2026-10-23T01:03:08.642783+00:00",
+      "run_date": "2026-10-23"
+    },
+    "0eacb344a9cb77e588a1": {
+      "url": "https://developer.nvidia.cn/blog/how-nvidia-openshell-reference-architecture-secures-and-governs-ai-agent-workloads-at-scale/",
+      "title": "NVIDIA OpenShell 参考架构如何大规模保护和治理 AI 智能体工作负载",
+      "seen_at": "2026-10-23T01:03:08.642783+00:00",
+      "run_date": "2026-10-23"
+    },
+    "45bb7d06bab860abb1cf": {
+      "url": "https://www.infoq.cn/article/ud4r6jvkmuKNAu9NTHxF?utm_source=rss&utm_medium=article",
+      "title": "与 Redis 分道扬镳两年后，Valkey 不只要做缓存：单进程吞吐破百万，Rust 统一客户端底座",
+      "seen_at": "2026-10-23T01:03:08.642783+00:00",
+      "run_date": "2026-10-23"
+    },
+    "6a8ae8586e58bb2730f9": {
+      "url": "https://www.infoq.cn/article/0vwVMhufb66SBofWsvRz?utm_source=rss&utm_medium=article",
+      "title": "AWS Lambda推动无服务器向长时间运行的工作负载发展",
+      "seen_at": "2026-10-23T01:03:08.642783+00:00",
+      "run_date": "2026-10-23"
+    },
+    "a82a622667b9064dea15": {
+      "url": "https://developer.nvidia.cn/blog/design-proteins-with-rfd4-proteina-using-reward-guided-inference-time-search/",
+      "title": "使用奖励引导推理时间搜索，使用 RFD4-Proteina 设计蛋白质",
+      "seen_at": "2026-10-23T01:03:08.642783+00:00",
+      "run_date": "2026-10-23"
+    },
+    "4f5ec759c25ba000596d": {
+      "url": "https://www.infoq.cn/article/wyGrRsTrfHM7i9MhuV5P?utm_source=rss&utm_medium=article",
+      "title": "又一国产决策模型发布：面向企业高频判断任务，23 项开源基测准确率超过微软和 JEV",
+      "seen_at": "2026-10-23T01:03:08.642783+00:00",
+      "run_date": "2026-10-23"
+    },
+    "46dc7c87904805c635c9": {
+      "url": "https://www.infoq.cn/article/v85ey09UlxhCDH4r3RS3?utm_source=rss&utm_medium=article",
+      "title": "企业 AI 越用越复杂，如何用一个 Gateway 管好模型、Agent 和成本？｜ 技术趋势",
+      "seen_at": "2026-10-23T01:03:08.642783+00:00",
+      "run_date": "2026-10-23"
+    },
+    "b2041099598b83b5834f": {
+      "url": "https://www.qbitai.com/2026/10/504832.html",
+      "title": "既能“做选择题”，也能“做填空题”——星辰意图理解模型Xing4.0-29B-Intent发布",
+      "seen_at": "2026-10-23T01:03:08.642783+00:00",
+      "run_date": "2026-10-23"
+    },
+    "29a39d34cb397fecebcb": {
+      "url": "https://www.qbitai.com/2026/10/504730.html",
+      "title": "生数科技Motubrain团队将直播Physical AI训练全流程，持续半个月",
+      "seen_at": "2026-10-23T01:03:08.642783+00:00",
+      "run_date": "2026-10-23"
     }
   },
-  "updated_at": "2026-10-22T01:02:11.896394+00:00"
+  "updated_at": "2026-10-23T01:03:08.642783+00:00"
 }
