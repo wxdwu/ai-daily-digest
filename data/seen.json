@@ -1,65 +1,5 @@
 {
   "items": {
-    "e279cf11960af1dfb481": {
-      "url": "https://www.infoq.cn/article/jG9ksSRvpkfP20Qif8Ov?utm_source=rss&utm_medium=article",
-      "title": "Claude Opus 5.5 发布：一天内迁移 68 万行代码，单任务成本比 GPT-6 Astra 便宜 80%",
-      "seen_at": "2026-09-24T00:56:22.224468+00:00",
-      "run_date": "2026-09-24"
-    },
-    "9b42a04e93473b19098a": {
-      "url": "https://developer.nvidia.cn/blog/enabling-private-high-performance-production-ai-inference-with-nvidia-confidential-computing/",
-      "title": "借助 NVIDIA 机密计算实现私有高性能生产级 AI 推理",
-      "seen_at": "2026-09-24T00:56:22.224468+00:00",
-      "run_date": "2026-09-24"
-    },
-    "e234fe206e636e6d7f4e": {
-      "url": "https://www.infoq.cn/article/rB0WGcG9iLIRH3xZojY5?utm_source=rss&utm_medium=article",
-      "title": "数百亿向量怎么搜？Pinterest 抛弃“内存大户”HNSW，转向量化 SPANN",
-      "seen_at": "2026-09-24T00:56:22.224468+00:00",
-      "run_date": "2026-09-24"
-    },
-    "3811bae272a362582419": {
-      "url": "https://www.qbitai.com/2026/09/496493.html",
-      "title": "汇智智能发布Hellome：国内首个FDE直连智能体服务平台，把AI交付周期压进“周”",
-      "seen_at": "2026-09-24T00:56:22.224468+00:00",
-      "run_date": "2026-09-24"
-    },
-    "b149808c0d8949d23471": {
-      "url": "https://www.qbitai.com/2026/09/496471.html",
-      "title": "斑马智能发布端模型AutoOmni2.0，让元神AI更懂“我的世界”",
-      "seen_at": "2026-09-24T00:56:22.224468+00:00",
-      "run_date": "2026-09-24"
-    },
-    "a32c343054e34d73b609": {
-      "url": "https://www.qbitai.com/2026/09/496494.html",
-      "title": "达卯科技完成新一轮融资，算电协同核心软件层“稀缺标的”",
-      "seen_at": "2026-09-24T00:56:22.224468+00:00",
-      "run_date": "2026-09-24"
-    },
-    "ce007395b54e646c5033": {
-      "url": "https://www.qbitai.com/2026/09/496393.html",
-      "title": "DeepSeek新论文公开Agent训练！梁文锋署名",
-      "seen_at": "2026-09-24T00:56:22.224468+00:00",
-      "run_date": "2026-09-24"
-    },
-    "e41ce2cc2fac81fd3bec": {
-      "url": "https://www.qbitai.com/2026/09/496384.html",
-      "title": "Qwen一号位定了！刘大一恒接棒",
-      "seen_at": "2026-09-24T00:56:22.224468+00:00",
-      "run_date": "2026-09-24"
-    },
-    "d44fa6e17781d296939f": {
-      "url": "https://www.infoq.cn/article/3rXojuNPmJANFv8iWqI8?utm_source=rss&utm_medium=article",
-      "title": "人人都在造世界模型，HappyWorld‑Bench 试着给出一张统一考卷",
-      "seen_at": "2026-09-24T00:56:22.224468+00:00",
-      "run_date": "2026-09-24"
-    },
-    "6761886e3e4b2e04113b": {
-      "url": "https://www.infoq.cn/article/fZRdzxQYpaTS2sQSqpVk?utm_source=rss&utm_medium=article",
-      "title": "大语言模型：下一代 DSL 编写者",
-      "seen_at": "2026-09-24T00:56:22.224468+00:00",
-      "run_date": "2026-09-24"
-    },
     "a21e238e46b719a02c28": {
       "url": "https://www.qbitai.com/2026/09/496925.html",
       "title": "PCIe显卡被低估了！内核补齐+通信重构，DeepSeek推理吞吐翻近7倍",
@@ -1157,7 +1097,67 @@
       "title": "生数科技Motubrain团队将直播Physical AI训练全流程，持续半个月",
       "seen_at": "2026-10-23T01:03:08.642783+00:00",
       "run_date": "2026-10-23"
+    },
+    "a6f30a57409fa2ff6d8d": {
+      "url": "https://www.infoq.cn/article/AkDgwN6h72cqUOJ35Zok?utm_source=rss&utm_medium=article",
+      "title": "AI Agent 正在改写 CPU 的价值：当 Token 变成行动，算力竞争不再只是拼 GPU",
+      "seen_at": "2026-10-24T01:12:44.684147+00:00",
+      "run_date": "2026-10-24"
+    },
+    "79cef9b08d3ca0709350": {
+      "url": "https://www.infoq.cn/article/Md0kdMxGI6flIbZXH1yg?utm_source=rss&utm_medium=article",
+      "title": "讯飞发布新一代端到端交互模型：语音大模型调用量暴涨20倍，端侧已实现约70%云端能力",
+      "seen_at": "2026-10-24T01:12:44.684147+00:00",
+      "run_date": "2026-10-24"
+    },
+    "d5c00bc659782715211b": {
+      "url": "https://www.infoq.cn/article/mhdJwMMzYFedMFHKfHWs?utm_source=rss&utm_medium=article",
+      "title": "智源众智 FlagOS 2.2 让前沿模型与多元算力协同演进",
+      "seen_at": "2026-10-24T01:12:44.684147+00:00",
+      "run_date": "2026-10-24"
+    },
+    "29e8adce3efdf82476c9": {
+      "url": "https://www.infoq.cn/article/sI3z2UMCrB5PPVDWTsLo?utm_source=rss&utm_medium=article",
+      "title": "奥特曼最新 45 分钟访谈：一年不写代码、压力大到不想起床，还嫌 ChatGPT 太谄媚",
+      "seen_at": "2026-10-24T01:12:44.684147+00:00",
+      "run_date": "2026-10-24"
+    },
+    "cde918395d0283ad688d": {
+      "url": "https://www.infoq.cn/article/ViOyxiOSP2ihxuUyg1rD?utm_source=rss&utm_medium=article",
+      "title": "DeepSeek千亿融资逼近收官：结盟完美世界、中芯聚源等产业资本，募资翻倍押注具身智能",
+      "seen_at": "2026-10-24T01:12:44.684147+00:00",
+      "run_date": "2026-10-24"
+    },
+    "1c8f00e4d46d4c032c0f": {
+      "url": "https://www.infoq.cn/article/c6KGCCmGuad5wbAcCG61?utm_source=rss&utm_medium=article",
+      "title": "GitLab 19.4 发布，新增目标驱动型智能体，强化成本控制",
+      "seen_at": "2026-10-24T01:12:44.684147+00:00",
+      "run_date": "2026-10-24"
+    },
+    "b09d08fb6001f9a1d3ff": {
+      "url": "https://www.infoq.cn/article/7ResdjAZYy8yltOh6drM?utm_source=rss&utm_medium=article",
+      "title": "Xcode 27.2 推出对智能体友好、有效减少合并冲突的 JSON 项目配置格式",
+      "seen_at": "2026-10-24T01:12:44.684147+00:00",
+      "run_date": "2026-10-24"
+    },
+    "b2c4174fdfa31287a59c": {
+      "url": "https://www.infoq.cn/article/2bKQkdiAcGEycHJLYPv5?utm_source=rss&utm_medium=article",
+      "title": "Foresight AI 正式可用，Gremlin 将智能体引入可靠性工程",
+      "seen_at": "2026-10-24T01:12:44.684147+00:00",
+      "run_date": "2026-10-24"
+    },
+    "0a8d501ae7e85d39c09c": {
+      "url": "https://www.infoq.cn/article/6EJRFIef67xr3x6vyCJa?utm_source=rss&utm_medium=article",
+      "title": "千问蒋冠军：Personal Agent技术框架，需要模型、记忆与生态协同推进",
+      "seen_at": "2026-10-24T01:12:44.684147+00:00",
+      "run_date": "2026-10-24"
+    },
+    "cadb6379640807420e72": {
+      "url": "https://www.infoq.cn/article/reksyo9EBAcP11Ns2GTO?utm_source=rss&utm_medium=article",
+      "title": "决策模型也有专用推理引擎了：StartLux 开源 Prism，单卡最高提速 5.3 倍",
+      "seen_at": "2026-10-24T01:12:44.684147+00:00",
+      "run_date": "2026-10-24"
     }
   },
-  "updated_at": "2026-10-23T01:03:08.642783+00:00"
+  "updated_at": "2026-10-24T01:12:44.684147+00:00"
 }
