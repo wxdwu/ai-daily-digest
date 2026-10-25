@@ -1157,7 +1157,13 @@
       "title": "决策模型也有专用推理引擎了：StartLux 开源 Prism，单卡最高提速 5.3 倍",
       "seen_at": "2026-10-24T01:12:44.684147+00:00",
       "run_date": "2026-10-24"
+    },
+    "e4c75c63500235151437": {
+      "url": "https://www.infoq.cn/article/Pwu4FNskSB2cbKV9BZKq?utm_source=rss&utm_medium=article",
+      "title": "上下文语言模型：通过自主管理上下文提升性能、降低计算成本",
+      "seen_at": "2026-10-25T00:37:10.029842+00:00",
+      "run_date": "2026-10-25"
     }
   },
-  "updated_at": "2026-10-24T01:12:44.684147+00:00"
+  "updated_at": "2026-10-25T00:37:10.029842+00:00"
 }
