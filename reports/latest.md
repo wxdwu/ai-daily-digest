@@ -1,3 +1,3 @@
-今日聚焦大模型
+今日聚焦 AI Agent
 
-1. [上下文语言模型：通过自主管理上下文提升性能、降低计算成本](https://www.infoq.cn/article/Pwu4FNskSB2cbKV9BZKq?utm_source=rss&utm_medium=article)
+1. [Java 近期新闻：Grails 8、Open Liberty、GlassFish、Infinispan、LangChain4j、Spock](https://www.infoq.cn/article/BHWP4JJDeExZZWsifFlg?utm_source=rss&utm_medium=article)
