@@ -1,59 +1,5 @@
 {
   "items": {
-    "40f844249a2702b29105": {
-      "url": "https://www.qbitai.com/2026/09/497070.html",
-      "title": "华为大模型双子星联手创业，要找物理世界的Scaling Law",
-      "seen_at": "2026-09-26T00:59:55.710772+00:00",
-      "run_date": "2026-09-26"
-    },
-    "52d35cc30a161ea3553e": {
-      "url": "https://www.qbitai.com/2026/09/497108.html",
-      "title": "亮出“中国最强AI芯片”还不够，平头哥又甩出一手开源",
-      "seen_at": "2026-09-26T00:59:55.710772+00:00",
-      "run_date": "2026-09-26"
-    },
-    "7ee6d60bdbc01a8e1765": {
-      "url": "https://www.qbitai.com/2026/09/497177.html",
-      "title": "OpenAI闯大祸！GPT竟黑进医保系统，黄仁勋：管不住就关掉",
-      "seen_at": "2026-09-26T00:59:55.710772+00:00",
-      "run_date": "2026-09-26"
-    },
-    "e4c67f14bd13b2148d0a": {
-      "url": "https://www.infoq.cn/article/TFaXKQvEWOOPfEuqmLkY?utm_source=rss&utm_medium=article",
-      "title": "GPT-5.6-Cyber 代理多次突破虚拟机限制，证明虚拟机和操作系统需要更好的维护",
-      "seen_at": "2026-09-26T00:59:55.710772+00:00",
-      "run_date": "2026-09-26"
-    },
-    "627278f0992b4ba5085a": {
-      "url": "https://www.infoq.cn/article/hrmb2p18iKEwl24OMvcv?utm_source=rss&utm_medium=article",
-      "title": "世界人工智能开源大赛（GOAI）总决赛暨颁奖盛典在杭州举行",
-      "seen_at": "2026-09-26T00:59:55.710772+00:00",
-      "run_date": "2026-09-26"
-    },
-    "84b17a5b12140341436a": {
-      "url": "https://www.qbitai.com/2026/09/497425.html",
-      "title": "谷歌TPU跑Kimi比英伟达GPU快57%！用的还是DeepSeek推理框架",
-      "seen_at": "2026-09-27T00:59:25.925061+00:00",
-      "run_date": "2026-09-27"
-    },
-    "d23890062147f9a168a8": {
-      "url": "https://www.qbitai.com/2026/09/497624.html",
-      "title": "笔记本跑7000亿参数GLM！无GPU也行? SSD当显存用火爆GitHub",
-      "seen_at": "2026-09-27T00:59:25.925061+00:00",
-      "run_date": "2026-09-27"
-    },
-    "c81045f957088894f5cb": {
-      "url": "https://www.qbitai.com/2026/09/498478.html",
-      "title": "索辰科技加码世界模型，与战略投资企业美梦空间联合发布具身模型与物理测评标准",
-      "seen_at": "2026-09-27T00:59:25.925061+00:00",
-      "run_date": "2026-09-27"
-    },
-    "98efbd1a226569220727": {
-      "url": "https://www.qbitai.com/2026/09/498271.html",
-      "title": "AI开始研究Physical AI：FSD级团队亮出首版模型Simate-beta，空降RoboDojo",
-      "seen_at": "2026-09-27T00:59:25.925061+00:00",
-      "run_date": "2026-09-27"
-    },
     "bf6cc0eb779d8028178f": {
       "url": "https://www.qbitai.com/2026/09/498633.html",
       "title": "量子AI创业来了一支“清华梦之队”：10亿估值，用量子改造大模型底层",
@@ -1109,7 +1055,19 @@
       "title": "Java 近期新闻：Grails 8、Open Liberty、GlassFish、Infinispan、LangChain4j、Spock",
       "seen_at": "2026-10-26T00:47:55.225418+00:00",
       "run_date": "2026-10-26"
+    },
+    "0af9e1015da81b73b435": {
+      "url": "https://www.infoq.cn/article/2svt5BbWUOHbADdo0UZo?utm_source=rss&utm_medium=article",
+      "title": "中科慧灵完成数亿元A++轮融资：制鞋机器人订单超 4 亿元，具身智能开始拼量产交付",
+      "seen_at": "2026-10-27T01:39:30.666614+00:00",
+      "run_date": "2026-10-27"
+    },
+    "9017a3703284ca52c0c5": {
+      "url": "https://www.infoq.cn/article/NrUkJExfuuFOICsjVYbb?utm_source=rss&utm_medium=article",
+      "title": "模型好选，搜索难做：一个投研Agent的两年开发历程",
+      "seen_at": "2026-10-27T01:39:30.666614+00:00",
+      "run_date": "2026-10-27"
     }
   },
-  "updated_at": "2026-10-26T00:47:55.225418+00:00"
+  "updated_at": "2026-10-27T01:39:30.666614+00:00"
 }
