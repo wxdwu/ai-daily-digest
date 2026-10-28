@@ -1,23 +1,5 @@
 {
   "items": {
-    "bf6cc0eb779d8028178f": {
-      "url": "https://www.qbitai.com/2026/09/498633.html",
-      "title": "量子AI创业来了一支“清华梦之队”：10亿估值，用量子改造大模型底层",
-      "seen_at": "2026-09-28T01:15:06.738611+00:00",
-      "run_date": "2026-09-28"
-    },
-    "1957c9739a684c60e89d": {
-      "url": "https://www.qbitai.com/2026/09/498546.html",
-      "title": "啥题啊能干崩OpenAI最强模型训练…",
-      "seen_at": "2026-09-28T01:15:06.738611+00:00",
-      "run_date": "2026-09-28"
-    },
-    "f0747e0233afce9afab9": {
-      "url": "https://www.qbitai.com/2026/09/498584.html",
-      "title": "又快又能打！匿名模型玉兔模型杀上双榜第一，Coding实测全记录",
-      "seen_at": "2026-09-28T01:15:06.738611+00:00",
-      "run_date": "2026-09-28"
-    },
     "6e0b1e3988a381977055": {
       "url": "https://blogs.nvidia.cn/blog/open-agent-safety-platform/",
       "title": "NVIDIA 发布开放智能体安全平台，保障智能体从测试到部署全流程安全",
@@ -1067,7 +1049,43 @@
       "title": "模型好选，搜索难做：一个投研Agent的两年开发历程",
       "seen_at": "2026-10-27T01:39:30.666614+00:00",
       "run_date": "2026-10-27"
+    },
+    "4a351a3b798dd81f8142": {
+      "url": "https://www.infoq.cn/article/TrI8l3CYeAJER9tgR5Jt?utm_source=rss&utm_medium=article",
+      "title": "Kubernetes 1.37发布：稳定版Metrics API和Beta版Rootless Kubelet",
+      "seen_at": "2026-10-28T01:51:03.196311+00:00",
+      "run_date": "2026-10-28"
+    },
+    "56bd53372a00856a9ecc": {
+      "url": "https://www.qbitai.com/2026/10/505529.html",
+      "title": "OpenAI开始断网训练最强模型：“安全起见”",
+      "seen_at": "2026-10-28T01:51:03.196311+00:00",
+      "run_date": "2026-10-28"
+    },
+    "5919cb416ae119cf99d7": {
+      "url": "https://www.qbitai.com/2026/10/505478.html",
+      "title": "NeoLab第一个商业模式：转售GPU",
+      "seen_at": "2026-10-28T01:51:03.196311+00:00",
+      "run_date": "2026-10-28"
+    },
+    "3ba3c33a69eac8639ea9": {
+      "url": "https://www.infoq.cn/article/3o7gwgKJt2SbH8AhdpkU?utm_source=rss&utm_medium=article",
+      "title": "TypeSafe AI发布Jev：一种只返回类型化概率而非文本的决策模型",
+      "seen_at": "2026-10-28T01:51:03.196311+00:00",
+      "run_date": "2026-10-28"
+    },
+    "83b84497966ffd29d96f": {
+      "url": "https://www.qbitai.com/2026/10/505429.html",
+      "title": "趋境科技完成 B 轮融资，半年实现超十倍速增长，加速高品质 AI Token 规模化交付",
+      "seen_at": "2026-10-28T01:51:03.196311+00:00",
+      "run_date": "2026-10-28"
+    },
+    "82ba0e35445b561edfcf": {
+      "url": "https://www.qbitai.com/2026/10/505580.html",
+      "title": "钛动科技发布行业首个Pro-Agent, Navos Pro定义结果导向的AI for Work | TGC 2026科技增长大会",
+      "seen_at": "2026-10-28T01:51:03.196311+00:00",
+      "run_date": "2026-10-28"
     }
   },
-  "updated_at": "2026-10-27T01:39:30.666614+00:00"
+  "updated_at": "2026-10-28T01:51:03.196311+00:00"
 }
