@@ -1085,7 +1085,67 @@
       "title": "钛动科技发布行业首个Pro-Agent, Navos Pro定义结果导向的AI for Work | TGC 2026科技增长大会",
       "seen_at": "2026-10-28T01:51:03.196311+00:00",
       "run_date": "2026-10-28"
+    },
+    "b77610588b0b064fa86a": {
+      "url": "https://developer.nvidia.cn/blog/memory-enforced-gpu-sharing-in-kubernetes-with-nvidia-cuda-13-4/",
+      "title": "使用 NVIDIA CUDA 13.4 在 Kubernetes 中实现显存增强 GPU 共享",
+      "seen_at": "2026-10-29T01:58:49.421699+00:00",
+      "run_date": "2026-10-29"
+    },
+    "6feedbcc6e12c57e0618": {
+      "url": "https://www.qbitai.com/2026/10/505694.html",
+      "title": "国产AI 3D大模型Hi3D来了！开源可商用，PK干掉GPT-6",
+      "seen_at": "2026-10-29T01:58:49.421699+00:00",
+      "run_date": "2026-10-29"
+    },
+    "4a50585b6600536a3145": {
+      "url": "https://www.infoq.cn/article/ejtljxPixrIuUsGYi5xa?utm_source=rss&utm_medium=article",
+      "title": "大客户直接打1折、模型四个月降价80%：大模型价格战没有退路",
+      "seen_at": "2026-10-29T01:58:49.421699+00:00",
+      "run_date": "2026-10-29"
+    },
+    "da6f7d48054d3fbb18d0": {
+      "url": "https://aws.amazon.com/cn/blogs/china/based-on-amazon-ec2-amazon-eks-deploy-operations/",
+      "title": "基于 Amazon EC2 和 Amazon EKS 一键部署可长期运维的 ClickHouse 集群：方案与实践",
+      "seen_at": "2026-10-29T01:58:49.421699+00:00",
+      "run_date": "2026-10-29"
+    },
+    "4d6b495c14844f398aac": {
+      "url": "https://www.infoq.cn/article/II91QKxeaEg7RuZR2rrf?utm_source=rss&utm_medium=article",
+      "title": "别再只写提示词了，开始真正雇用智能体：智能体企业管理实践 ｜ 技术实践",
+      "seen_at": "2026-10-29T01:58:49.421699+00:00",
+      "run_date": "2026-10-29"
+    },
+    "a0349253b3beeb39f451": {
+      "url": "https://www.infoq.cn/article/CxWoiprQltg8YXmwmghd?utm_source=rss&utm_medium=article",
+      "title": "当 AI 智能体代表用户行动时，企业治理将面临哪些新问题？ ｜ 技术趋势",
+      "seen_at": "2026-10-29T01:58:49.421699+00:00",
+      "run_date": "2026-10-29"
+    },
+    "647351336a53542e310e": {
+      "url": "https://www.infoq.cn/article/mFXr0u4z0XftUGUg5Wm7?utm_source=rss&utm_medium=article",
+      "title": "Anthropic 内部系统被 AI Agent 12 小时攻破！会议记录、员工薪酬、内部模型讨论遭访问",
+      "seen_at": "2026-10-29T01:58:49.421699+00:00",
+      "run_date": "2026-10-29"
+    },
+    "fb0e45dbf793f6c427b3": {
+      "url": "https://www.infoq.cn/article/lCw5JBglbgZj9BYeZChS?utm_source=rss&utm_medium=article",
+      "title": "Claude Code 撑起史上最大 IPO，被封号不退费的中国开发者撑起那 5%“脏收入”",
+      "seen_at": "2026-10-29T01:58:49.421699+00:00",
+      "run_date": "2026-10-29"
+    },
+    "41504dddc1aae1d7c8e0": {
+      "url": "https://www.qbitai.com/2026/10/505773.html",
+      "title": "KV Cache被压成常数！OCR开源新王：页数没上限，缓存砍96%",
+      "seen_at": "2026-10-29T01:58:49.421699+00:00",
+      "run_date": "2026-10-29"
+    },
+    "becec00229d57f403759": {
+      "url": "https://www.qbitai.com/2026/10/505687.html",
+      "title": "做能源与算力的“搭桥人”：达卯科技以能源大脑定义算电协同 | CPE 2026",
+      "seen_at": "2026-10-29T01:58:49.421699+00:00",
+      "run_date": "2026-10-29"
     }
   },
-  "updated_at": "2026-10-28T01:51:03.196311+00:00"
+  "updated_at": "2026-10-29T01:58:49.421699+00:00"
 }
