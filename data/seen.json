@@ -1,95 +1,5 @@
 {
   "items": {
-    "6e0b1e3988a381977055": {
-      "url": "https://blogs.nvidia.cn/blog/open-agent-safety-platform/",
-      "title": "NVIDIA 发布开放智能体安全平台，保障智能体从测试到部署全流程安全",
-      "seen_at": "2026-09-29T02:21:08.291622+00:00",
-      "run_date": "2026-09-29"
-    },
-    "c59dd286512588f34ef3": {
-      "url": "https://www.infoq.cn/article/OooAe7xY816xAdLrkv8V?utm_source=rss&utm_medium=article",
-      "title": "Cloudflare 推出智能体开发栈生命周期，以取代传统 SDLC",
-      "seen_at": "2026-09-29T02:21:08.291622+00:00",
-      "run_date": "2026-09-29"
-    },
-    "29eb71dee7a5a42183e1": {
-      "url": "https://www.infoq.cn/article/5Xfeqshw0hwfUD95JpWE?utm_source=rss&utm_medium=article",
-      "title": "Imagination 发布 E 系列 GPU IP 新进展：一套架构支持图形、计算与AI",
-      "seen_at": "2026-09-29T02:21:08.291622+00:00",
-      "run_date": "2026-09-29"
-    },
-    "3a940b8d3bc6df01531a": {
-      "url": "https://www.qbitai.com/2026/09/499098.html",
-      "title": "李飞飞创业公司被苏姿丰550亿收购！世界模型最大交易落地",
-      "seen_at": "2026-09-29T02:21:08.291622+00:00",
-      "run_date": "2026-09-29"
-    },
-    "7757e13df4fa9a2fb981": {
-      "url": "https://www.infoq.cn/article/9UvorlMxKgjEoFauQ4py?utm_source=rss&utm_medium=article",
-      "title": "生成式到代理式跃迁：构建保险后援数字分身｜QCon上海",
-      "seen_at": "2026-09-29T02:21:08.291622+00:00",
-      "run_date": "2026-09-29"
-    },
-    "e1cb270013e8f94d2610": {
-      "url": "https://www.infoq.cn/article/O5pKYU5hfR2DgrXP6zRE?utm_source=rss&utm_medium=article",
-      "title": "大模型下沉车规芯片：超六成的车企座舱，为何选中了同一个“端侧大脑”？",
-      "seen_at": "2026-09-30T01:41:23.098646+00:00",
-      "run_date": "2026-09-30"
-    },
-    "628504575ea296d541cd": {
-      "url": "https://www.infoq.cn/article/XF5kZxV681STVDrzsstj?utm_source=rss&utm_medium=article",
-      "title": "Token价格一降再降，但不会让边缘AI退场：企业算力账越来越细",
-      "seen_at": "2026-09-30T01:41:23.098646+00:00",
-      "run_date": "2026-09-30"
-    },
-    "a76d6ccfae1aa489e371": {
-      "url": "https://aws.amazon.com/cn/blogs/china/using-aws-rtb-fabric-partner-build-domain-asg-eks/",
-      "title": "使用 AWS RTB Fabric 为外部合作伙伴构建自定义域名入站链路（ASG / EKS 实战）",
-      "seen_at": "2026-09-30T01:41:23.098646+00:00",
-      "run_date": "2026-09-30"
-    },
-    "c36325ec9c85b18699f6": {
-      "url": "https://www.infoq.cn/article/AmYfVbwTlVyApFszqKx3?utm_source=rss&utm_medium=article",
-      "title": "自主数据工程：迈向真正智能体成熟度的五个阶段 ｜ 技术趋势",
-      "seen_at": "2026-09-30T01:41:23.098646+00:00",
-      "run_date": "2026-09-30"
-    },
-    "fdbd4cb5241a3dac3a43": {
-      "url": "https://www.qbitai.com/2026/09/499246.html",
-      "title": "OpenAI光速上新GPT-6.1 Sol！一晚上25项更新，都在这里了",
-      "seen_at": "2026-09-30T01:41:23.098646+00:00",
-      "run_date": "2026-09-30"
-    },
-    "d8f73dd7b1005de17797": {
-      "url": "https://www.infoq.cn/article/KaaKQS6x5KiSlHa5UVVz?utm_source=rss&utm_medium=article",
-      "title": "82 亿美元、全股票交易：AMD 收购 World Labs，李飞飞直接向苏姿丰汇报",
-      "seen_at": "2026-09-30T01:41:23.098646+00:00",
-      "run_date": "2026-09-30"
-    },
-    "e37903db1741480b00e2": {
-      "url": "https://www.qbitai.com/2026/09/499188.html",
-      "title": "精准揪出RL训练数据Bug，Prompt直出小游戏，IQuest-Q1夯爆了！",
-      "seen_at": "2026-09-30T01:41:23.098646+00:00",
-      "run_date": "2026-09-30"
-    },
-    "c37c317fd67f41e3276a": {
-      "url": "https://www.qbitai.com/2026/09/499135.html",
-      "title": "成立一年完成5轮融资，诺因智能再获数亿元，累计超10亿元",
-      "seen_at": "2026-09-30T01:41:23.098646+00:00",
-      "run_date": "2026-09-30"
-    },
-    "cf097b5fa265edf0dc33": {
-      "url": "https://aws.amazon.com/cn/blogs/china/agent-security-framework-design-model-amazon/",
-      "title": "Agent 安全框架设计建议：洋葱模型、零信任原则与 Amazon Bedrock AgentCore 实践",
-      "seen_at": "2026-09-30T01:41:23.098646+00:00",
-      "run_date": "2026-09-30"
-    },
-    "5d1c9142cc74c7c2cac5": {
-      "url": "https://www.infoq.cn/article/uwfvFTWwH5Qupo2lBxF6?utm_source=rss&utm_medium=article",
-      "title": "AI 数据平台，要补的恰恰是“模型不知道的事”",
-      "seen_at": "2026-09-30T01:41:23.098646+00:00",
-      "run_date": "2026-09-30"
-    },
     "c11f7e10fdd43d11dc54": {
       "url": "https://www.infoq.cn/article/OBQpdcB1xURrJMRlrJZ1?utm_source=rss&utm_medium=article",
       "title": "AIGC 驱动的内容生产力变革--Vidu 多模态大模型的创新与实践｜QCon上海",
@@ -1145,7 +1055,67 @@
       "title": "做能源与算力的“搭桥人”：达卯科技以能源大脑定义算电协同 | CPE 2026",
       "seen_at": "2026-10-29T01:58:49.421699+00:00",
       "run_date": "2026-10-29"
+    },
+    "bb14daf1a51415066fd4": {
+      "url": "https://blogs.nvidia.cn/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
+      "title": "纤薄全能：NVIDIA RTX Spark 笔记本电脑迎来全新模型、智能体工具与游戏",
+      "seen_at": "2026-10-30T02:12:11.446924+00:00",
+      "run_date": "2026-10-30"
+    },
+    "ade9692f02b8a2c8f582": {
+      "url": "https://www.infoq.cn/article/Lg6RgMudjiWIVQllmz8a?utm_source=rss&utm_medium=article",
+      "title": "微软承诺将 Maia 推向数吉瓦级推理部署，但其效率指标引发质疑",
+      "seen_at": "2026-10-30T02:12:11.446924+00:00",
+      "run_date": "2026-10-30"
+    },
+    "24c7bfcdf2041ae11b13": {
+      "url": "https://blogs.nvidia.cn/blog/european-financial-services-organizations-open-models-proprietary-intelligence/",
+      "title": "欧洲领先的金融服务机构正借助开放模型构建专属智能",
+      "seen_at": "2026-10-30T02:12:11.446924+00:00",
+      "run_date": "2026-10-30"
+    },
+    "696afeddec9b59338c8a": {
+      "url": "https://aws.amazon.com/cn/blogs/china/validation-coreapi-aws-continuum-practice/",
+      "title": "从代码自查到渗透验证：Coreapi 的 AWS Continuum 实践",
+      "seen_at": "2026-10-30T02:12:11.446924+00:00",
+      "run_date": "2026-10-30"
+    },
+    "079dd72e571e1b914a98": {
+      "url": "https://www.infoq.cn/article/tFaOHgBe8ENwteobTsLV?utm_source=rss&utm_medium=article",
+      "title": "天数智芯公布天垓300实测数据：部分推理场景达到H200水平，端侧对标Thor T5000",
+      "seen_at": "2026-10-30T02:12:11.446924+00:00",
+      "run_date": "2026-10-30"
+    },
+    "04bd9e41ee6bf24b3c63": {
+      "url": "https://www.infoq.cn/article/tsyyFmCmzphHw4gWy7Fo?utm_source=rss&utm_medium=article",
+      "title": "生产级 AI：隐性故障、工程落地与智能体治理",
+      "seen_at": "2026-10-30T02:12:11.446924+00:00",
+      "run_date": "2026-10-30"
+    },
+    "6d136629dd2e4b535128": {
+      "url": "https://www.infoq.cn/article/dXwHCW7kjGX1kjPqtla9?utm_source=rss&utm_medium=article",
+      "title": "谷歌赢了 AI 排行榜，却没赢下华尔街：Gemini 4 Carbon 登顶背后的昂贵代价",
+      "seen_at": "2026-10-30T02:12:11.446924+00:00",
+      "run_date": "2026-10-30"
+    },
+    "3d24e64388fee3fbb361": {
+      "url": "https://www.qbitai.com/2026/10/506281.html",
+      "title": "文远知行001号员工带队，景烁科技首轮融资数千万美元",
+      "seen_at": "2026-10-30T02:12:11.446924+00:00",
+      "run_date": "2026-10-30"
+    },
+    "b4ca0bd7a48c8467879d": {
+      "url": "https://aws.amazon.com/cn/blogs/china/using-amazon-bedrock-request-metadata-augmented-model/",
+      "title": "使用 Amazon Bedrock Request Metadata 增强您的模型调用追踪与成本分析能力",
+      "seen_at": "2026-10-30T02:12:11.446924+00:00",
+      "run_date": "2026-10-30"
+    },
+    "19ff1b1637f470ac8148": {
+      "url": "https://www.qbitai.com/2026/10/505934.html",
+      "title": "刚刚，扩散模型杀进Agent主场！350亿参数，速度比Jev快一倍",
+      "seen_at": "2026-10-30T02:12:11.446924+00:00",
+      "run_date": "2026-10-30"
     }
   },
-  "updated_at": "2026-10-29T01:58:49.421699+00:00"
+  "updated_at": "2026-10-30T02:12:11.446924+00:00"
 }

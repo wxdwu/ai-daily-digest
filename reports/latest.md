@@ -1,12 +1,12 @@
-AI Infra 与 AI Agent 成为今日焦点
+AI Agent 与 AI 最新动态 成为今日焦点
 
-1. [使用 NVIDIA CUDA 13.4 在 Kubernetes 中实现显存增强 GPU 共享](https://developer.nvidia.cn/blog/memory-enforced-gpu-sharing-in-kubernetes-with-nvidia-cuda-13-4/)
-2. [国产AI 3D大模型Hi3D来了！开源可商用，PK干掉GPT-6](https://www.qbitai.com/2026/10/505694.html)
-3. [大客户直接打1折、模型四个月降价80%：大模型价格战没有退路](https://www.infoq.cn/article/ejtljxPixrIuUsGYi5xa?utm_source=rss&utm_medium=article)
-4. [基于 Amazon EC2 和 Amazon EKS 一键部署可长期运维的 ClickHouse 集群：方案与实践](https://aws.amazon.com/cn/blogs/china/based-on-amazon-ec2-amazon-eks-deploy-operations/)
-5. [别再只写提示词了，开始真正雇用智能体：智能体企业管理实践 ｜ 技术实践](https://www.infoq.cn/article/II91QKxeaEg7RuZR2rrf?utm_source=rss&utm_medium=article)
-6. [当 AI 智能体代表用户行动时，企业治理将面临哪些新问题？ ｜ 技术趋势](https://www.infoq.cn/article/CxWoiprQltg8YXmwmghd?utm_source=rss&utm_medium=article)
-7. [Anthropic 内部系统被 AI Agent 12 小时攻破！会议记录、员工薪酬、内部模型讨论遭访问](https://www.infoq.cn/article/mFXr0u4z0XftUGUg5Wm7?utm_source=rss&utm_medium=article)
-8. [Claude Code 撑起史上最大 IPO，被封号不退费的中国开发者撑起那 5%“脏收入”](https://www.infoq.cn/article/lCw5JBglbgZj9BYeZChS?utm_source=rss&utm_medium=article)
-9. [KV Cache被压成常数！OCR开源新王：页数没上限，缓存砍96%](https://www.qbitai.com/2026/10/505773.html)
-10. [做能源与算力的“搭桥人”：达卯科技以能源大脑定义算电协同 | CPE 2026](https://www.qbitai.com/2026/10/505687.html)
+1. [纤薄全能：NVIDIA RTX Spark 笔记本电脑迎来全新模型、智能体工具与游戏](https://blogs.nvidia.cn/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/)
+2. [微软承诺将 Maia 推向数吉瓦级推理部署，但其效率指标引发质疑](https://www.infoq.cn/article/Lg6RgMudjiWIVQllmz8a?utm_source=rss&utm_medium=article)
+3. [欧洲领先的金融服务机构正借助开放模型构建专属智能](https://blogs.nvidia.cn/blog/european-financial-services-organizations-open-models-proprietary-intelligence/)
+4. [从代码自查到渗透验证：Coreapi 的 AWS Continuum 实践](https://aws.amazon.com/cn/blogs/china/validation-coreapi-aws-continuum-practice/)
+5. [天数智芯公布天垓300实测数据：部分推理场景达到H200水平，端侧对标Thor T5000](https://www.infoq.cn/article/tFaOHgBe8ENwteobTsLV?utm_source=rss&utm_medium=article)
+6. [生产级 AI：隐性故障、工程落地与智能体治理](https://www.infoq.cn/article/tsyyFmCmzphHw4gWy7Fo?utm_source=rss&utm_medium=article)
+7. [谷歌赢了 AI 排行榜，却没赢下华尔街：Gemini 4 Carbon 登顶背后的昂贵代价](https://www.infoq.cn/article/dXwHCW7kjGX1kjPqtla9?utm_source=rss&utm_medium=article)
+8. [文远知行001号员工带队，景烁科技首轮融资数千万美元](https://www.qbitai.com/2026/10/506281.html)
+9. [使用 Amazon Bedrock Request Metadata 增强您的模型调用追踪与成本分析能力](https://aws.amazon.com/cn/blogs/china/using-amazon-bedrock-request-metadata-augmented-model/)
+10. [刚刚，扩散模型杀进Agent主场！350亿参数，速度比Jev快一倍](https://www.qbitai.com/2026/10/505934.html)
