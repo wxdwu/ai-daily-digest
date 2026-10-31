@@ -1,65 +1,5 @@
 {
   "items": {
-    "c11f7e10fdd43d11dc54": {
-      "url": "https://www.infoq.cn/article/OBQpdcB1xURrJMRlrJZ1?utm_source=rss&utm_medium=article",
-      "title": "AIGC 驱动的内容生产力变革--Vidu 多模态大模型的创新与实践｜QCon上海",
-      "seen_at": "2026-10-01T01:38:09.390320+00:00",
-      "run_date": "2026-10-01"
-    },
-    "cda0f6af3353df823622": {
-      "url": "https://www.qbitai.com/2026/09/499654.html",
-      "title": "OpenAI推理之父最新访谈！数学只是多智能体时代的开胃菜",
-      "seen_at": "2026-10-01T01:38:09.390320+00:00",
-      "run_date": "2026-10-01"
-    },
-    "9f0c836b2b21bf3c134e": {
-      "url": "https://www.infoq.cn/article/bduvBdbgwxj6DMbNeKCC?utm_source=rss&utm_medium=article",
-      "title": "机房堆满算力卡，业务却还在排队？这份评估报告拆开了“算力荒假象”的破局账本",
-      "seen_at": "2026-10-01T01:38:09.390320+00:00",
-      "run_date": "2026-10-01"
-    },
-    "3c4c6c0970ac317291ce": {
-      "url": "https://aws.amazon.com/cn/blogs/china/bring-near-astra-intelligence-to-everyday-work-with-gpt-6-1-sol-on-amazon-bedrock/",
-      "title": "借助 Amazon Bedrock 上的 GPT-6.1 Sol 为日常工作带来接近 Astra 水平的智能能力",
-      "seen_at": "2026-10-01T01:38:09.390320+00:00",
-      "run_date": "2026-10-01"
-    },
-    "7f1aa43c19fd0e23da20": {
-      "url": "https://www.infoq.cn/article/dbOwzu6l6Tr8NAhCQRC8?utm_source=rss&utm_medium=article",
-      "title": "Uber 使用子集群重新设计 M3DB 分片策略，降低故障影响",
-      "seen_at": "2026-10-01T01:38:09.390320+00:00",
-      "run_date": "2026-10-01"
-    },
-    "fbebaf12a1f5ac4b909f": {
-      "url": "https://www.infoq.cn/article/M6BRTrsyJvUg8y0M0kyh?utm_source=rss&utm_medium=article",
-      "title": "谷歌开源面向自主 AI 代理的 Kubernetes 风格编排器 AX",
-      "seen_at": "2026-10-01T01:38:09.390320+00:00",
-      "run_date": "2026-10-01"
-    },
-    "7ebe4d3e59add8d2efce": {
-      "url": "https://www.infoq.cn/article/t5i2Yv2z0LwIbK36lteR?utm_source=rss&utm_medium=article",
-      "title": "DeepSeek 开源昇腾平台基础设施组件，覆盖 TileLang、计算库与分布式通信库",
-      "seen_at": "2026-10-01T01:38:09.390320+00:00",
-      "run_date": "2026-10-01"
-    },
-    "a5949a38226105e0fed8": {
-      "url": "https://aws.amazon.com/cn/blogs/china/amazon-bedrock-agentcore-websearch-agent-build-managed-search/",
-      "title": "LiteLLM + Amazon Bedrock AgentCore WebSearch 为 Agent 构建托管联网搜索（扩展篇）",
-      "seen_at": "2026-10-01T01:38:09.390320+00:00",
-      "run_date": "2026-10-01"
-    },
-    "69cedc68afd140a79477": {
-      "url": "https://www.infoq.cn/article/fOuaRtwuySyZsS0iGg7N?utm_source=rss&utm_medium=article",
-      "title": "首发！openJiuwen workSwarm全双工多模态 ，像聊天一样与Agent交互，昇腾算力原生亲和",
-      "seen_at": "2026-10-01T01:38:09.390320+00:00",
-      "run_date": "2026-10-01"
-    },
-    "ff9398c7b1ac17678a04": {
-      "url": "https://www.qbitai.com/2026/09/499493.html",
-      "title": "刚刚，GPT-6 Astra接上宇树G1，把厨房收拾了！",
-      "seen_at": "2026-10-01T01:38:09.390320+00:00",
-      "run_date": "2026-10-01"
-    },
     "95ef887b9eabfe4ebf2e": {
       "url": "https://www.infoq.cn/article/TLjNcyBg9Z72HV5kJ2kp?utm_source=rss&utm_medium=article",
       "title": "生成即合规：Agentic AIGC 驱动的广告素材修复实践｜QCon上海",
@@ -1115,7 +1055,61 @@
       "title": "刚刚，扩散模型杀进Agent主场！350亿参数，速度比Jev快一倍",
       "seen_at": "2026-10-30T02:12:11.446924+00:00",
       "run_date": "2026-10-30"
+    },
+    "b5b4aa56af3094b33555": {
+      "url": "https://www.qbitai.com/2026/10/506674.html",
+      "title": "Claude新模型曝光：新Fable，新Opus…",
+      "seen_at": "2026-10-31T01:54:33.926177+00:00",
+      "run_date": "2026-10-31"
+    },
+    "e2e2eb337603ee96794d": {
+      "url": "https://www.infoq.cn/article/ZolBIJdvK5Icdqg6FB0X?utm_source=rss&utm_medium=article",
+      "title": "超节点火了一年后，“算力不够就加机器”的扩张逻辑正在被改写",
+      "seen_at": "2026-10-31T01:54:33.926177+00:00",
+      "run_date": "2026-10-31"
+    },
+    "77eb0a3657fd3aa66f21": {
+      "url": "https://www.infoq.cn/article/FJqN3mFVyN1lMqHOiegs?utm_source=rss&utm_medium=article",
+      "title": "谷歌推出 EnvHarness，支持自进化智能体动态环境学习",
+      "seen_at": "2026-10-31T01:54:33.926177+00:00",
+      "run_date": "2026-10-31"
+    },
+    "2790df62941702f8151c": {
+      "url": "https://www.infoq.cn/article/UNli8x0wc8XUNjI5ETya?utm_source=rss&utm_medium=article",
+      "title": "Chainguard 推出面向 AI 编码智能体的安全工作区与安全校验能力",
+      "seen_at": "2026-10-31T01:54:33.926177+00:00",
+      "run_date": "2026-10-31"
+    },
+    "8998bcc4d176f8322e04": {
+      "url": "https://www.infoq.cn/article/A8YgLsG4VOhoJkUVq9Jq?utm_source=rss&utm_medium=article",
+      "title": ".NET 11 第 2 个候选版本发布，带来生产环境部署许可以及针对库、F#、MAUI 和 WinForms 的更新",
+      "seen_at": "2026-10-31T01:54:33.926177+00:00",
+      "run_date": "2026-10-31"
+    },
+    "c12b822acda4c9e002e9": {
+      "url": "https://www.infoq.cn/article/pwQAXtApbhdQRN2vQfdS?utm_source=rss&utm_medium=article",
+      "title": "希望这不会拖慢创新：DuckLabs 被收购，社区既高兴又警惕",
+      "seen_at": "2026-10-31T01:54:33.926177+00:00",
+      "run_date": "2026-10-31"
+    },
+    "63b26de3cb6c9bffec65": {
+      "url": "https://www.qbitai.com/2026/10/506554.html",
+      "title": "STEPX Neo 发布两周即迎首次升级，智能体能力持续释放",
+      "seen_at": "2026-10-31T01:54:33.926177+00:00",
+      "run_date": "2026-10-31"
+    },
+    "da535d9df15e71316ac7": {
+      "url": "https://www.qbitai.com/2026/10/506550.html",
+      "title": "中国MaaS市场TOP2，商汤大装置再度蝉联",
+      "seen_at": "2026-10-31T01:54:33.926177+00:00",
+      "run_date": "2026-10-31"
+    },
+    "c8da76521ea939758a3d": {
+      "url": "https://www.qbitai.com/2026/10/506544.html",
+      "title": "AI安全是AI规模化应用“加速器”",
+      "seen_at": "2026-10-31T01:54:33.926177+00:00",
+      "run_date": "2026-10-31"
     }
   },
-  "updated_at": "2026-10-30T02:12:11.446924+00:00"
+  "updated_at": "2026-10-31T01:54:33.926177+00:00"
 }
