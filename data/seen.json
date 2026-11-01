@@ -1109,7 +1109,49 @@
       "title": "AI安全是AI规模化应用“加速器”",
       "seen_at": "2026-10-31T01:54:33.926177+00:00",
       "run_date": "2026-10-31"
+    },
+    "e32d462217797b009ac6": {
+      "url": "https://www.infoq.cn/article/acC46slIVKJg1O0ac8w4?utm_source=rss&utm_medium=article",
+      "title": "当AI从“会想”走向“会干”——腾讯云与英特尔共筑Agentic AI执行新底座",
+      "seen_at": "2026-11-01T01:34:00.594452+00:00",
+      "run_date": "2026-11-01"
+    },
+    "105f2f04cbca959d5588": {
+      "url": "https://www.qbitai.com/2026/10/506866.html",
+      "title": "世界模型首次指导设计芯片！超大核NPU700TOPS，99%算力可用",
+      "seen_at": "2026-11-01T01:34:00.594452+00:00",
+      "run_date": "2026-11-01"
+    },
+    "843005418ef4f220bcfe": {
+      "url": "https://www.infoq.cn/article/HHgKMMKa8BNZYQuMFSMS?utm_source=rss&utm_medium=article",
+      "title": "AI 编程导师挑战低端 Android 手机！不用服务器，Python 和 SQL 直接在浏览器里运行",
+      "seen_at": "2026-11-01T01:34:00.594452+00:00",
+      "run_date": "2026-11-01"
+    },
+    "badf7442a4aee0beaf1f": {
+      "url": "https://www.qbitai.com/2026/10/506855.html",
+      "title": "刚刚，Claude宣布取消5小时限制！首批Ultra用户已「解封」",
+      "seen_at": "2026-11-01T01:34:00.594452+00:00",
+      "run_date": "2026-11-01"
+    },
+    "b36498cc9897e93a8b26": {
+      "url": "https://www.infoq.cn/article/O6mtiB7FVd0VSDHJe348?utm_source=rss&utm_medium=article",
+      "title": "EmbeddingGemma 2：Google 把五种模态塞进同一个向量空间",
+      "seen_at": "2026-11-01T01:34:00.594452+00:00",
+      "run_date": "2026-11-01"
+    },
+    "764d76ad2d58bfab731a": {
+      "url": "https://www.qbitai.com/2026/10/506785.html",
+      "title": "AI零帧起手写算子，反超DeepSeek人类手写巅峰：快了9.8%！",
+      "seen_at": "2026-11-01T01:34:00.594452+00:00",
+      "run_date": "2026-11-01"
+    },
+    "4db0954c8d5106c110f5": {
+      "url": "https://www.qbitai.com/2026/10/506819.html",
+      "title": "榜一，拿来吧你！智元这波双模型杀穿多榜榜单",
+      "seen_at": "2026-11-01T01:34:00.594452+00:00",
+      "run_date": "2026-11-01"
     }
   },
-  "updated_at": "2026-10-31T01:54:33.926177+00:00"
+  "updated_at": "2026-11-01T01:34:00.594452+00:00"
 }
