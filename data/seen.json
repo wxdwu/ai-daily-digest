@@ -1,47 +1,5 @@
 {
   "items": {
-    "95ef887b9eabfe4ebf2e": {
-      "url": "https://www.infoq.cn/article/TLjNcyBg9Z72HV5kJ2kp?utm_source=rss&utm_medium=article",
-      "title": "生成即合规：Agentic AIGC 驱动的广告素材修复实践｜QCon上海",
-      "seen_at": "2026-10-02T01:51:03.325381+00:00",
-      "run_date": "2026-10-02"
-    },
-    "f21bd17b8de23f326461": {
-      "url": "https://www.qbitai.com/2026/10/499663.html",
-      "title": "谷歌Gemini 4突然发布！RSI加持，GPT和Opus都让让",
-      "seen_at": "2026-10-02T01:51:03.325381+00:00",
-      "run_date": "2026-10-02"
-    },
-    "88c7f3edb74807047982": {
-      "url": "https://www.infoq.cn/article/vVrSzjhEvkmpevS7wZzU?utm_source=rss&utm_medium=article",
-      "title": "刚刚，Gemini 4 Argon 发布：多项基测碾压 GPT-6 Astra，已参与谷歌 80 万行内核代码迁移",
-      "seen_at": "2026-10-02T01:51:03.325381+00:00",
-      "run_date": "2026-10-02"
-    },
-    "26aab45f5d32d400f725": {
-      "url": "https://www.qbitai.com/2026/09/499308.html",
-      "title": "DeepSeek知乎独家发文，首次公开V4.1 Agent训练“大本营”DSec",
-      "seen_at": "2026-10-02T01:51:03.325381+00:00",
-      "run_date": "2026-10-02"
-    },
-    "5cbabe2f41a2003bb9e3": {
-      "url": "https://www.infoq.cn/article/07qzHLvyNXSW1SFNV5NV?utm_source=rss&utm_medium=article",
-      "title": "像改文字一样改语音：火山引擎全新语音内容编辑模型",
-      "seen_at": "2026-10-02T01:51:03.325381+00:00",
-      "run_date": "2026-10-02"
-    },
-    "20ac448f3a6ee4cce4fc": {
-      "url": "https://www.qbitai.com/2026/10/499991.html",
-      "title": "丘成桐新论文致谢了GPT和Claude",
-      "seen_at": "2026-10-03T01:30:20.745388+00:00",
-      "run_date": "2026-10-03"
-    },
-    "d71da1f7377b21f9b16c": {
-      "url": "https://www.qbitai.com/2026/10/500098.html",
-      "title": "openJiuwen X-Router自演进模型路由技术首发，昇腾亲和，Agent越跑越省，实测减少50+%Token消耗",
-      "seen_at": "2026-10-03T01:30:20.745388+00:00",
-      "run_date": "2026-10-03"
-    },
     "6f74e2596f1143c76cef": {
       "url": "https://www.qbitai.com/2026/10/501451.html",
       "title": "GPT-6要“吃掉”3D公司？这家公司不到2年ARR翻百倍，破1亿美元",
@@ -1151,7 +1109,25 @@
       "title": "榜一，拿来吧你！智元这波双模型杀穿多榜榜单",
       "seen_at": "2026-11-01T01:34:00.594452+00:00",
       "run_date": "2026-11-01"
+    },
+    "7d6ab8a69d71c6cae528": {
+      "url": "https://www.qbitai.com/2026/11/507038.html",
+      "title": "Claude紧急叫停！暗改Harness禁止逆向游戏",
+      "seen_at": "2026-11-02T01:56:17.612332+00:00",
+      "run_date": "2026-11-02"
+    },
+    "2a1f985e801a0d6365b8": {
+      "url": "https://www.qbitai.com/2026/11/507031.html",
+      "title": "清华姚期智团队新作：代数世界模型，让AI像牛顿一样思考",
+      "seen_at": "2026-11-02T01:56:17.612332+00:00",
+      "run_date": "2026-11-02"
+    },
+    "7aed641735fcdf324957": {
+      "url": "https://www.qbitai.com/2026/10/506904.html",
+      "title": "刚刚，DeepSeek重磅开源：Agent底座架构！",
+      "seen_at": "2026-11-02T01:56:17.612332+00:00",
+      "run_date": "2026-11-02"
     }
   },
-  "updated_at": "2026-11-01T01:34:00.594452+00:00"
+  "updated_at": "2026-11-02T01:56:17.612332+00:00"
 }
