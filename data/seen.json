@@ -1,29 +1,5 @@
 {
   "items": {
-    "6f74e2596f1143c76cef": {
-      "url": "https://www.qbitai.com/2026/10/501451.html",
-      "title": "GPT-6要“吃掉”3D公司？这家公司不到2年ARR翻百倍，破1亿美元",
-      "seen_at": "2026-10-04T02:11:33.902791+00:00",
-      "run_date": "2026-10-04"
-    },
-    "c48c0f711acb663b3fc1": {
-      "url": "https://www.qbitai.com/2026/10/501381.html",
-      "title": "DeepSeek扩招！弹性计算团队大量HC，尤其需要资深工程师",
-      "seen_at": "2026-10-04T02:11:33.902791+00:00",
-      "run_date": "2026-10-04"
-    },
-    "a0cf82dc95ceb8af707f": {
-      "url": "https://www.infoq.cn/article/bLB8RQ6sd3ZGQts0D4tP?utm_source=rss&utm_medium=article",
-      "title": "企业级 Agent Infra 架构实践：从安全沙箱到网络管控与身份治理｜QCon上海",
-      "seen_at": "2026-10-04T02:11:33.902791+00:00",
-      "run_date": "2026-10-04"
-    },
-    "f7869e39ae3dd597edb4": {
-      "url": "https://www.qbitai.com/2026/10/501368.html",
-      "title": "OpenAI安全团队持续地震！负责人离职，三名员工因泄密被开",
-      "seen_at": "2026-10-04T02:11:33.902791+00:00",
-      "run_date": "2026-10-04"
-    },
     "e4f7c4c29f39a115e77a": {
       "url": "https://www.qbitai.com/2026/10/501605.html",
       "title": "AI算力硬合作，马斯克还是更相信中国制造",
@@ -1127,7 +1103,61 @@
       "title": "刚刚，DeepSeek重磅开源：Agent底座架构！",
       "seen_at": "2026-11-02T01:56:17.612332+00:00",
       "run_date": "2026-11-02"
+    },
+    "3195ee0e8dd3ff46b2fb": {
+      "url": "https://www.qbitai.com/2026/11/507322.html",
+      "title": "MIT：GPT-6 Astra能直接修改Qwen权重，数学能力暴涨6倍",
+      "seen_at": "2026-11-03T03:45:11.194287+00:00",
+      "run_date": "2026-11-03"
+    },
+    "a76be1ec8ad848d818fe": {
+      "url": "https://www.qbitai.com/2026/11/507225.html",
+      "title": "OpenAI重写大模型法则，第一条：忠于人类！！",
+      "seen_at": "2026-11-03T03:45:11.194287+00:00",
+      "run_date": "2026-11-03"
+    },
+    "955a15420c24d814118f": {
+      "url": "https://www.infoq.cn/article/h1310kHD9CWD1mO8aTAc?utm_source=rss&utm_medium=article",
+      "title": "从英伟达到 Pika，硅谷巨头为何“反向借力”这个国产模型？",
+      "seen_at": "2026-11-03T03:45:11.194287+00:00",
+      "run_date": "2026-11-03"
+    },
+    "992d095cefb01a647314": {
+      "url": "https://www.qbitai.com/2026/11/507082.html",
+      "title": "GPT-6.2 Astra开启灰测！Claude Mythos 5.5同日曝光",
+      "seen_at": "2026-11-03T03:45:11.194287+00:00",
+      "run_date": "2026-11-03"
+    },
+    "fe33ff7467257463fd73": {
+      "url": "https://www.infoq.cn/article/WpTNht7guarWEyejJFV6?utm_source=rss&utm_medium=article",
+      "title": "ChatGPT Pro 额度翻倍：是让步，不是福利？",
+      "seen_at": "2026-11-03T03:45:11.194287+00:00",
+      "run_date": "2026-11-03"
+    },
+    "7c59fb5a5d6fbd263fc6": {
+      "url": "https://www.infoq.cn/article/X8cwbyO4O3tS1jTTdtBq?utm_source=rss&utm_medium=article",
+      "title": "TornadoVM 7 支持 Java 应用程序运行原生 GPU 工作负载",
+      "seen_at": "2026-11-03T03:45:11.194287+00:00",
+      "run_date": "2026-11-03"
+    },
+    "d4681e3b95f7b766b3c0": {
+      "url": "https://www.infoq.cn/article/WmlATgJudjwPKqHf4QgX?utm_source=rss&utm_medium=article",
+      "title": "CI 出错后，谁来把关？Buildkite 的智能体新思路",
+      "seen_at": "2026-11-03T03:45:11.194287+00:00",
+      "run_date": "2026-11-03"
+    },
+    "db267faa259085753da3": {
+      "url": "https://www.infoq.cn/article/E3wARaqEN7UZx8wM9TNg?utm_source=rss&utm_medium=article",
+      "title": "Cilium 1.20 扩展了 Gateway API 并为 Kubernetes 开放了 eBPF 数据路径",
+      "seen_at": "2026-11-03T03:45:11.194287+00:00",
+      "run_date": "2026-11-03"
+    },
+    "f9884338a5be57931af0": {
+      "url": "https://www.infoq.cn/article/pWwkDpoFHIsfw9aCRkij?utm_source=rss&utm_medium=article",
+      "title": "66 岁 Yann LeCun 发新论文挑战 Scaling Law：1.09 亿参数胜过 720 亿，模型越大不一定越懂世界",
+      "seen_at": "2026-11-03T03:45:11.194287+00:00",
+      "run_date": "2026-11-03"
     }
   },
-  "updated_at": "2026-11-02T01:56:17.612332+00:00"
+  "updated_at": "2026-11-03T03:45:11.194287+00:00"
 }
