@@ -1,11 +1,12 @@
-大模型与 AI Agent 成为今日焦点
+AI Agent 与 AI Infra 成为今日焦点
 
-1. [MIT：GPT-6 Astra能直接修改Qwen权重，数学能力暴涨6倍](https://www.qbitai.com/2026/11/507322.html)
-2. [OpenAI重写大模型法则，第一条：忠于人类](https://www.qbitai.com/2026/11/507225.html)
-3. [从英伟达到 Pika，硅谷巨头为何“反向借力”这个国产模型](https://www.infoq.cn/article/h1310kHD9CWD1mO8aTAc?utm_source=rss&utm_medium=article)
-4. [GPT-6.2 Astra开启灰测！Claude Mythos 5.5同日曝光](https://www.qbitai.com/2026/11/507082.html)
-5. [ChatGPT Pro 额度翻倍：是让步，不是福利](https://www.infoq.cn/article/WpTNht7guarWEyejJFV6?utm_source=rss&utm_medium=article)
-6. [TornadoVM 7 支持 Java 应用程序运行原生 GPU 工作负载](https://www.infoq.cn/article/X8cwbyO4O3tS1jTTdtBq?utm_source=rss&utm_medium=article)
-7. [CI 出错后，谁来把关？Buildkite 的智能体新思路](https://www.infoq.cn/article/WmlATgJudjwPKqHf4QgX?utm_source=rss&utm_medium=article)
-8. [Cilium 1.20 扩展了 Gateway API 并为 Kubernetes 开放了 eBPF 数据路径](https://www.infoq.cn/article/E3wARaqEN7UZx8wM9TNg?utm_source=rss&utm_medium=article)
-9. [66 岁 Yann LeCun 发新论文挑战 Scaling Law：1.09 亿参数胜过 720 亿，模型越大不一定越懂世界](https://www.infoq.cn/article/pWwkDpoFHIsfw9aCRkij?utm_source=rss&utm_medium=article)
+1. [构建面向 Agentic 推理的下一代 LLM 推理引擎](https://www.infoq.cn/article/YwAayF1ylWb7oN4P0lyC?utm_source=rss&utm_medium=article)
+2. [在长视频里“大海捞针”，用多模态 RAG 构建无人机炸机分析系统](https://aws.amazon.com/cn/blogs/china/multimodal-rag-build-analytics-system/)
+3. [在 Amazon EKS 上共享 GPU：Time-Slicing、NVIDIA DRA 与 HAMi 的功能验证和选型建议](https://aws.amazon.com/cn/blogs/china/amazon-eks-share-gpu-time-slicing-nvidia-dra-hami-validation/)
+4. [用 Amazon Quick MCP 连接器与 Amazon Bedrock AgentCore 安全接入企业应用](https://aws.amazon.com/cn/blogs/china/amazon-quick-mcp-amazon-bedrock-agentcore-security/)
+5. [Anthropic团队零Rust经验起步，靠Claude完成核心API跨语言重构：CPU省40%，延迟降20%](https://www.infoq.cn/article/IMWM7ZXDi99sMiUVZBIF?utm_source=rss&utm_medium=article)
+6. [“别再像 2024 年那样用 Claude 了！”Claude Cowork 工程负责人：有些 Skill 删掉反而更好](https://www.infoq.cn/article/xaWSKT3MlZjbuJw16Vem?utm_source=rss&utm_medium=article)
+7. [谷歌宁愿少卖云算力，也要先把算力留给 Gemini：皮查伊罕见长访谈，披露 AI 自我改进与算力争夺内幕](https://www.infoq.cn/article/JmVl0yY2RYIBNpuD0xuu?utm_source=rss&utm_medium=article)
+8. [AI教AI开车！百度首次披露Apollo World世界模型，让无人驾驶突破“不可能三角”](https://www.infoq.cn/article/tIt75FRqU2hwy4eWrOIu?utm_source=rss&utm_medium=article)
+9. [从模型调用到任务交付：MaaS 如何走进 Agent 生产](https://www.infoq.cn/article/zZutPTX8bsr6NWQYNC3A?utm_source=rss&utm_medium=article)
+10. [模型谁都买得到，拉开差距的是AI生产力系统](https://www.qbitai.com/2026/11/507448.html)

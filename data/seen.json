@@ -1,11 +1,5 @@
 {
   "items": {
-    "e4f7c4c29f39a115e77a": {
-      "url": "https://www.qbitai.com/2026/10/501605.html",
-      "title": "AI算力硬合作，马斯克还是更相信中国制造",
-      "seen_at": "2026-10-05T01:20:58.452473+00:00",
-      "run_date": "2026-10-05"
-    },
     "c19205bef49271e5903e": {
       "url": "https://www.infoq.cn/article/6jvNkzZCm5mjr22zr04D?utm_source=rss&utm_medium=article",
       "title": "一边是 WebGPU 视觉革命，一边是浏览器垄断争议：Canvas UI 发布 35 个组件",
@@ -1157,7 +1151,67 @@
       "title": "66 岁 Yann LeCun 发新论文挑战 Scaling Law：1.09 亿参数胜过 720 亿，模型越大不一定越懂世界",
       "seen_at": "2026-11-03T03:45:11.194287+00:00",
       "run_date": "2026-11-03"
+    },
+    "87b8365cced39835c26c": {
+      "url": "https://www.infoq.cn/article/YwAayF1ylWb7oN4P0lyC?utm_source=rss&utm_medium=article",
+      "title": "构建面向 Agentic 推理的下一代 LLM 推理引擎",
+      "seen_at": "2026-11-04T02:47:08.280470+00:00",
+      "run_date": "2026-11-04"
+    },
+    "e485afe99e5ecbe00dd9": {
+      "url": "https://aws.amazon.com/cn/blogs/china/multimodal-rag-build-analytics-system/",
+      "title": "在长视频里“大海捞针”，用多模态 RAG 构建无人机炸机分析系统",
+      "seen_at": "2026-11-04T02:47:08.280470+00:00",
+      "run_date": "2026-11-04"
+    },
+    "8a1ffe18e07fb91f44cb": {
+      "url": "https://aws.amazon.com/cn/blogs/china/amazon-eks-share-gpu-time-slicing-nvidia-dra-hami-validation/",
+      "title": "在 Amazon EKS 上共享 GPU：Time-Slicing、NVIDIA DRA 与 HAMi 的功能验证和选型建议",
+      "seen_at": "2026-11-04T02:47:08.280470+00:00",
+      "run_date": "2026-11-04"
+    },
+    "5aa61145b67c53ea0c23": {
+      "url": "https://aws.amazon.com/cn/blogs/china/amazon-quick-mcp-amazon-bedrock-agentcore-security/",
+      "title": "用 Amazon Quick MCP 连接器与 Amazon Bedrock AgentCore 安全接入企业应用",
+      "seen_at": "2026-11-04T02:47:08.280470+00:00",
+      "run_date": "2026-11-04"
+    },
+    "7fcda4e83c9896f945b2": {
+      "url": "https://www.infoq.cn/article/IMWM7ZXDi99sMiUVZBIF?utm_source=rss&utm_medium=article",
+      "title": "Anthropic团队零Rust经验起步，靠Claude完成核心API跨语言重构：CPU省40%，延迟降20%",
+      "seen_at": "2026-11-04T02:47:08.280470+00:00",
+      "run_date": "2026-11-04"
+    },
+    "20b8f58f04bad5a24049": {
+      "url": "https://www.infoq.cn/article/xaWSKT3MlZjbuJw16Vem?utm_source=rss&utm_medium=article",
+      "title": "“别再像 2024 年那样用 Claude 了！”Claude Cowork 工程负责人：有些 Skill 删掉反而更好",
+      "seen_at": "2026-11-04T02:47:08.280470+00:00",
+      "run_date": "2026-11-04"
+    },
+    "e0a38a8f9b71a153fa0d": {
+      "url": "https://www.infoq.cn/article/JmVl0yY2RYIBNpuD0xuu?utm_source=rss&utm_medium=article",
+      "title": "谷歌宁愿少卖云算力，也要先把算力留给 Gemini：皮查伊罕见长访谈，披露 AI 自我改进与算力争夺内幕",
+      "seen_at": "2026-11-04T02:47:08.280470+00:00",
+      "run_date": "2026-11-04"
+    },
+    "7f45ae61f4fa419aea19": {
+      "url": "https://www.infoq.cn/article/tIt75FRqU2hwy4eWrOIu?utm_source=rss&utm_medium=article",
+      "title": "AI教AI开车！百度首次披露Apollo World世界模型，让无人驾驶突破“不可能三角”",
+      "seen_at": "2026-11-04T02:47:08.280470+00:00",
+      "run_date": "2026-11-04"
+    },
+    "3113843ca9c6cd1f5e9a": {
+      "url": "https://www.infoq.cn/article/zZutPTX8bsr6NWQYNC3A?utm_source=rss&utm_medium=article",
+      "title": "从模型调用到任务交付：MaaS 如何走进 Agent 生产",
+      "seen_at": "2026-11-04T02:47:08.280470+00:00",
+      "run_date": "2026-11-04"
+    },
+    "20c7dd19dacfe1be0283": {
+      "url": "https://www.qbitai.com/2026/11/507448.html",
+      "title": "模型谁都买得到，拉开差距的是AI生产力系统",
+      "seen_at": "2026-11-04T02:47:08.280470+00:00",
+      "run_date": "2026-11-04"
     }
   },
-  "updated_at": "2026-11-03T03:45:11.194287+00:00"
+  "updated_at": "2026-11-04T02:47:08.280470+00:00"
 }
