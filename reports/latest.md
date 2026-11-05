@@ -1,12 +1,12 @@
-AI Agent 与 AI Infra 成为今日焦点
+大模型与 AI 最新动态 成为今日焦点
 
-1. [构建面向 Agentic 推理的下一代 LLM 推理引擎](https://www.infoq.cn/article/YwAayF1ylWb7oN4P0lyC?utm_source=rss&utm_medium=article)
-2. [在长视频里“大海捞针”，用多模态 RAG 构建无人机炸机分析系统](https://aws.amazon.com/cn/blogs/china/multimodal-rag-build-analytics-system/)
-3. [在 Amazon EKS 上共享 GPU：Time-Slicing、NVIDIA DRA 与 HAMi 的功能验证和选型建议](https://aws.amazon.com/cn/blogs/china/amazon-eks-share-gpu-time-slicing-nvidia-dra-hami-validation/)
-4. [用 Amazon Quick MCP 连接器与 Amazon Bedrock AgentCore 安全接入企业应用](https://aws.amazon.com/cn/blogs/china/amazon-quick-mcp-amazon-bedrock-agentcore-security/)
-5. [Anthropic团队零Rust经验起步，靠Claude完成核心API跨语言重构：CPU省40%，延迟降20%](https://www.infoq.cn/article/IMWM7ZXDi99sMiUVZBIF?utm_source=rss&utm_medium=article)
-6. [“别再像 2024 年那样用 Claude 了！”Claude Cowork 工程负责人：有些 Skill 删掉反而更好](https://www.infoq.cn/article/xaWSKT3MlZjbuJw16Vem?utm_source=rss&utm_medium=article)
-7. [谷歌宁愿少卖云算力，也要先把算力留给 Gemini：皮查伊罕见长访谈，披露 AI 自我改进与算力争夺内幕](https://www.infoq.cn/article/JmVl0yY2RYIBNpuD0xuu?utm_source=rss&utm_medium=article)
-8. [AI教AI开车！百度首次披露Apollo World世界模型，让无人驾驶突破“不可能三角”](https://www.infoq.cn/article/tIt75FRqU2hwy4eWrOIu?utm_source=rss&utm_medium=article)
-9. [从模型调用到任务交付：MaaS 如何走进 Agent 生产](https://www.infoq.cn/article/zZutPTX8bsr6NWQYNC3A?utm_source=rss&utm_medium=article)
-10. [模型谁都买得到，拉开差距的是AI生产力系统](https://www.qbitai.com/2026/11/507448.html)
+1. [大模型会击穿具身智能吗？稚晖君带领团队深刻复盘并解答](https://www.infoq.cn/article/bFKTeyCOlydWMYi91H4q?utm_source=rss&utm_medium=article)
+2. [不靠堆砌数据，让机器人看懂真实物理世界 | 招商局狮子山实验室发布「驭物™ Lion-ER-35B-A3B」具身推理模型](https://www.qbitai.com/2026/11/507586.html)
+3. [Linux内核也能造了？Codex 11天写出13.9万行新内核，Rocky Linux 10跑起来了](https://www.infoq.cn/article/OiyNEtFwV05opvsLTcvK?utm_source=rss&utm_medium=article)
+4. [GPT-Image-2.6全量上线！直出GIF和SVG，6.2 Astra也现身了](https://www.qbitai.com/2026/11/507707.html)
+5. [从3D生成到世界模型，这家AI公司想和年轻人一起定义问题](https://www.qbitai.com/2026/11/507675.html)
+6. [百度无人车搞出“黑客帝国”！世界模型实时推演全局，跑一天抵三年](https://www.qbitai.com/2026/11/507647.html)
+7. [同一个模型从 30 分到 95 分：拉开差距的不是模型，是Harness](https://www.infoq.cn/article/C1C1DThg8z1Dy0rZAmLB?utm_source=rss&utm_medium=article)
+8. [谷歌 Data Agent Kit 正式发布：安全防护分为 Skill 与 IAM](https://www.infoq.cn/article/UtKS9EofSoyd2P7Otx7e?utm_source=rss&utm_medium=article)
+9. [Anthropic 为重要开源项目新增可选安全扫描服务](https://www.infoq.cn/article/hdmi6FdjpYSEvuMhPOAa?utm_source=rss&utm_medium=article)
+10. [让Agent首次拥有“视听双流记忆”：openJiuwen Agent-Memory看懂长视频，关键事件一个不落](https://www.qbitai.com/2026/11/507533.html)

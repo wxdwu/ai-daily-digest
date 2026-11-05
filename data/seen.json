@@ -1211,7 +1211,67 @@
       "title": "模型谁都买得到，拉开差距的是AI生产力系统",
       "seen_at": "2026-11-04T02:47:08.280470+00:00",
       "run_date": "2026-11-04"
+    },
+    "2b59f4728493bd0b5f58": {
+      "url": "https://www.infoq.cn/article/bFKTeyCOlydWMYi91H4q?utm_source=rss&utm_medium=article",
+      "title": "大模型会击穿具身智能吗？稚晖君带领团队深刻复盘并解答",
+      "seen_at": "2026-11-05T02:55:48.347611+00:00",
+      "run_date": "2026-11-05"
+    },
+    "cac6fd3142da88b63f5d": {
+      "url": "https://www.qbitai.com/2026/11/507586.html",
+      "title": "不靠堆砌数据，让机器人看懂真实物理世界 | 招商局狮子山实验室发布「驭物™ Lion-ER-35B-A3B」具身推理模型",
+      "seen_at": "2026-11-05T02:55:48.347611+00:00",
+      "run_date": "2026-11-05"
+    },
+    "258895698edcbd288dad": {
+      "url": "https://www.infoq.cn/article/OiyNEtFwV05opvsLTcvK?utm_source=rss&utm_medium=article",
+      "title": "Linux内核也能造了？Codex 11天写出13.9万行新内核，Rocky Linux 10跑起来了",
+      "seen_at": "2026-11-05T02:55:48.347611+00:00",
+      "run_date": "2026-11-05"
+    },
+    "a0d6df19b2f122211fb6": {
+      "url": "https://www.qbitai.com/2026/11/507707.html",
+      "title": "GPT-Image-2.6全量上线！直出GIF和SVG，6.2 Astra也现身了",
+      "seen_at": "2026-11-05T02:55:48.347611+00:00",
+      "run_date": "2026-11-05"
+    },
+    "c3c9d57144b5bf1b7342": {
+      "url": "https://www.qbitai.com/2026/11/507675.html",
+      "title": "从3D生成到世界模型，这家AI公司想和年轻人一起定义问题",
+      "seen_at": "2026-11-05T02:55:48.347611+00:00",
+      "run_date": "2026-11-05"
+    },
+    "ed1bfa4ae73614c622b4": {
+      "url": "https://www.qbitai.com/2026/11/507647.html",
+      "title": "百度无人车搞出“黑客帝国”！世界模型实时推演全局，跑一天抵三年",
+      "seen_at": "2026-11-05T02:55:48.347611+00:00",
+      "run_date": "2026-11-05"
+    },
+    "04dfd20cf13d7b12be7f": {
+      "url": "https://www.infoq.cn/article/C1C1DThg8z1Dy0rZAmLB?utm_source=rss&utm_medium=article",
+      "title": "同一个模型从 30 分到 95 分：拉开差距的不是模型，是Harness",
+      "seen_at": "2026-11-05T02:55:48.347611+00:00",
+      "run_date": "2026-11-05"
+    },
+    "7c2129d03cb9111ec34c": {
+      "url": "https://www.infoq.cn/article/UtKS9EofSoyd2P7Otx7e?utm_source=rss&utm_medium=article",
+      "title": "谷歌 Data Agent Kit 正式发布：安全防护分为 Skill 与 IAM",
+      "seen_at": "2026-11-05T02:55:48.347611+00:00",
+      "run_date": "2026-11-05"
+    },
+    "97403da194704db0153c": {
+      "url": "https://www.infoq.cn/article/hdmi6FdjpYSEvuMhPOAa?utm_source=rss&utm_medium=article",
+      "title": "Anthropic 为重要开源项目新增可选安全扫描服务",
+      "seen_at": "2026-11-05T02:55:48.347611+00:00",
+      "run_date": "2026-11-05"
+    },
+    "997c24269509e4027c10": {
+      "url": "https://www.qbitai.com/2026/11/507533.html",
+      "title": "让Agent首次拥有“视听双流记忆”：openJiuwen Agent-Memory看懂长视频，关键事件一个不落",
+      "seen_at": "2026-11-05T02:55:48.347611+00:00",
+      "run_date": "2026-11-05"
     }
   },
-  "updated_at": "2026-11-04T02:47:08.280470+00:00"
+  "updated_at": "2026-11-05T02:55:48.347611+00:00"
 }
