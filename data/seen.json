@@ -1,11 +1,5 @@
 {
   "items": {
-    "c19205bef49271e5903e": {
-      "url": "https://www.infoq.cn/article/6jvNkzZCm5mjr22zr04D?utm_source=rss&utm_medium=article",
-      "title": "一边是 WebGPU 视觉革命，一边是浏览器垄断争议：Canvas UI 发布 35 个组件",
-      "seen_at": "2026-10-07T01:51:58.600097+00:00",
-      "run_date": "2026-10-07"
-    },
     "3b693292f51e8f247018": {
       "url": "https://blogs.nvidia.cn/blog/local-ai-rtx-spark-microsoft-windows-event/",
       "title": "NVIDIA 与微软携手，以 RTX Spark 和 AI 智能体开启 Windows PC 新序章",
@@ -1271,7 +1265,61 @@
       "title": "让Agent首次拥有“视听双流记忆”：openJiuwen Agent-Memory看懂长视频，关键事件一个不落",
       "seen_at": "2026-11-05T02:55:48.347611+00:00",
       "run_date": "2026-11-05"
+    },
+    "8b598ed50e11f3cf7d8c": {
+      "url": "https://www.infoq.cn/article/hHzARIJTeqoqYpjNKEuq?utm_source=rss&utm_medium=article",
+      "title": "谷歌发布 ML Drift：为各类 GPU 加速端侧 AI 推理",
+      "seen_at": "2026-11-06T02:55:38.852243+00:00",
+      "run_date": "2026-11-06"
+    },
+    "815ebd2a9c1849a0a469": {
+      "url": "https://www.infoq.cn/article/cDERcarozbrsCBNs5sWM?utm_source=rss&utm_medium=article",
+      "title": "Claude Code 产品负责人Cut Wu 官宣加入 OpenAI",
+      "seen_at": "2026-11-06T02:55:38.852243+00:00",
+      "run_date": "2026-11-06"
+    },
+    "0c4f571f9019748bfd3f": {
+      "url": "https://www.qbitai.com/2026/11/507696.html",
+      "title": "基于本体+知识+Harness+Datat Agent的智能体完整落地链路！",
+      "seen_at": "2026-11-06T02:55:38.852243+00:00",
+      "run_date": "2026-11-06"
+    },
+    "aafb2d60bd77b4bc6ebb": {
+      "url": "https://www.infoq.cn/article/80iUxvCNB59aOgyXB7LN?utm_source=rss&utm_medium=article",
+      "title": "MCP C# SDK 2.0 默认启用 HTTP 无状态模式，新增多轮请求能力",
+      "seen_at": "2026-11-06T02:55:38.852243+00:00",
+      "run_date": "2026-11-06"
+    },
+    "fc453c94ed054b2d574e": {
+      "url": "https://www.infoq.cn/article/u4fAoAH5vZPCV4TVqAcO?utm_source=rss&utm_medium=article",
+      "title": "谷歌用 Gemini 4 Argon 一夜优化 ADK 代码库的 20 万行代码",
+      "seen_at": "2026-11-06T02:55:38.852243+00:00",
+      "run_date": "2026-11-06"
+    },
+    "8f8ef3d357b7d632b5b0": {
+      "url": "https://www.qbitai.com/2026/11/507782.html",
+      "title": "MIT神作被锤：Astra爆改Qwen权重？就吹吧！",
+      "seen_at": "2026-11-06T02:55:38.852243+00:00",
+      "run_date": "2026-11-06"
+    },
+    "13e65af07b680ce7386e": {
+      "url": "https://www.infoq.cn/article/UMlHzxNiS9tFfG9KadYs?utm_source=rss&utm_medium=article",
+      "title": "模型之外，腾讯还在补什么？",
+      "seen_at": "2026-11-06T02:55:38.852243+00:00",
+      "run_date": "2026-11-06"
+    },
+    "c478a158860f787c5b09": {
+      "url": "https://www.infoq.cn/article/C61Q16LQIDq45l0iCCzV?utm_source=rss&utm_medium=article",
+      "title": "混元 Hy4 实测：腾讯的产品基因，模型继承了几分？",
+      "seen_at": "2026-11-06T02:55:38.852243+00:00",
+      "run_date": "2026-11-06"
+    },
+    "98f61e3158880332e496": {
+      "url": "https://www.qbitai.com/2026/11/507787.html",
+      "title": "百度开源文心5.5 Flash Base，多基准测试刷新同尺寸模型 SOTA",
+      "seen_at": "2026-11-06T02:55:38.852243+00:00",
+      "run_date": "2026-11-06"
     }
   },
-  "updated_at": "2026-11-05T02:55:48.347611+00:00"
+  "updated_at": "2026-11-06T02:55:38.852243+00:00"
 }
