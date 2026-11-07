@@ -1,11 +1,10 @@
-AI Infra 与大模型成为今日焦点
+AI Infra 与 AI Agent 成为今日焦点
 
-1. [谷歌发布 ML Drift：为各类 GPU 加速端侧 AI 推理](https://www.infoq.cn/article/hHzARIJTeqoqYpjNKEuq?utm_source=rss&utm_medium=article)
-2. [Claude Code 产品负责人Cut Wu 官宣加入 OpenAI](https://www.infoq.cn/article/cDERcarozbrsCBNs5sWM?utm_source=rss&utm_medium=article)
-3. [基于本体+知识+Harness+Datat Agent的智能体完整落地链路](https://www.qbitai.com/2026/11/507696.html)
-4. [MCP C# SDK 2.0 默认启用 HTTP 无状态模式，新增多轮请求能力](https://www.infoq.cn/article/80iUxvCNB59aOgyXB7LN?utm_source=rss&utm_medium=article)
-5. [谷歌用 Gemini 4 Argon 一夜优化 ADK 代码库的 20 万行代码](https://www.infoq.cn/article/u4fAoAH5vZPCV4TVqAcO?utm_source=rss&utm_medium=article)
-6. [MIT神作被锤：Astra爆改Qwen权重？就吹吧](https://www.qbitai.com/2026/11/507782.html)
-7. [模型之外，腾讯还在补什么](https://www.infoq.cn/article/UMlHzxNiS9tFfG9KadYs?utm_source=rss&utm_medium=article)
-8. [混元 Hy4 实测：腾讯的产品基因，模型继承了几分](https://www.infoq.cn/article/C61Q16LQIDq45l0iCCzV?utm_source=rss&utm_medium=article)
-9. [百度开源文心5.5 Flash Base，多基准测试刷新同尺寸模型 SOTA](https://www.qbitai.com/2026/11/507787.html)
+1. [使用 NVIDIA DSX OS 配置、认证和运行 Kubernetes GPU 集群](https://developer.nvidia.cn/blog/configure-certify-and-operate-kubernetes-gpu-clusters-with-nvidia-dsx-os/)
+2. [腾讯 Hy4 调用激增已十倍扩容，Agent 能力开源模型第一](https://www.qbitai.com/2026/11/507967.html)
+3. [DigitalOcean 推出学习与数据服务，帮助 AI 智能体进行自我迭代](https://www.infoq.cn/article/upfROwtEl8R75H24D13J?utm_source=rss&utm_medium=article)
+4. [智能体 Harness 的演进：从链、图到代码化](https://www.infoq.cn/article/B7tsA5tjD08k2gd0OtXd?utm_source=rss&utm_medium=article)
+5. [当 Coding Agent 走进研发团队：我们打造并开源了自进化研发平台 LoopForge](https://www.infoq.cn/article/QGaIWSgd9uwx2WGw0yFv?utm_source=rss&utm_medium=article)
+6. [DeepSeek带火稀疏计算，国产芯片公司加速突围：这家公司又融近10亿](https://www.qbitai.com/2026/11/508155.html)
+7. [三条AI技术路线终将合流？智象创始人梅涛提出智能体化的世界模型](https://www.qbitai.com/2026/11/507834.html)
+8. [从混元研发体系重构到 MaaS 推理优化，模型能力如何走向真实业务](https://www.infoq.cn/article/azhgYaRTIjsSSVfA8AaU?utm_source=rss&utm_medium=article)

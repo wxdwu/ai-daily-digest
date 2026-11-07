@@ -1,23 +1,5 @@
 {
   "items": {
-    "3b693292f51e8f247018": {
-      "url": "https://blogs.nvidia.cn/blog/local-ai-rtx-spark-microsoft-windows-event/",
-      "title": "NVIDIA 与微软携手，以 RTX Spark 和 AI 智能体开启 Windows PC 新序章",
-      "seen_at": "2026-10-08T02:19:12.060647+00:00",
-      "run_date": "2026-10-08"
-    },
-    "057356f9d9e613dbe5c3": {
-      "url": "https://www.infoq.cn/article/MwQyLYzgSiD16x36k9Ef?utm_source=rss&utm_medium=article",
-      "title": "MCP 终于无状态了，但状态并没有消失，只是被“甩”给了应用",
-      "seen_at": "2026-10-08T02:19:12.060647+00:00",
-      "run_date": "2026-10-08"
-    },
-    "101589a5dd869cdcd713": {
-      "url": "https://www.qbitai.com/2026/10/501803.html",
-      "title": "《怪物史莱克》编剧也来了！这家AI影视公司，视频模型全球第二！",
-      "seen_at": "2026-10-08T02:19:12.060647+00:00",
-      "run_date": "2026-10-08"
-    },
     "52656d1df1394b16d963": {
       "url": "https://www.infoq.cn/article/0wk4G4cZwbHgYdeNoQPV?utm_source=rss&utm_medium=article",
       "title": "海外开源模型重新提速：“美版 DeepSeek”第一次交卷，Mistral同时亮牌",
@@ -1319,7 +1301,55 @@
       "title": "百度开源文心5.5 Flash Base，多基准测试刷新同尺寸模型 SOTA",
       "seen_at": "2026-11-06T02:55:38.852243+00:00",
       "run_date": "2026-11-06"
+    },
+    "1bb0499fff46069c4218": {
+      "url": "https://developer.nvidia.cn/blog/configure-certify-and-operate-kubernetes-gpu-clusters-with-nvidia-dsx-os/",
+      "title": "使用 NVIDIA DSX OS 配置、认证和运行 Kubernetes GPU 集群",
+      "seen_at": "2026-11-07T02:25:34.509993+00:00",
+      "run_date": "2026-11-07"
+    },
+    "02531069ce4caf345c8b": {
+      "url": "https://www.qbitai.com/2026/11/507967.html",
+      "title": "腾讯 Hy4 调用激增已十倍扩容，Agent 能力开源模型第一",
+      "seen_at": "2026-11-07T02:25:34.509993+00:00",
+      "run_date": "2026-11-07"
+    },
+    "93c006a233f6584fd5d5": {
+      "url": "https://www.infoq.cn/article/upfROwtEl8R75H24D13J?utm_source=rss&utm_medium=article",
+      "title": "DigitalOcean 推出学习与数据服务，帮助 AI 智能体进行自我迭代",
+      "seen_at": "2026-11-07T02:25:34.509993+00:00",
+      "run_date": "2026-11-07"
+    },
+    "753b42fae13b8d871857": {
+      "url": "https://www.infoq.cn/article/B7tsA5tjD08k2gd0OtXd?utm_source=rss&utm_medium=article",
+      "title": "智能体 Harness 的演进：从链、图到代码化",
+      "seen_at": "2026-11-07T02:25:34.509993+00:00",
+      "run_date": "2026-11-07"
+    },
+    "bc3f089d71bd0da8336b": {
+      "url": "https://www.infoq.cn/article/QGaIWSgd9uwx2WGw0yFv?utm_source=rss&utm_medium=article",
+      "title": "当 Coding Agent 走进研发团队：我们打造并开源了自进化研发平台 LoopForge",
+      "seen_at": "2026-11-07T02:25:34.509993+00:00",
+      "run_date": "2026-11-07"
+    },
+    "ad77dcd273cd5cec39f3": {
+      "url": "https://www.qbitai.com/2026/11/508155.html",
+      "title": "DeepSeek带火稀疏计算，国产芯片公司加速突围：这家公司又融近10亿",
+      "seen_at": "2026-11-07T02:25:34.509993+00:00",
+      "run_date": "2026-11-07"
+    },
+    "84461fa986f12e165c8e": {
+      "url": "https://www.qbitai.com/2026/11/507834.html",
+      "title": "三条AI技术路线终将合流？智象创始人梅涛提出智能体化的世界模型",
+      "seen_at": "2026-11-07T02:25:34.509993+00:00",
+      "run_date": "2026-11-07"
+    },
+    "71f9e62dd8c79eccefa3": {
+      "url": "https://www.infoq.cn/article/azhgYaRTIjsSSVfA8AaU?utm_source=rss&utm_medium=article",
+      "title": "从混元研发体系重构到 MaaS 推理优化，模型能力如何走向真实业务？",
+      "seen_at": "2026-11-07T02:25:34.509993+00:00",
+      "run_date": "2026-11-07"
     }
   },
-  "updated_at": "2026-11-06T02:55:38.852243+00:00"
+  "updated_at": "2026-11-07T02:25:34.509993+00:00"
 }
