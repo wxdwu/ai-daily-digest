@@ -1,101 +1,5 @@
 {
   "items": {
-    "52656d1df1394b16d963": {
-      "url": "https://www.infoq.cn/article/0wk4G4cZwbHgYdeNoQPV?utm_source=rss&utm_medium=article",
-      "title": "海外开源模型重新提速：“美版 DeepSeek”第一次交卷，Mistral同时亮牌",
-      "seen_at": "2026-10-09T02:36:35.768696+00:00",
-      "run_date": "2026-10-09"
-    },
-    "ab3bf87f80a35ab471d8": {
-      "url": "https://www.infoq.cn/article/rLaX4DEMuRxqW135ZSSC?utm_source=rss&utm_medium=article",
-      "title": "代码交给AI，心流却回来了：Codex负责人不再怀念手写时代",
-      "seen_at": "2026-10-09T02:36:35.768696+00:00",
-      "run_date": "2026-10-09"
-    },
-    "23a13bf45a9d4167e4ba": {
-      "url": "https://www.qbitai.com/2026/10/502083.html",
-      "title": "不等Gemini 4了！谷歌发布办公Agent，支持调用Claude",
-      "seen_at": "2026-10-09T02:36:35.768696+00:00",
-      "run_date": "2026-10-09"
-    },
-    "fd9264ae91c9b028261e": {
-      "url": "https://www.qbitai.com/2026/10/502096.html",
-      "title": "代码造世界，扩散绘现实：AgentGarten让智能体在实时试炼场中边玩边进化",
-      "seen_at": "2026-10-09T02:36:35.768696+00:00",
-      "run_date": "2026-10-09"
-    },
-    "a821f34208de5f63b2f3": {
-      "url": "https://www.qbitai.com/2026/10/502020.html",
-      "title": "搭载NVIDIA RTX Spark™ N1X超级芯片：联想YOGA Pro 15开启盲约，重塑个人生产力边界",
-      "seen_at": "2026-10-09T02:36:35.768696+00:00",
-      "run_date": "2026-10-09"
-    },
-    "ca6afada6a4df1373366": {
-      "url": "https://www.qbitai.com/2026/10/501995.html",
-      "title": "ChatGPT踢到铁板了！能破解千禧数学难题，但论文复现率低至13.98%？",
-      "seen_at": "2026-10-09T02:36:35.768696+00:00",
-      "run_date": "2026-10-09"
-    },
-    "a1516d52b46d68d0726a": {
-      "url": "https://www.infoq.cn/article/e0iQfJNgepz7VigRdD61?utm_source=rss&utm_medium=article",
-      "title": "Codex 和 Claude Code 都跑偏了，前 OpenAI 研究员称 Jev 出现前 AI 世界是个悲剧",
-      "seen_at": "2026-10-10T01:57:27.105249+00:00",
-      "run_date": "2026-10-10"
-    },
-    "2680f213b4c29939ee75": {
-      "url": "https://www.qbitai.com/2026/10/502125.html",
-      "title": "清华具身模型登顶全球第一！突围GPT-6、英伟达，不靠外挂和额外数据",
-      "seen_at": "2026-10-10T01:57:27.105249+00:00",
-      "run_date": "2026-10-10"
-    },
-    "a1c7160668d432589272": {
-      "url": "https://aws.amazon.com/cn/blogs/china/based-on-amazon-bedrock-enterprise-ai-platform-ava-me-practice/",
-      "title": "基于 Amazon Bedrock 的企业级 AI 数字员工平台 ava me+ 实践",
-      "seen_at": "2026-10-10T01:57:27.105249+00:00",
-      "run_date": "2026-10-10"
-    },
-    "4479a8342861d67a47a7": {
-      "url": "https://aws.amazon.com/cn/blogs/china/how-to-agentcore-harness-quick-build-aiops-intelligent/",
-      "title": "赛潍：如何用 AgentCore Harness 快速构建 AIOps 智能体",
-      "seen_at": "2026-10-10T01:57:27.105249+00:00",
-      "run_date": "2026-10-10"
-    },
-    "254d974d2558da00049f": {
-      "url": "https://www.infoq.cn/article/PLEWse6sEviMN99iLE93?utm_source=rss&utm_medium=article",
-      "title": "从 Demo 到生产：AI Agent 缺的到底是什么？",
-      "seen_at": "2026-10-10T01:57:27.105249+00:00",
-      "run_date": "2026-10-10"
-    },
-    "ae24d7eb0c9b8c0d50af": {
-      "url": "https://www.qbitai.com/2026/10/502422.html",
-      "title": "联想天禧自研代码智能体TianxiCode斩获SWE-bench-Live全球第一",
-      "seen_at": "2026-10-10T01:57:27.105249+00:00",
-      "run_date": "2026-10-10"
-    },
-    "8e1fab6a20438a5afbda": {
-      "url": "https://developer.nvidia.cn/blog/building-reliable-data-analytics-agents-lessons-from-the-kdd-cup/",
-      "title": "构建可靠的数据分析智能体：从 KDD 杯中汲取的经验教训",
-      "seen_at": "2026-10-10T01:57:27.105249+00:00",
-      "run_date": "2026-10-10"
-    },
-    "3bc148ff52a70191195d": {
-      "url": "https://www.qbitai.com/2026/10/502106.html",
-      "title": "openJiuwen发布并开源企业级AgentOS，加速智能体规模落地企业",
-      "seen_at": "2026-10-10T01:57:27.105249+00:00",
-      "run_date": "2026-10-10"
-    },
-    "eb4264833a63b0c39629": {
-      "url": "https://www.infoq.cn/article/490gIS9Bk0NmylN7GIt1?utm_source=rss&utm_medium=article",
-      "title": "@ 一下就能派活？谷歌推出办公 Agent，拥有独立账号、能够创建子 Agent，还能调用 Claude",
-      "seen_at": "2026-10-10T01:57:27.105249+00:00",
-      "run_date": "2026-10-10"
-    },
-    "c4b8169e758aa0dc3c94": {
-      "url": "https://www.infoq.cn/article/tor9ik2Xesfgf1x3CadO?utm_source=rss&utm_medium=article",
-      "title": "Modal 破解 Kubernetes 限制，在几秒内扩展 100 万个并发沙箱",
-      "seen_at": "2026-10-10T01:57:27.105249+00:00",
-      "run_date": "2026-10-10"
-    },
     "115ca8a4e0f17dbb8f50": {
       "url": "https://www.infoq.cn/article/SuqGY4FQ95AVzs1S0KSV?utm_source=rss&utm_medium=article",
       "title": "金融监管领域的 Harness 实践：让知识与数据驱动 Agent 稳定运行",
@@ -1379,7 +1283,37 @@
       "title": "A\\三大内部模型曝光！领先Opus5.5三个月，RSI缩短80%实验时间",
       "seen_at": "2026-11-08T01:55:10.849579+00:00",
       "run_date": "2026-11-08"
+    },
+    "2cbc57a1e8179fc68300": {
+      "url": "https://www.infoq.cn/article/Qs0pJ5M43c56hdozHiR0?utm_source=rss&utm_medium=article",
+      "title": "顶尖 AI 实验室正在成为“人才黑洞”！Claude Code 团队工程师离职后首次受访",
+      "seen_at": "2026-11-09T02:09:25.053970+00:00",
+      "run_date": "2026-11-09"
+    },
+    "ebb6ab02eb8d0f416cec": {
+      "url": "https://www.infoq.cn/article/gOcDmZM2MPAQhWtNb6IJ?utm_source=rss&utm_medium=article",
+      "title": "自动路由真能省钱吗？便宜模型出错后，人类修一小时可能更贵",
+      "seen_at": "2026-11-09T02:09:25.053970+00:00",
+      "run_date": "2026-11-09"
+    },
+    "93e60dd3ca2cb4e407f4": {
+      "url": "https://www.qbitai.com/2026/11/508466.html",
+      "title": "资本正在撤离“世界模型”",
+      "seen_at": "2026-11-09T02:09:25.053970+00:00",
+      "run_date": "2026-11-09"
+    },
+    "c327417137ed067cd98d": {
+      "url": "https://www.qbitai.com/2026/11/508449.html",
+      "title": "GitHub不堪重负！OpenAI收购替代品，A社原地自研，马斯克也要搞",
+      "seen_at": "2026-11-09T02:09:25.053970+00:00",
+      "run_date": "2026-11-09"
+    },
+    "15c5e0ba50c4fba95e0f": {
+      "url": "https://www.qbitai.com/2026/11/508236.html",
+      "title": "浙大00后博士生再交卷！把十几种物理要素装进一个世界模型｜华为昇腾原生",
+      "seen_at": "2026-11-09T02:09:25.053970+00:00",
+      "run_date": "2026-11-09"
     }
   },
-  "updated_at": "2026-11-08T01:55:10.849579+00:00"
+  "updated_at": "2026-11-09T02:09:25.053970+00:00"
 }

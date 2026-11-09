@@ -1,7 +1,7 @@
-大模型与 AI Infra 成为今日焦点
+AI Agent 与 AI 最新动态 成为今日焦点
 
-1. [CyberwIIOS：如何驾驭大模型在 OT 侧跨越“幻觉”与“失控”｜AICon北京](https://www.infoq.cn/article/K1bCIbHxeu3wLIjdusgr?utm_source=rss&utm_medium=article)
-2. [抢跑DeepSeek！硅谷华人把下一代Agent Harness造出来了](https://www.qbitai.com/2026/11/508264.html)
-3. [阶跃终端 STEPX Neo 智能体手机亮相进博会高通展台，软硬模一体打造智能体新体验](https://www.qbitai.com/2026/11/508170.html)
-4. [阿里巴巴发布《2026 AI向善行动报告》 AI数据中心可持续发展成年度亮点](https://www.qbitai.com/2026/11/508165.html)
-5. [A\三大内部模型曝光！领先Opus5.5三个月，RSI缩短80%实验时间](https://www.qbitai.com/2026/11/508184.html)
+1. [顶尖 AI 实验室正在成为“人才黑洞”！Claude Code 团队工程师离职后首次受访](https://www.infoq.cn/article/Qs0pJ5M43c56hdozHiR0?utm_source=rss&utm_medium=article)
+2. [自动路由真能省钱吗？便宜模型出错后，人类修一小时可能更贵](https://www.infoq.cn/article/gOcDmZM2MPAQhWtNb6IJ?utm_source=rss&utm_medium=article)
+3. [资本正在撤离“世界模型”](https://www.qbitai.com/2026/11/508466.html)
+4. [GitHub不堪重负！OpenAI收购替代品，A社原地自研，马斯克也要搞](https://www.qbitai.com/2026/11/508449.html)
+5. [浙大00后博士生再交卷！把十几种物理要素装进一个世界模型｜华为昇腾原生](https://www.qbitai.com/2026/11/508236.html)
