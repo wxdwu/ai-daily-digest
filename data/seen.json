@@ -1,53 +1,5 @@
 {
   "items": {
-    "115ca8a4e0f17dbb8f50": {
-      "url": "https://www.infoq.cn/article/SuqGY4FQ95AVzs1S0KSV?utm_source=rss&utm_medium=article",
-      "title": "金融监管领域的 Harness 实践：让知识与数据驱动 Agent 稳定运行",
-      "seen_at": "2026-10-11T01:22:10.986704+00:00",
-      "run_date": "2026-10-11"
-    },
-    "e8d8d2d1250147c65cfe": {
-      "url": "https://www.infoq.cn/article/gNdWoDM8ygkAjXfsLaBK?utm_source=rss&utm_medium=article",
-      "title": "单次RL后训练烧掉260万美元、每步37亿Token，小米披露MiMo-V2.6“规模化强化学习”路线",
-      "seen_at": "2026-10-11T01:22:10.986704+00:00",
-      "run_date": "2026-10-11"
-    },
-    "65fbe64bb67cc8506629": {
-      "url": "https://www.infoq.cn/article/MAo3KoDWm9FGIcKau9AK?utm_source=rss&utm_medium=article",
-      "title": "CLAUDE.md 还是 AGENTS.md？Anthropic 的答案是：以后都不用",
-      "seen_at": "2026-10-11T01:22:10.986704+00:00",
-      "run_date": "2026-10-11"
-    },
-    "d17071fa3306922e10d6": {
-      "url": "https://www.infoq.cn/article/soBOt9TSckGlJlBS519y?utm_source=rss&utm_medium=article",
-      "title": "比 Astra 还贵！GPT-6.1 Sol 极速版上线，社区吐槽：“500 美元套餐都撑不过一天”",
-      "seen_at": "2026-10-11T01:22:10.986704+00:00",
-      "run_date": "2026-10-11"
-    },
-    "438e56b8bfc2e7074e68": {
-      "url": "https://www.infoq.cn/article/rKRPT18fGxtjipPAeaLa?utm_source=rss&utm_medium=article",
-      "title": "模型开放之后，AI能力为什么仍难以复用？",
-      "seen_at": "2026-10-11T01:22:10.986704+00:00",
-      "run_date": "2026-10-11"
-    },
-    "939426ec8f59555f02c5": {
-      "url": "https://www.infoq.cn/article/IAvNgDyPz2NpvfZLoDo0?utm_source=rss&utm_medium=article",
-      "title": "GKE Pod 快照可缩短模型加载时间",
-      "seen_at": "2026-10-11T01:22:10.986704+00:00",
-      "run_date": "2026-10-11"
-    },
-    "d39339dbadd463ee6b5d": {
-      "url": "https://www.infoq.cn/article/kVJUKEcbqhpL2qwpp2Eq?utm_source=rss&utm_medium=article",
-      "title": "Pallas 内核怎么调优？Google 给出的答案是“少信模型，多看寄存器”",
-      "seen_at": "2026-10-11T01:22:10.986704+00:00",
-      "run_date": "2026-10-11"
-    },
-    "a3953c00f2c331016c70": {
-      "url": "https://www.qbitai.com/2026/10/502364.html",
-      "title": "字节找到了DeepSeek时强时弱的原因",
-      "seen_at": "2026-10-11T01:22:10.986704+00:00",
-      "run_date": "2026-10-11"
-    },
     "c20e0cfa0528d0b60682": {
       "url": "https://www.qbitai.com/2026/10/502585.html",
       "title": "硅谷AI现状：谁有算力谁是爹",
@@ -1313,7 +1265,37 @@
       "title": "浙大00后博士生再交卷！把十几种物理要素装进一个世界模型｜华为昇腾原生",
       "seen_at": "2026-11-09T02:09:25.053970+00:00",
       "run_date": "2026-11-09"
+    },
+    "b6568d97cd24c65d3f2a": {
+      "url": "https://www.qbitai.com/2026/11/507843.html",
+      "title": "腾讯混元跻身最强开源模型！一手实测Hy4：搭配WorkBuddy，多模态Agent交付力拉满",
+      "seen_at": "2026-11-10T04:23:23.530741+00:00",
+      "run_date": "2026-11-10"
+    },
+    "d9db3591d9370af4d3a1": {
+      "url": "https://www.infoq.cn/article/mBvmvcQ8a8ty2Ob1xN64?utm_source=rss&utm_medium=article",
+      "title": "不能把整个安全体系押在大模型上：AI 分诊 CVE，人工审查仍不能少",
+      "seen_at": "2026-11-10T04:23:23.530741+00:00",
+      "run_date": "2026-11-10"
+    },
+    "462ac583b38d4fe23b81": {
+      "url": "https://www.infoq.cn/article/YPQyY6bqhzhtO8MN6XUb?utm_source=rss&utm_medium=article",
+      "title": "不想当管理者，就用不好 Coding Agent？Anthropic 工程师长文谈 Agent 管理实战",
+      "seen_at": "2026-11-10T04:23:23.530741+00:00",
+      "run_date": "2026-11-10"
+    },
+    "08c1e5245ddcff273db3": {
+      "url": "https://www.infoq.cn/article/CUgMFMX7uRJNMec1pfYo?utm_source=rss&utm_medium=article",
+      "title": "AI越来越聪明，企业却快管不住了：Gartner 2027年十大趋势，智能体治理成新战场",
+      "seen_at": "2026-11-10T04:23:23.530741+00:00",
+      "run_date": "2026-11-10"
+    },
+    "cf9d289536a1e943c556": {
+      "url": "https://www.qbitai.com/2026/11/508603.html",
+      "title": "基元律动发布NeoHorse-1.5-Flash Preview，Agent模型RSI进入第二轮迭代",
+      "seen_at": "2026-11-10T04:23:23.530741+00:00",
+      "run_date": "2026-11-10"
     }
   },
-  "updated_at": "2026-11-09T02:09:25.053970+00:00"
+  "updated_at": "2026-11-10T04:23:23.530741+00:00"
 }
