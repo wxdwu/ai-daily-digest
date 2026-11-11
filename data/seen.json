@@ -1,41 +1,5 @@
 {
   "items": {
-    "c20e0cfa0528d0b60682": {
-      "url": "https://www.qbitai.com/2026/10/502585.html",
-      "title": "硅谷AI现状：谁有算力谁是爹",
-      "seen_at": "2026-10-12T01:52:54.624298+00:00",
-      "run_date": "2026-10-12"
-    },
-    "60d62f0ba696dedc5552": {
-      "url": "https://www.infoq.cn/article/soRObi5sjdTTUM95zLJK?utm_source=rss&utm_medium=article",
-      "title": "利用 AI 代码智能体优化软件架构的五种方法",
-      "seen_at": "2026-10-12T01:52:54.624298+00:00",
-      "run_date": "2026-10-12"
-    },
-    "11767ef149988059d748": {
-      "url": "https://www.infoq.cn/article/FTtTLqvzJeMiE03IowFP?utm_source=rss&utm_medium=article",
-      "title": "AI 时代的移动端稳定性保障 —— 柯南 AI Agent 实践｜QCon上海",
-      "seen_at": "2026-10-12T01:52:54.624298+00:00",
-      "run_date": "2026-10-12"
-    },
-    "9fed5b886d7ab36e5e24": {
-      "url": "https://www.infoq.cn/article/2SNgaiHoK808v22dl5SJ?utm_source=rss&utm_medium=article",
-      "title": "Uber 在 Kubernetes 平台上将扩容意图与执行操作解耦",
-      "seen_at": "2026-10-12T01:52:54.624298+00:00",
-      "run_date": "2026-10-12"
-    },
-    "931911ac41ab3407f011": {
-      "url": "https://www.qbitai.com/2026/10/502550.html",
-      "title": "下架8个月，GPT-4o的拯救行动居然还在继续",
-      "seen_at": "2026-10-12T01:52:54.624298+00:00",
-      "run_date": "2026-10-12"
-    },
-    "d92174b96a3fff400110": {
-      "url": "https://www.qbitai.com/2026/10/502544.html",
-      "title": "DeepSeek Bot来了！民间版，DSH装个插件就能用",
-      "seen_at": "2026-10-12T01:52:54.624298+00:00",
-      "run_date": "2026-10-12"
-    },
     "66b580bb74ce65debef7": {
       "url": "https://www.infoq.cn/article/Qk7CzmLpDCvfYpAiU6Tf?utm_source=rss&utm_medium=article",
       "title": "AI 智能体三周重构 30 万行代码，Code Health 从 5.6 升至 10.0：代码真的变好了吗？",
@@ -1295,7 +1259,55 @@
       "title": "基元律动发布NeoHorse-1.5-Flash Preview，Agent模型RSI进入第二轮迭代",
       "seen_at": "2026-11-10T04:23:23.530741+00:00",
       "run_date": "2026-11-10"
+    },
+    "cf930c91983596bc24ff": {
+      "url": "https://www.infoq.cn/article/juu2R26yD8B6ABUEQuWB?utm_source=rss&utm_medium=article",
+      "title": "接大模型别再自己配 Key、搭代理了，火山引擎 IGA Pages 一步搞定",
+      "seen_at": "2026-11-11T02:19:44.830296+00:00",
+      "run_date": "2026-11-11"
+    },
+    "ca192702438e5529e67e": {
+      "url": "https://www.infoq.cn/article/Ou4l4aD7zvUzXWXsWJfY?utm_source=rss&utm_medium=article",
+      "title": "成本仅1/3！Meta 新模型 Muse Ember 硬刚 Claude Haiku 5.5",
+      "seen_at": "2026-11-11T02:19:44.830296+00:00",
+      "run_date": "2026-11-11"
+    },
+    "195062d1151f95c23e77": {
+      "url": "https://www.infoq.cn/article/STFszc8JxPkXGeV9QRH3?utm_source=rss&utm_medium=article",
+      "title": "突破 Kubernetes 的 CPU 抽象，Uber 为异构服务器重新定义“一核”",
+      "seen_at": "2026-11-11T02:19:44.830296+00:00",
+      "run_date": "2026-11-11"
+    },
+    "0f68add129cc47aab959": {
+      "url": "https://www.infoq.cn/article/yuRNB72KsEbjGYSkV7FY?utm_source=rss&utm_medium=article",
+      "title": "Airbnb 借助 Chronon 将推荐延迟从两天缩短至秒级",
+      "seen_at": "2026-11-11T02:19:44.830296+00:00",
+      "run_date": "2026-11-11"
+    },
+    "c53ee1fb28dfffe8113e": {
+      "url": "https://www.qbitai.com/2026/11/509017.html",
+      "title": "从芯片到千比特整机，超导量子计算还有一场硬仗",
+      "seen_at": "2026-11-11T02:19:44.830296+00:00",
+      "run_date": "2026-11-11"
+    },
+    "625967e145c27309246f": {
+      "url": "https://www.infoq.cn/article/Y7lTO7Q1M8oN5JhxhirK?utm_source=rss&utm_medium=article",
+      "title": "DeepSeek Harness 日活154万，官方开始给插件作者发Token：Agent 生态要靠开发者了",
+      "seen_at": "2026-11-11T02:19:44.830296+00:00",
+      "run_date": "2026-11-11"
+    },
+    "610479d40c6879abc028": {
+      "url": "https://www.qbitai.com/2026/11/508991.html",
+      "title": "成立四个月，融资过亿美金：TensorWorld物原科技要跑通“物理真实”路线",
+      "seen_at": "2026-11-11T02:19:44.830296+00:00",
+      "run_date": "2026-11-11"
+    },
+    "4fe1ed0f9c256675b83a": {
+      "url": "https://www.qbitai.com/2026/11/508996.html",
+      "title": "从“一脑多机”到“一脑多手”，蚂蚁灵波开源LingBot-Touch触觉基础模型",
+      "seen_at": "2026-11-11T02:19:44.830296+00:00",
+      "run_date": "2026-11-11"
     }
   },
-  "updated_at": "2026-11-10T04:23:23.530741+00:00"
+  "updated_at": "2026-11-11T02:19:44.830296+00:00"
 }

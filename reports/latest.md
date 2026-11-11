@@ -1,7 +1,10 @@
-大模型与 AI Agent 成为今日焦点
+大模型与 AI 最新动态 成为今日焦点
 
-1. [腾讯混元跻身最强开源模型！一手实测Hy4：搭配WorkBuddy，多模态Agent交付力拉满](https://www.qbitai.com/2026/11/507843.html)
-2. [不能把整个安全体系押在大模型上：AI 分诊 CVE，人工审查仍不能少](https://www.infoq.cn/article/mBvmvcQ8a8ty2Ob1xN64?utm_source=rss&utm_medium=article)
-3. [不想当管理者，就用不好 Coding Agent？Anthropic 工程师长文谈 Agent 管理实战](https://www.infoq.cn/article/YPQyY6bqhzhtO8MN6XUb?utm_source=rss&utm_medium=article)
-4. [AI越来越聪明，企业却快管不住了：Gartner 2027年十大趋势，智能体治理成新战场](https://www.infoq.cn/article/CUgMFMX7uRJNMec1pfYo?utm_source=rss&utm_medium=article)
-5. [基元律动发布NeoHorse-1.5-Flash Preview，Agent模型RSI进入第二轮迭代](https://www.qbitai.com/2026/11/508603.html)
+1. [接大模型别再自己配 Key、搭代理了，火山引擎 IGA Pages 一步搞定](https://www.infoq.cn/article/juu2R26yD8B6ABUEQuWB?utm_source=rss&utm_medium=article)
+2. [成本仅1/3！Meta 新模型 Muse Ember 硬刚 Claude Haiku 5.5](https://www.infoq.cn/article/Ou4l4aD7zvUzXWXsWJfY?utm_source=rss&utm_medium=article)
+3. [突破 Kubernetes 的 CPU 抽象，Uber 为异构服务器重新定义“一核”](https://www.infoq.cn/article/STFszc8JxPkXGeV9QRH3?utm_source=rss&utm_medium=article)
+4. [Airbnb 借助 Chronon 将推荐延迟从两天缩短至秒级](https://www.infoq.cn/article/yuRNB72KsEbjGYSkV7FY?utm_source=rss&utm_medium=article)
+5. [从芯片到千比特整机，超导量子计算还有一场硬仗](https://www.qbitai.com/2026/11/509017.html)
+6. [DeepSeek Harness 日活154万，官方开始给插件作者发Token：Agent 生态要靠开发者了](https://www.infoq.cn/article/Y7lTO7Q1M8oN5JhxhirK?utm_source=rss&utm_medium=article)
+7. [成立四个月，融资过亿美金：TensorWorld物原科技要跑通“物理真实”路线](https://www.qbitai.com/2026/11/508991.html)
+8. [从“一脑多机”到“一脑多手”，蚂蚁灵波开源LingBot-Touch触觉基础模型](https://www.qbitai.com/2026/11/508996.html)
