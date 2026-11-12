@@ -1,35 +1,5 @@
 {
   "items": {
-    "66b580bb74ce65debef7": {
-      "url": "https://www.infoq.cn/article/Qk7CzmLpDCvfYpAiU6Tf?utm_source=rss&utm_medium=article",
-      "title": "AI 智能体三周重构 30 万行代码，Code Health 从 5.6 升至 10.0：代码真的变好了吗？",
-      "seen_at": "2026-10-13T03:14:42.510896+00:00",
-      "run_date": "2026-10-13"
-    },
-    "da0c8133d528dd8f84f0": {
-      "url": "https://www.qbitai.com/2026/10/502628.html",
-      "title": "何恺明团队发布多模态Harness框架",
-      "seen_at": "2026-10-13T03:14:42.510896+00:00",
-      "run_date": "2026-10-13"
-    },
-    "d658738d41f83e38cac2": {
-      "url": "https://www.qbitai.com/2026/10/502654.html",
-      "title": "华为AI靠RSI通关25款游戏！操作次数比人类少56%",
-      "seen_at": "2026-10-13T03:14:42.510896+00:00",
-      "run_date": "2026-10-13"
-    },
-    "c6bcdc40050eb54b35b6": {
-      "url": "https://www.qbitai.com/2026/10/502644.html",
-      "title": "用不着Ctrl+F了！全新AI论文工具，帮你在原文献里海里捞针",
-      "seen_at": "2026-10-13T03:14:42.510896+00:00",
-      "run_date": "2026-10-13"
-    },
-    "f87e059a14481518561d": {
-      "url": "https://www.qbitai.com/2026/10/502649.html",
-      "title": "智谱新模型，490 tokens/s！",
-      "seen_at": "2026-10-13T03:14:42.510896+00:00",
-      "run_date": "2026-10-13"
-    },
     "1f4fe34b6fb2fbe47061": {
       "url": "https://www.infoq.cn/article/8La5gsJVOOF5BvFiLAUF?utm_source=rss&utm_medium=article",
       "title": "Claude 开始自己写程序管理 Agent 了：Anthropic 披露动态工作流架构",
@@ -1307,7 +1277,49 @@
       "title": "从“一脑多机”到“一脑多手”，蚂蚁灵波开源LingBot-Touch触觉基础模型",
       "seen_at": "2026-11-11T02:19:44.830296+00:00",
       "run_date": "2026-11-11"
+    },
+    "81e7548397ef9d4b9726": {
+      "url": "https://www.qbitai.com/2026/11/509085.html",
+      "title": "卷起来了！11月11日，大模型厂商在天猫打5折",
+      "seen_at": "2026-11-12T03:27:31.464508+00:00",
+      "run_date": "2026-11-12"
+    },
+    "ac8aefd0edee7ed6c84b": {
+      "url": "https://aws.amazon.com/cn/blogs/china/based-on-build-ontology-agent-platform-amazon-bedrock/",
+      "title": "柯基数据基于亚马逊云科技构建可信 Ontology Agent 平台：Amazon Bedrock AgentCore 与 AWS Continuum 实践",
+      "seen_at": "2026-11-12T03:27:31.464508+00:00",
+      "run_date": "2026-11-12"
+    },
+    "522c7479aac0499d6431": {
+      "url": "https://www.infoq.cn/article/YiANe38yfSYitvZOtab0?utm_source=rss&utm_medium=article",
+      "title": "谷歌最强模型 Gemini 4 Carbon 全面开放：一夜重写 OpenCode 桌面应用、价格仅为 Fable 5.2 的 1/4",
+      "seen_at": "2026-11-12T03:27:31.464508+00:00",
+      "run_date": "2026-11-12"
+    },
+    "d00c0b167ba5554bee82": {
+      "url": "https://www.infoq.cn/article/1PdshF8SLevbGZbbZHoP?utm_source=rss&utm_medium=article",
+      "title": "Anthropic 一夜逼疯微软？Claude 杀入办公软件腹地：能自己参会、做表格、生成PPT",
+      "seen_at": "2026-11-12T03:27:31.464508+00:00",
+      "run_date": "2026-11-12"
+    },
+    "26a82209ad7814b2d5f6": {
+      "url": "https://aws.amazon.com/cn/blogs/china/based-on-aws-verified-access-build-security/",
+      "title": "基于 AWS Verified Access 构建零信任访问：安全访问私网 Web 与 TCP 应用",
+      "seen_at": "2026-11-12T03:27:31.464508+00:00",
+      "run_date": "2026-11-12"
+    },
+    "e36199d78ff266ea99ab": {
+      "url": "https://www.infoq.cn/article/py4PRbBWJSPm5aV10gHq?utm_source=rss&utm_medium=article",
+      "title": "Datadog 推出面向 SRE 故障排查的专用 AI 模型",
+      "seen_at": "2026-11-12T03:27:31.464508+00:00",
+      "run_date": "2026-11-12"
+    },
+    "dd625c6c224c2bd2dee9": {
+      "url": "https://www.infoq.cn/article/7wd1IyRiffi1vPz6goHS?utm_source=rss&utm_medium=article",
+      "title": "面向产业决策的升级：蚂蚁数科LingDT-Decision 首发信息抽取能力",
+      "seen_at": "2026-11-12T03:27:31.464508+00:00",
+      "run_date": "2026-11-12"
     }
   },
-  "updated_at": "2026-11-11T02:19:44.830296+00:00"
+  "updated_at": "2026-11-12T03:27:31.464508+00:00"
 }
