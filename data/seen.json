@@ -1,59 +1,5 @@
 {
   "items": {
-    "31bdcd478fff26dd7eef": {
-      "url": "https://www.infoq.cn/article/JbzA5yvzl2BkuTpkfdrU?utm_source=rss&utm_medium=article",
-      "title": "算力效率的边界：以体系结构量化与分布式工程破局 AI Infra",
-      "seen_at": "2026-10-16T00:51:22.553907+00:00",
-      "run_date": "2026-10-16"
-    },
-    "b8a647568cbac23c7f17": {
-      "url": "https://www.infoq.cn/article/HC8SAgaZmHc6sfwp9gc9?utm_source=rss&utm_medium=article",
-      "title": "黄仁勋谈中国 AI 公司：算力很缺，但他们就是在拼命把事情做成",
-      "seen_at": "2026-10-16T00:51:22.553907+00:00",
-      "run_date": "2026-10-16"
-    },
-    "aeee745c1e7294763b79": {
-      "url": "https://aws.amazon.com/cn/blogs/china/using-openkruisegame-aws-global-accelerator/",
-      "title": "使用 OpenKruiseGame 与 AWS Global Accelerator 接入全球游戏玩家",
-      "seen_at": "2026-10-16T00:51:22.553907+00:00",
-      "run_date": "2026-10-16"
-    },
-    "fca2b4ca44c87d420a47": {
-      "url": "https://www.infoq.cn/article/pkyTD9OWfpU7QvIbLX2j?utm_source=rss&utm_medium=article",
-      "title": "国产 GPU 越来越多，为什么反而更难用？",
-      "seen_at": "2026-10-16T00:51:22.553907+00:00",
-      "run_date": "2026-10-16"
-    },
-    "4a8d17e24cd11aa6a360": {
-      "url": "https://www.infoq.cn/article/JxVNJwhmsB1YYKmgD9KU?utm_source=rss&utm_medium=article",
-      "title": "Istio 1.31 拥抱 AI 智能体，却先宣布“告别”Google Cloud",
-      "seen_at": "2026-10-16T00:51:22.553907+00:00",
-      "run_date": "2026-10-16"
-    },
-    "047e218e50e8ac71d354": {
-      "url": "https://www.infoq.cn/article/EwqsJX6f03ODRac6Kk4c?utm_source=rss&utm_medium=article",
-      "title": "阶跃星辰开放 Step 5 Preview 权重：长程 Agent 的竞争，延伸到上下文管理与训练系统",
-      "seen_at": "2026-10-16T00:51:22.553907+00:00",
-      "run_date": "2026-10-16"
-    },
-    "6c1bda83a1e8ac5e53db": {
-      "url": "https://www.infoq.cn/article/QdPWpubQFmegrsH9UZFC?utm_source=rss&utm_medium=article",
-      "title": "成立不到半年融资数亿元，98年清华学者、KAN一作创业：让AI学会设计模型",
-      "seen_at": "2026-10-16T00:51:22.553907+00:00",
-      "run_date": "2026-10-16"
-    },
-    "a7ededeb3c71815dccf3": {
-      "url": "https://www.infoq.cn/article/SxQO3Aw6JCTgNMTGPPE8?utm_source=rss&utm_medium=article",
-      "title": "蚂蚁百灵开源 560B 模型 Ling-3.0-flash：0.19 美元搞定复杂工作流",
-      "seen_at": "2026-10-16T00:51:22.553907+00:00",
-      "run_date": "2026-10-16"
-    },
-    "0eeb25882f3b9f8b381f": {
-      "url": "https://www.infoq.cn/article/LQCqiPUzgZyB3v24rsNO?utm_source=rss&utm_medium=article",
-      "title": "Archestra 发布 OpenAPPA，用于防范提示词注入或模型幻觉引发的数据外泄",
-      "seen_at": "2026-10-16T00:51:22.553907+00:00",
-      "run_date": "2026-10-16"
-    },
     "dcbc37e7a3ba5c95936d": {
       "url": "https://www.infoq.cn/article/xQLd004RGWrzFhwqBOyC?utm_source=rss&utm_medium=article",
       "title": "生产级大模型平台工程实战手册",
@@ -1271,7 +1217,31 @@
       "title": "谷歌推出 LiteRT Tensor API，用于构建、定制与优化端侧机器学习模型",
       "seen_at": "2026-11-14T02:45:46.882121+00:00",
       "run_date": "2026-11-14"
+    },
+    "f74c799cfc28474a7ca1": {
+      "url": "https://www.qbitai.com/2026/11/510232.html",
+      "title": "「史上最严」湿实验预测基准发布！推理拉满、算力翻5倍也白搭",
+      "seen_at": "2026-11-15T02:13:03.652666+00:00",
+      "run_date": "2026-11-15"
+    },
+    "eb4cbbae0256c30bc313": {
+      "url": "https://www.qbitai.com/2026/11/510003.html",
+      "title": "突发！DeepSeek开放全家桶API",
+      "seen_at": "2026-11-15T02:13:03.652666+00:00",
+      "run_date": "2026-11-15"
+    },
+    "6eba088ff46f876b08cf": {
+      "url": "https://www.infoq.cn/article/YRXscVHsTh0g6CVCJJ0D?utm_source=rss&utm_medium=article",
+      "title": "AI 自动写 PR，模型反而最简单：Inkitt 如何应对 Webhook 重复、CI 失败与合并冲突",
+      "seen_at": "2026-11-15T02:13:03.652666+00:00",
+      "run_date": "2026-11-15"
+    },
+    "62208dec16281c50287c": {
+      "url": "https://www.infoq.cn/article/XrW1cdg9NFRkemvqLiZc?utm_source=rss&utm_medium=article",
+      "title": "GitHub Actions 锁文件功能正式可用，保障工作流依赖安全",
+      "seen_at": "2026-11-15T02:13:03.652666+00:00",
+      "run_date": "2026-11-15"
     }
   },
-  "updated_at": "2026-11-14T02:45:46.882121+00:00"
+  "updated_at": "2026-11-15T02:13:03.652666+00:00"
 }
