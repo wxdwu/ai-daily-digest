@@ -1,6 +1,5 @@
-AI Infra 与 AI Agent 成为今日焦点
+AI Agent 与大模型成为今日焦点
 
-1. [「史上最严」湿实验预测基准发布！推理拉满、算力翻5倍也白搭](https://www.qbitai.com/2026/11/510232.html)
-2. [突发！DeepSeek开放全家桶API](https://www.qbitai.com/2026/11/510003.html)
-3. [AI 自动写 PR，模型反而最简单：Inkitt 如何应对 Webhook 重复、CI 失败与合并冲突](https://www.infoq.cn/article/YRXscVHsTh0g6CVCJJ0D?utm_source=rss&utm_medium=article)
-4. [GitHub Actions 锁文件功能正式可用，保障工作流依赖安全](https://www.infoq.cn/article/XrW1cdg9NFRkemvqLiZc?utm_source=rss&utm_medium=article)
+1. [从对话到执行：基于 Amazon Bedrock Managed Agents 与 AWS Lambda MicroVMs 构建 AI Agent](https://aws.amazon.com/cn/blogs/china/bedrock-managed-agents-aws-lambda-microvms-build-ai-agent/)
+2. [GitLab 19.5 发布，将智能体开发纳入可治理的 DevOps 平台能力](https://www.infoq.cn/article/0IpE2EOypcqMFtL7z4z1?utm_source=rss&utm_medium=article)
+3. [闭环 AI 自我进化：从 Skill、Harness 到模型训练与评估｜AICon北京](https://www.infoq.cn/article/fZSEkDatL9xajG8PVi7G?utm_source=rss&utm_medium=article)

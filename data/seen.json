@@ -1,65 +1,5 @@
 {
   "items": {
-    "dcbc37e7a3ba5c95936d": {
-      "url": "https://www.infoq.cn/article/xQLd004RGWrzFhwqBOyC?utm_source=rss&utm_medium=article",
-      "title": "生产级大模型平台工程实战手册",
-      "seen_at": "2026-10-17T00:51:43.128370+00:00",
-      "run_date": "2026-10-17"
-    },
-    "2521bb51e333e98dc9d7": {
-      "url": "https://www.qbitai.com/2026/10/503640.html",
-      "title": "库克：苹果智能接入阿里千问大模型，10月底在中国发布测试版本",
-      "seen_at": "2026-10-17T00:51:43.128370+00:00",
-      "run_date": "2026-10-17"
-    },
-    "6590ec6f3aecea1d913e": {
-      "url": "https://www.qbitai.com/2026/10/503446.html",
-      "title": "前华为小艺大模型负责人创业，押注“主动式物理AI”",
-      "seen_at": "2026-10-17T00:51:43.128370+00:00",
-      "run_date": "2026-10-17"
-    },
-    "e6dc522e462f19a0dcc5": {
-      "url": "https://www.infoq.cn/article/1XtKjZ1OCyrYTCmb4Zkb?utm_source=rss&utm_medium=article",
-      "title": "聚焦 AI 场景落地与 FDE 创新，2026 人工智能产业大会专项活动在济南举行",
-      "seen_at": "2026-10-17T00:51:43.128370+00:00",
-      "run_date": "2026-10-17"
-    },
-    "84a49a5d9fc861c1cd93": {
-      "url": "https://blogs.nvidia.cn/blog/volvo-cars-and-nvidia-expand-partnership-to-advance-safe-automated-driving/",
-      "title": "沃尔沃汽车与 NVIDIA 扩大合作，共同推动安全辅助驾驶发展",
-      "seen_at": "2026-10-17T00:51:43.128370+00:00",
-      "run_date": "2026-10-17"
-    },
-    "0a915e4fd025976363c2": {
-      "url": "https://www.infoq.cn/article/hRw4BZQQUW14sqYMo5F6?utm_source=rss&utm_medium=article",
-      "title": "Linus用Claude Code改Linux内核，大神也没兜住代码里的Bug",
-      "seen_at": "2026-10-17T00:51:43.128370+00:00",
-      "run_date": "2026-10-17"
-    },
-    "71f41821ee8a596ce0b0": {
-      "url": "https://www.infoq.cn/article/aMgWFmwZ2HoZDtw1g0MQ?utm_source=rss&utm_medium=article",
-      "title": "Pizza Bot：开源的后台 AI 智能体收件箱",
-      "seen_at": "2026-10-17T00:51:43.128370+00:00",
-      "run_date": "2026-10-17"
-    },
-    "165ec15d5571d3173902": {
-      "url": "https://www.infoq.cn/article/VZPlIIdGRg062mgwJe5y?utm_source=rss&utm_medium=article",
-      "title": "范式智能联合睿思智联推出开源一站式生产级AI部署平台 “模域ModelSphere”",
-      "seen_at": "2026-10-17T00:51:43.128370+00:00",
-      "run_date": "2026-10-17"
-    },
-    "1a7a9c5d51310d36065d": {
-      "url": "https://www.infoq.cn/article/hQOHf1ZXoBs7uMpWJQss?utm_source=rss&utm_medium=article",
-      "title": "Pi 抛出全新 Agent Harness，还把自己骂了一年的 MCP 装进了核心",
-      "seen_at": "2026-10-17T00:51:43.128370+00:00",
-      "run_date": "2026-10-17"
-    },
-    "62d4dcf2519a177a5bcb": {
-      "url": "https://www.qbitai.com/2026/10/503532.html",
-      "title": "这个双十一，百灵新模型干起活来不烧心",
-      "seen_at": "2026-10-17T00:51:43.128370+00:00",
-      "run_date": "2026-10-17"
-    },
     "8e306f80b2f9425fd5e4": {
       "url": "https://www.qbitai.com/2026/10/503843.html",
       "title": "霸榜三大基准！优必选 Thinker-WM：多模态统一表征，单模型实现六大能力",
@@ -1241,7 +1181,25 @@
       "title": "GitHub Actions 锁文件功能正式可用，保障工作流依赖安全",
       "seen_at": "2026-11-15T02:13:03.652666+00:00",
       "run_date": "2026-11-15"
+    },
+    "eeb6821306110da03b49": {
+      "url": "https://aws.amazon.com/cn/blogs/china/bedrock-managed-agents-aws-lambda-microvms-build-ai-agent/",
+      "title": "从对话到执行：基于 Amazon Bedrock Managed Agents 与 AWS Lambda MicroVMs 构建 AI Agent",
+      "seen_at": "2026-11-16T02:25:57.211527+00:00",
+      "run_date": "2026-11-16"
+    },
+    "82190b5f5740317de14e": {
+      "url": "https://www.infoq.cn/article/0IpE2EOypcqMFtL7z4z1?utm_source=rss&utm_medium=article",
+      "title": "GitLab 19.5 发布，将智能体开发纳入可治理的 DevOps 平台能力",
+      "seen_at": "2026-11-16T02:25:57.211527+00:00",
+      "run_date": "2026-11-16"
+    },
+    "2c41d0f5cfe7022a293f": {
+      "url": "https://www.infoq.cn/article/fZSEkDatL9xajG8PVi7G?utm_source=rss&utm_medium=article",
+      "title": "闭环 AI 自我进化：从 Skill、Harness 到模型训练与评估｜AICon北京",
+      "seen_at": "2026-11-16T02:25:57.211527+00:00",
+      "run_date": "2026-11-16"
     }
   },
-  "updated_at": "2026-11-15T02:13:03.652666+00:00"
+  "updated_at": "2026-11-16T02:25:57.211527+00:00"
 }
