@@ -1,47 +1,5 @@
 {
   "items": {
-    "8e306f80b2f9425fd5e4": {
-      "url": "https://www.qbitai.com/2026/10/503843.html",
-      "title": "霸榜三大基准！优必选 Thinker-WM：多模态统一表征，单模型实现六大能力",
-      "seen_at": "2026-10-18T00:28:19.643290+00:00",
-      "run_date": "2026-10-18"
-    },
-    "fb3f0e6b588c66bf71ff": {
-      "url": "https://www.qbitai.com/2026/10/503701.html",
-      "title": "刚刚，Gemini 4终于来了：谷歌重回御三家，API限时半价",
-      "seen_at": "2026-10-18T00:28:19.643290+00:00",
-      "run_date": "2026-10-18"
-    },
-    "79d77764dd5cd3d48ba9": {
-      "url": "https://www.infoq.cn/article/AF1qxLVCRls3R6MdWwBh?utm_source=rss&utm_medium=article",
-      "title": "Java 近期新闻：JobRunr 9、OpenXava 8、Quarkus、LangChain4j、JNoSQL、Lathe",
-      "seen_at": "2026-10-18T00:28:19.643290+00:00",
-      "run_date": "2026-10-18"
-    },
-    "dc361fe97dccc4f337af": {
-      "url": "https://www.qbitai.com/2026/10/503782.html",
-      "title": "超1亿元融资砸向四川具身科技！要把「情绪价值」卖进千家万户",
-      "seen_at": "2026-10-18T00:28:19.643290+00:00",
-      "run_date": "2026-10-18"
-    },
-    "8547a3eb3cab71ab9a71": {
-      "url": "https://www.qbitai.com/2026/10/503880.html",
-      "title": "清华特奖得主AI创业再+1：GeoPT一作入局物理世界模型",
-      "seen_at": "2026-10-18T00:28:19.643290+00:00",
-      "run_date": "2026-10-18"
-    },
-    "3aa58c17d8500e3648bb": {
-      "url": "https://www.qbitai.com/2026/10/503865.html",
-      "title": "从“看懂世界”到“预演下一步”：世界模型与 VLA，如何让机器人拥有真正的“具身大脑”？",
-      "seen_at": "2026-10-18T00:28:19.643290+00:00",
-      "run_date": "2026-10-18"
-    },
-    "86bf0cfd07cd55e4e308": {
-      "url": "https://www.infoq.cn/article/CoGZq3xgQhZI4rBH8pjA?utm_source=rss&utm_medium=article",
-      "title": "Cloudflare 计划推出公共证书颁发机构，用于签发量子安全的 TLS 证书",
-      "seen_at": "2026-10-18T00:28:19.643290+00:00",
-      "run_date": "2026-10-18"
-    },
     "1a1f5d95f153e11441e1": {
       "url": "https://www.infoq.cn/article/EuYOPRUBAeBgBGBu5ktk?utm_source=rss&utm_medium=article",
       "title": "Meta 联手苹果推出全美最强开源模型，编码基测输给智谱、Kimi",
@@ -1199,7 +1157,67 @@
       "title": "闭环 AI 自我进化：从 Skill、Harness 到模型训练与评估｜AICon北京",
       "seen_at": "2026-11-16T02:25:57.211527+00:00",
       "run_date": "2026-11-16"
+    },
+    "e3ac2e9f1c7fc7ae38ab": {
+      "url": "https://www.infoq.cn/article/8TySw9wzqf0l90keJUNf?utm_source=rss&utm_medium=article",
+      "title": "Codex、Claude Code 都卷完了，居然还能跑出黑马？整个产品，现在都可以是一个提示词",
+      "seen_at": "2026-11-17T04:49:55.851747+00:00",
+      "run_date": "2026-11-17"
+    },
+    "340235df39d10916f4b7": {
+      "url": "https://www.infoq.cn/article/LjVeWVAsBWwaiifdMRiu?utm_source=rss&utm_medium=article",
+      "title": "DigitalOcean Managed Agents为AI智能体提供托管云基础设施",
+      "seen_at": "2026-11-17T04:49:55.851747+00:00",
+      "run_date": "2026-11-17"
+    },
+    "912d89d24c8c7231841f": {
+      "url": "https://www.infoq.cn/article/NWmk4epBL0jPAUtpKSKb?utm_source=rss&utm_medium=article",
+      "title": "DeepSeek又来掀桌子了！官方App全套能力开放API，联网搜索价格不到OpenAI、Claude的8%",
+      "seen_at": "2026-11-17T04:49:55.851747+00:00",
+      "run_date": "2026-11-17"
+    },
+    "6b65221b888141e25c81": {
+      "url": "https://blogs.nvidia.cn/blog/nvidia-introduces-nemotron-for-science-to-accelerate-discoveries-with-agents/",
+      "title": "NVIDIA 推出 Nemotron for Science，借助智能体加速科学发现",
+      "seen_at": "2026-11-17T04:49:55.851747+00:00",
+      "run_date": "2026-11-17"
+    },
+    "8a3464d84da6256940e3": {
+      "url": "https://www.qbitai.com/2026/11/510486.html",
+      "title": "阿里正式发布Qwen4，智能体及编程能力进阶，迈向真实全场景",
+      "seen_at": "2026-11-17T04:49:55.851747+00:00",
+      "run_date": "2026-11-17"
+    },
+    "fb8820eb91d6bc77b1c9": {
+      "url": "https://aws.amazon.com/cn/blogs/china/aws-agentcore-entra-id-authentication-practice-using/",
+      "title": "AWS 中国区域 AgentCore 与世纪互联 Entra ID 认证实践：（一）使用企业账号安全访问业务工具",
+      "seen_at": "2026-11-17T04:49:55.851747+00:00",
+      "run_date": "2026-11-17"
+    },
+    "67ca18977628ff8d07fd": {
+      "url": "https://www.infoq.cn/article/ah2izwCUPxX2y1herN7b?utm_source=rss&utm_medium=article",
+      "title": "Uber Eats重建搜索流水线，端到端延迟降低50%",
+      "seen_at": "2026-11-17T04:49:55.851747+00:00",
+      "run_date": "2026-11-17"
+    },
+    "0221c14b1e2137203095": {
+      "url": "https://www.infoq.cn/article/yV89L6iMCqSLDHeSoLxo?utm_source=rss&utm_medium=article",
+      "title": "Docker Sandbox Kit规范：将AI智能体权限打包为OCI镜像",
+      "seen_at": "2026-11-17T04:49:55.851747+00:00",
+      "run_date": "2026-11-17"
+    },
+    "deb45bd13c2295a85362": {
+      "url": "https://www.qbitai.com/2026/11/510416.html",
+      "title": "龙芯、海光老兵集结，通研院孵化的AGI芯片公司浮出水面！半年连融数亿元",
+      "seen_at": "2026-11-17T04:49:55.851747+00:00",
+      "run_date": "2026-11-17"
+    },
+    "c4b8c6b32f12b6d3cb23": {
+      "url": "https://www.infoq.cn/article/3HFLOphp4vIUZl2s3Xsr?utm_source=rss&utm_medium=article",
+      "title": "Envoy Gateway 1.9.1强化安全性并解决棘手的升级问题",
+      "seen_at": "2026-11-17T04:49:55.851747+00:00",
+      "run_date": "2026-11-17"
     }
   },
-  "updated_at": "2026-11-16T02:25:57.211527+00:00"
+  "updated_at": "2026-11-17T04:49:55.851747+00:00"
 }
