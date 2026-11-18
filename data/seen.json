@@ -1,41 +1,5 @@
 {
   "items": {
-    "1a1f5d95f153e11441e1": {
-      "url": "https://www.infoq.cn/article/EuYOPRUBAeBgBGBu5ktk?utm_source=rss&utm_medium=article",
-      "title": "Meta 联手苹果推出全美最强开源模型，编码基测输给智谱、Kimi",
-      "seen_at": "2026-10-19T00:33:50.052949+00:00",
-      "run_date": "2026-10-19"
-    },
-    "79837d98515e6fcbd3c0": {
-      "url": "https://www.infoq.cn/article/qZPH971CbfHkaCfgG0cb?utm_source=rss&utm_medium=article",
-      "title": "“AI+终端”时代的萌芽：大模型在终端领域的探索和量产落地｜QCon上海",
-      "seen_at": "2026-10-19T00:33:50.052949+00:00",
-      "run_date": "2026-10-19"
-    },
-    "741e15e6349adacde744": {
-      "url": "https://www.qbitai.com/2026/10/504067.html",
-      "title": "突发！DeepSeek新模型发布，超级性价比斩杀一切",
-      "seen_at": "2026-10-19T00:33:50.052949+00:00",
-      "run_date": "2026-10-19"
-    },
-    "e037294e7ace3aa24bb7": {
-      "url": "https://www.qbitai.com/2026/10/503935.html",
-      "title": "清华开源！智能体操作系统任务成本降83%，AI记忆可查可改",
-      "seen_at": "2026-10-19T00:33:50.052949+00:00",
-      "run_date": "2026-10-19"
-    },
-    "038a378ac78550a2075e": {
-      "url": "https://www.qbitai.com/2026/10/503910.html",
-      "title": "Claude半小时解开密码学悬案，学界集体走偏20年",
-      "seen_at": "2026-10-19T00:33:50.052949+00:00",
-      "run_date": "2026-10-19"
-    },
-    "696f9ab68b017d145e93": {
-      "url": "https://www.qbitai.com/2026/10/503965.html",
-      "title": "智谱新模型，懂法方面全球第一了",
-      "seen_at": "2026-10-19T00:33:50.052949+00:00",
-      "run_date": "2026-10-19"
-    },
     "afd176d0b76541201b32": {
       "url": "https://www.infoq.cn/article/4t84hFyjYP6gq9KNWE60?utm_source=rss&utm_medium=article",
       "title": "Kubernetes多集群项目Karmada完成CNCF毕业",
@@ -1217,7 +1181,49 @@
       "title": "Envoy Gateway 1.9.1强化安全性并解决棘手的升级问题",
       "seen_at": "2026-11-17T04:49:55.851747+00:00",
       "run_date": "2026-11-17"
+    },
+    "7170f8000636724bb50a": {
+      "url": "https://www.infoq.cn/article/X8xujm6xovp7z2YzWbpM?utm_source=rss&utm_medium=article",
+      "title": "面向多智能体应用的大模型推理调度与缓存优化｜AICon北京",
+      "seen_at": "2026-11-18T03:55:25.271175+00:00",
+      "run_date": "2026-11-18"
+    },
+    "979fee098252bdf01850": {
+      "url": "https://www.infoq.cn/article/JhBUwv1pHR3S986Ih0iJ?utm_source=rss&utm_medium=article",
+      "title": "openEuler 进军 Agentic Infra！主席熊伟：不讲大故事，先解决真问题",
+      "seen_at": "2026-11-18T03:55:25.271175+00:00",
+      "run_date": "2026-11-18"
+    },
+    "07f5dde8062e5db11c50": {
+      "url": "https://developer.nvidia.cn/blog/accelerating-fusion-plasma-gyrokinetic-simulations/",
+      "title": "把“人造太阳”搬上 GPU：用 CUDA C++ 加速聚变等离子体的回旋动理学模拟",
+      "seen_at": "2026-11-18T03:55:25.271175+00:00",
+      "run_date": "2026-11-18"
+    },
+    "8895c99a3536491531a0": {
+      "url": "https://www.infoq.cn/article/wy7Osc1cHY1U9gQR3pwH?utm_source=rss&utm_medium=article",
+      "title": "Vitest 5 通过共享 Vite 服务器、跟踪视图和更严格的测试默认设置来优先保障性能",
+      "seen_at": "2026-11-18T03:55:25.271175+00:00",
+      "run_date": "2026-11-18"
+    },
+    "68a9f5691dd1a167669c": {
+      "url": "https://blogs.nvidia.cn/blog/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee/",
+      "title": "NVIDIA 董事会成立国家安全和出口管制监督委员会",
+      "seen_at": "2026-11-18T03:55:25.271175+00:00",
+      "run_date": "2026-11-18"
+    },
+    "ee7d9e6cbc6d120179bc": {
+      "url": "https://www.infoq.cn/article/bZrW40XdHeMSkfOBxL2C?utm_source=rss&utm_medium=article",
+      "title": "阿里 Qwen4-Max 正式登场：单任务成本暴降 58%，前端编程全球第六",
+      "seen_at": "2026-11-18T03:55:25.271175+00:00",
+      "run_date": "2026-11-18"
+    },
+    "209abcfb8272bb039b2e": {
+      "url": "https://www.infoq.cn/article/wPiiddayboPKUEH6m4Ss?utm_source=rss&utm_medium=article",
+      "title": "Azure 版 LocalStack 进入公开预览阶段，安全设置会存储但不生效",
+      "seen_at": "2026-11-18T03:55:25.271175+00:00",
+      "run_date": "2026-11-18"
     }
   },
-  "updated_at": "2026-11-17T04:49:55.851747+00:00"
+  "updated_at": "2026-11-18T03:55:25.271175+00:00"
 }
