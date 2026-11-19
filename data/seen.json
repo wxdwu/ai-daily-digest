@@ -1,41 +1,5 @@
 {
   "items": {
-    "afd176d0b76541201b32": {
-      "url": "https://www.infoq.cn/article/4t84hFyjYP6gq9KNWE60?utm_source=rss&utm_medium=article",
-      "title": "Kubernetes多集群项目Karmada完成CNCF毕业",
-      "seen_at": "2026-10-20T01:19:29.339400+00:00",
-      "run_date": "2026-10-20"
-    },
-    "ca9f68fef0d55fdf3bde": {
-      "url": "https://www.infoq.cn/article/AD1M3mJ2SH1dJrTA1r5q?utm_source=rss&utm_medium=article",
-      "title": "谷歌开源Harness，支持 OpenCode 和 Codex：国内开发者接入Jev实测“真行”",
-      "seen_at": "2026-10-20T01:19:29.339400+00:00",
-      "run_date": "2026-10-20"
-    },
-    "6c945ac1326c6e205de1": {
-      "url": "https://www.infoq.cn/article/4IPptJpXQqX5Lr77uBFZ?utm_source=rss&utm_medium=article",
-      "title": "DoorDash的Flux在云端智能体上运行130000个工程任务",
-      "seen_at": "2026-10-20T01:19:29.339400+00:00",
-      "run_date": "2026-10-20"
-    },
-    "0e6a12e774c27950f061": {
-      "url": "https://www.infoq.cn/article/zBfzQbuxFmP1qrIpZWTG?utm_source=rss&utm_medium=article",
-      "title": "随着可观测性模式日趋成熟，OpenTelemetry 将 Kubernetes Attribute Processor 提升为稳定版本",
-      "seen_at": "2026-10-20T01:19:29.339400+00:00",
-      "run_date": "2026-10-20"
-    },
-    "85465d2cd7b481d30f56": {
-      "url": "https://www.infoq.cn/article/LkxBOvOJWmQGMQemUOrX?utm_source=rss&utm_medium=article",
-      "title": "Gemini 4 Argon：为您解决最棘手的问题",
-      "seen_at": "2026-10-20T01:19:29.339400+00:00",
-      "run_date": "2026-10-20"
-    },
-    "7a3fd76d197df12cc32b": {
-      "url": "https://www.qbitai.com/2026/10/504136.html",
-      "title": "VAST开源实时世界模型EdenLive！单消费级显卡、720P超24FPS",
-      "seen_at": "2026-10-20T01:19:29.339400+00:00",
-      "run_date": "2026-10-20"
-    },
     "3d30872ed711ee4216ca": {
       "url": "https://www.infoq.cn/article/J1Z3RYgH3Vyd9LFEfmlF?utm_source=rss&utm_medium=article",
       "title": "RISC-V 加速进入 AI 与高性能计算：玄铁车规 IP、服务器芯片等新进展亮相",
@@ -1223,7 +1187,67 @@
       "title": "Azure 版 LocalStack 进入公开预览阶段，安全设置会存储但不生效",
       "seen_at": "2026-11-18T03:55:25.271175+00:00",
       "run_date": "2026-11-18"
+    },
+    "c37832ce6ed5b274511c": {
+      "url": "https://www.infoq.cn/article/FrDlAvNIwkr8ttdvWMCC?utm_source=rss&utm_medium=article",
+      "title": "800 个 MCP Server、5000 个工具，AI 智能体的“微服务危机”来了",
+      "seen_at": "2026-11-19T03:53:49.048959+00:00",
+      "run_date": "2026-11-19"
+    },
+    "a18969e2abeb23953eaf": {
+      "url": "https://www.qbitai.com/2026/11/511071.html",
+      "title": "范式下场做基模了！国产算力全链路训练，双模型同步亮相",
+      "seen_at": "2026-11-19T03:53:49.048959+00:00",
+      "run_date": "2026-11-19"
+    },
+    "0d2d77474c6eb8b456a5": {
+      "url": "https://www.qbitai.com/2026/11/510922.html",
+      "title": "Gemini新模型Neon箭在弦上，网友：遍历元素周期表？",
+      "seen_at": "2026-11-19T03:53:49.048959+00:00",
+      "run_date": "2026-11-19"
+    },
+    "af2fe61c78c777408b6f": {
+      "url": "https://www.infoq.cn/article/NbShAFtZqRSsFrsVu6aj?utm_source=rss&utm_medium=article",
+      "title": "基于昇腾算力的大模型推理加速研究与实践｜AICon北京",
+      "seen_at": "2026-11-19T03:53:49.048959+00:00",
+      "run_date": "2026-11-19"
+    },
+    "6301a3f0492bd9e39acc": {
+      "url": "https://aws.amazon.com/cn/blogs/china/based-on-amazon-bedrock-agentcore-mes-manufacturing-intelligent-practice/",
+      "title": "基于中国区 Amazon Bedrock AgentCore 让 MES 数据”开口说话”：制造业智能体实践",
+      "seen_at": "2026-11-19T03:53:49.048959+00:00",
+      "run_date": "2026-11-19"
+    },
+    "385adb6cea31963c51af": {
+      "url": "https://developer.nvidia.cn/blog/scale-openviking-agent-memory-search-with-nvidia-cuvs-on-dgx-spark/",
+      "title": "在 DGX Spark 上使用 NVIDIA cuVS 扩展 OpenViking 的智能体记忆检索能力",
+      "seen_at": "2026-11-19T03:53:49.048959+00:00",
+      "run_date": "2026-11-19"
+    },
+    "1a03174749dba70f5233": {
+      "url": "https://www.infoq.cn/article/zUC0vHq9xm3BFHSqQlw3?utm_source=rss&utm_medium=article",
+      "title": "纳德拉回应微软首次给工程师发“离场费”：Claude Code 让微软措手不及，二十年 IDE 优势半年动摇",
+      "seen_at": "2026-11-19T03:53:49.048959+00:00",
+      "run_date": "2026-11-19"
+    },
+    "aebb62daa526d7b3c843": {
+      "url": "https://www.infoq.cn/article/4PEbu8cLHkgz0oUF3etE?utm_source=rss&utm_medium=article",
+      "title": "Kubernetes Confidential Containers 获 Fortanix 认证与密钥管理支持",
+      "seen_at": "2026-11-19T03:53:49.048959+00:00",
+      "run_date": "2026-11-19"
+    },
+    "d01ed32056eb2b29fa0d": {
+      "url": "https://www.qbitai.com/2026/11/510914.html",
+      "title": "GPT-6.2难产！OpenAI怕了",
+      "seen_at": "2026-11-19T03:53:49.048959+00:00",
+      "run_date": "2026-11-19"
+    },
+    "2e3d817ef55b5d8ded55": {
+      "url": "https://www.qbitai.com/2026/11/510821.html",
+      "title": "英伟达AMD首次联手押注！Genesis完成A轮融资，估值超230亿",
+      "seen_at": "2026-11-19T03:53:49.048959+00:00",
+      "run_date": "2026-11-19"
     }
   },
-  "updated_at": "2026-11-18T03:55:25.271175+00:00"
+  "updated_at": "2026-11-19T03:53:49.048959+00:00"
 }

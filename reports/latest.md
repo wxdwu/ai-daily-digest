@@ -1,9 +1,12 @@
-AI Agent 与大模型成为今日焦点
+AI Agent 与 AI 最新动态 成为今日焦点
 
-1. [面向多智能体应用的大模型推理调度与缓存优化｜AICon北京](https://www.infoq.cn/article/X8xujm6xovp7z2YzWbpM?utm_source=rss&utm_medium=article)
-2. [openEuler 进军 Agentic Infra！主席熊伟：不讲大故事，先解决真问题](https://www.infoq.cn/article/JhBUwv1pHR3S986Ih0iJ?utm_source=rss&utm_medium=article)
-3. [把“人造太阳”搬上 GPU：用 CUDA C++ 加速聚变等离子体的回旋动理学模拟](https://developer.nvidia.cn/blog/accelerating-fusion-plasma-gyrokinetic-simulations/)
-4. [Vitest 5 通过共享 Vite 服务器、跟踪视图和更严格的测试默认设置来优先保障性能](https://www.infoq.cn/article/wy7Osc1cHY1U9gQR3pwH?utm_source=rss&utm_medium=article)
-5. [NVIDIA 董事会成立国家安全和出口管制监督委员会](https://blogs.nvidia.cn/blog/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee/)
-6. [阿里 Qwen4-Max 正式登场：单任务成本暴降 58%，前端编程全球第六](https://www.infoq.cn/article/bZrW40XdHeMSkfOBxL2C?utm_source=rss&utm_medium=article)
-7. [Azure 版 LocalStack 进入公开预览阶段，安全设置会存储但不生效](https://www.infoq.cn/article/wPiiddayboPKUEH6m4Ss?utm_source=rss&utm_medium=article)
+1. [800 个 MCP Server、5000 个工具，AI 智能体的“微服务危机”来了](https://www.infoq.cn/article/FrDlAvNIwkr8ttdvWMCC?utm_source=rss&utm_medium=article)
+2. [范式下场做基模了！国产算力全链路训练，双模型同步亮相](https://www.qbitai.com/2026/11/511071.html)
+3. [Gemini新模型Neon箭在弦上，网友：遍历元素周期表](https://www.qbitai.com/2026/11/510922.html)
+4. [基于昇腾算力的大模型推理加速研究与实践｜AICon北京](https://www.infoq.cn/article/NbShAFtZqRSsFrsVu6aj?utm_source=rss&utm_medium=article)
+5. [基于中国区 Amazon Bedrock AgentCore 让 MES 数据”开口说话”：制造业智能体实践](https://aws.amazon.com/cn/blogs/china/based-on-amazon-bedrock-agentcore-mes-manufacturing-intelligent-practice/)
+6. [在 DGX Spark 上使用 NVIDIA cuVS 扩展 OpenViking 的智能体记忆检索能力](https://developer.nvidia.cn/blog/scale-openviking-agent-memory-search-with-nvidia-cuvs-on-dgx-spark/)
+7. [纳德拉回应微软首次给工程师发“离场费”：Claude Code 让微软措手不及，二十年 IDE 优势半年动摇](https://www.infoq.cn/article/zUC0vHq9xm3BFHSqQlw3?utm_source=rss&utm_medium=article)
+8. [Kubernetes Confidential Containers 获 Fortanix 认证与密钥管理支持](https://www.infoq.cn/article/4PEbu8cLHkgz0oUF3etE?utm_source=rss&utm_medium=article)
+9. [GPT-6.2难产！OpenAI怕了](https://www.qbitai.com/2026/11/510914.html)
+10. [英伟达AMD首次联手押注！Genesis完成A轮融资，估值超230亿](https://www.qbitai.com/2026/11/510821.html)
