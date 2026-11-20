@@ -1,65 +1,5 @@
 {
   "items": {
-    "3d30872ed711ee4216ca": {
-      "url": "https://www.infoq.cn/article/J1Z3RYgH3Vyd9LFEfmlF?utm_source=rss&utm_medium=article",
-      "title": "RISC-V 加速进入 AI 与高性能计算：玄铁车规 IP、服务器芯片等新进展亮相",
-      "seen_at": "2026-10-21T01:04:23.445733+00:00",
-      "run_date": "2026-10-21"
-    },
-    "31e6b1b89405476aa780": {
-      "url": "https://www.qbitai.com/2026/10/504277.html",
-      "title": "从百比特芯片到整机交付，这家量子计算公司正将量子算力推向可调用服务",
-      "seen_at": "2026-10-21T01:04:23.445733+00:00",
-      "run_date": "2026-10-21"
-    },
-    "c490de2bccb2c1e91af2": {
-      "url": "https://www.infoq.cn/article/pvgeXQQbbt4TsPKeMMEL?utm_source=rss&utm_medium=article",
-      "title": "Lyft将流式计算集群迁移到Apache Flink Kubernetes Operator",
-      "seen_at": "2026-10-21T01:04:23.445733+00:00",
-      "run_date": "2026-10-21"
-    },
-    "7a6a1d7d8bd91a51028a": {
-      "url": "https://www.qbitai.com/2026/10/504314.html",
-      "title": "Claude新模型曝光！能跳出思维定势，修Bug治标又治本",
-      "seen_at": "2026-10-21T01:04:23.445733+00:00",
-      "run_date": "2026-10-21"
-    },
-    "a47828fce8fe6ff3ca0e": {
-      "url": "https://www.infoq.cn/article/mJ5udryLFwjov1pk4Dsq?utm_source=rss&utm_medium=article",
-      "title": "突破长文本推理瓶颈 九章云极Alaya-DFlash2助GLM-5.3解码提速3.41倍",
-      "seen_at": "2026-10-21T01:04:23.445733+00:00",
-      "run_date": "2026-10-21"
-    },
-    "35a3cb7c71e73e7e1337": {
-      "url": "https://www.infoq.cn/article/4FreCLUUQb4W4AXUhXo5?utm_source=rss&utm_medium=article",
-      "title": "AI Agent 越用越贵？如何借助可观测性平衡性能、质量与成本 ｜ 技术趋势",
-      "seen_at": "2026-10-21T01:04:23.445733+00:00",
-      "run_date": "2026-10-21"
-    },
-    "df3924c1bae0de8953aa": {
-      "url": "https://www.qbitai.com/2026/10/504225.html",
-      "title": "全栈自研！国产高端互连芯片，稳了!",
-      "seen_at": "2026-10-21T01:04:23.445733+00:00",
-      "run_date": "2026-10-21"
-    },
-    "0a4b0e474cd064110bde": {
-      "url": "https://www.qbitai.com/2026/10/504188.html",
-      "title": "日均6万亿Token服务背后，商汤大装置如何提升推理效能？",
-      "seen_at": "2026-10-21T01:04:23.445733+00:00",
-      "run_date": "2026-10-21"
-    },
-    "a1fc6ba2bfd6fadd7fcf": {
-      "url": "https://www.infoq.cn/article/bROfcYFpijQQVBz4NqDi?utm_source=rss&utm_medium=article",
-      "title": "Jev迎来中国挑战者：StartLux登顶决策模型榜单，还学会了“拿不准再想”",
-      "seen_at": "2026-10-21T01:04:23.445733+00:00",
-      "run_date": "2026-10-21"
-    },
-    "0f918da9b54172cd209a": {
-      "url": "https://www.qbitai.com/2026/10/504266.html",
-      "title": "2026物理AI与世界模型大会医疗健康世界模型分会场在南京举行",
-      "seen_at": "2026-10-21T01:04:23.445733+00:00",
-      "run_date": "2026-10-21"
-    },
     "7963a23b740262c3aad3": {
       "url": "https://www.infoq.cn/article/NBXP966Bz3eqr6Qidvaf?utm_source=rss&utm_medium=article",
       "title": "DeepSeek开源最新推理框架：单集群日吞吐155万亿Token，KVCache可保存7天",
@@ -1247,7 +1187,67 @@
       "title": "英伟达AMD首次联手押注！Genesis完成A轮融资，估值超230亿",
       "seen_at": "2026-11-19T03:53:49.048959+00:00",
       "run_date": "2026-11-19"
+    },
+    "7ee51ccf042e43402420": {
+      "url": "https://aws.amazon.com/cn/blogs/china/securing-ai-software-development-lifecycle/",
+      "title": "技术指南：使用亚马逊云科技 Security Agent 与本地编码智能体（Coding Agent）构建安全的 AI 软件开发生命周期",
+      "seen_at": "2026-11-20T03:46:06.248742+00:00",
+      "run_date": "2026-11-20"
+    },
+    "7f4085e1a5e09adac951": {
+      "url": "https://www.infoq.cn/article/DQlimzDy7bqiZ3mc5Vvq?utm_source=rss&utm_medium=article",
+      "title": "快与真：范式首批国产算力训练的Phai系列模型，究竟有什么不同",
+      "seen_at": "2026-11-20T03:46:06.248742+00:00",
+      "run_date": "2026-11-20"
+    },
+    "72469d10219eb992114e": {
+      "url": "https://aws.amazon.com/cn/blogs/china/3-d-video-kiro-crew-gpu-codex-based-on/",
+      "title": "从说明书到 3D 安装视频：用 Kiro Crew 指挥 GPU 上的 Codex（基于 Amazon Bedrock 与 Amazon Polly）",
+      "seen_at": "2026-11-20T03:46:06.248742+00:00",
+      "run_date": "2026-11-20"
+    },
+    "3ed54abd91aa614f9218": {
+      "url": "https://www.infoq.cn/article/R9BxSitBpwGcDwfS22ac?utm_source=rss&utm_medium=article",
+      "title": "从业者正在对 Anthropic “没人需要 Claude Code 心理模型”的说法进行验证",
+      "seen_at": "2026-11-20T03:46:06.248742+00:00",
+      "run_date": "2026-11-20"
+    },
+    "fbd35959f4d4fec1c149": {
+      "url": "https://blogs.nvidia.cn/blog/ian-buck-sc26/",
+      "title": "Ian Buck 拉开 NVIDIA SC26 序幕：科学迈入智能体时代",
+      "seen_at": "2026-11-20T03:46:06.248742+00:00",
+      "run_date": "2026-11-20"
+    },
+    "6ccfec771b399bcfc703": {
+      "url": "https://www.infoq.cn/article/NR0Wal4xOQ3b5flxE0Hi?utm_source=rss&utm_medium=article",
+      "title": "价值为先，金融智能体应用实践 | TF技术前线188期报名",
+      "seen_at": "2026-11-20T03:46:06.248742+00:00",
+      "run_date": "2026-11-20"
+    },
+    "82ead8ba970bd7409de3": {
+      "url": "https://www.infoq.cn/article/UEZ4CPEr1vyESW6z647r?utm_source=rss&utm_medium=article",
+      "title": "微软将停用 Azure 部署环境，而且不会推出替代产品",
+      "seen_at": "2026-11-20T03:46:06.248742+00:00",
+      "run_date": "2026-11-20"
+    },
+    "f321cd8beae8d934114e": {
+      "url": "https://aws.amazon.com/cn/blogs/china/request-gaming-api-aws-security-guide/",
+      "title": "从刷榜脚本到恶意请求：游戏 API 的 AWS 安全防护指南",
+      "seen_at": "2026-11-20T03:46:06.248742+00:00",
+      "run_date": "2026-11-20"
+    },
+    "1a32d66645fe2fe9f339": {
+      "url": "https://www.infoq.cn/article/6xqcZfMgJ99ZQiGFbjym?utm_source=rss&utm_medium=article",
+      "title": "模型刚接进业务，CEO又要换新：红帽如何接住企业AI落地难题？",
+      "seen_at": "2026-11-20T03:46:06.248742+00:00",
+      "run_date": "2026-11-20"
+    },
+    "11ae67ccd92d610399e1": {
+      "url": "https://blogs.nvidia.cn/blog/rtx-spark-desktop-local-ai-available-now/",
+      "title": "NVIDIA RTX Spark 紧凑型桌面主机现已上市",
+      "seen_at": "2026-11-20T03:46:06.248742+00:00",
+      "run_date": "2026-11-20"
     }
   },
-  "updated_at": "2026-11-19T03:53:49.048959+00:00"
+  "updated_at": "2026-11-20T03:46:06.248742+00:00"
 }
