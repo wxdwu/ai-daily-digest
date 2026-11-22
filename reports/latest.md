@@ -1,12 +1,12 @@
-AI Agent 与大模型成为今日焦点
+大模型与 AI 最新动态 成为今日焦点
 
-1. [小红书推荐系统的Agentic实践：针对推荐模型自迭代的Harness设计与实现](https://aws.amazon.com/cn/blogs/china/practice-recommendation-model-harness-design-implement/)
-2. [昇腾算力训出了双榜SOTA的具身世界模型，华为云这次想把整套底座开放出来](https://www.qbitai.com/2026/11/511610.html)
-3. [使用 AI 智能体在 Rust 中构建工具调用解析器](https://developer.nvidia.cn/blog/build-tool-calling-parsers-in-rust-with-ai-agents/)
-4. [从单个智能体到 100+ 智能体：PayerMax 基于 Amazon Bedrock AgentCore Runtime 构建万象（Omni）企业级 AI 中台](https://aws.amazon.com/cn/blogs/china/intelligent-intelligent-payermax-based-on-amazon-omni-enterprise-ai/)
-5. [借助 NVIDIA Dynamo 减少强化学习中的部署瓶颈](https://developer.nvidia.cn/blog/reducing-rollout-bottlenecks-in-reinforcement-learning-with-nvidia-dynamo/)
-6. [基于 Amazon Quick Desktop 与 AWS for SAP MCP Server 的智能采购助手方案](https://aws.amazon.com/cn/blogs/china/based-on-amazon-quick-desktop-aws-for-sap-mcp/)
-7. [通过 GPU 原生数据采集为科学仪器实现实时 AI](https://developer.nvidia.cn/blog/enabling-real-time-ai-for-scientific-instruments-with-gpu-native-data-acquisition/)
-8. [谷歌发布用于机器人控制、仿真和策略优化的 Gemini 4 Argon](https://www.infoq.cn/article/S4LH5Z9zcbLokm5uNSKR?utm_source=rss&utm_medium=article)
-9. [“美国大豆包”又发新模型，Neon 接入 Antigravity 后编程解题率升至三倍多](https://www.infoq.cn/article/tDxNggErsJNeb53ZkYeF?utm_source=rss&utm_medium=article)
-10. [华为云开源昇腾原生具身世界模型CloudRobo-WM1.2，两项评测均列第一](https://www.infoq.cn/article/LCqRiGDSeMBfXo4iktdA?utm_source=rss&utm_medium=article)
+1. [GPT-6.2 Astra再次暴击具身模型：16项任务成功率较GPT-6 Astra翻倍](https://www.qbitai.com/2026/11/511779.html)
+2. [智能体 AI 架构：当前挑战与未来机遇](https://www.infoq.cn/article/TrWuo2vEZRl2xB2XXZNX?utm_source=rss&utm_medium=article)
+3. [Entire Git Forge：面向编码智能体重构 Git 协作方式](https://www.infoq.cn/article/6swrOq5xUXwVqrREwJwc?utm_source=rss&utm_medium=article)
+4. [刚刚，DeepSeek V1作者创业项目曝光：开源Agent](https://www.qbitai.com/2026/11/511570.html)
+5. [黎曼猜想被证明？！Claude加持，34岁数学家放出Lean证明](https://www.qbitai.com/2026/11/511727.html)
+6. [姚顺雨和混元团队上Reddit答网友，Hy小模型已进路线图](https://www.qbitai.com/2026/11/511757.html)
+7. [美国AI音乐巨头进军视频生成，底层模型来自中国MiniMax](https://www.qbitai.com/2026/11/511722.html)
+8. [使用 AWS Continuum 对智能家居 Agent 进行安全审核与渗透测试的实践](https://aws.amazon.com/cn/blogs/china/using-aws-continuum-intelligent-agent-security/)
+9. [Grab 通过安全策略应对 AI 生成代码变更激增，提升移动端 App 稳定性](https://www.infoq.cn/article/AH8deOIGb5hMHRPIKfrf?utm_source=rss&utm_medium=article)
+10. [OpenBSD 8.0 带来了更广泛的硬件支持、安全性增强以及虚拟化改进](https://www.infoq.cn/article/ENG8g3E0RX3IiuvgD7BG?utm_source=rss&utm_medium=article)

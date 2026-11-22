@@ -1,65 +1,5 @@
 {
   "items": {
-    "ccb1a8d1b78d39632652": {
-      "url": "https://www.qbitai.com/2026/10/504734.html",
-      "title": "多智能体协同重构医疗AI！清华AIR孵化：医生AI分身“坐诊”医院",
-      "seen_at": "2026-10-23T01:03:08.642783+00:00",
-      "run_date": "2026-10-23"
-    },
-    "77987b9c13a3ab4342b6": {
-      "url": "https://www.infoq.cn/article/o9OcWNkkwgKvsZmgY45d?utm_source=rss&utm_medium=article",
-      "title": "面向 Qwen 系列模型线性注意力的高性能优化实践",
-      "seen_at": "2026-10-23T01:03:08.642783+00:00",
-      "run_date": "2026-10-23"
-    },
-    "0eacb344a9cb77e588a1": {
-      "url": "https://developer.nvidia.cn/blog/how-nvidia-openshell-reference-architecture-secures-and-governs-ai-agent-workloads-at-scale/",
-      "title": "NVIDIA OpenShell 参考架构如何大规模保护和治理 AI 智能体工作负载",
-      "seen_at": "2026-10-23T01:03:08.642783+00:00",
-      "run_date": "2026-10-23"
-    },
-    "45bb7d06bab860abb1cf": {
-      "url": "https://www.infoq.cn/article/ud4r6jvkmuKNAu9NTHxF?utm_source=rss&utm_medium=article",
-      "title": "与 Redis 分道扬镳两年后，Valkey 不只要做缓存：单进程吞吐破百万，Rust 统一客户端底座",
-      "seen_at": "2026-10-23T01:03:08.642783+00:00",
-      "run_date": "2026-10-23"
-    },
-    "6a8ae8586e58bb2730f9": {
-      "url": "https://www.infoq.cn/article/0vwVMhufb66SBofWsvRz?utm_source=rss&utm_medium=article",
-      "title": "AWS Lambda推动无服务器向长时间运行的工作负载发展",
-      "seen_at": "2026-10-23T01:03:08.642783+00:00",
-      "run_date": "2026-10-23"
-    },
-    "a82a622667b9064dea15": {
-      "url": "https://developer.nvidia.cn/blog/design-proteins-with-rfd4-proteina-using-reward-guided-inference-time-search/",
-      "title": "使用奖励引导推理时间搜索，使用 RFD4-Proteina 设计蛋白质",
-      "seen_at": "2026-10-23T01:03:08.642783+00:00",
-      "run_date": "2026-10-23"
-    },
-    "4f5ec759c25ba000596d": {
-      "url": "https://www.infoq.cn/article/wyGrRsTrfHM7i9MhuV5P?utm_source=rss&utm_medium=article",
-      "title": "又一国产决策模型发布：面向企业高频判断任务，23 项开源基测准确率超过微软和 JEV",
-      "seen_at": "2026-10-23T01:03:08.642783+00:00",
-      "run_date": "2026-10-23"
-    },
-    "46dc7c87904805c635c9": {
-      "url": "https://www.infoq.cn/article/v85ey09UlxhCDH4r3RS3?utm_source=rss&utm_medium=article",
-      "title": "企业 AI 越用越复杂，如何用一个 Gateway 管好模型、Agent 和成本？｜ 技术趋势",
-      "seen_at": "2026-10-23T01:03:08.642783+00:00",
-      "run_date": "2026-10-23"
-    },
-    "b2041099598b83b5834f": {
-      "url": "https://www.qbitai.com/2026/10/504832.html",
-      "title": "既能“做选择题”，也能“做填空题”——星辰意图理解模型Xing4.0-29B-Intent发布",
-      "seen_at": "2026-10-23T01:03:08.642783+00:00",
-      "run_date": "2026-10-23"
-    },
-    "29a39d34cb397fecebcb": {
-      "url": "https://www.qbitai.com/2026/10/504730.html",
-      "title": "生数科技Motubrain团队将直播Physical AI训练全流程，持续半个月",
-      "seen_at": "2026-10-23T01:03:08.642783+00:00",
-      "run_date": "2026-10-23"
-    },
     "a6f30a57409fa2ff6d8d": {
       "url": "https://www.infoq.cn/article/AkDgwN6h72cqUOJ35Zok?utm_source=rss&utm_medium=article",
       "title": "AI Agent 正在改写 CPU 的价值：当 Token 变成行动，算力竞争不再只是拼 GPU",
@@ -1265,7 +1205,67 @@
       "title": "华为云开源昇腾原生具身世界模型CloudRobo-WM1.2，两项评测均列第一",
       "seen_at": "2026-11-21T03:35:27.373921+00:00",
       "run_date": "2026-11-21"
+    },
+    "4b4e3b00ff90cf0ef1b7": {
+      "url": "https://www.qbitai.com/2026/11/511779.html",
+      "title": "GPT-6.2 Astra再次暴击具身模型：16项任务成功率较GPT-6 Astra翻倍",
+      "seen_at": "2026-11-22T02:42:55.355262+00:00",
+      "run_date": "2026-11-22"
+    },
+    "076d711c901308fbaff4": {
+      "url": "https://www.infoq.cn/article/TrWuo2vEZRl2xB2XXZNX?utm_source=rss&utm_medium=article",
+      "title": "智能体 AI 架构：当前挑战与未来机遇",
+      "seen_at": "2026-11-22T02:42:55.355262+00:00",
+      "run_date": "2026-11-22"
+    },
+    "bada46eaafcfd8f24ec5": {
+      "url": "https://www.infoq.cn/article/6swrOq5xUXwVqrREwJwc?utm_source=rss&utm_medium=article",
+      "title": "Entire Git Forge：面向编码智能体重构 Git 协作方式",
+      "seen_at": "2026-11-22T02:42:55.355262+00:00",
+      "run_date": "2026-11-22"
+    },
+    "f09ca7e9b55d37f72a44": {
+      "url": "https://www.qbitai.com/2026/11/511570.html",
+      "title": "刚刚，DeepSeek V1作者创业项目曝光：开源Agent",
+      "seen_at": "2026-11-22T02:42:55.355262+00:00",
+      "run_date": "2026-11-22"
+    },
+    "6a3b45b07f868fbed152": {
+      "url": "https://www.qbitai.com/2026/11/511727.html",
+      "title": "黎曼猜想被证明？！Claude加持，34岁数学家放出Lean证明",
+      "seen_at": "2026-11-22T02:42:55.355262+00:00",
+      "run_date": "2026-11-22"
+    },
+    "3e11fe5258ff6291ff9d": {
+      "url": "https://www.qbitai.com/2026/11/511757.html",
+      "title": "姚顺雨和混元团队上Reddit答网友，Hy小模型已进路线图",
+      "seen_at": "2026-11-22T02:42:55.355262+00:00",
+      "run_date": "2026-11-22"
+    },
+    "5da69c13b378332ba899": {
+      "url": "https://www.qbitai.com/2026/11/511722.html",
+      "title": "美国AI音乐巨头进军视频生成，底层模型来自中国MiniMax",
+      "seen_at": "2026-11-22T02:42:55.355262+00:00",
+      "run_date": "2026-11-22"
+    },
+    "633fdb2c2c97a9525128": {
+      "url": "https://aws.amazon.com/cn/blogs/china/using-aws-continuum-intelligent-agent-security/",
+      "title": "使用 AWS Continuum 对智能家居 Agent 进行安全审核与渗透测试的实践",
+      "seen_at": "2026-11-22T02:42:55.355262+00:00",
+      "run_date": "2026-11-22"
+    },
+    "47f8c0b43405ef64c424": {
+      "url": "https://www.infoq.cn/article/AH8deOIGb5hMHRPIKfrf?utm_source=rss&utm_medium=article",
+      "title": "Grab 通过安全策略应对 AI 生成代码变更激增，提升移动端 App 稳定性",
+      "seen_at": "2026-11-22T02:42:55.355262+00:00",
+      "run_date": "2026-11-22"
+    },
+    "70d21222979af0ed0f89": {
+      "url": "https://www.infoq.cn/article/ENG8g3E0RX3IiuvgD7BG?utm_source=rss&utm_medium=article",
+      "title": "OpenBSD 8.0 带来了更广泛的硬件支持、安全性增强以及虚拟化改进",
+      "seen_at": "2026-11-22T02:42:55.355262+00:00",
+      "run_date": "2026-11-22"
     }
   },
-  "updated_at": "2026-11-21T03:35:27.373921+00:00"
+  "updated_at": "2026-11-22T02:42:55.355262+00:00"
 }
