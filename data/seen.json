@@ -1,65 +1,5 @@
 {
   "items": {
-    "a6f30a57409fa2ff6d8d": {
-      "url": "https://www.infoq.cn/article/AkDgwN6h72cqUOJ35Zok?utm_source=rss&utm_medium=article",
-      "title": "AI Agent 正在改写 CPU 的价值：当 Token 变成行动，算力竞争不再只是拼 GPU",
-      "seen_at": "2026-10-24T01:12:44.684147+00:00",
-      "run_date": "2026-10-24"
-    },
-    "79cef9b08d3ca0709350": {
-      "url": "https://www.infoq.cn/article/Md0kdMxGI6flIbZXH1yg?utm_source=rss&utm_medium=article",
-      "title": "讯飞发布新一代端到端交互模型：语音大模型调用量暴涨20倍，端侧已实现约70%云端能力",
-      "seen_at": "2026-10-24T01:12:44.684147+00:00",
-      "run_date": "2026-10-24"
-    },
-    "d5c00bc659782715211b": {
-      "url": "https://www.infoq.cn/article/mhdJwMMzYFedMFHKfHWs?utm_source=rss&utm_medium=article",
-      "title": "智源众智 FlagOS 2.2 让前沿模型与多元算力协同演进",
-      "seen_at": "2026-10-24T01:12:44.684147+00:00",
-      "run_date": "2026-10-24"
-    },
-    "29e8adce3efdf82476c9": {
-      "url": "https://www.infoq.cn/article/sI3z2UMCrB5PPVDWTsLo?utm_source=rss&utm_medium=article",
-      "title": "奥特曼最新 45 分钟访谈：一年不写代码、压力大到不想起床，还嫌 ChatGPT 太谄媚",
-      "seen_at": "2026-10-24T01:12:44.684147+00:00",
-      "run_date": "2026-10-24"
-    },
-    "cde918395d0283ad688d": {
-      "url": "https://www.infoq.cn/article/ViOyxiOSP2ihxuUyg1rD?utm_source=rss&utm_medium=article",
-      "title": "DeepSeek千亿融资逼近收官：结盟完美世界、中芯聚源等产业资本，募资翻倍押注具身智能",
-      "seen_at": "2026-10-24T01:12:44.684147+00:00",
-      "run_date": "2026-10-24"
-    },
-    "1c8f00e4d46d4c032c0f": {
-      "url": "https://www.infoq.cn/article/c6KGCCmGuad5wbAcCG61?utm_source=rss&utm_medium=article",
-      "title": "GitLab 19.4 发布，新增目标驱动型智能体，强化成本控制",
-      "seen_at": "2026-10-24T01:12:44.684147+00:00",
-      "run_date": "2026-10-24"
-    },
-    "b09d08fb6001f9a1d3ff": {
-      "url": "https://www.infoq.cn/article/7ResdjAZYy8yltOh6drM?utm_source=rss&utm_medium=article",
-      "title": "Xcode 27.2 推出对智能体友好、有效减少合并冲突的 JSON 项目配置格式",
-      "seen_at": "2026-10-24T01:12:44.684147+00:00",
-      "run_date": "2026-10-24"
-    },
-    "b2c4174fdfa31287a59c": {
-      "url": "https://www.infoq.cn/article/2bKQkdiAcGEycHJLYPv5?utm_source=rss&utm_medium=article",
-      "title": "Foresight AI 正式可用，Gremlin 将智能体引入可靠性工程",
-      "seen_at": "2026-10-24T01:12:44.684147+00:00",
-      "run_date": "2026-10-24"
-    },
-    "0a8d501ae7e85d39c09c": {
-      "url": "https://www.infoq.cn/article/6EJRFIef67xr3x6vyCJa?utm_source=rss&utm_medium=article",
-      "title": "千问蒋冠军：Personal Agent技术框架，需要模型、记忆与生态协同推进",
-      "seen_at": "2026-10-24T01:12:44.684147+00:00",
-      "run_date": "2026-10-24"
-    },
-    "cadb6379640807420e72": {
-      "url": "https://www.infoq.cn/article/reksyo9EBAcP11Ns2GTO?utm_source=rss&utm_medium=article",
-      "title": "决策模型也有专用推理引擎了：StartLux 开源 Prism，单卡最高提速 5.3 倍",
-      "seen_at": "2026-10-24T01:12:44.684147+00:00",
-      "run_date": "2026-10-24"
-    },
     "e4c75c63500235151437": {
       "url": "https://www.infoq.cn/article/Pwu4FNskSB2cbKV9BZKq?utm_source=rss&utm_medium=article",
       "title": "上下文语言模型：通过自主管理上下文提升性能、降低计算成本",
@@ -1265,7 +1205,31 @@
       "title": "OpenBSD 8.0 带来了更广泛的硬件支持、安全性增强以及虚拟化改进",
       "seen_at": "2026-11-22T02:42:55.355262+00:00",
       "run_date": "2026-11-22"
+    },
+    "77d02d434e52606aadb5": {
+      "url": "https://www.infoq.cn/article/721YPdyIZ1D8xz20D22C?utm_source=rss&utm_medium=article",
+      "title": "智能体身份国际标准化：体系布局与研制实践｜AICon北京",
+      "seen_at": "2026-11-23T03:17:36.559211+00:00",
+      "run_date": "2026-11-23"
+    },
+    "55df1db1f06690552f3f": {
+      "url": "https://www.qbitai.com/2026/11/511870.html",
+      "title": "A社数学家用Claude又证明另一千禧难题，逼出一份写了12年的940页纯人类手稿",
+      "seen_at": "2026-11-23T03:17:36.559211+00:00",
+      "run_date": "2026-11-23"
+    },
+    "94d476180ee06ac32905": {
+      "url": "https://www.infoq.cn/article/XhtWUmaolJECUhPX2jzY?utm_source=rss&utm_medium=article",
+      "title": "亚马逊云科技推出 TorchNeuron，可以直接在 AWS Trainium 上运行 PyTorch 模型，无需任何修改",
+      "seen_at": "2026-11-23T03:17:36.559211+00:00",
+      "run_date": "2026-11-23"
+    },
+    "36ea3889302c523db81a": {
+      "url": "https://www.qbitai.com/2026/11/511791.html",
+      "title": "反超Gemini之后，Karpo新作再开源，浏览器Agent速效双赢",
+      "seen_at": "2026-11-23T03:17:36.559211+00:00",
+      "run_date": "2026-11-23"
     }
   },
-  "updated_at": "2026-11-22T02:42:55.355262+00:00"
+  "updated_at": "2026-11-23T03:17:36.559211+00:00"
 }
