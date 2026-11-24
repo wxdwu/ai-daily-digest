@@ -1,11 +1,5 @@
 {
   "items": {
-    "e4c75c63500235151437": {
-      "url": "https://www.infoq.cn/article/Pwu4FNskSB2cbKV9BZKq?utm_source=rss&utm_medium=article",
-      "title": "上下文语言模型：通过自主管理上下文提升性能、降低计算成本",
-      "seen_at": "2026-10-25T00:37:10.029842+00:00",
-      "run_date": "2026-10-25"
-    },
     "20db7dff7c3472cbae31": {
       "url": "https://www.infoq.cn/article/BHWP4JJDeExZZWsifFlg?utm_source=rss&utm_medium=article",
       "title": "Java 近期新闻：Grails 8、Open Liberty、GlassFish、Infinispan、LangChain4j、Spock",
@@ -1229,7 +1223,49 @@
       "title": "反超Gemini之后，Karpo新作再开源，浏览器Agent速效双赢",
       "seen_at": "2026-11-23T03:17:36.559211+00:00",
       "run_date": "2026-11-23"
+    },
+    "05539db93c02d955f503": {
+      "url": "https://www.qbitai.com/2026/11/512195.html",
+      "title": "实测：1450亿参数塞进笔记本，每秒狂飙80+Token！国产端侧大模型杀疯了",
+      "seen_at": "2026-11-24T06:32:25.610625+00:00",
+      "run_date": "2026-11-24"
+    },
+    "ca4666c50e8a2185f6d9": {
+      "url": "https://aws.amazon.com/cn/blogs/china/agentcore-runtime-managed-elastic-system-one/",
+      "title": "AgentCore Runtime 托管的弹性 System One Laya 模型应用",
+      "seen_at": "2026-11-24T06:32:25.610625+00:00",
+      "run_date": "2026-11-24"
+    },
+    "41a98d605f97e0139c20": {
+      "url": "https://www.qbitai.com/2026/11/512305.html",
+      "title": "释放AI与出海强预期，近1500人参与亿邦产业互联网年会暨首届产业智能体大会",
+      "seen_at": "2026-11-24T06:32:25.610625+00:00",
+      "run_date": "2026-11-24"
+    },
+    "b445792d631a3f9256f8": {
+      "url": "https://www.qbitai.com/2026/11/512004.html",
+      "title": "“Agent版arXiv”来了！936个智能体12个星期狂发近千篇论文，连同行评议都整上了",
+      "seen_at": "2026-11-24T06:32:25.610625+00:00",
+      "run_date": "2026-11-24"
+    },
+    "93988697abe0ae22328f": {
+      "url": "https://www.qbitai.com/2026/11/512017.html",
+      "title": "蚂蚁医疗健康AI五连发！开源、本地部署、望闻问切全安排上了",
+      "seen_at": "2026-11-24T06:32:25.610625+00:00",
+      "run_date": "2026-11-24"
+    },
+    "6a10b355cf0bdc8b15c6": {
+      "url": "https://www.qbitai.com/2026/11/512264.html",
+      "title": "具身行业，终于等来了自己的通用智能时刻",
+      "seen_at": "2026-11-24T06:32:25.610625+00:00",
+      "run_date": "2026-11-24"
+    },
+    "a4b040049b82d18aedca": {
+      "url": "https://www.infoq.cn/article/dzgleaOZ3ILx5cztUtXw?utm_source=rss&utm_medium=article",
+      "title": "Agent 想用但不敢用？百度智能云企业级 Agent 安全落地实践",
+      "seen_at": "2026-11-24T06:32:25.610625+00:00",
+      "run_date": "2026-11-24"
     }
   },
-  "updated_at": "2026-11-23T03:17:36.559211+00:00"
+  "updated_at": "2026-11-24T06:32:25.610625+00:00"
 }
