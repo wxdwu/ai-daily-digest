@@ -1,11 +1,5 @@
 {
   "items": {
-    "20db7dff7c3472cbae31": {
-      "url": "https://www.infoq.cn/article/BHWP4JJDeExZZWsifFlg?utm_source=rss&utm_medium=article",
-      "title": "Java 近期新闻：Grails 8、Open Liberty、GlassFish、Infinispan、LangChain4j、Spock",
-      "seen_at": "2026-10-26T00:47:55.225418+00:00",
-      "run_date": "2026-10-26"
-    },
     "0af9e1015da81b73b435": {
       "url": "https://www.infoq.cn/article/2svt5BbWUOHbADdo0UZo?utm_source=rss&utm_medium=article",
       "title": "中科慧灵完成数亿元A++轮融资：制鞋机器人订单超 4 亿元，具身智能开始拼量产交付",
@@ -1265,7 +1259,37 @@
       "title": "Agent 想用但不敢用？百度智能云企业级 Agent 安全落地实践",
       "seen_at": "2026-11-24T06:32:25.610625+00:00",
       "run_date": "2026-11-24"
+    },
+    "9c703c14cbf13e8d7734": {
+      "url": "https://www.infoq.cn/article/vaEUVvWD9AIaFXZhzSMH?utm_source=rss&utm_medium=article",
+      "title": "Pinterest 让大模型取代多阶段聚类，但最大的提速来自“少推理”",
+      "seen_at": "2026-11-25T05:07:20.857239+00:00",
+      "run_date": "2026-11-25"
+    },
+    "42a7524070a329ca48a8": {
+      "url": "https://www.infoq.cn/article/sFmubmDWkulIOTBLX0Dr?utm_source=rss&utm_medium=article",
+      "title": "谷歌发现，技术债务会通过“智能体分心”导致编码智能体偏离正轨",
+      "seen_at": "2026-11-25T05:07:20.857239+00:00",
+      "run_date": "2026-11-25"
+    },
+    "61468c26ec3e43088082": {
+      "url": "https://www.infoq.cn/article/qEXNRNufkiFkiUEU9aae?utm_source=rss&utm_medium=article",
+      "title": "OceanBase发布AI数据平OceanLake！CEO杨冰：我们赌多模态，就像当年赌分布式一样",
+      "seen_at": "2026-11-25T05:07:20.857239+00:00",
+      "run_date": "2026-11-25"
+    },
+    "216fdd4208585c03edd4": {
+      "url": "https://aws.amazon.com/cn/blogs/china/request-amazon-bedrock-agentcore/",
+      "title": "从一句售后请求到业务闭环：Amazon Bedrock AgentCore 亚马逊云科技中国区能力实战",
+      "seen_at": "2026-11-25T05:07:20.857239+00:00",
+      "run_date": "2026-11-25"
+    },
+    "a1463ff01d1b9b465278": {
+      "url": "https://www.qbitai.com/2026/11/512362.html",
+      "title": "业界首提“端侧超节点”，让端侧AI组队计算：AI效率暴涨270%，不用换芯片或模型",
+      "seen_at": "2026-11-25T05:07:20.857239+00:00",
+      "run_date": "2026-11-25"
     }
   },
-  "updated_at": "2026-11-24T06:32:25.610625+00:00"
+  "updated_at": "2026-11-25T05:07:20.857239+00:00"
 }
