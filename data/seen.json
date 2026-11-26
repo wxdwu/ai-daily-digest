@@ -1,17 +1,5 @@
 {
   "items": {
-    "0af9e1015da81b73b435": {
-      "url": "https://www.infoq.cn/article/2svt5BbWUOHbADdo0UZo?utm_source=rss&utm_medium=article",
-      "title": "中科慧灵完成数亿元A++轮融资：制鞋机器人订单超 4 亿元，具身智能开始拼量产交付",
-      "seen_at": "2026-10-27T01:39:30.666614+00:00",
-      "run_date": "2026-10-27"
-    },
-    "9017a3703284ca52c0c5": {
-      "url": "https://www.infoq.cn/article/NrUkJExfuuFOICsjVYbb?utm_source=rss&utm_medium=article",
-      "title": "模型好选，搜索难做：一个投研Agent的两年开发历程",
-      "seen_at": "2026-10-27T01:39:30.666614+00:00",
-      "run_date": "2026-10-27"
-    },
     "4a351a3b798dd81f8142": {
       "url": "https://www.infoq.cn/article/TrI8l3CYeAJER9tgR5Jt?utm_source=rss&utm_medium=article",
       "title": "Kubernetes 1.37发布：稳定版Metrics API和Beta版Rootless Kubelet",
@@ -1289,7 +1277,61 @@
       "title": "业界首提“端侧超节点”，让端侧AI组队计算：AI效率暴涨270%，不用换芯片或模型",
       "seen_at": "2026-11-25T05:07:20.857239+00:00",
       "run_date": "2026-11-25"
+    },
+    "06fb1d70a339ec7d459a": {
+      "url": "https://aws.amazon.com/cn/blogs/china/cluster-based-on-aws-parallelcluster-gpu/",
+      "title": "一个集群，多个团队：基于 AWS ParallelCluster 的 GPU 共享平台实践",
+      "seen_at": "2026-11-26T04:33:03.086689+00:00",
+      "run_date": "2026-11-26"
+    },
+    "f83a90b636b8c385f83e": {
+      "url": "https://www.infoq.cn/article/V7VOeFvEPLrHAN2EFmUa?utm_source=rss&utm_medium=article",
+      "title": "阿福学会“望闻问切”背后，真实医疗需求正在重塑百灵大模型",
+      "seen_at": "2026-11-26T04:33:03.086689+00:00",
+      "run_date": "2026-11-26"
+    },
+    "1ff1eb1b3ede376f6a94": {
+      "url": "https://www.qbitai.com/2026/11/512683.html",
+      "title": "逐际动⼒与商汤⼤装置达成合作，以高质量算力全⾯⽀撑机器⼈仿真训练与测试",
+      "seen_at": "2026-11-26T04:33:03.086689+00:00",
+      "run_date": "2026-11-26"
+    },
+    "6f9d384c02cf4584e29c": {
+      "url": "https://www.qbitai.com/2026/11/512582.html",
+      "title": "算力唤醒真实世界：九章云极发布物理AI工厂与生态开放计划",
+      "seen_at": "2026-11-26T04:33:03.086689+00:00",
+      "run_date": "2026-11-26"
+    },
+    "75f2731ce2b8de712050": {
+      "url": "https://www.qbitai.com/2026/11/512715.html",
+      "title": "零基础也能做开发，智元灵心平台一年孵化超3万个机器人智能体",
+      "seen_at": "2026-11-26T04:33:03.086689+00:00",
+      "run_date": "2026-11-26"
+    },
+    "50b61147f3c710c259c0": {
+      "url": "https://www.infoq.cn/article/ExbJjrItIlc9KLfQ2UeT?utm_source=rss&utm_medium=article",
+      "title": "Pi创始人曝现代开发奇观：系统崩了，一屋子工程师都在问Claude怎么修",
+      "seen_at": "2026-11-26T04:33:03.086689+00:00",
+      "run_date": "2026-11-26"
+    },
+    "852b41fe81986da86853": {
+      "url": "https://www.qbitai.com/2026/11/512538.html",
+      "title": "Anthropic还藏着2个最强模型…",
+      "seen_at": "2026-11-26T04:33:03.086689+00:00",
+      "run_date": "2026-11-26"
+    },
+    "0a92591b116a4b392f1c": {
+      "url": "https://www.infoq.cn/article/LwwdlrNGE3tbxPO1wIcT?utm_source=rss&utm_medium=article",
+      "title": "比黑客入侵更难防的，是 AI 正在执行的“合法操作”：企业安全防线，可能守错了地方",
+      "seen_at": "2026-11-26T04:33:03.086689+00:00",
+      "run_date": "2026-11-26"
+    },
+    "097f4cea1736b9a860c6": {
+      "url": "https://www.qbitai.com/2026/11/512532.html",
+      "title": "完整议程！第二十一届中国IDC产业年度大典（IDCC2026）",
+      "seen_at": "2026-11-26T04:33:03.086689+00:00",
+      "run_date": "2026-11-26"
     }
   },
-  "updated_at": "2026-11-25T05:07:20.857239+00:00"
+  "updated_at": "2026-11-26T04:33:03.086689+00:00"
 }

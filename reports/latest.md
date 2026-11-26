@@ -1,7 +1,11 @@
-大模型与 AI Agent 成为今日焦点
+AI Infra 与 AI 最新动态 成为今日焦点
 
-1. [Pinterest 让大模型取代多阶段聚类，但最大的提速来自“少推理”](https://www.infoq.cn/article/vaEUVvWD9AIaFXZhzSMH?utm_source=rss&utm_medium=article)
-2. [谷歌发现，技术债务会通过“智能体分心”导致编码智能体偏离正轨](https://www.infoq.cn/article/sFmubmDWkulIOTBLX0Dr?utm_source=rss&utm_medium=article)
-3. [OceanBase发布AI数据平OceanLake！CEO杨冰：我们赌多模态，就像当年赌分布式一样](https://www.infoq.cn/article/qEXNRNufkiFkiUEU9aae?utm_source=rss&utm_medium=article)
-4. [从一句售后请求到业务闭环：Amazon Bedrock AgentCore 亚马逊云科技中国区能力实战](https://aws.amazon.com/cn/blogs/china/request-amazon-bedrock-agentcore/)
-5. [业界首提“端侧超节点”，让端侧AI组队计算：AI效率暴涨270%，不用换芯片或模型](https://www.qbitai.com/2026/11/512362.html)
+1. [一个集群，多个团队：基于 AWS ParallelCluster 的 GPU 共享平台实践](https://aws.amazon.com/cn/blogs/china/cluster-based-on-aws-parallelcluster-gpu/)
+2. [阿福学会“望闻问切”背后，真实医疗需求正在重塑百灵大模型](https://www.infoq.cn/article/V7VOeFvEPLrHAN2EFmUa?utm_source=rss&utm_medium=article)
+3. [逐际动⼒与商汤⼤装置达成合作，以高质量算力全⾯⽀撑机器⼈仿真训练与测试](https://www.qbitai.com/2026/11/512683.html)
+4. [算力唤醒真实世界：九章云极发布物理AI工厂与生态开放计划](https://www.qbitai.com/2026/11/512582.html)
+5. [零基础也能做开发，智元灵心平台一年孵化超3万个机器人智能体](https://www.qbitai.com/2026/11/512715.html)
+6. [Pi创始人曝现代开发奇观：系统崩了，一屋子工程师都在问Claude怎么修](https://www.infoq.cn/article/ExbJjrItIlc9KLfQ2UeT?utm_source=rss&utm_medium=article)
+7. [Anthropic还藏着2个最强模型](https://www.qbitai.com/2026/11/512538.html)
+8. [比黑客入侵更难防的，是 AI 正在执行的“合法操作”：企业安全防线，可能守错了地方](https://www.infoq.cn/article/LwwdlrNGE3tbxPO1wIcT?utm_source=rss&utm_medium=article)
+9. [完整议程！第二十一届中国IDC产业年度大典（IDCC2026）](https://www.qbitai.com/2026/11/512532.html)
