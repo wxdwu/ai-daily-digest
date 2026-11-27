@@ -1,41 +1,5 @@
 {
   "items": {
-    "4a351a3b798dd81f8142": {
-      "url": "https://www.infoq.cn/article/TrI8l3CYeAJER9tgR5Jt?utm_source=rss&utm_medium=article",
-      "title": "Kubernetes 1.37发布：稳定版Metrics API和Beta版Rootless Kubelet",
-      "seen_at": "2026-10-28T01:51:03.196311+00:00",
-      "run_date": "2026-10-28"
-    },
-    "56bd53372a00856a9ecc": {
-      "url": "https://www.qbitai.com/2026/10/505529.html",
-      "title": "OpenAI开始断网训练最强模型：“安全起见”",
-      "seen_at": "2026-10-28T01:51:03.196311+00:00",
-      "run_date": "2026-10-28"
-    },
-    "5919cb416ae119cf99d7": {
-      "url": "https://www.qbitai.com/2026/10/505478.html",
-      "title": "NeoLab第一个商业模式：转售GPU",
-      "seen_at": "2026-10-28T01:51:03.196311+00:00",
-      "run_date": "2026-10-28"
-    },
-    "3ba3c33a69eac8639ea9": {
-      "url": "https://www.infoq.cn/article/3o7gwgKJt2SbH8AhdpkU?utm_source=rss&utm_medium=article",
-      "title": "TypeSafe AI发布Jev：一种只返回类型化概率而非文本的决策模型",
-      "seen_at": "2026-10-28T01:51:03.196311+00:00",
-      "run_date": "2026-10-28"
-    },
-    "83b84497966ffd29d96f": {
-      "url": "https://www.qbitai.com/2026/10/505429.html",
-      "title": "趋境科技完成 B 轮融资，半年实现超十倍速增长，加速高品质 AI Token 规模化交付",
-      "seen_at": "2026-10-28T01:51:03.196311+00:00",
-      "run_date": "2026-10-28"
-    },
-    "82ba0e35445b561edfcf": {
-      "url": "https://www.qbitai.com/2026/10/505580.html",
-      "title": "钛动科技发布行业首个Pro-Agent, Navos Pro定义结果导向的AI for Work | TGC 2026科技增长大会",
-      "seen_at": "2026-10-28T01:51:03.196311+00:00",
-      "run_date": "2026-10-28"
-    },
     "b77610588b0b064fa86a": {
       "url": "https://developer.nvidia.cn/blog/memory-enforced-gpu-sharing-in-kubernetes-with-nvidia-cuda-13-4/",
       "title": "使用 NVIDIA CUDA 13.4 在 Kubernetes 中实现显存增强 GPU 共享",
@@ -1331,7 +1295,37 @@
       "title": "完整议程！第二十一届中国IDC产业年度大典（IDCC2026）",
       "seen_at": "2026-11-26T04:33:03.086689+00:00",
       "run_date": "2026-11-26"
+    },
+    "9d75fd8d470b866b8245": {
+      "url": "https://www.infoq.cn/article/z9IwzAY8hP15oDa2VKi6?utm_source=rss&utm_medium=article",
+      "title": "破发不算最疼，Claude Code核心班底被OpenAI疯狂收割才是：Anthropic的编程王座悬了？",
+      "seen_at": "2026-11-27T04:36:59.192928+00:00",
+      "run_date": "2026-11-27"
+    },
+    "d6b3a6f2db4bc35c4033": {
+      "url": "https://www.infoq.cn/article/xA3g2i0VtTZIOVePMedY?utm_source=rss&utm_medium=article",
+      "title": "Uber 推出安全 AI 框架：对 AI 智能体进行全生命周期治理",
+      "seen_at": "2026-11-27T04:36:59.192928+00:00",
+      "run_date": "2026-11-27"
+    },
+    "214b55fd02d7b3a0af35": {
+      "url": "https://www.infoq.cn/article/bzWoHP0FGUBSTBuP5xVJ?utm_source=rss&utm_medium=article",
+      "title": "Cohere 的研究结果表明，自托管开放权重模型仍然需出站控制",
+      "seen_at": "2026-11-27T04:36:59.192928+00:00",
+      "run_date": "2026-11-27"
+    },
+    "9f45694b5bba26789bde": {
+      "url": "https://www.infoq.cn/article/3rQ4aRqts2zywSBmeJvb?utm_source=rss&utm_medium=article",
+      "title": "前苹果空间智能首席科学家权龙再创业，成立 Envision AI 研发空间物理基础模型",
+      "seen_at": "2026-11-27T04:36:59.192928+00:00",
+      "run_date": "2026-11-27"
+    },
+    "708ece7e0c1a4e45ec6a": {
+      "url": "https://www.infoq.cn/article/xzQgJEw18ECxHGA7FFBx?utm_source=rss&utm_medium=article",
+      "title": "清华大学教授李宁已确认出席 AICon北京，分享生成式人工智能驱动的组织变革与组织管理",
+      "seen_at": "2026-11-27T04:36:59.192928+00:00",
+      "run_date": "2026-11-27"
     }
   },
-  "updated_at": "2026-11-26T04:33:03.086689+00:00"
+  "updated_at": "2026-11-27T04:36:59.192928+00:00"
 }
