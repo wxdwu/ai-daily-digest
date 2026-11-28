@@ -1,65 +1,5 @@
 {
   "items": {
-    "b77610588b0b064fa86a": {
-      "url": "https://developer.nvidia.cn/blog/memory-enforced-gpu-sharing-in-kubernetes-with-nvidia-cuda-13-4/",
-      "title": "使用 NVIDIA CUDA 13.4 在 Kubernetes 中实现显存增强 GPU 共享",
-      "seen_at": "2026-10-29T01:58:49.421699+00:00",
-      "run_date": "2026-10-29"
-    },
-    "6feedbcc6e12c57e0618": {
-      "url": "https://www.qbitai.com/2026/10/505694.html",
-      "title": "国产AI 3D大模型Hi3D来了！开源可商用，PK干掉GPT-6",
-      "seen_at": "2026-10-29T01:58:49.421699+00:00",
-      "run_date": "2026-10-29"
-    },
-    "4a50585b6600536a3145": {
-      "url": "https://www.infoq.cn/article/ejtljxPixrIuUsGYi5xa?utm_source=rss&utm_medium=article",
-      "title": "大客户直接打1折、模型四个月降价80%：大模型价格战没有退路",
-      "seen_at": "2026-10-29T01:58:49.421699+00:00",
-      "run_date": "2026-10-29"
-    },
-    "da6f7d48054d3fbb18d0": {
-      "url": "https://aws.amazon.com/cn/blogs/china/based-on-amazon-ec2-amazon-eks-deploy-operations/",
-      "title": "基于 Amazon EC2 和 Amazon EKS 一键部署可长期运维的 ClickHouse 集群：方案与实践",
-      "seen_at": "2026-10-29T01:58:49.421699+00:00",
-      "run_date": "2026-10-29"
-    },
-    "4d6b495c14844f398aac": {
-      "url": "https://www.infoq.cn/article/II91QKxeaEg7RuZR2rrf?utm_source=rss&utm_medium=article",
-      "title": "别再只写提示词了，开始真正雇用智能体：智能体企业管理实践 ｜ 技术实践",
-      "seen_at": "2026-10-29T01:58:49.421699+00:00",
-      "run_date": "2026-10-29"
-    },
-    "a0349253b3beeb39f451": {
-      "url": "https://www.infoq.cn/article/CxWoiprQltg8YXmwmghd?utm_source=rss&utm_medium=article",
-      "title": "当 AI 智能体代表用户行动时，企业治理将面临哪些新问题？ ｜ 技术趋势",
-      "seen_at": "2026-10-29T01:58:49.421699+00:00",
-      "run_date": "2026-10-29"
-    },
-    "647351336a53542e310e": {
-      "url": "https://www.infoq.cn/article/mFXr0u4z0XftUGUg5Wm7?utm_source=rss&utm_medium=article",
-      "title": "Anthropic 内部系统被 AI Agent 12 小时攻破！会议记录、员工薪酬、内部模型讨论遭访问",
-      "seen_at": "2026-10-29T01:58:49.421699+00:00",
-      "run_date": "2026-10-29"
-    },
-    "fb0e45dbf793f6c427b3": {
-      "url": "https://www.infoq.cn/article/lCw5JBglbgZj9BYeZChS?utm_source=rss&utm_medium=article",
-      "title": "Claude Code 撑起史上最大 IPO，被封号不退费的中国开发者撑起那 5%“脏收入”",
-      "seen_at": "2026-10-29T01:58:49.421699+00:00",
-      "run_date": "2026-10-29"
-    },
-    "41504dddc1aae1d7c8e0": {
-      "url": "https://www.qbitai.com/2026/10/505773.html",
-      "title": "KV Cache被压成常数！OCR开源新王：页数没上限，缓存砍96%",
-      "seen_at": "2026-10-29T01:58:49.421699+00:00",
-      "run_date": "2026-10-29"
-    },
-    "becec00229d57f403759": {
-      "url": "https://www.qbitai.com/2026/10/505687.html",
-      "title": "做能源与算力的“搭桥人”：达卯科技以能源大脑定义算电协同 | CPE 2026",
-      "seen_at": "2026-10-29T01:58:49.421699+00:00",
-      "run_date": "2026-10-29"
-    },
     "bb14daf1a51415066fd4": {
       "url": "https://blogs.nvidia.cn/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
       "title": "纤薄全能：NVIDIA RTX Spark 笔记本电脑迎来全新模型、智能体工具与游戏",
@@ -1325,7 +1265,61 @@
       "title": "清华大学教授李宁已确认出席 AICon北京，分享生成式人工智能驱动的组织变革与组织管理",
       "seen_at": "2026-11-27T04:36:59.192928+00:00",
       "run_date": "2026-11-27"
+    },
+    "7a6a552952c091ce8e33": {
+      "url": "https://www.qbitai.com/2026/11/513163.html",
+      "title": "20个AI Agents组队，4天狂跑350次实验，超越ClickBench最佳公开成绩",
+      "seen_at": "2026-11-28T04:22:22.994042+00:00",
+      "run_date": "2026-11-28"
+    },
+    "a0e7202b966f79cb03b6": {
+      "url": "https://www.infoq.cn/article/zRubhYcrBMTrOvzjlPQN?utm_source=rss&utm_medium=article",
+      "title": "瞄准“走偏”与“健忘”两道难题：蚂蚁灵波发布两大模型，补齐机器人空间导航能力",
+      "seen_at": "2026-11-28T04:22:22.994042+00:00",
+      "run_date": "2026-11-28"
+    },
+    "a8f00170ef246d252a74": {
+      "url": "https://www.qbitai.com/2026/11/513125.html",
+      "title": "具身公司抱团回应：通用大模型跨维打击？没那么简单",
+      "seen_at": "2026-11-28T04:22:22.994042+00:00",
+      "run_date": "2026-11-28"
+    },
+    "465f1ffef18153ae2100": {
+      "url": "https://www.infoq.cn/article/Ql4GGMIEqA3bI2W2lh7h?utm_source=rss&utm_medium=article",
+      "title": "给 AI 编码智能体装上知识库，反而更费 Token？JioHotstar 测完六种方案，文件搜索依然能打",
+      "seen_at": "2026-11-28T04:22:22.994042+00:00",
+      "run_date": "2026-11-28"
+    },
+    "facfe8cf8bde30e23089": {
+      "url": "https://www.infoq.cn/article/2uDBVKjk3kJXRb6CqQfu?utm_source=rss&utm_medium=article",
+      "title": "DoorDash利用AI智能体将生鲜杂货复购延迟从16秒降至2秒",
+      "seen_at": "2026-11-28T04:22:22.994042+00:00",
+      "run_date": "2026-11-28"
+    },
+    "e662abf185b7c38f7905": {
+      "url": "https://www.qbitai.com/2026/11/513305.html",
+      "title": "DeepSeek APP突然更新账单，网友：要收费了？",
+      "seen_at": "2026-11-28T04:22:22.994042+00:00",
+      "run_date": "2026-11-28"
+    },
+    "085c2705573b3ca53b5c": {
+      "url": "https://www.qbitai.com/2026/11/513211.html",
+      "title": "蚂蚁灵波发布LingBot-Map 2.0，模型自己修正“空间记忆”，把地图画更准",
+      "seen_at": "2026-11-28T04:22:22.994042+00:00",
+      "run_date": "2026-11-28"
+    },
+    "d8e1997994d155b80e98": {
+      "url": "https://www.qbitai.com/2026/11/513352.html",
+      "title": "人形机器人开发者集合！众擎开放大小脑，10亿产业级生态支持计划也来了",
+      "seen_at": "2026-11-28T04:22:22.994042+00:00",
+      "run_date": "2026-11-28"
+    },
+    "b9be611b683557b07aa6": {
+      "url": "https://www.infoq.cn/article/ASHxIY37Q9IFf52OWmo3?utm_source=rss&utm_medium=article",
+      "title": "如何在Postgres上实现无需外部编排器的持久化工作流",
+      "seen_at": "2026-11-28T04:22:22.994042+00:00",
+      "run_date": "2026-11-28"
     }
   },
-  "updated_at": "2026-11-27T04:36:59.192928+00:00"
+  "updated_at": "2026-11-28T04:22:22.994042+00:00"
 }
